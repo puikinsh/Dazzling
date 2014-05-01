@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.1.1
+Version: 1.2
 Tested up to: WP 3.9
 
 Author: Aigars Silkalns
@@ -60,6 +60,10 @@ Afterwards you can continue theme setup and customization via WordPress Dashboar
 Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
+
+= 1.2 - 08.05.2014 =
+* WooCommerce support
+* Small JavaScript improvements
 
 = 1.1.1 - 01.05.2014 =
 * Fixed problems with horizontal scroll

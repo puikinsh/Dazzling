@@ -228,5 +228,9 @@ require get_template_directory() . '/inc/jetpack.php';
 /**
  * Load custom nav walker
  */
-
 require get_template_directory() . '/inc/navwalker.php';
+
+/**
+ * WooCommerce related functions
+ */
+require get_template_directory() . '/inc/woo-setup.php';
