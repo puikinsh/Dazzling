@@ -230,7 +230,9 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_template_directory() . '/inc/navwalker.php';
 
+if ( class_exists( 'woocommerce' ) ) {
 /**
  * WooCommerce related functions
  */
 require get_template_directory() . '/inc/woo-setup.php';
+}
