@@ -1,18 +1,18 @@
 <?php
-    
+
     if ( get_option( 'show_on_front' ) == 'posts' ) {
         get_template_part( 'index' );
     } elseif ( 'page' == get_option( 'show_on_front' ) ) {
 
 get_header(); ?>
-		
+
 <?php dazzling_featured_slider(); ?>
 <?php dazzling_call_for_action(); ?>
 
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area col-sm-12 col-md-12">
 		<main id="main" class="site-main" role="main">
-			
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -43,7 +43,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-<?php 
-	get_footer(); 
+<?php
+	get_footer();
 }
 ?>

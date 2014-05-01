@@ -51,9 +51,9 @@ a {
   color: #1FA67A;
   text-decoration: none;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
 }
 
 a:hover,
@@ -332,9 +332,9 @@ hr.section-divider {
   border: 1px solid #E8E8E8;
   color: #1FA67A;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
 }
 .page-links a:hover span {
   background-color: #1FA67A;
@@ -415,7 +415,6 @@ object {
 .widget_search .search-submit {
   display: none;
 }
-
 .widget > ul > li,
 li.recentcomments {
   border-bottom: 1px solid #EEE;
@@ -453,7 +452,6 @@ li.recentcomments {
 #secondary .widget_recent_comments ul li:before {
   content: '\f0e5';
 }
-
 .tab-content .tab-thumb {
   float: left;
   margin-right: 8px;
@@ -545,9 +543,9 @@ li.recentcomments {
   border: 1px solid #E8E8E8;
   color: #1FA67A;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+     -moz-transition: all 0.2s;
+       -o-transition: all 0.2s;
+          transition: all 0.2s;
 }
 #infinite-handle span:hover {
   background-color: #1FA67A;
@@ -696,27 +694,22 @@ li.recentcomments {
 }
 .bypostauthor {
 }
-
 #respond {
   background-color: transparent !important;
   box-shadow: none !important;
   padding: 0px !important;
 }
-
 #respond > p, #respond p.comment-notes, p.logged-in-as {
   margin-bottom: 10px;
 }
-
 p.logged-in-as {
   padding-bottom: 0px;
 }
-
 .comment-list {
   margin-bottom: 40px !important;
   margin-left: 0px !important;
   padding-left: 0;
 }
-
 .comment .comment-body {
   background-color: #ffffff;
   margin: 0;
@@ -729,7 +722,6 @@ p.logged-in-as {
   border-color: #E8E8E8;
   border-radius: 4px;
 }
-
 .comment-list .children {
   margin-left: 0px!important;
   padding-left: 40px;
@@ -737,13 +729,11 @@ p.logged-in-as {
   background-repeat: no-repeat;
   background-position: left 20px;
 }
-
 .comment-list li.comment > div img.avatar {
   position: absolute;
   left: 29px;
   top: 29px;
 }
-
 #comment-form-title {
   font-size: 24px;
   padding-bottom: 10px;
@@ -812,7 +802,7 @@ p.logged-in-as {
   border-bottom: 1px solid #444;
 }
 #footer-area .site-info nav ul li {
-    border-bottom: none;
+  border-bottom: none;
 }
 #footer-area .tab-content > .active {
   border: none;
@@ -832,8 +822,8 @@ p.logged-in-as {
   border-bottom: none;
 }
 #footer-area .widget ul li {
-    padding: 10px 0;
-    list-style: none;
+  padding: 10px 0;
+  list-style: none;
 }
 .footer-nav.nav > li {
   position: relative;
@@ -882,10 +872,10 @@ p.logged-in-as {
   font-size: 16px;
   padding: 2px 10px;
   border-radius: 4px;
-  transition: background-color 0.1s linear;
-  -moz-transition: background-color 0.1s linear;
   -webkit-transition: background-color 0.1s linear;
-  -o-transition: background-color 0.1s linear;
+     -moz-transition: background-color 0.1s linear;
+       -o-transition: background-color 0.1s linear;
+          transition: background-color 0.1s linear;
 }
 .scroll-to-top:hover {
   background: #1FA67A;

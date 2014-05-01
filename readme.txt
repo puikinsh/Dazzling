@@ -3,7 +3,7 @@
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
 Version: 1.1.1
-Tested up to: WP 3.8
+Tested up to: WP 3.9
 
 Author: Aigars Silkalns
 Author URI: http://colorlib.com/wp/
@@ -61,9 +61,11 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
-= 1.1.1 - 01.04.2014 =
+= 1.1.1 - 01.05.2014 =
 * Fixed problems with horizontal scroll
 * Fixed social media button color on hover
+* Improved consistency with for CSS
+* Updated HTML5 Shiv
 
 = 1.1 - 10.02.2014 =
 * Made necessary changes to pass W3 validation without any errors.
