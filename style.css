@@ -658,7 +658,7 @@ li.recentcomments {
 }
 .dropdown-menu > li > a {
   padding: 14px 20px;
-  color: #fff;
+  color: #999;
 }
 .dropdown-menu,
 .dropdown-menu > .active > a,
