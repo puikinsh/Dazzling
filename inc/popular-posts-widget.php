@@ -29,22 +29,22 @@ class dazzling_popular_posts_widget extends WP_Widget {
 		$number = $instance['number'];
 
 		?>
-            
+
         <div class="widget tabbed">
             <div class="tabs-wrapper">
                 <ul class="nav nav-tabs">
-                      <li class="active"><a href="#popular-posts" data-toggle="tab">Popular</a></li>
-                      <li><a href="#recent" data-toggle="tab">Recent</a></li>
+                      <li class="active"><a href="#popular-posts" data-toggle="tab"><?php esc_attr_e( 'Popular', 'dazzling' ); ?></a></li>
+                      <li><a href="#recent" data-toggle="tab"><?php esc_attr_e( 'Recent', 'dazzling' ); ?></a></li>
                       <li><a href="#messages" data-toggle="tab"><i class="fa fa-comments tab-comment"></i></a></li>
                 </ul>
 
             <div class="tab-content">
                 <ul id="popular-posts" class="tab-pane active">
-                    
-                    <?php    
-                        $recent_posts = new WP_Query(array('showposts' => $number, 'ignore_sticky_posts' => 1, 'post_status' => 'publish', 'order'=> 'DESC', 'showposts' => $number, 'meta_key' => 'post_views_count', 'orderby' => 'meta_value'));                    
+
+                    <?php
+                        $recent_posts = new WP_Query(array('showposts' => $number, 'ignore_sticky_posts' => 1, 'post_status' => 'publish', 'order'=> 'DESC', 'showposts' => $number, 'meta_key' => 'post_views_count', 'orderby' => 'meta_value'));
                     ?>
-                    
+
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
                         <li>
                             <?php if ( has_post_thumbnail() ) : ?>
@@ -59,17 +59,17 @@ class dazzling_popular_posts_widget extends WP_Widget {
                                 </i>
                             </div>
                         </li>
-                    <?php endwhile; ?>                    
+                    <?php endwhile; ?>
 
                 </ul>
                 <?php wp_reset_postdata(); ?>
-                
+
                 <ul id="recent" class="tab-pane">
-                
+
                     <?php
                     $recent_posts = new WP_Query(array('showposts' => $number,'post_status' => 'publish', 'ignore_sticky_posts' => 1 ));
                     ?>
-                    
+
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
                         <li>
                             <?php if ( has_post_thumbnail() ) : ?>
@@ -84,12 +84,12 @@ class dazzling_popular_posts_widget extends WP_Widget {
                                 </i>
                             </div>
                         </li>
-                    <?php endwhile; ?>     
+                    <?php endwhile; ?>
                 </ul>
                 <?php wp_reset_postdata(); ?>
-                
+
                 <ul id="messages" class="tab-pane">
-                
+
                 <?php
                 $recent_comments = get_comments( array(
                     'number'    => $number,
@@ -98,10 +98,10 @@ class dazzling_popular_posts_widget extends WP_Widget {
                 //var_dump($recent_comments);
                 ?>
                 <?php foreach($recent_comments as $comment) : ?>
-                    
+
                     <li>
                         <div class="content">
-                            <?php if ( $comment->comment_author ) { echo $comment->comment_author; } else { _e('Anonymous','dazzling'); } ?> <?php _e('on','dazzling'); ?> 
+                            <?php if ( $comment->comment_author ) { echo $comment->comment_author; } else { _e('Anonymous','dazzling'); } ?> <?php _e('on','dazzling'); ?>
                             <a href="<?php echo get_permalink($comment->comment_post_ID) ?>" rel="bookmark" title="<?php echo get_the_title($comment->comment_post_ID); ?>">
                                 <?php echo get_the_title($comment->comment_post_ID); ?>
                             </a>
@@ -111,15 +111,15 @@ class dazzling_popular_posts_widget extends WP_Widget {
                             </p>
                         </div>
                     </li>
-                    
-                    
+
+
                  <?php endforeach; ?>
 
                 </ul>
                 </div>
             </div>
         </div>
-        
+
 		<?php
 	}
 	/**
@@ -139,7 +139,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
 		/* Set up some default widget settings. */
 		$defaults = array('number' => 3);
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
-		
+
 		<!-- Number of posts -->
 		<p>
 			<label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e('Number of posts to show','dazzling') ?>:</label>

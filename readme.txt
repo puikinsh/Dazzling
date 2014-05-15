@@ -65,6 +65,8 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 * Updated Options Framework to 1.8.0
 * Added Mexican Spanish Translation.
+* Updated translation
+* Improved Theme Options sidebar
 
 = 1.2 - 08.05.2014 =
 * WooCommerce support

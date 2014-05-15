@@ -386,22 +386,22 @@ function dazzling_options_display_sidebar() { ?>
 
   <div id="optionsframework-sidebar" class="metabox-holder">
     <div id="optionsframework" class="postbox">
-        <h3><?php _e('Support and Documentation','dazzling') ?></h3>
+        <h3><?php esc_attr_e('Support and Documentation','dazzling') ?></h3>
           <div class="inside">
               <div id="social-share">
-                <div class="fb-like" data-href="https://www.facebook.com/colorlib" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
-                <div class="tw-follow" ><a href="https://twitter.com/colorlib" class="twitter-follow-button" data-show-count="false">Follow @colorlib</a></div>
+                <div class="fb-like" data-href="<?php echo esc_url( 'https://www.facebook.com/colorlib' ); ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
+                <div class="tw-follow" ><a href="<?php echo esc_url( 'https://twitter.com/colorlib' ); ?>" class="twitter-follow-button" data-show-count="false">Follow @colorlib</a></div>
               </div>
-                <p><b><a href="http://colorlib.com/wp/support/dazzling"><?php _e('Dazzling Documentation','dazzling'); ?></a></b></p>
-                <p><?php _e('The best way to contact us with <b>support questions</b> and <b>bug reports</b> is via','dazzling') ?> <a href="http://colorlib.com/wp/forums"><?php _e('Colorlib support forum','dazzling') ?></a>.</p>
-                <p><?php _e('If you like this theme, I\'d appreciate any of the following:','dazzling') ?></p>
+                <p><b><a href="<?php echo esc_url( 'http://colorlib.com/wp/support/dazzling' ); ?>"><?php esc_attr_e( 'Dazzling Documentation', 'dazzling' ); ?></a></b></p>
+                <p><?php esc_attr_e( 'The best way to contact us with support questions and bug reports is via', 'dazzling' ); ?> <a href="<?php echo esc_url( 'http://colorlib.com/wp/forums' ); ?>"><?php esc_attr_e( 'Colorlib support forum', 'dazzling' ); ?></a>.</p>
+                <p><?php esc_attr_e( 'If you like this theme, I\'d appreciate any of the following:', 'dazzling' ); ?></p>
                 <ul>
-                    <li><a class="button" href="http://wordpress.org/support/view/theme-reviews/dazzling?filter=5" title="<?php esc_attr_e('Rate this Theme', 'dazzling'); ?>" target="_blank"><?php printf(__('Rate this Theme','dazzling')); ?></a></li>
-                    <li><a class="button" href="http://www.facebook.com/colorlib" title="Like Colorlib on Facebook" target="_blank"><?php printf(__('Like on Facebook','dazzling')); ?></a></li>
-                    <li><a class="button" href="http://twitter.com/colorlib/" title="Follow Colrolib on Twitter" target="_blank"><?php printf(__('Follow on Twitter','dazzling')); ?></a></li>
+                    <li><a class="button" href="<?php echo esc_url( 'http://wordpress.org/support/view/theme-reviews/dazzling?filter=5' ); ?>" target="_blank"><?php esc_attr_e( 'Rate this Theme', 'dazzling' ); ?></a></li>
+                    <li><a class="button" href="<?php echo esc_url( 'http://www.facebook.com/colorlib' ); ?>" target="_blank"><?php esc_attr_e( 'Like on Facebook', 'dazzling' ); ?></a></li>
+                    <li><a class="button" href="<?php echo esc_url( 'http://twitter.com/colorlib/' ); ?>" target="_blank"><?php esc_attr_e( 'Follow on Twitter', 'dazzling' ); ?></a></li>
                 </ul>
           </div>
-      </div>
+
     </div>
 <?php }
 
