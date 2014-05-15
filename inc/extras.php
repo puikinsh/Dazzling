@@ -392,7 +392,7 @@ function dazzling_options_display_sidebar() { ?>
                 <div class="fb-like" data-href="https://www.facebook.com/colorlib" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
                 <div class="tw-follow" ><a href="https://twitter.com/colorlib" class="twitter-follow-button" data-show-count="false">Follow @colorlib</a></div>
               </div>
-                <p><b><a href="http://colorlib.com/wp/support/dazzling"><?php _e('dazzling Documentation','dazzling'); ?></a></b></p>
+                <p><b><a href="http://colorlib.com/wp/support/dazzling"><?php _e('Dazzling Documentation','dazzling'); ?></a></b></p>
                 <p><?php _e('The best way to contact us with <b>support questions</b> and <b>bug reports</b> is via','dazzling') ?> <a href="http://colorlib.com/wp/forums"><?php _e('Colorlib support forum','dazzling') ?></a>.</p>
                 <p><?php _e('If you like this theme, I\'d appreciate any of the following:','dazzling') ?></p>
                 <ul>
