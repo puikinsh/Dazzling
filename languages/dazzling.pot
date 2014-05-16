@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-05-15 21:20+0200\n"
-"PO-Revision-Date: 2014-05-15 21:20+0200\n"
+"POT-Creation-Date: 2014-05-16 11:08+0200\n"
+"PO-Revision-Date: 2014-05-16 11:09+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: en_US\n"
@@ -234,23 +234,23 @@ msgstr ""
 msgid "Theme Options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:210
+#: ../inc/admin/includes/class-options-framework-admin.php:185
 msgid "Save Options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:211
+#: ../inc/admin/includes/class-options-framework-admin.php:186
 msgid "Restore Defaults"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:211
+#: ../inc/admin/includes/class-options-framework-admin.php:186
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:242
+#: ../inc/admin/includes/class-options-framework-admin.php:217
 msgid "Default options restored."
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:296
+#: ../inc/admin/includes/class-options-framework-admin.php:271
 msgid "Options saved."
 msgstr ""
 
@@ -567,8 +567,8 @@ msgid "Element color"
 msgstr ""
 
 #: ../options.php:154 ../options.php:160 ../options.php:193 ../options.php:199
-#: ../options.php:205 ../options.php:210 ../options.php:232 ../options.php:238
-#: ../options.php:244 ../options.php:309 ../options.php:315
+#: ../options.php:205 ../options.php:211 ../options.php:233 ../options.php:239
+#: ../options.php:245 ../options.php:310 ../options.php:316
 msgid "Default used if no color is selected"
 msgstr ""
 
@@ -625,179 +625,179 @@ msgstr ""
 msgid "Call For Action Button Border Color"
 msgstr ""
 
-#: ../options.php:209
+#: ../options.php:210
 msgid "Call For Action Button Text Color"
 msgstr ""
 
-#: ../options.php:215
+#: ../options.php:216
 msgid "Typography"
 msgstr ""
 
-#: ../options.php:218
+#: ../options.php:219
 msgid "Main Body Text"
 msgstr ""
 
-#: ../options.php:219
+#: ../options.php:220
 msgid "Used in P tags"
 msgstr ""
 
-#: ../options.php:225
+#: ../options.php:226
 msgid "Heading Color"
 msgstr ""
 
-#: ../options.php:226
+#: ../options.php:227
 msgid "Color for all headings (h1-h6)"
 msgstr ""
 
-#: ../options.php:231
+#: ../options.php:232
 msgid "Link Color"
 msgstr ""
 
-#: ../options.php:237
+#: ../options.php:238
 msgid "Link:hover Color"
 msgstr ""
 
-#: ../options.php:243
+#: ../options.php:244
 msgid "Link:active Color"
 msgstr ""
 
-#: ../options.php:249
+#: ../options.php:250
 msgid "Header"
 msgstr ""
 
-#: ../options.php:252
+#: ../options.php:253
 msgid "Top nav background color"
 msgstr ""
 
-#: ../options.php:253
+#: ../options.php:254
 msgid "Default used if no color is selected."
 msgstr ""
 
-#: ../options.php:258
+#: ../options.php:259
 msgid "Top nav item color"
 msgstr ""
 
-#: ../options.php:259
+#: ../options.php:260
 msgid "Link color"
 msgstr ""
 
-#: ../options.php:264
+#: ../options.php:265
 msgid "Top nav dropdown background color"
 msgstr ""
 
-#: ../options.php:265
+#: ../options.php:266
 msgid "Background of dropdown item hover color"
 msgstr ""
 
-#: ../options.php:270
+#: ../options.php:271
 msgid "Top nav dropdown item color"
 msgstr ""
 
-#: ../options.php:271
+#: ../options.php:272
 msgid "Dropdown item color"
 msgstr ""
 
-#: ../options.php:276
+#: ../options.php:277
 msgid "Footer"
 msgstr ""
 
-#: ../options.php:279
+#: ../options.php:280
 msgid "Footer Widget Area Background Color"
 msgstr ""
 
-#: ../options.php:284
+#: ../options.php:285
 msgid "Footer Background Color"
 msgstr ""
 
-#: ../options.php:289
+#: ../options.php:290
 msgid "Footer Text Color"
 msgstr ""
 
-#: ../options.php:294
+#: ../options.php:295
 msgid "Footer Link Color"
 msgstr ""
 
-#: ../options.php:299
+#: ../options.php:300
 msgid "Footer information"
 msgstr ""
 
-#: ../options.php:300
+#: ../options.php:301
 msgid "Copyright text in footer"
 msgstr ""
 
-#: ../options.php:305
+#: ../options.php:306
 msgid "Social"
 msgstr ""
 
-#: ../options.php:308
+#: ../options.php:309
 msgid "Social Icon Color"
 msgstr ""
 
-#: ../options.php:314
+#: ../options.php:315
 msgid "Social Icon:hover Color"
 msgstr ""
 
-#: ../options.php:320
+#: ../options.php:321
 msgid "Add full URL for your social network profiles"
 msgstr ""
 
-#: ../options.php:321
+#: ../options.php:322
 msgid "Facebook"
 msgstr ""
 
-#: ../options.php:328
+#: ../options.php:329
 msgid "Twitter"
 msgstr ""
 
-#: ../options.php:334
+#: ../options.php:335
 msgid "Google+"
 msgstr ""
 
-#: ../options.php:340
+#: ../options.php:341
 msgid "Youtube"
 msgstr ""
 
-#: ../options.php:346
+#: ../options.php:347
 msgid "LinkedIn"
 msgstr ""
 
-#: ../options.php:352
+#: ../options.php:353
 msgid "Pinterest"
 msgstr ""
 
-#: ../options.php:358
+#: ../options.php:359
 msgid "RSS Feed"
 msgstr ""
 
-#: ../options.php:364
+#: ../options.php:365
 msgid "Tumblr"
 msgstr ""
 
-#: ../options.php:370
+#: ../options.php:371
 msgid "Flickr"
 msgstr ""
 
-#: ../options.php:376
+#: ../options.php:377
 msgid "Instagram"
 msgstr ""
 
-#: ../options.php:382
+#: ../options.php:383
 msgid "Dribbble"
 msgstr ""
 
-#: ../options.php:388
+#: ../options.php:389
 msgid "Skype"
 msgstr ""
 
-#: ../options.php:393
+#: ../options.php:394
 msgid "Other"
 msgstr ""
 
-#: ../options.php:396
+#: ../options.php:397
 msgid "Custom CSS"
 msgstr ""
 
-#: ../options.php:397
+#: ../options.php:398
 msgid "Additional CSS"
 msgstr ""
 
