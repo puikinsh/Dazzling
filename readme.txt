@@ -61,6 +61,10 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
+= 1.2.7 - 16.05.2014 =
+
+* Added Polish translation thanks to Damian Krawczyk
+
 = 1.2.6 - 16.05.2014 =
 
 * Removed unnecessary archive file.
