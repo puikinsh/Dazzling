@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-06-22 14:02+0200\n"
-"Last-Translator: Antti Vähälummukka <ana@tietomyrsky.com>\n"
+"POT-Creation-Date: 2014-06-22 21:58+0200\n"
+"PO-Revision-Date: 2014-06-22 21:58+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -173,9 +173,9 @@ msgid "% Comments"
 msgstr "% kommenttia"
 
 #: ../content.php:25
-#, php-format
+#, fuzzy, php-format
 msgid " %1$s"
-msgstr ""
+msgstr "%1$s kohdassa %2$s"
 
 #: ../content.php:39 ../content.php:54
 msgid "Continue reading"
@@ -464,8 +464,9 @@ msgid "Post navigation"
 msgstr "Julkaisunavigaatio"
 
 #: ../inc/template-tags.php:81
+#, fuzzy
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 #: ../inc/template-tags.php:91
 #, php-format
@@ -749,12 +750,14 @@ msgid "Add full URL for your social network profiles"
 msgstr "Lisää sosiaalisten profiiliesi täydet osoitteet"
 
 #: ../options.php:322
+#, fuzzy
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../options.php:329
+#, fuzzy
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: ../options.php:335
 msgid "Google+"
