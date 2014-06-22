@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.2.8
+Version: 1.2.9
 Tested up to: WP 3.9
 
 Author: Aigars Silkalns
@@ -27,7 +27,7 @@ Dazzling theme uses:
 
 /*========= Description =========*/
 
-Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. Dazzling is also available in Mexican Spanish, Brazilian Portuguese and Polish. It is probably the best free WordPress theme built for eStores and business websites.
+Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish and Polish. It is probably the best free WordPress theme built for eStores and business websites.
 
 
 For questions, comments or bug reports, visit Colorlib support forum (http://colorlib.com/wp/forums).
@@ -61,6 +61,10 @@ Afterwards you can continue theme setup and customization via WordPress Dashboar
 Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
+
+= 1.2.9 - 23.06.2014 =
+
+* Added Finnish translation thanks to Antti Vähälummukka
 
 = 1.2.8 - 19.05.2014 =
 
