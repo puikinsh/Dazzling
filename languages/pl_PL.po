@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-16 11:19+0200\n"
-"PO-Revision-Date: 2014-05-16 11:39+0200\n"
+"POT-Creation-Date: 2014-06-24 22:07+0200\n"
+"PO-Revision-Date: 2014-06-24 22:07+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pl_PL\n"
@@ -550,12 +550,15 @@ msgid "Dazzling Popular Posts Widget"
 msgstr "Widget popularnych postów motywu Dazzling"
 
 #: ../inc/popular-posts-widget.php:36
+#, fuzzy
 msgid "Popular"
-msgstr ""
+msgstr "Widget popularnych postów motywu Dazzling"
 
 #: ../inc/popular-posts-widget.php:37
+#, fuzzy
 msgid "Recent"
 msgstr ""
+"Wyświetla listę popularnych i ostatnich wpisów oraz komentarzy w zakładkach"
 
 # @ dazzling
 #: ../inc/popular-posts-widget.php:104
@@ -954,6 +957,11 @@ msgstr "Informacja w stopce"
 #: ../options.php:301
 msgid "Copyright text in footer"
 msgstr "Tekst dot. praw autorskich w stopce"
+
+#: ../options.php:303
+#, fuzzy
+msgid "All rights reserved."
+msgstr "Powtórz wszystkie"
 
 # @ dazzling
 #: ../options.php:306

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-06-22 21:58+0200\n"
-"PO-Revision-Date: 2014-06-22 21:58+0200\n"
+"POT-Creation-Date: 2014-06-24 22:07+0200\n"
+"PO-Revision-Date: 2014-06-24 22:07+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: fi\n"
@@ -732,6 +732,11 @@ msgstr "Alatunnisteen tiedot"
 #: ../options.php:301
 msgid "Copyright text in footer"
 msgstr "Copyright-teksti alatunnisteessa"
+
+#: ../options.php:303
+#, fuzzy
+msgid "All rights reserved."
+msgstr "Toista molempiin suuntiin"
 
 #: ../options.php:306
 msgid "Social"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Portuguese\n"
-"POT-Creation-Date: 2014-05-25 19:36+0200\n"
-"PO-Revision-Date: 2014-05-25 19:39+0200\n"
+"POT-Creation-Date: 2014-06-24 22:07+0200\n"
+"PO-Revision-Date: 2014-06-24 22:07+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pt_BR\n"
@@ -750,6 +750,11 @@ msgstr "Informações do Rodapé"
 #: ../options.php:301
 msgid "Copyright text in footer"
 msgstr "Texto de Copyright no Rodapé"
+
+#: ../options.php:303
+#, fuzzy
+msgid "All rights reserved."
+msgstr "Repetir Tudo"
 
 #: ../options.php:306
 msgid "Social"

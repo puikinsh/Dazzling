@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2014-05-16 11:05+0200\n"
-"PO-Revision-Date: 2014-05-16 11:05+0200\n"
+"POT-Creation-Date: 2014-06-24 22:07+0200\n"
+"PO-Revision-Date: 2014-06-24 22:07+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
@@ -750,6 +750,11 @@ msgstr "Información del pie de página"
 #: ../options.php:301
 msgid "Copyright text in footer"
 msgstr "Texto de Copyright en el pie de página"
+
+#: ../options.php:303
+#, fuzzy
+msgid "All rights reserved."
+msgstr "Repetir todo"
 
 #: ../options.php:306
 msgid "Social"
