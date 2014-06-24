@@ -1,11 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-05-16 11:09+0200\n"
+"POT-Creation-Date: 2014-06-24 22:03+0200\n"
+"PO-Revision-Date: 2014-06-24 22:03+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
-"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -723,6 +722,10 @@ msgstr ""
 
 #: ../options.php:301
 msgid "Copyright text in footer"
+msgstr ""
+
+#: ../options.php:303
+msgid "All rights reserved."
 msgstr ""
 
 #: ../options.php:306

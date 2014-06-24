@@ -62,9 +62,10 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
-= 1.2.9 - 23.06.2014 =
+= 1.2.9 - 24.06.2014 =
 
 * Added Finnish translation thanks to Antti Vähälummukka
+* Default footer copyright text is now translatable
 
 = 1.2.8 - 19.05.2014 =
 

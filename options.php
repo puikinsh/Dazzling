@@ -300,7 +300,7 @@ function optionsframework_options() {
 		$options[] = array(	'name' => __('Footer information', 'dazzling'),
                 			'desc' => __('Copyright text in footer', 'dazzling'),
                 			'id' => 'custom_footer_text',
-                			'std' => '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" >' . get_bloginfo( 'name', 'display' ) . '</a>  All rights reserved.',
+                			'std' => '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" >' . get_bloginfo( 'name', 'display' ) . '</a> '. __('All rights reserved.', 'dazzling'),
                 			'type' => 'textarea');
 
 		$options[] = array( 'name' => __('Social', 'dazzling'),
