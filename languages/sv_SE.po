@@ -1,0 +1,824 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dazzling Theme\n"
+"POT-Creation-Date: 2014-05-16 11:08+0200\n"
+"PO-Revision-Date: 2014-07-08 19:31+0100\n"
+"Last-Translator: tommyl473 <tommyl473@gmail.com>\n"
+"Language-Team: colorlib <info@colorlib.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;_nx:4c,1,2\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Sidan finns inte"
+
+#: ../404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Tyvärr fiinns inte sidan, försök med någon av nedanstående länkar"
+
+#: ../404.php:27
+msgid "Most Used Categories"
+msgstr "Mest använda kategorier"
+
+#: ../404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Försök att titta i månadsarkivet %1$s"
+
+#: ../archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr "Ansvarig %s"
+
+#: ../archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr "Dag %s"
+
+#: ../archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr "Månad %s"
+
+#: ../archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr "År %s"
+
+#: ../archive.php:39
+msgid "Asides"
+msgstr "Bredvid"
+
+#: ../archive.php:42
+msgid "Galleries"
+msgstr "Galleri"
+
+#: ../archive.php:45
+msgid "Images"
+msgstr "Bilder"
+
+#: ../archive.php:48
+msgid "Videos"
+msgstr "Video"
+
+#: ../archive.php:51
+msgid "Quotes"
+msgstr "Citat"
+
+#: ../archive.php:54
+msgid "Links"
+msgstr "Länkar"
+
+#: ../archive.php:57
+msgid "Statuses"
+msgstr "Status"
+
+#: ../archive.php:60
+msgid "Audios"
+msgstr "Ljud"
+
+#: ../archive.php:63
+msgid "Chats"
+msgstr "Chat"
+
+#: ../archive.php:66 ../sidebar.php:17
+msgid "Archives"
+msgstr "Arkiv"
+
+#: ../comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En tanke om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Tankar om &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:37 ../comments.php:61
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: ../comments.php:38 ../comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larss; tidigare kommentarer"
+
+#: ../comments.php:39 ../comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Senare kommentarer &rarr;"
+
+#: ../comments.php:73
+msgid "Comments are closed."
+msgstr "Kommentarer är inte längre möjliga"
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr "Ingenting hittat"
+
+#: ../content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Redo för att publishera ditt första inlägg? <a href=\"%1$s\">Börja här</a>."
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Tyvärr, inget matchade dina söktermer, vänligen försök igen med andra "
+"nyckelord."
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Vi kan inte&rsquo;t hitta det du &rsquo; letar efter. Prova gärna att söka "
+"istället. "
+
+#: ../content-page.php:18 ../content-single.php:23 ../content.php:61
+#: ../front-page.php:23 ../image.php:82
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: ../content-page.php:23 ../content-single.php:67 ../content.php:30
+#: ../front-page.php:28 ../inc/template-tags.php:81
+#: ../inc/template-tags.php:100
+msgid "Edit"
+msgstr "Editera"
+
+#: ../content-single.php:36 ../content-single.php:39 ../content.php:21
+msgid ", "
+msgstr ","
+
+#: ../content.php:15
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#: ../content.php:15
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../content.php:15
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: ../content.php:25
+#, php-format
+msgid " %1$s"
+msgstr " %1$s"
+
+#: ../content.php:39 ../content.php:54
+msgid "Continue reading"
+msgstr "Fortsatt läsning"
+
+#: ../functions.php:48
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: ../functions.php:49 ../inc/extras.php:192
+msgid "Footer Links"
+msgstr "Footer länkar"
+
+#: ../functions.php:69
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../functions.php:78
+msgid "Homepage Widget 1"
+msgstr "Homepage Widget 1"
+
+#: ../functions.php:79 ../functions.php:89 ../functions.php:99
+msgid "Displays on the Home Page"
+msgstr "Displays on the Home Page"
+
+#: ../functions.php:88
+msgid "Homepage Widget 2"
+msgstr "Homepage Widget 2"
+
+#: ../functions.php:98
+msgid "Homepage Widget 3"
+msgstr "Homepage Widget 3"
+
+#: ../functions.php:108
+msgid "Footer Widget 1"
+msgstr "Footer Widget 1"
+
+#: ../functions.php:109 ../functions.php:119 ../functions.php:129
+msgid "Used for footer widget area"
+msgstr "Använd för footer widget området"
+
+#: ../functions.php:118
+msgid "Footer Widget 2"
+msgstr "Footer Widget 2"
+
+#: ../functions.php:128
+msgid "Footer Widget 3"
+msgstr "Footer Widget 3"
+
+#: ../image.php:25
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr "<i klass=\"fa fa-chevron-vänster\"></i> Föregående"
+
+#: ../image.php:26
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr "Nästa <i klass=\"fa fa-chevron-höger\"></i>"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:90
+#: ../inc/admin/includes/class-options-framework-admin.php:91
+msgid "Theme Options"
+msgstr "Tema Alternativ"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:185
+msgid "Save Options"
+msgstr "Spara Alternativ"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:186
+msgid "Restore Defaults"
+msgstr "Återställ till ursprungsläge"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:186
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+"klicka Ok för åteställning. Alla tema ändringar kommer att gå förlorade!"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:217
+msgid "Default options restored."
+msgstr "Ursprungsinställningar återställda."
+
+#: ../inc/admin/includes/class-options-framework-admin.php:271
+msgid "Options saved."
+msgstr "Alternativen är sparade."
+
+#: ../inc/admin/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "Ingen fil är vald"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:66
+#: ../inc/admin/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:68
+#: ../inc/admin/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Uppdatera din version av WordPress för full media support."
+
+#: ../inc/admin/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Visa filen"
+
+#: ../inc/admin/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr "Ingen repetering"
+
+#: ../inc/admin/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr "Repetera horisontellt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr "Repetera vertikalt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr "Repetera samtliga"
+
+#: ../inc/admin/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr "Topp vänster"
+
+#: ../inc/admin/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr "Topp mitt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr "Topp höger"
+
+#: ../inc/admin/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr "Mitten vänster"
+
+#: ../inc/admin/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr "mitten mitt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr "Miten höger"
+
+#: ../inc/admin/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr "Nederst vänster"
+
+#: ../inc/admin/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr "nederst mitt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr "nederst höger"
+
+#: ../inc/admin/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr "Scrolla normalt"
+
+#: ../inc/admin/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr "fixerad på plats"
+
+#: ../inc/admin/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr "Normal"
+
+#: ../inc/admin/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr "Italic"
+
+#: ../inc/admin/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr "Fet"
+
+#: ../inc/admin/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr "Fet Italic"
+
+#: ../inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: ../inc/extras.php:136
+msgid ""
+"<p>This post is password protected. To view it please enter your password "
+"below:</p>"
+msgstr ""
+"<p>Detta inlägg är lösenordsskyddat. Ange ditt lösenord nedan för visning:</"
+"p>"
+
+#: ../inc/extras.php:137
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: ../inc/extras.php:140
+msgid "Submit"
+msgstr "Sända in"
+
+#: ../inc/extras.php:164
+msgid "Follow us on "
+msgstr "Följ oss på"
+
+#: ../inc/extras.php:287
+#, php-format
+msgid "Theme by %1$s Powered by %2$s"
+msgstr "Temat av %1$s Producerat av %2$s"
+
+#: ../inc/extras.php:389
+msgid "Support and Documentation"
+msgstr "Support och Dokumentation"
+
+#: ../inc/extras.php:395
+msgid "Dazzling Documentation"
+msgstr "Dazzling Dokumentation"
+
+#: ../inc/extras.php:396
+msgid ""
+"The best way to contact us with support questions and bug reports is via"
+msgstr ""
+"Bästa sättet att komma i kontakt med vår support och buggrapporter är via"
+
+#: ../inc/extras.php:396
+msgid "Colorlib support forum"
+msgstr "Colorlib support forum"
+
+#: ../inc/extras.php:397
+msgid "If you like this theme, I'd appreciate any of the following:"
+msgstr "Om du gillar detta tema, uppskattar vi följande:"
+
+#: ../inc/extras.php:399
+msgid "Rate this Theme"
+msgstr "Ranka detta tema"
+
+#: ../inc/extras.php:400
+msgid "Like on Facebook"
+msgstr "Gilla på Facebook"
+
+#: ../inc/extras.php:401
+msgid "Follow on Twitter"
+msgstr "Följ oss på Twitter"
+
+#: ../inc/popular-posts-widget.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+"Visar etiketterad lista av populära inlägg, tidigare inlägg och kommentarer"
+
+#: ../inc/popular-posts-widget.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr "Dazzling Populära inläggs Widget"
+
+#: ../inc/popular-posts-widget.php:36
+msgid "Popular"
+msgstr "Populär"
+
+#: ../inc/popular-posts-widget.php:37
+msgid "Recent"
+msgstr "Nuvarande"
+
+#: ../inc/popular-posts-widget.php:104
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: ../inc/popular-posts-widget.php:104
+msgid "on"
+msgstr "på"
+
+#: ../inc/popular-posts-widget.php:145
+msgid "Number of posts to show"
+msgstr "antal inlägg att visa"
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Inlägg navigering"
+
+#: ../inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr "<i klass=\"fa fa-chevron-vänster\"></i> Tidigare inlägg"
+
+#: ../inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr "Senare inlägg <i klass=\"fa fa-chevron-höger\"></i>"
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Inlägg navigering"
+
+#: ../inc/template-tags.php:81
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/template-tags.php:91
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span klass=\"säger\">säger:</span>"
+
+#: ../inc/template-tags.php:104
+msgid "Your comment is awaiting moderation."
+msgstr "Ditt inlägg inväntar godkännande."
+
+#: ../inc/woo-setup.php:96
+msgid "View your shopping cart"
+msgstr "Se din shoppinglista"
+
+#: ../inc/woo-setup.php:97
+msgid "Start shopping"
+msgstr "Starta shopping"
+
+#: ../options.php:29
+msgid "Right Sidebar"
+msgstr "Höger Sidebar"
+
+#: ../options.php:29
+msgid "Left Sidebar"
+msgstr "Vänster Sidebar"
+
+#: ../options.php:33
+msgid "One"
+msgstr "Ett"
+
+#: ../options.php:34
+msgid "Two"
+msgstr "Två"
+
+#: ../options.php:35
+msgid "Three"
+msgstr "Tre"
+
+#: ../options.php:36
+msgid "Four"
+msgstr "Fyra"
+
+#: ../options.php:37
+msgid "Five"
+msgstr "Fem"
+
+#: ../options.php:42
+msgid "French Toast"
+msgstr "French Toast"
+
+#: ../options.php:43
+msgid "Pancake"
+msgstr "Pancake"
+
+#: ../options.php:44
+msgid "Omelette"
+msgstr "Omelett"
+
+#: ../options.php:45
+msgid "Crepe"
+msgstr "Crepe"
+
+#: ../options.php:46
+msgid "Waffle"
+msgstr "Svammel"
+
+#: ../options.php:122
+msgid "Main"
+msgstr "Main"
+
+#: ../options.php:125
+msgid "Do You want to display image slider on the Home Page?"
+msgstr "Vill du visa bild slider på Startsidan?"
+
+#: ../options.php:126
+msgid "Check if you want to enable slider"
+msgstr "Kryssa i om du vill starta slider"
+
+#: ../options.php:131
+msgid "Slider Category"
+msgstr "Slider kategorier"
+
+#: ../options.php:132
+msgid "Select a category for the featured post slider"
+msgstr "Välj en kategori för vald inläggs slider"
+
+#: ../options.php:138
+msgid "Number of slide items"
+msgstr "Antal slide poster"
+
+#: ../options.php:139
+msgid "Enter the number of slide items"
+msgstr "Ange antalet slide poster"
+
+#: ../options.php:145
+msgid "Website Layout Options"
+msgstr "Webbsidelayout alternativ"
+
+#: ../options.php:146
+msgid "Choose between Left and Right sidebar options to be used as default"
+msgstr ""
+"Välj mellan vänster eller höger sidebaralternativet att användas som förvalt "
+"värde"
+
+#: ../options.php:153
+msgid "Element color"
+msgstr "elemnt färg"
+
+#: ../options.php:154 ../options.php:160 ../options.php:193 ../options.php:199
+#: ../options.php:205 ../options.php:211 ../options.php:233 ../options.php:239
+#: ../options.php:245 ../options.php:310 ../options.php:316
+msgid "Default used if no color is selected"
+msgstr "Förvalt värde om inget väljs"
+
+#: ../options.php:159
+msgid "Element color on hover"
+msgstr "Elementfärg vid hoover"
+
+#: ../options.php:165
+msgid "Custom Favicon"
+msgstr "Custom Favicon"
+
+#: ../options.php:166
+msgid ""
+"Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
+msgstr ""
+"Ladda upp en 32px x 32px PNG/GIF bild som presenterar din webbplats favicon"
+
+#: ../options.php:171
+msgid "Action Button"
+msgstr "Effekt knapp"
+
+#: ../options.php:174
+msgid "Call For Action Text"
+msgstr "Anrop efter effekt text"
+
+#: ../options.php:175
+msgid "Enter the text for call for action section"
+msgstr "Ange texten som skall anropas för effektsektionen"
+
+#: ../options.php:180
+msgid "Call For Action Button Title"
+msgstr "Anrop efter effektknappen titel"
+
+#: ../options.php:181
+msgid "Enter the title for Call For Action button"
+msgstr "Ange titeln som ksall anropas för effektsektionen"
+
+#: ../options.php:186
+msgid "CFA button link"
+msgstr "CFA knappslänk"
+
+#: ../options.php:187
+msgid "Enter the link for Call For Action button"
+msgstr "Ange länken för att anropa effektknappen"
+
+#: ../options.php:192
+msgid "Call For Action Text Color"
+msgstr "Anrop efter effekttextens färg"
+
+#: ../options.php:198
+msgid "Call For Action Background Color"
+msgstr "Anrop efter effekttextens bakgrundsfärg"
+
+#: ../options.php:204
+msgid "Call For Action Button Border Color"
+msgstr "Anrop efter effekttextens border färg"
+
+#: ../options.php:210
+msgid "Call For Action Button Text Color"
+msgstr "Anrop efter effekttextens textfärg"
+
+#: ../options.php:216
+msgid "Typography"
+msgstr "Typsnitt"
+
+#: ../options.php:219
+msgid "Main Body Text"
+msgstr "Main Body Text"
+
+#: ../options.php:220
+msgid "Used in P tags"
+msgstr "Använd i  P tags"
+
+#: ../options.php:226
+msgid "Heading Color"
+msgstr "Rubrikfärg"
+
+#: ../options.php:227
+msgid "Color for all headings (h1-h6)"
+msgstr "Färg för samtliga rubriker (h1-h6)"
+
+#: ../options.php:232
+msgid "Link Color"
+msgstr "Länkfärg"
+
+#: ../options.php:238
+msgid "Link:hover Color"
+msgstr "Länk:hoover färg"
+
+#: ../options.php:244
+msgid "Link:active Color"
+msgstr "Länk:aktiv färg"
+
+#: ../options.php:250
+msgid "Header"
+msgstr "Rubrik"
+
+#: ../options.php:253
+msgid "Top nav background color"
+msgstr "Topp nav bakgrundsfärg"
+
+#: ../options.php:254
+msgid "Default used if no color is selected."
+msgstr "Förvalt värde om inget väljs"
+
+#: ../options.php:259
+msgid "Top nav item color"
+msgstr "Top nav item färg"
+
+#: ../options.php:260
+msgid "Link color"
+msgstr "Länkfärg"
+
+#: ../options.php:265
+msgid "Top nav dropdown background color"
+msgstr "Top nav dropdown bakgrundsfärg"
+
+#: ../options.php:266
+msgid "Background of dropdown item hover color"
+msgstr "Bakgrunden till dropdown item hoover färg"
+
+#: ../options.php:271
+msgid "Top nav dropdown item color"
+msgstr "Top nav dropdown item färg"
+
+#: ../options.php:272
+msgid "Dropdown item color"
+msgstr "Dropdown item färg"
+
+#: ../options.php:277
+msgid "Footer"
+msgstr "Footer"
+
+#: ../options.php:280
+msgid "Footer Widget Area Background Color"
+msgstr "Footer Widget Area Bakrundsfärg"
+
+#: ../options.php:285
+msgid "Footer Background Color"
+msgstr "Footer bakgrundsfärg"
+
+#: ../options.php:290
+msgid "Footer Text Color"
+msgstr "Footer textfärg"
+
+#: ../options.php:295
+msgid "Footer Link Color"
+msgstr "Footer länkfärg"
+
+#: ../options.php:300
+msgid "Footer information"
+msgstr "Footer information"
+
+#: ../options.php:301
+msgid "Copyright text in footer"
+msgstr "Copyright text i footer"
+
+#: ../options.php:306
+msgid "Social"
+msgstr "Social"
+
+#: ../options.php:309
+msgid "Social Icon Color"
+msgstr "Social Ikon färg"
+
+#: ../options.php:315
+msgid "Social Icon:hover Color"
+msgstr "Social Ikon:hoover färg"
+
+#: ../options.php:321
+msgid "Add full URL for your social network profiles"
+msgstr "Ange full URL för din sociala nätverks profil"
+
+#: ../options.php:322
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../options.php:329
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../options.php:335
+msgid "Google+"
+msgstr "Google+"
+
+#: ../options.php:341
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../options.php:347
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../options.php:353
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../options.php:359
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: ../options.php:365
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../options.php:371
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../options.php:377
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../options.php:383
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: ../options.php:389
+msgid "Skype"
+msgstr "Skype"
+
+#: ../options.php:394
+msgid "Other"
+msgstr "Övriga"
+
+#: ../options.php:397
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: ../options.php:398
+msgid "Additional CSS"
+msgstr "Additional CSS"
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: ../sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
