@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-07-23 22:47+0100\n"
+"PO-Revision-Date: 2014-07-23 23:23+0100\n"
 "Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -36,7 +36,7 @@ msgstr "Meestgebruikte categorieen"
 #: ../404.php:44
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "Wellicht vind je iets in de arcieven. %1$s"
+msgstr "Wellicht vind je iets in de archieven. %1$s"
 
 #: ../archive.php:27
 #, php-format
@@ -72,7 +72,7 @@ msgstr "Afbeeldingen"
 
 #: ../archive.php:48
 msgid "Videos"
-msgstr "Videos"
+msgstr "Video"
 
 #: ../archive.php:51
 msgid "Quotes"
@@ -344,7 +344,7 @@ msgstr "Normaal scrollen"
 
 #: ../inc/admin/includes/class-options-sanitization.php:279
 msgid "Fixed in Place"
-msgstr "Vaste positie"
+msgstr "Vast gepositioneerd"
 
 #: ../inc/admin/includes/class-options-sanitization.php:353
 msgid "Normal"
@@ -372,7 +372,7 @@ msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
 msgstr ""
-"<p>Dit bericht is beschermd met een wachtwoord. Voer hieronder het "
+"<p>Dit bericht is beschermd met een wachtwoord. Voer svp hieronder het "
 "wachtwoord in:</p>"
 
 #: ../inc/extras.php:137
@@ -394,7 +394,7 @@ msgstr "Theme door %1$s Powered by %2$s"
 
 #: ../inc/extras.php:389
 msgid "Support and Documentation"
-msgstr "Support and Documentatie"
+msgstr "Support en Documentatie"
 
 #: ../inc/extras.php:395
 msgid "Dazzling Documentation"
@@ -404,7 +404,7 @@ msgstr "Dazzling Documentatie"
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
-"Als je vragen hebt of een bug wil melden, kan je ons het best benaderen via"
+"Als je vragen hebt of een bug wil melden kan je ons het best benaderen via"
 
 #: ../inc/extras.php:396
 msgid "Colorlib support forum"
@@ -426,13 +426,11 @@ msgstr "Like op Facebook"
 
 #: ../inc/extras.php:401
 msgid "Follow on Twitter"
-msgstr "Volgen op Twitter"
+msgstr "Volg op Twitter"
 
 #: ../inc/popular-posts-widget.php:13
 msgid "Displays tabbed list of popular posts, recent posts & comments"
-msgstr ""
-"Geeft een tablijst gevuld met populaire berichten, recente berichten & "
-"reacties"
+msgstr "Tablijst gevuld met populaire berichten, recente berichten & reacties"
 
 #: ../inc/popular-posts-widget.php:19
 msgid "Dazzling Popular Posts Widget"
@@ -537,7 +535,7 @@ msgstr "Ommelet"
 
 #: ../options.php:45
 msgid "Crepe"
-msgstr "Crepe"
+msgstr "Flensje"
 
 #: ../options.php:46
 msgid "Waffle"
@@ -545,7 +543,7 @@ msgstr "Wafel"
 
 #: ../options.php:122
 msgid "Main"
-msgstr "Main"
+msgstr "Hoofd"
 
 #: ../options.php:125
 msgid "Do You want to display image slider on the Home Page?"
@@ -636,7 +634,7 @@ msgstr "Call For Action Tekstkleur"
 
 #: ../options.php:198
 msgid "Call For Action Background Color"
-msgstr "Call For Action Achetrgrondkleur"
+msgstr "Call For Action Achtergrondkleur"
 
 #: ../options.php:204
 msgid "Call For Action Button Border Color"
@@ -652,7 +650,7 @@ msgstr "Typografie"
 
 #: ../options.php:219
 msgid "Main Body Text"
-msgstr "Main Body Tekst"
+msgstr "Hoofd Body Tekst"
 
 #: ../options.php:220
 msgid "Used in P tags"
@@ -660,11 +658,11 @@ msgstr "Gebruikt in P tags"
 
 #: ../options.php:226
 msgid "Heading Color"
-msgstr "Heading Kleur"
+msgstr "Kopkleur"
 
 #: ../options.php:227
 msgid "Color for all headings (h1-h6)"
-msgstr "Kleuren voor alle headings (h1-h6)"
+msgstr "Kleuren voor alle koppen (h1-h6)"
 
 #: ../options.php:232
 msgid "Link Color"
