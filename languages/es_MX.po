@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2014-07-24 14:20+0200\n"
-"PO-Revision-Date: 2014-07-24 14:20+0200\n"
+"POT-Creation-Date: 2014-07-24 14:42+0200\n"
+"PO-Revision-Date: 2014-07-24 14:42+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
@@ -825,15 +825,19 @@ msgstr "Dribbble"
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:394
+#: ../options.php:395
+msgid "Github"
+msgstr ""
+
+#: ../options.php:400
 msgid "Other"
 msgstr "Otro"
 
-#: ../options.php:397
+#: ../options.php:403
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: ../options.php:398
+#: ../options.php:404
 msgid "Additional CSS"
 msgstr "CSS Adicional"
 

@@ -391,6 +391,12 @@ function optionsframework_options() {
 		            			'class' => 'mini',
 		            			'type' => 'text');
 
+    $options[] = array(	'id' => 'social_github',
+											'desc' => __('Github', 'dazzling'),
+		            			'std' => '',
+		            			'class' => 'mini',
+		            			'type' => 'text');
+
 		$options[] = array( 'name' => __('Other', 'dazzling'),
 											'type' => 'heading');
 

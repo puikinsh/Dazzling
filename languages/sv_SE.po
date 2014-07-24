@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-07-24 14:21+0200\n"
-"PO-Revision-Date: 2014-07-24 14:21+0200\n"
+"POT-Creation-Date: 2014-07-24 14:42+0200\n"
+"PO-Revision-Date: 2014-07-24 14:42+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: sv_SE\n"
@@ -364,8 +364,9 @@ msgid "Page %s"
 msgstr "Sida %s"
 
 #: ../inc/extras.php:115
+#, fuzzy
 msgid "Search..."
-msgstr ""
+msgstr "Sökresultat för: %s"
 
 #: ../inc/extras.php:136
 msgid ""
@@ -743,8 +744,9 @@ msgid "Copyright text in footer"
 msgstr "Copyright text i footer"
 
 #: ../options.php:303
+#, fuzzy
 msgid "All rights reserved."
-msgstr ""
+msgstr "Repetera samtliga"
 
 #: ../options.php:306
 msgid "Social"
@@ -810,15 +812,19 @@ msgstr "Dribbble"
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:394
+#: ../options.php:395
+msgid "Github"
+msgstr ""
+
+#: ../options.php:400
 msgid "Other"
 msgstr "Övriga"
 
-#: ../options.php:397
+#: ../options.php:403
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
-#: ../options.php:398
+#: ../options.php:404
 msgid "Additional CSS"
 msgstr "Additional CSS"
 
