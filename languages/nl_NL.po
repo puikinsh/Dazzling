@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-07-23 23:23+0100\n"
-"Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
+"POT-Creation-Date: 2014-07-24 14:20+0200\n"
+"PO-Revision-Date: 2014-07-24 14:20+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr_e;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;_nx:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
@@ -366,6 +366,11 @@ msgstr "Dikgedrukt Cursief"
 #, php-format
 msgid "Page %s"
 msgstr "Pagina %s"
+
+#: ../inc/extras.php:115
+#, fuzzy
+msgid "Search..."
+msgstr "Zoekresultaten voor: %s"
 
 #: ../inc/extras.php:136
 msgid ""
@@ -739,6 +744,11 @@ msgstr "Footer informatie"
 #: ../options.php:301
 msgid "Copyright text in footer"
 msgstr "Copyright tekst in footer"
+
+#: ../options.php:303
+#, fuzzy
+msgid "All rights reserved."
+msgstr "Alle herhalen"
 
 #: ../options.php:306
 msgid "Social"

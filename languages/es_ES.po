@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.5\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;_nx:4c,1,2;esc_attr_e\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;_nx:4c,1,2;esc_attr_e\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
