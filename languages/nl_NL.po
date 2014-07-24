@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-07-24 11:14+0100\n"
+"PO-Revision-Date: 2014-07-24 11:25+0100\n"
 "Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -385,7 +385,7 @@ msgstr "Verzenden"
 
 #: ../inc/extras.php:164
 msgid "Follow us on "
-msgstr "Volg ons op"
+msgstr "Volg ons op "
 
 #: ../inc/extras.php:287
 #, php-format
