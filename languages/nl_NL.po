@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-07-23 23:23+0100\n"
+"PO-Revision-Date: 2014-07-24 11:14+0100\n"
 "Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -166,7 +166,7 @@ msgstr ", "
 
 #: ../content.php:15
 msgid "Leave a comment"
-msgstr "Bedankt voor je reactie"
+msgstr "Laat een reactie achter"
 
 #: ../content.php:15
 msgid "1 Comment"
@@ -821,6 +821,13 @@ msgstr "Aanvullende CSS"
 msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
+#: ../searchform.php:16
+msgid "Search &hellip;"
+msgstr "Zoeken &hellip;"
+
 #: ../sidebar.php:24
 msgid "Meta"
 msgstr "Meta"
+
+#~ msgid "All rights reserved."
+#~ msgstr "Alle rechten voorbehouden"
