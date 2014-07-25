@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-05-16 11:08+0200\n"
-"PO-Revision-Date: 2014-07-24 11:25+0100\n"
+"POT-Creation-Date: 2014-07-24 14:42+0200\n"
+"PO-Revision-Date: 2014-07-25 09:45+0100\n"
 "Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr_e;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;_nx:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
@@ -166,7 +166,7 @@ msgstr ", "
 
 #: ../content.php:15
 msgid "Leave a comment"
-msgstr "Laat een reactie achter"
+msgstr "Bedankt voor je reactie"
 
 #: ../content.php:15
 msgid "1 Comment"
@@ -366,6 +366,10 @@ msgstr "Dikgedrukt Cursief"
 #, php-format
 msgid "Page %s"
 msgstr "Pagina %s"
+
+#: ../inc/extras.php:115
+msgid "Search..."
+msgstr "Zoeken..."
 
 #: ../inc/extras.php:136
 msgid ""
@@ -740,6 +744,10 @@ msgstr "Footer informatie"
 msgid "Copyright text in footer"
 msgstr "Copyright tekst in footer"
 
+#: ../options.php:303
+msgid "All rights reserved."
+msgstr "Alle rechten voorbehouden"
+
 #: ../options.php:306
 msgid "Social"
 msgstr "Social"
@@ -804,15 +812,19 @@ msgstr "Dribbble"
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:394
+#: ../options.php:395
+msgid "Github"
+msgstr "Github"
+
+#: ../options.php:400
 msgid "Other"
 msgstr "Andere"
 
-#: ../options.php:397
+#: ../options.php:403
 msgid "Custom CSS"
 msgstr "Aangepaste CSS"
 
-#: ../options.php:398
+#: ../options.php:404
 msgid "Additional CSS"
 msgstr "Aanvullende CSS"
 
@@ -821,13 +833,6 @@ msgstr "Aanvullende CSS"
 msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
-#: ../searchform.php:16
-msgid "Search &hellip;"
-msgstr "Zoeken &hellip;"
-
 #: ../sidebar.php:24
 msgid "Meta"
 msgstr "Meta"
-
-#~ msgid "All rights reserved."
-#~ msgstr "Alle rechten voorbehouden"
