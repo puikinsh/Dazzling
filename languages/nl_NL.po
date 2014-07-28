@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "POT-Creation-Date: 2014-07-28 22:47+0200\n"
-"PO-Revision-Date: 2014-07-28 22:49+0200\n"
+"PO-Revision-Date: 2014-07-28 22:53+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -166,7 +166,7 @@ msgstr ", "
 
 #: ../content.php:15
 msgid "Leave a comment"
-msgstr "Bedankt voor je reactie"
+msgstr "Laat een reactie achter"
 
 #: ../content.php:15
 msgid "1 Comment"
@@ -388,7 +388,7 @@ msgstr "Verzenden"
 
 #: ../inc/extras.php:164
 msgid "Follow us on "
-msgstr "Volg ons op"
+msgstr "Volg ons op "
 
 #: ../inc/extras.php:287
 #, php-format
