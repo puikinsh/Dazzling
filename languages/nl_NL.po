@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-07-24 14:42+0200\n"
-"PO-Revision-Date: 2014-07-25 09:45+0100\n"
+"POT-Creation-Date: 2014-06-24 22:03+0200\n"
+"PO-Revision-Date: 2014-07-28 18:58+0100\n"
 "Last-Translator: Paul den Hertog <paul@neomedia.nl>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -253,8 +253,7 @@ msgstr "Standaard herstellen"
 #: ../inc/admin/includes/class-options-framework-admin.php:186
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
-"Klik op OK om te herstellen. Alle zelf aangebrachte instellingen worden "
-"verwijderd!"
+"Klik op OK om te herstellen. Alle aagepaste instellingen worden verwijderd!"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:217
 msgid "Default options restored."
@@ -367,10 +366,6 @@ msgstr "Dikgedrukt Cursief"
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: ../inc/extras.php:115
-msgid "Search..."
-msgstr "Zoeken..."
-
 #: ../inc/extras.php:136
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
@@ -474,7 +469,7 @@ msgstr "Nieuwere berichten <i class=\"fa fa-chevron-right\"></i>"
 
 #: ../inc/template-tags.php:56
 msgid "Post navigation"
-msgstr "Post navigatie"
+msgstr "Bericht navigatie"
 
 #: ../inc/template-tags.php:81
 msgid "Pingback:"
@@ -812,19 +807,15 @@ msgstr "Dribbble"
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:395
-msgid "Github"
-msgstr "Github"
-
-#: ../options.php:400
+#: ../options.php:394
 msgid "Other"
 msgstr "Andere"
 
-#: ../options.php:403
+#: ../options.php:397
 msgid "Custom CSS"
 msgstr "Aangepaste CSS"
 
-#: ../options.php:404
+#: ../options.php:398
 msgid "Additional CSS"
 msgstr "Aanvullende CSS"
 
@@ -836,3 +827,9 @@ msgstr "Zoekresultaten voor: %s"
 #: ../sidebar.php:24
 msgid "Meta"
 msgstr "Meta"
+
+#~ msgid "Search..."
+#~ msgstr "Zoeken..."
+
+#~ msgid "Github"
+#~ msgstr "Github"
