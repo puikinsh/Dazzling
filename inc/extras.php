@@ -250,9 +250,9 @@ function dazzling_featured_slider() {
         echo '<ul class="slides">';
 
           $count = of_get_option('dazzling_slide_number');
-          $slidecat =of_get_option('dazzling_slide_categories');
+          $slidecat = of_get_option('dazzling_slide_categories');
 
-          $query = new WP_Query( array( 'cat' =>$slidecat,'posts_per_page' =>$count ) );
+          $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
           if ($query->have_posts()) :
             while ($query->have_posts()) : $query->the_post();
 
@@ -274,8 +274,6 @@ function dazzling_featured_slider() {
             echo '</li>';
         echo '</ul>';
       echo ' </div>';
-    } else; {
-      // Do nothing
     }
 }
 
