@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-07-28 22:47+0200\n"
-"PO-Revision-Date: 2014-07-28 22:53+0200\n"
+"POT-Creation-Date: 2014-08-03 13:37+0200\n"
+"PO-Revision-Date: 2014-08-03 13:37+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
@@ -189,7 +189,7 @@ msgstr "Verder lezen"
 msgid "Primary Menu"
 msgstr "Hoofdmenu"
 
-#: ../functions.php:49 ../inc/extras.php:192
+#: ../functions.php:49 ../inc/extras.php:216
 msgid "Footer Links"
 msgstr "Footer Links"
 
@@ -285,92 +285,92 @@ msgstr "Upgrade je WordPress versie voor volledige media-ondersteuning."
 msgid "View File"
 msgstr "Bestand bekijken"
 
-#: ../inc/admin/includes/class-options-sanitization.php:241
+#: ../inc/admin/includes/class-options-sanitization.php:316
 msgid "No Repeat"
 msgstr "Niet herhalen"
 
-#: ../inc/admin/includes/class-options-sanitization.php:242
+#: ../inc/admin/includes/class-options-sanitization.php:317
 msgid "Repeat Horizontally"
 msgstr "Horizontaal herhalen"
 
-#: ../inc/admin/includes/class-options-sanitization.php:243
+#: ../inc/admin/includes/class-options-sanitization.php:318
 msgid "Repeat Vertically"
 msgstr "Verticaal herhalen"
 
-#: ../inc/admin/includes/class-options-sanitization.php:244
+#: ../inc/admin/includes/class-options-sanitization.php:319
 msgid "Repeat All"
 msgstr "Alle herhalen"
 
-#: ../inc/admin/includes/class-options-sanitization.php:257
+#: ../inc/admin/includes/class-options-sanitization.php:331
 msgid "Top Left"
 msgstr "Boven Links"
 
-#: ../inc/admin/includes/class-options-sanitization.php:258
+#: ../inc/admin/includes/class-options-sanitization.php:332
 msgid "Top Center"
 msgstr "Boven Gecentreerd"
 
-#: ../inc/admin/includes/class-options-sanitization.php:259
+#: ../inc/admin/includes/class-options-sanitization.php:333
 msgid "Top Right"
 msgstr "Boven Rechts"
 
-#: ../inc/admin/includes/class-options-sanitization.php:260
+#: ../inc/admin/includes/class-options-sanitization.php:334
 msgid "Middle Left"
 msgstr "Midden Links"
 
-#: ../inc/admin/includes/class-options-sanitization.php:261
+#: ../inc/admin/includes/class-options-sanitization.php:335
 msgid "Middle Center"
 msgstr "Midden Gecentreerd"
 
-#: ../inc/admin/includes/class-options-sanitization.php:262
+#: ../inc/admin/includes/class-options-sanitization.php:336
 msgid "Middle Right"
 msgstr "Midden Rechts"
 
-#: ../inc/admin/includes/class-options-sanitization.php:263
+#: ../inc/admin/includes/class-options-sanitization.php:337
 msgid "Bottom Left"
 msgstr "Bodem Links"
 
-#: ../inc/admin/includes/class-options-sanitization.php:264
+#: ../inc/admin/includes/class-options-sanitization.php:338
 msgid "Bottom Center"
 msgstr "Bodem Gecentreerd"
 
-#: ../inc/admin/includes/class-options-sanitization.php:265
+#: ../inc/admin/includes/class-options-sanitization.php:339
 msgid "Bottom Right"
 msgstr "Bodem Rechts"
 
-#: ../inc/admin/includes/class-options-sanitization.php:278
+#: ../inc/admin/includes/class-options-sanitization.php:351
 msgid "Scroll Normally"
 msgstr "Normaal scrollen"
 
-#: ../inc/admin/includes/class-options-sanitization.php:279
+#: ../inc/admin/includes/class-options-sanitization.php:352
 msgid "Fixed in Place"
 msgstr "Vast gepositioneerd"
 
-#: ../inc/admin/includes/class-options-sanitization.php:353
+#: ../inc/admin/includes/class-options-sanitization.php:424
 msgid "Normal"
 msgstr "Normaal"
 
-#: ../inc/admin/includes/class-options-sanitization.php:354
+#: ../inc/admin/includes/class-options-sanitization.php:425
 msgid "Italic"
 msgstr "Cursief"
 
-#: ../inc/admin/includes/class-options-sanitization.php:355
+#: ../inc/admin/includes/class-options-sanitization.php:426
 msgid "Bold"
 msgstr "Dikgedrukt"
 
-#: ../inc/admin/includes/class-options-sanitization.php:356
+#: ../inc/admin/includes/class-options-sanitization.php:427
 msgid "Bold Italic"
 msgstr "Dikgedrukt Cursief"
 
-#: ../inc/extras.php:63
+#: ../inc/extras.php:65
 #, php-format
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: ../inc/extras.php:115
+#: ../inc/extras.php:123
 msgid "Search..."
 msgstr "Zoeken..."
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:146
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -378,56 +378,56 @@ msgstr ""
 "<p>Dit bericht is beschermd met een wachtwoord. Voer svp hieronder het "
 "wachtwoord in:</p>"
 
-#: ../inc/extras.php:137
+#: ../inc/extras.php:147
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../inc/extras.php:140
+#: ../inc/extras.php:150
 msgid "Submit"
 msgstr "Verzenden"
 
-#: ../inc/extras.php:164
+#: ../inc/extras.php:181
 msgid "Follow us on "
 msgstr "Volg ons op "
 
-#: ../inc/extras.php:287
+#: ../inc/extras.php:329
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme door %1$s Powered by %2$s"
 
-#: ../inc/extras.php:389
+#: ../inc/extras.php:436
 msgid "Support and Documentation"
 msgstr "Support en Documentatie"
 
-#: ../inc/extras.php:395
+#: ../inc/extras.php:442
 msgid "Dazzling Documentation"
 msgstr "Dazzling Documentatie"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 "Als je vragen hebt of een bug wil melden kan je ons het best benaderen via"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid "Colorlib support forum"
 msgstr "Colorlib support forum"
 
-#: ../inc/extras.php:397
+#: ../inc/extras.php:444
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 "Als je dit theme naar tevredenheid gebruikt, zou ik het zeer waarderen als "
 "je het volgende doet:"
 
-#: ../inc/extras.php:399
+#: ../inc/extras.php:446
 msgid "Rate this Theme"
 msgstr "Beoordeel dit Theme"
 
-#: ../inc/extras.php:400
+#: ../inc/extras.php:447
 msgid "Like on Facebook"
 msgstr "Like op Facebook"
 
-#: ../inc/extras.php:401
+#: ../inc/extras.php:448
 msgid "Follow on Twitter"
 msgstr "Volg op Twitter"
 

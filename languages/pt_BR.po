@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Portuguese\n"
-"POT-Creation-Date: 2014-07-24 14:42+0200\n"
-"PO-Revision-Date: 2014-07-24 14:42+0200\n"
+"POT-Creation-Date: 2014-08-03 13:37+0200\n"
+"PO-Revision-Date: 2014-08-03 13:37+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pt_BR\n"
@@ -190,7 +190,7 @@ msgstr "Continuar lendo"
 msgid "Primary Menu"
 msgstr "Menu Primário"
 
-#: ../functions.php:49 ../inc/extras.php:192
+#: ../functions.php:49 ../inc/extras.php:216
 msgid "Footer Links"
 msgstr "Links do Rodapé"
 
@@ -286,92 +286,92 @@ msgstr ""
 msgid "View File"
 msgstr "Ver arquivo"
 
-#: ../inc/admin/includes/class-options-sanitization.php:241
+#: ../inc/admin/includes/class-options-sanitization.php:316
 msgid "No Repeat"
 msgstr "Não Repetir"
 
-#: ../inc/admin/includes/class-options-sanitization.php:242
+#: ../inc/admin/includes/class-options-sanitization.php:317
 msgid "Repeat Horizontally"
 msgstr "Repetir Horizontalmente"
 
-#: ../inc/admin/includes/class-options-sanitization.php:243
+#: ../inc/admin/includes/class-options-sanitization.php:318
 msgid "Repeat Vertically"
 msgstr "Repetir Verticalmente"
 
-#: ../inc/admin/includes/class-options-sanitization.php:244
+#: ../inc/admin/includes/class-options-sanitization.php:319
 msgid "Repeat All"
 msgstr "Repetir Tudo"
 
-#: ../inc/admin/includes/class-options-sanitization.php:257
+#: ../inc/admin/includes/class-options-sanitization.php:331
 msgid "Top Left"
 msgstr "Topo à Esquerda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:258
+#: ../inc/admin/includes/class-options-sanitization.php:332
 msgid "Top Center"
 msgstr "Topo ao Centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:259
+#: ../inc/admin/includes/class-options-sanitization.php:333
 msgid "Top Right"
 msgstr "Topo à Direita"
 
-#: ../inc/admin/includes/class-options-sanitization.php:260
+#: ../inc/admin/includes/class-options-sanitization.php:334
 msgid "Middle Left"
 msgstr "Meio à Esquerda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:261
+#: ../inc/admin/includes/class-options-sanitization.php:335
 msgid "Middle Center"
 msgstr "Meio ao Centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:262
+#: ../inc/admin/includes/class-options-sanitization.php:336
 msgid "Middle Right"
 msgstr "Meio à Direita"
 
-#: ../inc/admin/includes/class-options-sanitization.php:263
+#: ../inc/admin/includes/class-options-sanitization.php:337
 msgid "Bottom Left"
 msgstr "Inferior à Esquerda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:264
+#: ../inc/admin/includes/class-options-sanitization.php:338
 msgid "Bottom Center"
 msgstr "Inferior ao Centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:265
+#: ../inc/admin/includes/class-options-sanitization.php:339
 msgid "Bottom Right"
 msgstr "Inferior à Direita"
 
-#: ../inc/admin/includes/class-options-sanitization.php:278
+#: ../inc/admin/includes/class-options-sanitization.php:351
 msgid "Scroll Normally"
 msgstr "Rolar Normalmente"
 
-#: ../inc/admin/includes/class-options-sanitization.php:279
+#: ../inc/admin/includes/class-options-sanitization.php:352
 msgid "Fixed in Place"
 msgstr "Fixo no Local"
 
-#: ../inc/admin/includes/class-options-sanitization.php:353
+#: ../inc/admin/includes/class-options-sanitization.php:424
 msgid "Normal"
 msgstr "Normal"
 
-#: ../inc/admin/includes/class-options-sanitization.php:354
+#: ../inc/admin/includes/class-options-sanitization.php:425
 msgid "Italic"
 msgstr "Itálico"
 
-#: ../inc/admin/includes/class-options-sanitization.php:355
+#: ../inc/admin/includes/class-options-sanitization.php:426
 msgid "Bold"
 msgstr "Negrito"
 
-#: ../inc/admin/includes/class-options-sanitization.php:356
+#: ../inc/admin/includes/class-options-sanitization.php:427
 msgid "Bold Italic"
 msgstr "Negrito Itálico"
 
-#: ../inc/extras.php:63
+#: ../inc/extras.php:65
 #, php-format
 msgid "Page %s"
 msgstr "Página %s"
 
-#: ../inc/extras.php:115
+#: ../inc/extras.php:123
 msgid "Search..."
 msgstr "Procurar..."
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:146
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -379,56 +379,56 @@ msgstr ""
 "<p>Esta postagem é protegida por senha. Para visualizá-la, favor insira sua "
 "senha abaixo:</p>"
 
-#: ../inc/extras.php:137
+#: ../inc/extras.php:147
 msgid "Password:"
 msgstr "Senha:"
 
-#: ../inc/extras.php:140
+#: ../inc/extras.php:150
 msgid "Submit"
 msgstr "Enviar"
 
-#: ../inc/extras.php:164
+#: ../inc/extras.php:181
 msgid "Follow us on "
 msgstr "Siga-nos no "
 
-#: ../inc/extras.php:287
+#: ../inc/extras.php:329
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Tema por %1$s Desenvolvido por %2$s"
 
-#: ../inc/extras.php:389
+#: ../inc/extras.php:436
 msgid "Support and Documentation"
 msgstr "Suporte e Documentação"
 
-#: ../inc/extras.php:395
+#: ../inc/extras.php:442
 msgid "Dazzling Documentation"
 msgstr "Documentação do tema Dazzling"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 "A melhor maneira de entrar em contato conosco com Perguntas de Suporte e  "
 "Relatórios de Erros é via"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid "Colorlib support forum"
 msgstr "Fórum Colorlib"
 
-#: ../inc/extras.php:397
+#: ../inc/extras.php:444
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 "Se você gostou deste tema, eu agradeceria qualquer uma das seguintes ações:"
 
-#: ../inc/extras.php:399
+#: ../inc/extras.php:446
 msgid "Rate this Theme"
 msgstr "Avaliar este Tema"
 
-#: ../inc/extras.php:400
+#: ../inc/extras.php:447
 msgid "Like on Facebook"
 msgstr "Curtir no Facebook"
 
-#: ../inc/extras.php:401
+#: ../inc/extras.php:448
 msgid "Follow on Twitter"
 msgstr "Seguir noTwitter"
 

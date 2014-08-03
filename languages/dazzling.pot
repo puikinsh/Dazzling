@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-07-24 14:41+0200\n"
-"PO-Revision-Date: 2014-07-24 14:41+0200\n"
+"POT-Creation-Date: 2014-08-03 13:37+0200\n"
+"PO-Revision-Date: 2014-08-03 13:38+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +180,7 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:49 ../inc/extras.php:192
+#: ../functions.php:49 ../inc/extras.php:216
 msgid "Footer Links"
 msgstr ""
 
@@ -275,144 +275,144 @@ msgstr ""
 msgid "View File"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:241
+#: ../inc/admin/includes/class-options-sanitization.php:316
 msgid "No Repeat"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:242
+#: ../inc/admin/includes/class-options-sanitization.php:317
 msgid "Repeat Horizontally"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:243
+#: ../inc/admin/includes/class-options-sanitization.php:318
 msgid "Repeat Vertically"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:244
+#: ../inc/admin/includes/class-options-sanitization.php:319
 msgid "Repeat All"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:257
+#: ../inc/admin/includes/class-options-sanitization.php:331
 msgid "Top Left"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:258
+#: ../inc/admin/includes/class-options-sanitization.php:332
 msgid "Top Center"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:259
+#: ../inc/admin/includes/class-options-sanitization.php:333
 msgid "Top Right"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:260
+#: ../inc/admin/includes/class-options-sanitization.php:334
 msgid "Middle Left"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:261
+#: ../inc/admin/includes/class-options-sanitization.php:335
 msgid "Middle Center"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:262
+#: ../inc/admin/includes/class-options-sanitization.php:336
 msgid "Middle Right"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:263
+#: ../inc/admin/includes/class-options-sanitization.php:337
 msgid "Bottom Left"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:264
+#: ../inc/admin/includes/class-options-sanitization.php:338
 msgid "Bottom Center"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:265
+#: ../inc/admin/includes/class-options-sanitization.php:339
 msgid "Bottom Right"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:278
+#: ../inc/admin/includes/class-options-sanitization.php:351
 msgid "Scroll Normally"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:279
+#: ../inc/admin/includes/class-options-sanitization.php:352
 msgid "Fixed in Place"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:353
+#: ../inc/admin/includes/class-options-sanitization.php:424
 msgid "Normal"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:354
+#: ../inc/admin/includes/class-options-sanitization.php:425
 msgid "Italic"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:355
+#: ../inc/admin/includes/class-options-sanitization.php:426
 msgid "Bold"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:356
+#: ../inc/admin/includes/class-options-sanitization.php:427
 msgid "Bold Italic"
 msgstr ""
 
-#: ../inc/extras.php:63
+#: ../inc/extras.php:65
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: ../inc/extras.php:115
+#: ../inc/extras.php:123
 msgid "Search..."
 msgstr ""
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:146
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
 msgstr ""
 
-#: ../inc/extras.php:137
+#: ../inc/extras.php:147
 msgid "Password:"
 msgstr ""
 
-#: ../inc/extras.php:140
+#: ../inc/extras.php:150
 msgid "Submit"
 msgstr ""
 
-#: ../inc/extras.php:164
+#: ../inc/extras.php:181
 msgid "Follow us on "
 msgstr ""
 
-#: ../inc/extras.php:287
+#: ../inc/extras.php:329
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr ""
 
-#: ../inc/extras.php:389
+#: ../inc/extras.php:436
 msgid "Support and Documentation"
 msgstr ""
 
-#: ../inc/extras.php:395
+#: ../inc/extras.php:442
 msgid "Dazzling Documentation"
 msgstr ""
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid "Colorlib support forum"
 msgstr ""
 
-#: ../inc/extras.php:397
+#: ../inc/extras.php:444
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 
-#: ../inc/extras.php:399
+#: ../inc/extras.php:446
 msgid "Rate this Theme"
 msgstr ""
 
-#: ../inc/extras.php:400
+#: ../inc/extras.php:447
 msgid "Like on Facebook"
 msgstr ""
 
-#: ../inc/extras.php:401
+#: ../inc/extras.php:448
 msgid "Follow on Twitter"
 msgstr ""
 

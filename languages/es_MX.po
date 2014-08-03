@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2014-07-24 14:42+0200\n"
-"PO-Revision-Date: 2014-07-24 14:42+0200\n"
+"POT-Creation-Date: 2014-08-03 13:36+0200\n"
+"PO-Revision-Date: 2014-08-03 13:37+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
@@ -189,7 +189,7 @@ msgstr "Continuar leyendo"
 msgid "Primary Menu"
 msgstr "Menu Primario"
 
-#: ../functions.php:49 ../inc/extras.php:192
+#: ../functions.php:49 ../inc/extras.php:216
 msgid "Footer Links"
 msgstr "Links del Pie de página"
 
@@ -286,93 +286,93 @@ msgstr "Actualiza tu versión de WordPress para soporte completo de medios."
 msgid "View File"
 msgstr "Ver Archivo"
 
-#: ../inc/admin/includes/class-options-sanitization.php:241
+#: ../inc/admin/includes/class-options-sanitization.php:316
 msgid "No Repeat"
 msgstr "No repetir"
 
-#: ../inc/admin/includes/class-options-sanitization.php:242
+#: ../inc/admin/includes/class-options-sanitization.php:317
 msgid "Repeat Horizontally"
 msgstr "Repetir horizontalmente"
 
-#: ../inc/admin/includes/class-options-sanitization.php:243
+#: ../inc/admin/includes/class-options-sanitization.php:318
 msgid "Repeat Vertically"
 msgstr "Repetir verticalmente"
 
-#: ../inc/admin/includes/class-options-sanitization.php:244
+#: ../inc/admin/includes/class-options-sanitization.php:319
 msgid "Repeat All"
 msgstr "Repetir todo"
 
-#: ../inc/admin/includes/class-options-sanitization.php:257
+#: ../inc/admin/includes/class-options-sanitization.php:331
 msgid "Top Left"
 msgstr "Arriba a la izquierda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:258
+#: ../inc/admin/includes/class-options-sanitization.php:332
 msgid "Top Center"
 msgstr "Arriba al centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:259
+#: ../inc/admin/includes/class-options-sanitization.php:333
 msgid "Top Right"
 msgstr "Arriba a la derecha"
 
-#: ../inc/admin/includes/class-options-sanitization.php:260
+#: ../inc/admin/includes/class-options-sanitization.php:334
 msgid "Middle Left"
 msgstr "En medio a la izquierda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:261
+#: ../inc/admin/includes/class-options-sanitization.php:335
 msgid "Middle Center"
 msgstr "En medio al centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:262
+#: ../inc/admin/includes/class-options-sanitization.php:336
 msgid "Middle Right"
 msgstr "En medio a la derecha"
 
-#: ../inc/admin/includes/class-options-sanitization.php:263
+#: ../inc/admin/includes/class-options-sanitization.php:337
 msgid "Bottom Left"
 msgstr "Abajo a la izquierda"
 
-#: ../inc/admin/includes/class-options-sanitization.php:264
+#: ../inc/admin/includes/class-options-sanitization.php:338
 msgid "Bottom Center"
 msgstr "Abajo al centro"
 
-#: ../inc/admin/includes/class-options-sanitization.php:265
+#: ../inc/admin/includes/class-options-sanitization.php:339
 msgid "Bottom Right"
 msgstr "Abajo a la derecha"
 
-#: ../inc/admin/includes/class-options-sanitization.php:278
+#: ../inc/admin/includes/class-options-sanitization.php:351
 msgid "Scroll Normally"
 msgstr "Scroll Normal"
 
-#: ../inc/admin/includes/class-options-sanitization.php:279
+#: ../inc/admin/includes/class-options-sanitization.php:352
 msgid "Fixed in Place"
 msgstr "Fijar en el lugar"
 
-#: ../inc/admin/includes/class-options-sanitization.php:353
+#: ../inc/admin/includes/class-options-sanitization.php:424
 msgid "Normal"
 msgstr "Normal"
 
-#: ../inc/admin/includes/class-options-sanitization.php:354
+#: ../inc/admin/includes/class-options-sanitization.php:425
 msgid "Italic"
 msgstr "Cursiva"
 
-#: ../inc/admin/includes/class-options-sanitization.php:355
+#: ../inc/admin/includes/class-options-sanitization.php:426
 msgid "Bold"
 msgstr "Negrita"
 
-#: ../inc/admin/includes/class-options-sanitization.php:356
+#: ../inc/admin/includes/class-options-sanitization.php:427
 msgid "Bold Italic"
 msgstr "Negrita Cursiva"
 
-#: ../inc/extras.php:63
+#: ../inc/extras.php:65
 #, php-format
 msgid "Page %s"
 msgstr "Página %s"
 
-#: ../inc/extras.php:115
+#: ../inc/extras.php:123
 #, fuzzy
 msgid "Search..."
 msgstr "Resultados de búsqueda para: %s"
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:146
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -380,33 +380,33 @@ msgstr ""
 "<p>Esta entrada está protegida por contraseña. Para verla por favor ingresa "
 "tu contraseña abajo:</p>"
 
-#: ../inc/extras.php:137
+#: ../inc/extras.php:147
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: ../inc/extras.php:140
+#: ../inc/extras.php:150
 msgid "Submit"
 msgstr "Enviar"
 
-#: ../inc/extras.php:164
+#: ../inc/extras.php:181
 msgid "Follow us on "
 msgstr "Síguenos en "
 
-#: ../inc/extras.php:287
+#: ../inc/extras.php:329
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme by %1$s Powered by %2$s"
 
-#: ../inc/extras.php:389
+#: ../inc/extras.php:436
 msgid "Support and Documentation"
 msgstr "Soporte y Documentación"
 
-#: ../inc/extras.php:395
+#: ../inc/extras.php:442
 #, fuzzy
 msgid "Dazzling Documentation"
 msgstr "dazzling Documentación"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 #, fuzzy
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
@@ -414,23 +414,23 @@ msgstr ""
 "La mejor manera para contactarnos para <b>preguntas de soporte</b> y "
 "<b>reportes de fallos</b> es vía"
 
-#: ../inc/extras.php:396
+#: ../inc/extras.php:443
 msgid "Colorlib support forum"
 msgstr "Colorlib Foro de soporte"
 
-#: ../inc/extras.php:397
+#: ../inc/extras.php:444
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Si te gusta este tema, te agradecería cualquiera de lo siguiente:"
 
-#: ../inc/extras.php:399
+#: ../inc/extras.php:446
 msgid "Rate this Theme"
 msgstr "Califica este tema"
 
-#: ../inc/extras.php:400
+#: ../inc/extras.php:447
 msgid "Like on Facebook"
 msgstr "Like en Facebook"
 
-#: ../inc/extras.php:401
+#: ../inc/extras.php:448
 msgid "Follow on Twitter"
 msgstr "Follow en Twitter"
 
