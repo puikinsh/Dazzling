@@ -19,6 +19,7 @@ function dazzling_page_menu_args( $args ) {
 }
 add_filter( 'wp_page_menu_args', 'dazzling_page_menu_args' );
 
+
 /**
  * Adds custom classes to the array of body classes.
  *
@@ -34,6 +35,7 @@ function dazzling_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'dazzling_body_classes' );
+
 
 /**
  * Filters wp_title to print a neat <title> tag based on what is being viewed.
@@ -68,7 +70,9 @@ function dazzling_wp_title( $title, $sep ) {
 add_filter( 'wp_title', 'dazzling_wp_title', 10, 2 );
 
 
-// Mark Posts/Pages as Untiled when no title is used
+/**
+ * Mark Posts/Pages as Untiled when no title is used
+ */
 add_filter( 'the_title', 'dazzling_title' );
 
 function dazzling_title( $title ) {
@@ -79,9 +83,12 @@ function dazzling_title( $title ) {
   }
 }
 
-// Add Filters
 
+/**
+ * Add Filters
+ */
 add_filter('widget_text', 'do_shortcode'); // Allow shortcodes in Dynamic Sidebar
+
 
 /**
  * Sets the authordata global when viewing an author archive.
@@ -104,9 +111,10 @@ function dazzling_setup_author() {
 }
 add_action( 'wp', 'dazzling_setup_author' );
 
-/************* search form *****************/
 
-// Search Form
+/**
+ * Search form styling
+ */
 function dazzling_wpsearch($form) {
     $form = '<form method="get" class="form-search" action="' . home_url( '/' ) . '">
   <div class="row">
@@ -123,8 +131,10 @@ function dazzling_wpsearch($form) {
     return $form;
 } // don't remove this bracket!
 
-/****************** password protected post form *****/
 
+/**
+ * Password protected post form
+ */
 add_filter( 'the_password_form', 'custom_password_form' );
 
 function custom_password_form() {
@@ -146,13 +156,20 @@ function custom_password_form() {
 	return $o;
 }
 
-// Add Bootstrap classes for table
+
+/**
+ * Add Bootstrap classes for table
+ */
 add_filter( 'the_content', 'dazzling_add_custom_table_class' );
 function dazzling_add_custom_table_class( $content ) {
     return str_replace( '<table>', '<table class="table table-hover">', $content );
 }
 
-// //Display social links
+
+if ( ! function_exists( 'dazzling_social' ) ) :
+/**
+ * Display social links
+ */
 function dazzling_social(){
     $services = array ('facebook','twitter','googleplus','youtube','linkedin','pinterest','rss','tumblr','flickr','instagram','dribbble','skype','github');
 
@@ -167,8 +184,12 @@ function dazzling_social(){
     echo '</ul></div>';
 
 }
+endif;
 
-// header menu (should you choose to use one)
+
+/**
+ * header menu (should you choose to use one)
+ */
 function dazzling_header_menu() {
         // display the WordPress Custom Menu if available
         wp_nav_menu(array(
@@ -183,7 +204,10 @@ function dazzling_header_menu() {
         ));
 } /* end header menu */
 
-// footer menu (should you choose to use one)
+
+/**
+ * footer menu (should you choose to use one)
+ */
 function dazzling_footer_links() {
         // display the WordPress Custom Menu if available
         wp_nav_menu(array(
@@ -201,7 +225,10 @@ function dazzling_footer_links() {
         ));
 } /* end dazzling footer link */
 
-// Get Post Views - for Popular Posts widget
+
+/**
+ * Get Post Views - for Popular Posts widget
+ */
 function dazzling_getPostViews($postID){
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
@@ -225,7 +252,11 @@ function dazzling_setPostViews($postID) {
     }
 }
 
-// Call for action text area
+
+if ( ! function_exists( 'dazzling_call_for_action' ) ) :
+/**
+ * Call for action button & text area
+ */
 function dazzling_call_for_action() {
   if ( is_front_page() && of_get_option('w2f_cfa_text')!=''){
     echo '<div class="cfa">';
@@ -242,8 +273,13 @@ function dazzling_call_for_action() {
   //Do nothing
   }
 }
+endif;
 
-// Featured image slider
+
+if ( ! function_exists( 'dazzling_featured_slider' ) ) :
+/**
+ * Featured image slider
+ */
 function dazzling_featured_slider() {
     if ( is_front_page() && of_get_option('dazzling_slider_checkbox') == 1 ) {
       echo '<div class="flexslider">';
@@ -252,119 +288,132 @@ function dazzling_featured_slider() {
           $count = of_get_option('dazzling_slide_number');
           $slidecat = of_get_option('dazzling_slide_categories');
 
-          $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
-          if ($query->have_posts()) :
-            while ($query->have_posts()) : $query->the_post();
+            if ( $count && $slidecat ) {
+            $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
+            if ($query->have_posts()) :
+              while ($query->have_posts()) : $query->the_post();
 
-            echo '<li>';
-              if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) :
-                echo get_the_post_thumbnail();
-              endif;
+              echo '<li>';
+                if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) :
+                  echo get_the_post_thumbnail();
+                endif;
 
-                echo '<div class="flex-caption">';
-                  echo '<a href="'. get_permalink() .'">';
-                    if ( get_the_title() != '' ) echo '<h2 class="entry-title">'. get_the_title().'</h2>';
-                    if ( get_the_excerpt() != '' ) echo '<div class="excerpt">' . get_the_excerpt() .'</div>';
-                  echo '</a>';
-                echo '</div>';
+                  echo '<div class="flex-caption">';
+                    echo '<a href="'. get_permalink() .'">';
+                      if ( get_the_title() != '' ) echo '<h2 class="entry-title">'. get_the_title().'</h2>';
+                      if ( get_the_excerpt() != '' ) echo '<div class="excerpt">' . get_the_excerpt() .'</div>';
+                    echo '</a>';
+                  echo '</div>';
 
-                endwhile;
-              endif;
+                  endwhile;
+                endif;
+
+            } else {
+                echo "Slider is not properly configured";
+            }
 
             echo '</li>';
         echo '</ul>';
       echo ' </div>';
     }
 }
+endif;
 
+
+if ( ! function_exists( 'dazzling_footer_info' ) ) :
 /**
  * function to show the footer info, copyright information
  */
 function dazzling_footer_info() {
-global $dazzling_footer_info;
+  global $dazzling_footer_info;
   printf( __( 'Theme by %1$s Powered by %2$s', 'dazzling' ) , '<a href="http://colorlib.com/wp/" target="_blank">Colorlib</a>', '<a href="http://wordpress.org/" target="_blank">WordPress</a>');
 }
+endif;
 
-// Get theme options
-
+/**
+ * Get custom CSS from Theme Options panel and output in header
+ */
 if (!function_exists('get_dazzling_theme_options'))  {
-    function get_dazzling_theme_options(){
+  function get_dazzling_theme_options(){
 
-      echo '<style type="text/css">';
+    echo '<style type="text/css">';
 
-      if ( of_get_option('link_color')) {
-        echo 'a, #infinite-handle span {color:' . of_get_option('link_color') . '}';
-      }
-      if ( of_get_option('link_hover_color')) {
-        echo 'a:hover {color: '.of_get_option('link_hover_color', '#000').';}';
-      }
-      if ( of_get_option('link_active_color')) {
-        echo 'a:active {color: '.of_get_option('link_active_color', '#000').';}';
-      }
-      if ( of_get_option('element_color')) {
-        echo '.btn-default, .label-default, .flex-caption h2, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {background-color: '.of_get_option('element_color', '#000').'; border-color: '.of_get_option('element_color', '#000').';} .btn.btn-default.read-more, .entry-meta .fa, .site-main [class*="navigation"] a, .more-link { color: '.of_get_option('element_color', '#000').'}';
-      }
-      if ( of_get_option('element_color_hover')) {
-        echo '.btn-default:hover, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, .btn.btn-default.read-more:hover, .btn-default:hover, .scroll-to-top:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .more-link:hover, #image-navigation .nav-previous a:hover, #image-navigation .nav-next a:hover  { background-color: '.of_get_option('element_color_hover', '#000').'; border-color: '.of_get_option('element_color_hover', '#000').'; }';
-      }
-      if ( of_get_option('cfa_bg_color')) {
-        echo '.cfa { background-color: '.of_get_option('cfa_bg_color', '#000').'; } .cfa-button:hover {color: '.of_get_option('cfa_bg_color', '#000').';}';
-      }
-      if ( of_get_option('cfa_color')) {
-        echo '.cfa-text { color: '.of_get_option('cfa_color', '#000').';}';
-      }
-      if ( of_get_option('cfa_btn_color')) {
-        echo '.cfa-button {border-color: '.of_get_option('cfa_btn_color', '#000').';}';
-      }
-      if ( of_get_option('cfa_btn_txt_color')) {
-        echo '.cfa-button {color: '.of_get_option('cfa_btn_txt_color', '#000').';}';
-      }
-      if ( of_get_option('heading_color')) {
-        echo 'h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title {color: '.of_get_option('heading_color', '#000').';}';
-      }
-      if ( of_get_option('top_nav_bg_color')) {
-        echo '.navbar.navbar-default {background-color: '.of_get_option('top_nav_bg_color', '#000').';}';
-      }
-      if ( of_get_option('top_nav_link_color')) {
-        echo '.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: '.of_get_option('top_nav_link_color', '#000').';}';
-      }
-      if ( of_get_option('top_nav_dropdown_bg')) {
-        echo '.dropdown-menu, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: '.of_get_option('top_nav_dropdown_bg', '#000').';}';
-      }
-      if ( of_get_option('top_nav_dropdown_item')) {
-        echo '.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: '.of_get_option('top_nav_dropdown_item', '#000').';}';
-      }
-      if ( of_get_option('footer_bg_color')) {
-        echo '#colophon {background-color: '.of_get_option('footer_bg_color', '#000').';}';
-      }
-      if ( of_get_option('footer_text_color')) {
-        echo '#footer-area, .site-info {color: '.of_get_option('footer_text_color', '#000').';}';
-      }
-      if ( of_get_option('footer_widget_bg_color')) {
-        echo '#footer-area {background-color: '.of_get_option('footer_widget_bg_color', '#000').';}';
-      }
-      if ( of_get_option('footer_link_color')) {
-        echo '.site-info a, #footer-area a {color: '.of_get_option('footer_link_color', '#000').';}';
-      }
-      if ( of_get_option('social_color')) {
-        echo '.social-icon {color: '.of_get_option('social_color', '#000').' !important ;}';
-      }
-      if ( of_get_option('social_hover_color')) {
-        echo '.social-icon:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
-      }
-      $typography = of_get_option('main_body_typography');
-      if ( $typography ) {
-        echo '.entry-content {font-family: ' . $typography['face'] . '; font-size:' . $typography['size'] . '; font-weight: ' . $typography['style'] . '; color:'.$typography['color'] . ';}';
-      }
-      if ( of_get_option('custom_css')) {
-        echo of_get_option( 'custom_css', 'no entry' );
-      }
-        echo '</style>';
+    if ( of_get_option('link_color')) {
+      echo 'a, #infinite-handle span {color:' . of_get_option('link_color') . '}';
     }
+    if ( of_get_option('link_hover_color')) {
+      echo 'a:hover {color: '.of_get_option('link_hover_color', '#000').';}';
+    }
+    if ( of_get_option('link_active_color')) {
+      echo 'a:active {color: '.of_get_option('link_active_color', '#000').';}';
+    }
+    if ( of_get_option('element_color')) {
+      echo '.btn-default, .label-default, .flex-caption h2, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a {background-color: '.of_get_option('element_color', '#000').'; border-color: '.of_get_option('element_color', '#000').';} .btn.btn-default.read-more, .entry-meta .fa, .site-main [class*="navigation"] a, .more-link { color: '.of_get_option('element_color', '#000').'}';
+    }
+    if ( of_get_option('element_color_hover')) {
+      echo '.btn-default:hover, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, .btn.btn-default.read-more:hover, .btn-default:hover, .scroll-to-top:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .more-link:hover, #image-navigation .nav-previous a:hover, #image-navigation .nav-next a:hover  { background-color: '.of_get_option('element_color_hover', '#000').'; border-color: '.of_get_option('element_color_hover', '#000').'; }';
+    }
+    if ( of_get_option('cfa_bg_color')) {
+      echo '.cfa { background-color: '.of_get_option('cfa_bg_color', '#000').'; } .cfa-button:hover {color: '.of_get_option('cfa_bg_color', '#000').';}';
+    }
+    if ( of_get_option('cfa_color')) {
+      echo '.cfa-text { color: '.of_get_option('cfa_color', '#000').';}';
+    }
+    if ( of_get_option('cfa_btn_color')) {
+      echo '.cfa-button {border-color: '.of_get_option('cfa_btn_color', '#000').';}';
+    }
+    if ( of_get_option('cfa_btn_txt_color')) {
+      echo '.cfa-button {color: '.of_get_option('cfa_btn_txt_color', '#000').';}';
+    }
+    if ( of_get_option('heading_color')) {
+      echo 'h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title {color: '.of_get_option('heading_color', '#000').';}';
+    }
+    if ( of_get_option('top_nav_bg_color')) {
+      echo '.navbar.navbar-default {background-color: '.of_get_option('top_nav_bg_color', '#000').';}';
+    }
+    if ( of_get_option('top_nav_link_color')) {
+      echo '.navbar-default .navbar-nav > li > a { color: '.of_get_option('top_nav_link_color', '#000').';}';
+    }
+    if ( of_get_option('top_nav_dropdown_bg')) {
+      echo '.dropdown-menu, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: '.of_get_option('top_nav_dropdown_bg', '#000').';}';
+    }
+    if ( of_get_option('top_nav_dropdown_item')) {
+      echo '.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: '.of_get_option('top_nav_dropdown_item', '#000').';}';
+    }
+    if ( of_get_option('footer_bg_color')) {
+      echo '#colophon {background-color: '.of_get_option('footer_bg_color', '#000').';}';
+    }
+    if ( of_get_option('footer_text_color')) {
+      echo '#footer-area, .site-info {color: '.of_get_option('footer_text_color', '#000').';}';
+    }
+    if ( of_get_option('footer_widget_bg_color')) {
+      echo '#footer-area {background-color: '.of_get_option('footer_widget_bg_color', '#000').';}';
+    }
+    if ( of_get_option('footer_link_color')) {
+      echo '.site-info a, #footer-area a {color: '.of_get_option('footer_link_color', '#000').';}';
+    }
+    if ( of_get_option('social_color')) {
+      echo '.social-icon {color: '.of_get_option('social_color', '#000').' !important ;}';
+    }
+    if ( of_get_option('social_hover_color')) {
+      echo '.social-icon:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
+    }
+    $typography = of_get_option('main_body_typography');
+    if ( $typography ) {
+      echo '.entry-content {font-family: ' . $typography['face'] . '; font-size:' . $typography['size'] . '; font-weight: ' . $typography['style'] . '; color:'.$typography['color'] . ';}';
+    }
+    if ( of_get_option('custom_css')) {
+      echo of_get_option( 'custom_css', 'no entry' );
+    }
+      echo '</style>';
+  }
 }
 add_action('wp_head','get_dazzling_theme_options',10);
 
-// Theme Options sidebar
+
+/**
+ * Theme Options sidebar
+ */
 add_action( 'optionsframework_after','dazzling_options_display_sidebar' );
 
 function dazzling_options_display_sidebar() { ?>
@@ -403,11 +452,10 @@ function dazzling_options_display_sidebar() { ?>
     </div>
 <?php }
 
+
 /*
  * This one shows/hides the an option when a checkbox is clicked.
- *
  */
-
 add_action( 'optionsframework_custom_scripts', 'optionsframework_custom_scripts' );
 
 function optionsframework_custom_scripts() { ?>
