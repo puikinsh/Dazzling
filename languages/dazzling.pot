@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-08-03 13:37+0200\n"
-"PO-Revision-Date: 2014-08-03 13:38+0200\n"
+"POT-Creation-Date: 2014-09-03 13:56+0200\n"
+"PO-Revision-Date: 2014-09-03 13:56+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.6.8\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;_nx:4c,1,2\n"
@@ -800,15 +800,19 @@ msgstr ""
 msgid "Github"
 msgstr ""
 
-#: ../options.php:400
+#: ../options.php:401
+msgid "Slideshare"
+msgstr ""
+
+#: ../options.php:406
 msgid "Other"
 msgstr ""
 
-#: ../options.php:403
+#: ../options.php:409
 msgid "Custom CSS"
 msgstr ""
 
-#: ../options.php:404
+#: ../options.php:410
 msgid "Additional CSS"
 msgstr ""
 

@@ -62,6 +62,12 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
+= 1.3.2 - 03.09.2014 =
+
+* Updated Font Awesome to 4.2
+* Added Slideshare social icon
+* Created more consistent code on options.php for Options Framework.
+
 = 1.3.1 - 03.08.2014 =
 
 * Small changed to Options Framework
