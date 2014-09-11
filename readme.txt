@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.3.1
+Version: 1.3.2
 Tested up to: WP 3.9
 
 Author: Aigars Silkalns
@@ -62,11 +62,12 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
-= 1.3.2 - 03.09.2014 =
+= 1.3.2 - 11.09.2014 =
 
 * Updated Font Awesome to 4.2
-* Added Slideshare social icon
+* Added Slideshare and VK.com social icon
 * Created more consistent code on options.php for Options Framework.
+* Improved translation files. 
 
 = 1.3.1 - 03.08.2014 =
 

@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-09-03 13:55+0200\n"
-"PO-Revision-Date: 2014-09-03 13:55+0200\n"
+"POT-Creation-Date: 2014-09-11 12:45+0200\n"
+"PO-Revision-Date: 2014-09-11 12:45+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;_n;_n:1,2;_nx:4c,1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
@@ -493,6 +493,13 @@ msgstr "Se din shoppinglista"
 msgid "Start shopping"
 msgstr "Starta shopping"
 
+#: ../inc/woo-setup.php:101
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
 #: ../options.php:29
 msgid "Right Sidebar"
 msgstr "Höger Sidebar"
@@ -820,15 +827,19 @@ msgstr ""
 msgid "Slideshare"
 msgstr ""
 
-#: ../options.php:406
+#: ../options.php:407
+msgid "VK.com"
+msgstr ""
+
+#: ../options.php:412
 msgid "Other"
 msgstr "Övriga"
 
-#: ../options.php:409
+#: ../options.php:415
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
-#: ../options.php:410
+#: ../options.php:416
 msgid "Additional CSS"
 msgstr "Additional CSS"
 

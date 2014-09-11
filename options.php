@@ -403,6 +403,12 @@ function optionsframework_options() {
 			            			'class' => 'mini',
 			            			'type' => 'text');
 
+			    $options[] = array(	'id' => 'social_vk',
+									'desc' => __('VK.com', 'dazzling'),
+			            			'std' => '',
+			            			'class' => 'mini',
+			            			'type' => 'text');
+
 				$options[] = array( 'name' => __('Other', 'dazzling'),
 									'type' => 'heading');
 
