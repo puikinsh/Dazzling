@@ -140,12 +140,6 @@ add_action( 'widgets_init', 'dazzling_widgets_init' );
 
 include(get_template_directory() . "/inc/popular-posts-widget.php");
 
-/**
- * adding the dazzling search form (created in extra.php)
- */
-
-add_filter( 'get_search_form', 'dazzling_wpsearch' );
-
 
 /**
  * Enqueue scripts and styles.
@@ -165,7 +159,7 @@ function dazzling_scripts() {
 	wp_enqueue_script('dazzling-bootstrapjs', get_template_directory_uri().'/inc/js/bootstrap.min.js', array('jquery') );
 
 	if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
-		wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '20140222', true );
+		wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '2.2.2', true );
 	}
 
 	wp_enqueue_script( 'dazzling-main', get_template_directory_uri() . '/inc/js/main.js', array('jquery') );
@@ -185,7 +179,7 @@ function dazzling_ie_support_header() {
     echo '<script src="' . esc_url( get_template_directory_uri() . '/inc/js/respond.min.js' ) . '"></script>'. "\n";
     echo '<![endif]-->'. "\n";
 }
-add_action( 'wp_head', 'dazzling_ie_support_header', 1 );
+add_action( 'wp_head', 'dazzling_ie_support_header', 11 );
 
 /*
  * Loads the Options Panel

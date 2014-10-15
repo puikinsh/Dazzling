@@ -113,26 +113,6 @@ add_action( 'wp', 'dazzling_setup_author' );
 
 
 /**
- * Search form styling
- */
-function dazzling_wpsearch($form) {
-    $form = '<form method="get" class="form-search" action="' . home_url( '/' ) . '">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="input-group">
-        <input type="text" class="form-control search-query" value="' . get_search_query() . '" name="s" id="s" placeholder="'. esc_attr__('Search...','dazzling') .'">
-        <span class="input-group-btn">
-          <button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Go"><span class="glyphicon glyphicon-search"></span></button>
-        </span>
-      </div>
-    </div>
-  </div>
-</form>';
-    return $form;
-} // don't remove this bracket!
-
-
-/**
  * Password protected post form
  */
 add_filter( 'the_password_form', 'custom_password_form' );
