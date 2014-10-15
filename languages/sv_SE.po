@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-09-11 12:45+0200\n"
-"PO-Revision-Date: 2014-09-11 12:45+0200\n"
+"POT-Creation-Date: 2014-10-15 12:29+0200\n"
+"PO-Revision-Date: 2014-10-15 12:29+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: sv_SE\n"
@@ -12,7 +12,8 @@ msgstr ""
 "X-Generator: Poedit 1.6.9\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;_n;_n:1,2;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;_n;_n:1,2;_nx:4c,1,2;"
+"esc_attr_x\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
@@ -186,7 +187,7 @@ msgstr "Fortsatt läsning"
 msgid "Primary Menu"
 msgstr "Huvudmeny"
 
-#: ../functions.php:49 ../inc/extras.php:216
+#: ../functions.php:49 ../inc/extras.php:196
 msgid "Footer Links"
 msgstr "Footer länkar"
 
@@ -363,12 +364,7 @@ msgstr "Fet Italic"
 msgid "Page %s"
 msgstr "Sida %s"
 
-#: ../inc/extras.php:123
-#, fuzzy
-msgid "Search..."
-msgstr "Sökresultat för: %s"
-
-#: ../inc/extras.php:146
+#: ../inc/extras.php:126
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -376,54 +372,54 @@ msgstr ""
 "<p>Detta inlägg är lösenordsskyddat. Ange ditt lösenord nedan för visning:</"
 "p>"
 
-#: ../inc/extras.php:147
+#: ../inc/extras.php:127
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: ../inc/extras.php:150
+#: ../inc/extras.php:130
 msgid "Submit"
 msgstr "Sända in"
 
-#: ../inc/extras.php:181
+#: ../inc/extras.php:161
 msgid "Follow us on "
 msgstr "Följ oss på"
 
-#: ../inc/extras.php:329
+#: ../inc/extras.php:309
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Temat av %1$s Producerat av %2$s"
 
-#: ../inc/extras.php:436
+#: ../inc/extras.php:416
 msgid "Support and Documentation"
 msgstr "Support och Dokumentation"
 
-#: ../inc/extras.php:442
+#: ../inc/extras.php:422
 msgid "Dazzling Documentation"
 msgstr "Dazzling Dokumentation"
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 "Bästa sättet att komma i kontakt med vår support och buggrapporter är via"
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 msgid "Colorlib support forum"
 msgstr "Colorlib support forum"
 
-#: ../inc/extras.php:444
+#: ../inc/extras.php:424
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Om du gillar detta tema, uppskattar vi följande:"
 
-#: ../inc/extras.php:446
+#: ../inc/extras.php:426
 msgid "Rate this Theme"
 msgstr "Ranka detta tema"
 
-#: ../inc/extras.php:447
+#: ../inc/extras.php:427
 msgid "Like on Facebook"
 msgstr "Gilla på Facebook"
 
-#: ../inc/extras.php:448
+#: ../inc/extras.php:428
 msgid "Follow on Twitter"
 msgstr "Följ oss på Twitter"
 
@@ -846,6 +842,11 @@ msgstr "Additional CSS"
 #: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: ../searchform.php:12
+#, fuzzy
+msgid "Search..."
 msgstr "Sökresultat för: %s"
 
 #: ../sidebar.php:24

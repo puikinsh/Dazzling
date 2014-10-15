@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2014-09-11 12:44+0200\n"
-"PO-Revision-Date: 2014-09-11 12:44+0200\n"
+"POT-Creation-Date: 2014-10-15 12:28+0200\n"
+"PO-Revision-Date: 2014-10-15 12:28+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
@@ -12,7 +12,8 @@ msgstr ""
 "X-Generator: Poedit 1.6.9\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr__;_n;_n:1,2;esc_attr_e;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;_n;_n:1,2;esc_attr_e;_nx:4c,1,2;"
+"esc_attr_x\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
@@ -189,7 +190,7 @@ msgstr "Continuar leyendo"
 msgid "Primary Menu"
 msgstr "Menu Primario"
 
-#: ../functions.php:49 ../inc/extras.php:216
+#: ../functions.php:49 ../inc/extras.php:196
 msgid "Footer Links"
 msgstr "Links del Pie de página"
 
@@ -367,12 +368,7 @@ msgstr "Negrita Cursiva"
 msgid "Page %s"
 msgstr "Página %s"
 
-#: ../inc/extras.php:123
-#, fuzzy
-msgid "Search..."
-msgstr "Resultados de búsqueda para: %s"
-
-#: ../inc/extras.php:146
+#: ../inc/extras.php:126
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -380,33 +376,33 @@ msgstr ""
 "<p>Esta entrada está protegida por contraseña. Para verla por favor ingresa "
 "tu contraseña abajo:</p>"
 
-#: ../inc/extras.php:147
+#: ../inc/extras.php:127
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: ../inc/extras.php:150
+#: ../inc/extras.php:130
 msgid "Submit"
 msgstr "Enviar"
 
-#: ../inc/extras.php:181
+#: ../inc/extras.php:161
 msgid "Follow us on "
 msgstr "Síguenos en "
 
-#: ../inc/extras.php:329
+#: ../inc/extras.php:309
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme by %1$s Powered by %2$s"
 
-#: ../inc/extras.php:436
+#: ../inc/extras.php:416
 msgid "Support and Documentation"
 msgstr "Soporte y Documentación"
 
-#: ../inc/extras.php:442
+#: ../inc/extras.php:422
 #, fuzzy
 msgid "Dazzling Documentation"
 msgstr "dazzling Documentación"
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 #, fuzzy
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
@@ -414,23 +410,23 @@ msgstr ""
 "La mejor manera para contactarnos para <b>preguntas de soporte</b> y "
 "<b>reportes de fallos</b> es vía"
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 msgid "Colorlib support forum"
 msgstr "Colorlib Foro de soporte"
 
-#: ../inc/extras.php:444
+#: ../inc/extras.php:424
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Si te gusta este tema, te agradecería cualquiera de lo siguiente:"
 
-#: ../inc/extras.php:446
+#: ../inc/extras.php:426
 msgid "Rate this Theme"
 msgstr "Califica este tema"
 
-#: ../inc/extras.php:447
+#: ../inc/extras.php:427
 msgid "Like on Facebook"
 msgstr "Like en Facebook"
 
-#: ../inc/extras.php:448
+#: ../inc/extras.php:428
 msgid "Follow on Twitter"
 msgstr "Follow en Twitter"
 
@@ -859,6 +855,11 @@ msgstr "CSS Adicional"
 #: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: ../searchform.php:12
+#, fuzzy
+msgid "Search..."
 msgstr "Resultados de búsqueda para: %s"
 
 #: ../sidebar.php:24

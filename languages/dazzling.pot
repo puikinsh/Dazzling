@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-09-11 12:44+0200\n"
-"PO-Revision-Date: 2014-09-11 12:44+0200\n"
+"POT-Creation-Date: 2014-10-15 12:27+0200\n"
+"PO-Revision-Date: 2014-10-15 12:28+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "X-Generator: Poedit 1.6.9\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;_nx:4c,1,2\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
+"_nx:4c,1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
@@ -180,7 +181,7 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:49 ../inc/extras.php:216
+#: ../functions.php:49 ../inc/extras.php:196
 msgid "Footer Links"
 msgstr ""
 
@@ -356,63 +357,59 @@ msgstr ""
 msgid "Page %s"
 msgstr ""
 
-#: ../inc/extras.php:123
-msgid "Search..."
-msgstr ""
-
-#: ../inc/extras.php:146
+#: ../inc/extras.php:126
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
 msgstr ""
 
-#: ../inc/extras.php:147
+#: ../inc/extras.php:127
 msgid "Password:"
 msgstr ""
 
-#: ../inc/extras.php:150
+#: ../inc/extras.php:130
 msgid "Submit"
 msgstr ""
 
-#: ../inc/extras.php:181
+#: ../inc/extras.php:161
 msgid "Follow us on "
 msgstr ""
 
-#: ../inc/extras.php:329
+#: ../inc/extras.php:309
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr ""
 
-#: ../inc/extras.php:436
+#: ../inc/extras.php:416
 msgid "Support and Documentation"
 msgstr ""
 
-#: ../inc/extras.php:442
+#: ../inc/extras.php:422
 msgid "Dazzling Documentation"
 msgstr ""
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 
-#: ../inc/extras.php:443
+#: ../inc/extras.php:423
 msgid "Colorlib support forum"
 msgstr ""
 
-#: ../inc/extras.php:444
+#: ../inc/extras.php:424
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 
-#: ../inc/extras.php:446
+#: ../inc/extras.php:426
 msgid "Rate this Theme"
 msgstr ""
 
-#: ../inc/extras.php:447
+#: ../inc/extras.php:427
 msgid "Like on Facebook"
 msgstr ""
 
-#: ../inc/extras.php:448
+#: ../inc/extras.php:428
 msgid "Follow on Twitter"
 msgstr ""
 
@@ -830,6 +827,10 @@ msgstr ""
 #: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:12
+msgid "Search..."
 msgstr ""
 
 #: ../sidebar.php:24
