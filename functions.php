@@ -12,6 +12,17 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 730; /* pixels */
 }
 
+/**
+ * Set the content width for full width pages with no sidebar.
+ */
+function dazzling_content_width() {
+  if ( is_page_template( 'page-fullwidth.php' ) || is_page_template( 'front-page.php' ) ) {
+    global $content_width;
+    $content_width = 1110; /* pixels */
+  }
+}
+add_action( 'template_redirect', 'dazzling_content_width' );
+
 if ( ! function_exists( 'dazzling_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
