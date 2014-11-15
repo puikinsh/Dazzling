@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.3.7
+Version: 1.3.8
 Tested up to: WP 4.0
 
 Author: Aigars Silkalns
@@ -62,7 +62,11 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 /*========= Changelog =========*/
 
-= 1.3.6 - 09.11.2014 =
+= 1.3.8 - 15.11.2014 =
+
+* Bootstrap updated to v3.3.1
+
+= 1.3.7 - 09.11.2014 =
 
 * Added different content width for Full-width template for plugins that depends on it to work properly. 
 
