@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.3.8
+Version: 1.4.0
 Tested up to: WP 4.0
 
 Author: Aigars Silkalns
@@ -27,7 +27,7 @@ Dazzling theme uses:
 
 /*========= Description =========*/
 
-Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch and Polish. It is probably the best free WordPress theme built for eStores and business websites.
+Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins.  Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch and Polish. It is probably the best free WordPress theme built for eStores and business websites.
 
 
 For questions, comments or bug reports, visit Colorlib support forum (http://colorlib.com/wp/forums).
@@ -59,95 +59,3 @@ Afterwards you can continue theme setup and customization via WordPress Dashboar
 /*========= Documentation =========*/
 
 Theme documentation is available on http://colorlib.com/wp/support/dazzling
-
-/*========= Changelog =========*/
-
-= 1.3.8 - 15.11.2014 =
-
-* Bootstrap updated to v3.3.1
-
-= 1.3.7 - 09.11.2014 =
-
-* Added different content width for Full-width template for plugins that depends on it to work properly. 
-
-= 1.3.6 - 15.10.2014 =
-
-* Updated translation files to match the latest update
-
-= 1.3.5 - 15.10.2014 =
-
-* Improved Flexslider to make it compatible with other Flexslider powered plugins such as Visual Composer.
-* Simplified search form to make it friendlier to use outside widget area by using get_search_form
-
-= 1.3.2 - 11.09.2014 =
-
-* Updated Font Awesome to 4.2
-* Added Slideshare and VK.com social icon
-* Created more consistent code on options.php for Options Framework.
-* Improved translation files.
-
-= 1.3.1 - 03.08.2014 =
-
-* Small changed to Options Framework
-* Updated theme description to mention Dutch translation
-
-= 1.3.0 - 03.08.2014 =
-
-* Added Swedish translation thanks to Tommy Larsson
-* Added Dutch translation thanks to Paul den Hertog
-* Updated Bootstrap to 3.2
-* Updated Options Framework to 1.8.2
-* Improved Child Theme Support
-
-= 1.2.9 - 24.06.2014 =
-
-* Added Finnish translation thanks to Antti Vähälummukka
-* Default footer copyright text is now translatable
-
-= 1.2.8 - 19.05.2014 =
-
-* Added Brazilian Portuguese translations thanks to Ariel de Souza (about.me/arieldesouza)
-
-= 1.2.7 - 16.05.2014 =
-
-* Added Polish translation thanks to Damian Krawczyk
-* Updated Font Awesome icons to 4.1
-
-= 1.2.6 - 16.05.2014 =
-
-* Removed unnecessary archive file.
-
-= 1.2.5 - 15.05.2014 =
-
-* Updated Options Framework to 1.8.0
-* Added Mexican Spanish Translation.
-* Updated translation
-* Improved Theme Options sidebar
-
-= 1.2 - 08.05.2014 =
-* WooCommerce support
-* Small JavaScript improvements
-
-= 1.1.1 - 01.05.2014 =
-* Fixed problems with horizontal scroll
-* Fixed social media button color on hover
-* Improved consistency with for CSS
-* Updated HTML5 Shiv
-
-= 1.1 - 10.02.2014 =
-* Made necessary changes to pass W3 validation without any errors.
-* Removed duplicate classes form social network icons
-* Updated call for action button to pass validation
-* Improved main navigation on mobile
-* Improved attachment template image.php
-* Added IE8 support by implementing html5shiv.js and respond.js
-
-= 1.0.1 - 25.02.2014 =
-* Simplified dazzling_social function
-* Updated copyright information making it translatable
-* Popular post widget now uses wp_reset_postdata(); instead of wp_reset_query();
-* Added esc_url for home_url inside header.php
-* Updated translation file
-
-= 1.0 - 22.02.2014 =
-Initial release

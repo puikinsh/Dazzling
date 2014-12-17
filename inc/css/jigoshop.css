@@ -1,0 +1,187 @@
+/**
+ * Jigoshop Styling for Dazzling WordPress Theme
+ */
+
+/* Site content fix */
+.jigoshop .site-content {
+	width: auto;
+}
+
+@media (min-width: 768px) {
+	.jigoshop .site-content {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px){
+	.jigoshop .site-content {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.jigoshop .site-content {
+		width: 1170px;
+	}
+}
+
+/* Buttons */
+.jigoshop .button, .jigoshop .button-alt, .jigoshop_cart .buttons a {
+	background-color: #1FA67A;
+	border-color: #1B926C;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.jigoshop .button:hover, .jigoshop .button-alt:hover, .jigoshop_cart .buttons a:hover {
+	color: white !important;
+	background-color: #1b926c;
+}
+
+.jigoshop  #minus1, .jigoshop  #add1 {
+	border-radius: 0px;
+}
+
+.jigoshop  #minus1:hover, .jigoshop  #add1:hover {
+	background: #1FA67A;
+	border-radius: 0px;
+}
+
+.jigoshop li.product {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* List of products */
+.jigoshop ul.products {
+	padding: 0px !important;
+	margin: 0px;
+	float: none;
+	margin-top: 10px !important;
+}
+
+.jigoshop ul.products .product {
+	display: inline-table !important;
+	float: none;
+	margin-left: calc(16.6% - 77px);
+	margin-right: calc(16.6% - 77px);
+}
+
+/* Price tag */
+.jigoshop .price {
+	color: black!important;
+	font-size: 15px;
+}
+
+/* Onsale in list of products */
+.jigoshop span.onsale {
+	text-transform: uppercase !important;
+	background-color: #1b926c;
+	letter-spacing: 0.5px;
+	padding-bottom: 0px;
+	padding-top:0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 0px !important;
+}
+
+/* Product is too high */
+.jigoshop div.hentry {
+	margin-top:10px !important;
+}
+
+/*Product image is too far to right*/
+.jigoshop div.product div.images a.zoom img {
+	margin-left: 0px;
+}
+
+/* Onsale was cut on the left */
+.jigoshop div.images span.onsale {
+	left:5px;
+	top: 10px;
+}
+
+/* Summary */
+.jigoshop div.summary {
+	float: none !important;
+	display: table-cell;
+	width: 100% !important;
+}
+
+/* Width of images div was set rigidly */
+.jigoshop div.images, div.thumbnails {
+	width:auto !important;
+	margin-right:30px;
+}
+
+/* Two thumbnails for every line */
+.jigoshop div.thumbnails > a:nth-child(odd) {
+	clear: left !important;
+}
+
+/* Rate box */
+.jigoshop .star-rating span {
+	background: none;
+}
+
+.jigoshop .pp_top {
+	top: 10px;
+}
+
+.jigoshop #commentform p.comment-form-comment label {
+	display: block;
+}
+
+.jigoshop .pp_close {
+	top: -22px;
+}
+.jigoshop .pp_content_container {
+	margin-bottom: -3px;
+	margin-top: -10px;
+}
+
+.jigoshop #respond {
+	padding-bottom: 0px;
+}
+
+/*Related products*/
+.jigoshop div.related ul.products li.product {
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
+/* Inputs were not looking good*/
+.jigoshop input[type="text"] {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+/* Writting a comment */
+#commentform #comment {
+	width:90% !important;
+}
+
+/* Thumnails have -margin */
+.jigoshop .thumbnails {
+	margin-left: 0px;
+}
+
+@media (max-width: 700px) {
+	.jigoshop div.summary {
+		display: inline-block !important;
+	}
+}
+
+@media (max-width: 576px) {
+	.jigoshop ul.products li.product {
+		margin-left: calc(25% - 77px);
+		margin-right: calc(25% - 77px);
+	}
+}
+
+@media (max-width: 385px) {
+	.jigoshop ul.products li.product {
+		margin-left: calc(50% - 76px);
+		margin-right: calc(50% - 76px);
+	}
+}

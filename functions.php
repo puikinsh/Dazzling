@@ -1,6 +1,6 @@
 <?php
 /**
- * _s functions and definitions
+ * Dazzling functions and definitions
  *
  * @package dazzling
  */
@@ -36,7 +36,7 @@ function dazzling_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on _s, use a find and replace
+	 * If you're building a theme based on Dazzling, use a find and replace
 	 * to change 'dazzling' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'dazzling', get_template_directory() . '/languages' );
@@ -57,7 +57,7 @@ function dazzling_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'dazzling' ),
-		'footer-links' => __( 'Footer Links', 'dazzling' ) // secondary nav in footer
+		'footer-links' => __( 'Footer Links', 'dazzling' ) // secondary menu in footer
 	) );
 
 	// Enable support for Post Formats.
@@ -165,6 +165,10 @@ function dazzling_scripts() {
 		wp_enqueue_style( 'flexslider-css', get_template_directory_uri().'/inc/css/flexslider.css' );
   }
 
+  if ( class_exists( 'jigoshop' ) ) { // Jigoshop specific styles loaded only when plugin is installed
+    wp_enqueue_style( 'jigoshop-css', get_template_directory_uri().'/inc/css/jigoshop.css' );
+  }
+
 	wp_enqueue_style( 'dazzling-style', get_stylesheet_uri() );
 
 	wp_enqueue_script('dazzling-bootstrapjs', get_template_directory_uri().'/inc/js/bootstrap.min.js', array('jquery') );
@@ -238,4 +242,11 @@ if ( class_exists( 'woocommerce' ) ) {
  * WooCommerce related functions
  */
 require get_template_directory() . '/inc/woo-setup.php';
+}
+
+if ( class_exists( 'jigoshop' ) ) {
+/**
+ * Jigoshop related functions
+ */
+require get_template_directory() . '/inc/jigoshop-setup.php';
 }

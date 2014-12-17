@@ -1,6 +1,7 @@
 <?php
-
-// WooCommerce Functions for dazzling theme
+/**
+ *  WooCommerce Functions for Dazzling theme
+ */
 
 if ( ! function_exists( 'dazzling_woo_setup' ) ) :
 /**
