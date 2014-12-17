@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15 12:29+0200\n"
-"PO-Revision-Date: 2014-10-15 12:29+0200\n"
+"POT-Creation-Date: 2014-12-17 20:19+0200\n"
+"PO-Revision-Date: 2014-12-17 20:19+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pl_PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_n;_n:1,2;_nx:4c,1,2;"
@@ -239,57 +239,57 @@ msgid "Continue reading"
 msgstr "Czytaj dalej"
 
 # @ dazzling
-#: ../functions.php:48
+#: ../functions.php:59
 msgid "Primary Menu"
 msgstr "Menu główne"
 
 # @ dazzling
-#: ../functions.php:49 ../inc/extras.php:196
+#: ../functions.php:60 ../inc/extras.php:196
 msgid "Footer Links"
 msgstr "Linki w stopce"
 
 # @ dazzling
-#: ../functions.php:69
+#: ../functions.php:80
 msgid "Sidebar"
 msgstr "Pasek boczny"
 
 # @ dazzling
-#: ../functions.php:78
+#: ../functions.php:89
 msgid "Homepage Widget 1"
 msgstr "1 widget Strony Głównej"
 
 # @ dazzling
-#: ../functions.php:79 ../functions.php:89 ../functions.php:99
+#: ../functions.php:90 ../functions.php:100 ../functions.php:110
 msgid "Displays on the Home Page"
 msgstr "Pojawia się na stronie głównej"
 
 # @ dazzling
-#: ../functions.php:88
+#: ../functions.php:99
 msgid "Homepage Widget 2"
 msgstr "2 widget Strony Głównej"
 
 # @ dazzling
-#: ../functions.php:98
+#: ../functions.php:109
 msgid "Homepage Widget 3"
 msgstr "3 widget strony głównej"
 
 # @ dazzling
-#: ../functions.php:108
+#: ../functions.php:119
 msgid "Footer Widget 1"
 msgstr "1 widget Stopki"
 
 # @ dazzling
-#: ../functions.php:109 ../functions.php:119 ../functions.php:129
+#: ../functions.php:120 ../functions.php:130 ../functions.php:140
 msgid "Used for footer widget area"
 msgstr "Używany dla strefy widgetów stopki"
 
 # @ dazzling
-#: ../functions.php:118
+#: ../functions.php:129
 msgid "Footer Widget 2"
 msgstr "2 widget Stopki"
 
 # @ dazzling
-#: ../functions.php:128
+#: ../functions.php:139
 msgid "Footer Widget 3"
 msgstr "3 widget Stopki"
 
@@ -548,7 +548,7 @@ msgstr "Widget popularnych postów motywu Dazzling"
 #: ../inc/popular-posts-widget.php:36
 #, fuzzy
 msgid "Popular"
-msgstr "Widget popularnych postów motywu Dazzling"
+msgstr "Sparkling Popularne widgety postów"
 
 #: ../inc/popular-posts-widget.php:37
 #, fuzzy
@@ -627,17 +627,17 @@ msgid "Your comment is awaiting moderation."
 msgstr "Twój komentarz czeka na zatwierdzenie."
 
 # @ dazzling
-#: ../inc/woo-setup.php:96
+#: ../inc/woo-setup.php:97
 msgid "View your shopping cart"
 msgstr "Zobacz swój koszyk"
 
 # @ dazzling
-#: ../inc/woo-setup.php:97
+#: ../inc/woo-setup.php:98
 msgid "Start shopping"
 msgstr "Rozpocznij zakupy"
 
 # @ dazzling
-#: ../inc/woo-setup.php:101
+#: ../inc/woo-setup.php:102
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
@@ -957,7 +957,7 @@ msgstr "Tekst dot. praw autorskich w stopce"
 #: ../options.php:303
 #, fuzzy
 msgid "All rights reserved."
-msgstr "Powtórz wszystkie"
+msgstr "Kolor dla wszystkich nagłówków (h1-h6)"
 
 # @ dazzling
 #: ../options.php:306

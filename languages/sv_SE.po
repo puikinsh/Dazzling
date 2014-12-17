@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-10-15 12:29+0200\n"
-"PO-Revision-Date: 2014-10-15 12:29+0200\n"
+"POT-Creation-Date: 2014-12-17 20:19+0200\n"
+"PO-Revision-Date: 2014-12-17 20:19+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;_n;_n:1,2;_nx:4c,1,2;"
@@ -183,47 +183,47 @@ msgstr " %1$s"
 msgid "Continue reading"
 msgstr "Fortsatt läsning"
 
-#: ../functions.php:48
+#: ../functions.php:59
 msgid "Primary Menu"
 msgstr "Huvudmeny"
 
-#: ../functions.php:49 ../inc/extras.php:196
+#: ../functions.php:60 ../inc/extras.php:196
 msgid "Footer Links"
 msgstr "Footer länkar"
 
-#: ../functions.php:69
+#: ../functions.php:80
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: ../functions.php:78
+#: ../functions.php:89
 msgid "Homepage Widget 1"
 msgstr "Homepage Widget 1"
 
-#: ../functions.php:79 ../functions.php:89 ../functions.php:99
+#: ../functions.php:90 ../functions.php:100 ../functions.php:110
 msgid "Displays on the Home Page"
 msgstr "Displays on the Home Page"
 
-#: ../functions.php:88
+#: ../functions.php:99
 msgid "Homepage Widget 2"
 msgstr "Homepage Widget 2"
 
-#: ../functions.php:98
+#: ../functions.php:109
 msgid "Homepage Widget 3"
 msgstr "Homepage Widget 3"
 
-#: ../functions.php:108
+#: ../functions.php:119
 msgid "Footer Widget 1"
 msgstr "Footer Widget 1"
 
-#: ../functions.php:109 ../functions.php:119 ../functions.php:129
+#: ../functions.php:120 ../functions.php:130 ../functions.php:140
 msgid "Used for footer widget area"
 msgstr "Använd för footer widget området"
 
-#: ../functions.php:118
+#: ../functions.php:129
 msgid "Footer Widget 2"
 msgstr "Footer Widget 2"
 
-#: ../functions.php:128
+#: ../functions.php:139
 msgid "Footer Widget 3"
 msgstr "Footer Widget 3"
 
@@ -481,15 +481,15 @@ msgstr "%s <span klass=\"säger\">säger:</span>"
 msgid "Your comment is awaiting moderation."
 msgstr "Ditt inlägg inväntar godkännande."
 
-#: ../inc/woo-setup.php:96
+#: ../inc/woo-setup.php:97
 msgid "View your shopping cart"
 msgstr "Se din shoppinglista"
 
-#: ../inc/woo-setup.php:97
+#: ../inc/woo-setup.php:98
 msgid "Start shopping"
 msgstr "Starta shopping"
 
-#: ../inc/woo-setup.php:101
+#: ../inc/woo-setup.php:102
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
@@ -749,7 +749,7 @@ msgstr "Copyright text i footer"
 #: ../options.php:303
 #, fuzzy
 msgid "All rights reserved."
-msgstr "Repetera samtliga"
+msgstr "Spara alla ändringar"
 
 #: ../options.php:306
 msgid "Social"
@@ -847,7 +847,7 @@ msgstr "Sökresultat för: %s"
 #: ../searchform.php:12
 #, fuzzy
 msgid "Search..."
-msgstr "Sökresultat för: %s"
+msgstr "Sök"
 
 #: ../sidebar.php:24
 msgid "Meta"
