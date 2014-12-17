@@ -56,8 +56,8 @@ function dazzling_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'dazzling' ),
-		'footer-links' => __( 'Footer Links', 'dazzling' ) // secondary menu in footer
+    'primary'      => __( 'Primary Menu', 'dazzling' ),
+    'footer-links' => __( 'Footer Links', 'dazzling' ) // secondary menu in footer
 	) );
 
 	// Enable support for Post Formats.
@@ -85,63 +85,63 @@ function dazzling_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
   register_sidebar(array(
-  	'id' => 'home-widget-1',
-  	'name' => __( 'Homepage Widget 1', 'dazzling' ),
-  	'description' => __( 'Displays on the Home Page', 'dazzling' ),
-  	'before_widget' => '<div id="%1$s" class="widget %2$s">',
-  	'after_widget' => '</div>',
-  	'before_title' => '<h3 class="widgettitle">',
-  	'after_title' => '</h3>',
-  ));
-
-  register_sidebar(array(
-    'id' => 'home-widget-2',
-    'name' =>  __( 'Homepage Widget 2', 'dazzling' ),
-    'description' => __( 'Displays on the Home Page', 'dazzling' ),
+    'id'            => 'home-widget-1',
+    'name'          => __( 'Homepage Widget 1', 'dazzling' ),
+    'description'   => __( 'Displays on the Home Page', 'dazzling' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
   ));
 
   register_sidebar(array(
-    'id' => 'home-widget-3',
-    'name' =>  __( 'Homepage Widget 3', 'dazzling' ),
-    'description' =>  __( 'Displays on the Home Page', 'dazzling' ),
+    'id'            => 'home-widget-2',
+    'name'          =>  __( 'Homepage Widget 2', 'dazzling' ),
+    'description'   => __( 'Displays on the Home Page', 'dazzling' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
   ));
 
   register_sidebar(array(
-  	'id' => 'footer-widget-1',
-  	'name' =>  __( 'Footer Widget 1', 'dazzling' ),
-  	'description' =>  __( 'Used for footer widget area', 'dazzling' ),
-  	'before_widget' => '<div id="%1$s" class="widget %2$s">',
-  	'after_widget' => '</div>',
-  	'before_title' => '<h3 class="widgettitle">',
-  	'after_title' => '</h3>',
-  ));
-
-  register_sidebar(array(
-    'id' => 'footer-widget-2',
-    'name' =>  __( 'Footer Widget 2', 'dazzling' ),
-    'description' =>  __( 'Used for footer widget area', 'dazzling' ),
+    'id'            => 'home-widget-3',
+    'name'          =>  __( 'Homepage Widget 3', 'dazzling' ),
+    'description'   =>  __( 'Displays on the Home Page', 'dazzling' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
   ));
 
   register_sidebar(array(
-    'id' => 'footer-widget-3',
-    'name' =>  __( 'Footer Widget 3', 'dazzling' ),
-    'description' =>  __( 'Used for footer widget area', 'dazzling' ),
+    'id'            => 'footer-widget-1',
+    'name'          =>  __( 'Footer Widget 1', 'dazzling' ),
+    'description'   =>  __( 'Used for footer widget area', 'dazzling' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
+    'id'            => 'footer-widget-2',
+    'name'          =>  __( 'Footer Widget 2', 'dazzling' ),
+    'description'   =>  __( 'Used for footer widget area', 'dazzling' ),
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
+    'id'            => 'footer-widget-3',
+    'name'          =>  __( 'Footer Widget 3', 'dazzling' ),
+    'description'   =>  __( 'Used for footer widget area', 'dazzling' ),
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widgettitle">',
+    'after_title'   => '</h3>',
   ));
 
 

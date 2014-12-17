@@ -19,13 +19,13 @@
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
-			wp_link_pages( array( 
+			wp_link_pages( array(
 				'before'            => '<div class="page-links">'.__( 'Pages:', 'dazzling' ),
 				'after'             => '</div>',
 				'link_before'       => '<span>',
 				'link_after'        => '</span>',
 				'pagelink'          => '%',
-				'echo'              => 1 
+				'echo'              => 1
        		) );
     	?>
 	</div><!-- .entry-content -->

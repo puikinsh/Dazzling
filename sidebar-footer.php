@@ -8,12 +8,12 @@
 
 	<?php
 	// If footer sidebars do not have widget let's bail.
-	
+
 	if ( ! is_active_sidebar( 'footer-widget-1' ) && ! is_active_sidebar( 'footer-widget-2' ) && ! is_active_sidebar( 'footer-widget-3' ) )
 		return;
 	// If we made it this far we must have widgets.
 	?>
-	
+
 	<div class="footer-widget-area">
 		<?php if ( is_active_sidebar( 'footer-widget-1' ) ) : ?>
 		<div class="col-sm-6 col-md-4 footer-widget" role="complementary">
