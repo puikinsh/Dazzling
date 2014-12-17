@@ -1,11 +1,4 @@
-#About Theme#
-
-Theme Name: Dazzling
-Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.4.0
-Tested up to: WP 4.0
-
-#Description#
+#About Dazzling WordPress Theme#
 
 Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins.  Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch and Polish. It is probably the best free WordPress theme built for eStores and business websites.
 
@@ -34,6 +27,8 @@ Afterwards you can continue theme setup and customization via WordPress Dashboar
 * Gravatar ready
 * Featured slider
 * Font Awesome icons
+* WooCommerce support
+* Jigoshop support
 
 #Documentation#
 
@@ -53,11 +48,11 @@ Theme documentation is available on http://colorlib.com/wp/support/dazzling
 
 Dazzling theme uses:
 
-* FontAwesome (http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
-* Bootstrap (http://getbootstrap.com/) licensed under MIT license (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* WP-Bootstrap-NavWalker licensed under the GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html)
-* Options Framework by WP Theming licensed under the GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html)
-* FlexSlider by WooThemes licensed under the GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html)
+* [FontAwesome](http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
+* [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+* WP-Bootstrap-NavWalker licensed under the GPLv2 license 
+* Options Framework by WP Theming licensed under the GPLv2 license 
+* FlexSlider by WooThemes licensed under the GPLv2 license 
 
 #Changelog#
 
