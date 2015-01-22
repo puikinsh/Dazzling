@@ -158,7 +158,7 @@ function dazzling_social(){
     foreach ( $services as $service ) :
 
         $active[$service] = of_get_option ('social_'.$service);
-        if ($active[$service]) { echo '<li><a href="'.$active[$service].'" class="social-icon '. $service .'" title="'. __('Follow us on ','dazzling').$service.'"><i class="social_icon fa fa-'.$service.'"></i></a></li>';}
+        if ($active[$service]) { echo '<li><a href="'.$active[$service].'" class="social-icon '. $service .'" title="'. __('Follow us on ','dazzling').$service.'" target="_blank"><i class="social_icon fa fa-'.$service.'"></i></a></li>';}
 
     endforeach;
     echo '</ul></div>';

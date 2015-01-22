@@ -48,7 +48,7 @@ if ( post_password_required() ) {
 				 * define dazzling_comment() and that will be used instead.
 				 * See dazzling_comment() in inc/template-tags.php for more.
 				 */
-				wp_list_comments( array( 
+				wp_list_comments( array(
 					'callback' => 'dazzling_comment',
 					'avatar_size' => 60
 					)
