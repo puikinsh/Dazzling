@@ -58,6 +58,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.4.2 - 22.01.2015####
+
+* Updated Bootstrap to 3.3.2
+* Social icons now opens in a new tab.
+
 ####1.4.1 - 22.12.2014####
 
 * Added Hungarian translation
