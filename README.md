@@ -44,7 +44,7 @@ Theme documentation [is available here](http://colorlib.com/wp/support/dazzling)
 * License URI: http://www.gnu.org/licenses/gpl.html
 * Dazzling theme, Copyright 2014 http://colorlib.com
 * Dazzling WordPress theme is distributed under the terms of the GNU GPL
-* Dazzling is based on [Underscores](http://underscores.me/), (C) 2012-2014 Automattic, Inc.
+* Dazzling is based on [Underscores](http://underscores.me/), (C) 2012-2015 Automattic, Inc.
 
 #Credits#
 
