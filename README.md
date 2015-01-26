@@ -58,6 +58,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.4.3 - 26.01.2015####
+
+* Added the-title tag support
+
 ####1.4.2 - 22.01.2015####
 
 * Updated Bootstrap to 3.3.2
