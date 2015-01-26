@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-12-22 11:56+0200\n"
-"PO-Revision-Date: 2014-12-22 11:56+0200\n"
+"POT-Creation-Date: 2015-01-26 14:06+0200\n"
+"PO-Revision-Date: 2015-01-26 14:06+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
@@ -188,43 +188,43 @@ msgstr "Tovább olvasom"
 msgid "Primary Menu"
 msgstr "Elsődleges menu"
 
-#: ../functions.php:60 ../inc/extras.php:196
+#: ../functions.php:60 ../inc/extras.php:205
 msgid "Footer Links"
 msgstr "Footer link"
 
-#: ../functions.php:80
+#: ../functions.php:88
 msgid "Sidebar"
 msgstr "Oldalsáv"
 
-#: ../functions.php:89
+#: ../functions.php:97
 msgid "Homepage Widget 1"
 msgstr "Főoldal Widget 1"
 
-#: ../functions.php:90 ../functions.php:100 ../functions.php:110
+#: ../functions.php:98 ../functions.php:108 ../functions.php:118
 msgid "Displays on the Home Page"
 msgstr "Megjeleníti a főoldalon"
 
-#: ../functions.php:99
+#: ../functions.php:107
 msgid "Homepage Widget 2"
 msgstr "Főoldal Widget 2"
 
-#: ../functions.php:109
+#: ../functions.php:117
 msgid "Homepage Widget 3"
 msgstr "Főoldal Widget 3"
 
-#: ../functions.php:119
+#: ../functions.php:127
 msgid "Footer Widget 1"
 msgstr "Footer Widget 1"
 
-#: ../functions.php:120 ../functions.php:130 ../functions.php:140
+#: ../functions.php:128 ../functions.php:138 ../functions.php:148
 msgid "Used for footer widget area"
 msgstr "Footer widgetben használt"
 
-#: ../functions.php:129
+#: ../functions.php:137
 msgid "Footer Widget 2"
 msgstr "Footer Widget 2"
 
-#: ../functions.php:139
+#: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "Footer Widget 3"
 
@@ -359,12 +359,12 @@ msgstr "Vastagított"
 msgid "Bold Italic"
 msgstr "Vastagított, dőlt"
 
-#: ../inc/extras.php:65
+#: ../inc/extras.php:62
 #, php-format
 msgid "Page %s"
 msgstr "Oldal %s"
 
-#: ../inc/extras.php:126
+#: ../inc/extras.php:135
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -372,54 +372,54 @@ msgstr ""
 "<p>Ez a bejegyzés jelszóval védett. Elolvasásához kérjük írja be a jelszót:</"
 "p>"
 
-#: ../inc/extras.php:127
+#: ../inc/extras.php:136
 msgid "Password:"
 msgstr "Jelszó:"
 
-#: ../inc/extras.php:130
+#: ../inc/extras.php:139
 msgid "Submit"
 msgstr "Elküld"
 
-#: ../inc/extras.php:161
+#: ../inc/extras.php:170
 msgid "Follow us on "
 msgstr "Kövess minket"
 
-#: ../inc/extras.php:309
+#: ../inc/extras.php:318
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme by %1$s Powered by %2$s"
 
-#: ../inc/extras.php:416
+#: ../inc/extras.php:425
 msgid "Support and Documentation"
 msgstr "Támogatás és dokumentáció"
 
-#: ../inc/extras.php:422
+#: ../inc/extras.php:431
 msgid "Dazzling Documentation"
 msgstr "Dazzling dokumentáció"
 
-#: ../inc/extras.php:423
+#: ../inc/extras.php:432
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr "Kérdések és bug jelentésével kapcsolatosan lépjen kapcsolatba velünk:"
 
-#: ../inc/extras.php:423
+#: ../inc/extras.php:432
 msgid "Colorlib support forum"
 msgstr "Colorlib support fórum"
 
-#: ../inc/extras.php:424
+#: ../inc/extras.php:433
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 "Amennyiben tetszett a sablon, köszönettel veszem az alábbiak valamelyikét:"
 
-#: ../inc/extras.php:426
+#: ../inc/extras.php:435
 msgid "Rate this Theme"
 msgstr "Értékelje ezt a sablont"
 
-#: ../inc/extras.php:427
+#: ../inc/extras.php:436
 msgid "Like on Facebook"
 msgstr "Like on Facebook"
 
-#: ../inc/extras.php:428
+#: ../inc/extras.php:437
 msgid "Follow on Twitter"
 msgstr "Kövess a Twitteren"
 

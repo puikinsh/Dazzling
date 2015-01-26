@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2014-12-17 20:18+0200\n"
-"PO-Revision-Date: 2014-12-17 20:19+0200\n"
+"POT-Creation-Date: 2015-01-26 14:06+0200\n"
+"PO-Revision-Date: 2015-01-26 14:06+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;_nx:4c,1,2;"
@@ -190,43 +190,43 @@ msgstr "Verder lezen"
 msgid "Primary Menu"
 msgstr "Hoofdmenu"
 
-#: ../functions.php:60 ../inc/extras.php:196
+#: ../functions.php:60 ../inc/extras.php:205
 msgid "Footer Links"
 msgstr "Footer Links"
 
-#: ../functions.php:80
+#: ../functions.php:88
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: ../functions.php:89
+#: ../functions.php:97
 msgid "Homepage Widget 1"
 msgstr "Homepage Widget 1"
 
-#: ../functions.php:90 ../functions.php:100 ../functions.php:110
+#: ../functions.php:98 ../functions.php:108 ../functions.php:118
 msgid "Displays on the Home Page"
 msgstr "Wordt weergegeven op de Home Page"
 
-#: ../functions.php:99
+#: ../functions.php:107
 msgid "Homepage Widget 2"
 msgstr "Homepage Widget 2"
 
-#: ../functions.php:109
+#: ../functions.php:117
 msgid "Homepage Widget 3"
 msgstr "Homepage Widget 3"
 
-#: ../functions.php:119
+#: ../functions.php:127
 msgid "Footer Widget 1"
 msgstr "Footer Widget 1"
 
-#: ../functions.php:120 ../functions.php:130 ../functions.php:140
+#: ../functions.php:128 ../functions.php:138 ../functions.php:148
 msgid "Used for footer widget area"
 msgstr "Gebruikt voor footer widget-ruimte"
 
-#: ../functions.php:129
+#: ../functions.php:137
 msgid "Footer Widget 2"
 msgstr "Footer Widget 2"
 
-#: ../functions.php:139
+#: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "Footer Widget 3"
 
@@ -362,12 +362,12 @@ msgstr "Dikgedrukt"
 msgid "Bold Italic"
 msgstr "Dikgedrukt Cursief"
 
-#: ../inc/extras.php:65
+#: ../inc/extras.php:62
 #, php-format
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: ../inc/extras.php:126
+#: ../inc/extras.php:135
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
@@ -375,56 +375,56 @@ msgstr ""
 "<p>Dit bericht is beschermd met een wachtwoord. Voer svp hieronder het "
 "wachtwoord in:</p>"
 
-#: ../inc/extras.php:127
+#: ../inc/extras.php:136
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../inc/extras.php:130
+#: ../inc/extras.php:139
 msgid "Submit"
 msgstr "Verzenden"
 
-#: ../inc/extras.php:161
+#: ../inc/extras.php:170
 msgid "Follow us on "
 msgstr "Volg ons op "
 
-#: ../inc/extras.php:309
+#: ../inc/extras.php:318
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme door %1$s Powered by %2$s"
 
-#: ../inc/extras.php:416
+#: ../inc/extras.php:425
 msgid "Support and Documentation"
 msgstr "Support en Documentatie"
 
-#: ../inc/extras.php:422
+#: ../inc/extras.php:431
 msgid "Dazzling Documentation"
 msgstr "Dazzling Documentatie"
 
-#: ../inc/extras.php:423
+#: ../inc/extras.php:432
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
 "Als je vragen hebt of een bug wil melden kan je ons het best benaderen via"
 
-#: ../inc/extras.php:423
+#: ../inc/extras.php:432
 msgid "Colorlib support forum"
 msgstr "Colorlib support forum"
 
-#: ../inc/extras.php:424
+#: ../inc/extras.php:433
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr ""
 "Als je dit theme naar tevredenheid gebruikt, zou ik het zeer waarderen als "
 "je het volgende doet:"
 
-#: ../inc/extras.php:426
+#: ../inc/extras.php:435
 msgid "Rate this Theme"
 msgstr "Beoordeel dit Theme"
 
-#: ../inc/extras.php:427
+#: ../inc/extras.php:436
 msgid "Like on Facebook"
 msgstr "Like op Facebook"
 
-#: ../inc/extras.php:428
+#: ../inc/extras.php:437
 msgid "Follow on Twitter"
 msgstr "Volg op Twitter"
 
@@ -500,342 +500,342 @@ msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../options.php:29
+#: ../options.php:28
 msgid "Right Sidebar"
 msgstr "Rechter Sidebar"
 
-#: ../options.php:29
+#: ../options.php:28
 msgid "Left Sidebar"
 msgstr "Linker Sidebar"
 
-#: ../options.php:33
+#: ../options.php:32
 msgid "One"
 msgstr "Een"
 
-#: ../options.php:34
+#: ../options.php:33
 msgid "Two"
 msgstr "Twee"
 
-#: ../options.php:35
+#: ../options.php:34
 msgid "Three"
 msgstr "Drie"
 
-#: ../options.php:36
+#: ../options.php:35
 msgid "Four"
 msgstr "Vier"
 
-#: ../options.php:37
+#: ../options.php:36
 msgid "Five"
 msgstr "Vijf"
 
-#: ../options.php:42
+#: ../options.php:41
 msgid "French Toast"
 msgstr "Tosti"
 
-#: ../options.php:43
+#: ../options.php:42
 msgid "Pancake"
 msgstr "Pannekoek"
 
-#: ../options.php:44
+#: ../options.php:43
 msgid "Omelette"
 msgstr "Ommelet"
 
-#: ../options.php:45
+#: ../options.php:44
 msgid "Crepe"
 msgstr "Flensje"
 
-#: ../options.php:46
+#: ../options.php:45
 msgid "Waffle"
 msgstr "Wafel"
 
-#: ../options.php:122
+#: ../options.php:120
 msgid "Main"
 msgstr "Hoofd"
 
-#: ../options.php:125
+#: ../options.php:123
 msgid "Do You want to display image slider on the Home Page?"
 msgstr "Wil je de slideshow weergeven op de Home Page?"
 
-#: ../options.php:126
+#: ../options.php:124
 msgid "Check if you want to enable slider"
 msgstr "Aanvinken om slider te activeren"
 
-#: ../options.php:131
+#: ../options.php:129
 msgid "Slider Category"
 msgstr "Slider Categorie"
 
-#: ../options.php:132
+#: ../options.php:130
 msgid "Select a category for the featured post slider"
 msgstr "Kies een categorie voor de featured post slider"
 
-#: ../options.php:138
+#: ../options.php:136
 msgid "Number of slide items"
 msgstr "Aantal slides"
 
-#: ../options.php:139
+#: ../options.php:137
 msgid "Enter the number of slide items"
 msgstr "Voer het aantal slides in"
 
-#: ../options.php:145
+#: ../options.php:143
 msgid "Website Layout Options"
 msgstr "Website Layout Opties"
 
-#: ../options.php:146
+#: ../options.php:144
 msgid "Choose between Left and Right sidebar options to be used as default"
 msgstr "Kies of je de sidebar links of rechts op de pagina wilt"
 
-#: ../options.php:153
+#: ../options.php:151
 msgid "Element color"
 msgstr "Elementkleur"
 
-#: ../options.php:154 ../options.php:160 ../options.php:193 ../options.php:199
-#: ../options.php:205 ../options.php:211 ../options.php:233 ../options.php:239
-#: ../options.php:245 ../options.php:310 ../options.php:316
+#: ../options.php:152 ../options.php:158 ../options.php:191 ../options.php:197
+#: ../options.php:203 ../options.php:209 ../options.php:231 ../options.php:237
+#: ../options.php:243 ../options.php:308 ../options.php:314
 msgid "Default used if no color is selected"
 msgstr "Standaard indien geen kleur is geselecteerd"
 
-#: ../options.php:159
+#: ../options.php:157
 msgid "Element color on hover"
 msgstr "Elementkleur bij hover"
 
-#: ../options.php:165
+#: ../options.php:163
 msgid "Custom Favicon"
 msgstr "Aangepaste Favicon"
 
-#: ../options.php:166
+#: ../options.php:164
 msgid ""
 "Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
 msgstr "Upload een 32px x 32px PNG/GIF afbeelding als Favicon logo"
 
-#: ../options.php:171
+#: ../options.php:169
 msgid "Action Button"
 msgstr "Actieknop"
 
-#: ../options.php:174
+#: ../options.php:172
 msgid "Call For Action Text"
 msgstr "Call For Action Tekst"
 
-#: ../options.php:175
+#: ../options.php:173
 msgid "Enter the text for call for action section"
 msgstr "Voer de tekst in voor de call for action sectie"
 
-#: ../options.php:180
+#: ../options.php:178
 msgid "Call For Action Button Title"
 msgstr "Call For Action Knoptitel"
 
-#: ../options.php:181
+#: ../options.php:179
 msgid "Enter the title for Call For Action button"
 msgstr "Voer de titel in voor de Call For Action knop"
 
-#: ../options.php:186
+#: ../options.php:184
 msgid "CFA button link"
 msgstr "CFA knop link"
 
-#: ../options.php:187
+#: ../options.php:185
 msgid "Enter the link for Call For Action button"
 msgstr "Voer de link voor de Call For Action knop in"
 
-#: ../options.php:192
+#: ../options.php:190
 msgid "Call For Action Text Color"
 msgstr "Call For Action Tekstkleur"
 
-#: ../options.php:198
+#: ../options.php:196
 msgid "Call For Action Background Color"
 msgstr "Call For Action Achtergrondkleur"
 
-#: ../options.php:204
+#: ../options.php:202
 msgid "Call For Action Button Border Color"
 msgstr "Call For Action Knoprandkleur"
 
-#: ../options.php:210
+#: ../options.php:208
 msgid "Call For Action Button Text Color"
 msgstr "Call For Action Knop Tekstkleur"
 
-#: ../options.php:216
+#: ../options.php:214
 msgid "Typography"
 msgstr "Typografie"
 
-#: ../options.php:219
+#: ../options.php:217
 msgid "Main Body Text"
 msgstr "Hoofd Body Tekst"
 
-#: ../options.php:220
+#: ../options.php:218
 msgid "Used in P tags"
 msgstr "Gebruikt in P tags"
 
-#: ../options.php:226
+#: ../options.php:224
 msgid "Heading Color"
 msgstr "Kopkleur"
 
-#: ../options.php:227
+#: ../options.php:225
 msgid "Color for all headings (h1-h6)"
 msgstr "Kleuren voor alle koppen (h1-h6)"
 
-#: ../options.php:232
+#: ../options.php:230
 msgid "Link Color"
 msgstr "Link Kleur"
 
-#: ../options.php:238
+#: ../options.php:236
 msgid "Link:hover Color"
 msgstr "Link:hover Kleur"
 
-#: ../options.php:244
+#: ../options.php:242
 msgid "Link:active Color"
 msgstr "Link:active Kleur"
 
-#: ../options.php:250
+#: ../options.php:248
 msgid "Header"
 msgstr "Header"
 
-#: ../options.php:253
+#: ../options.php:251
 msgid "Top nav background color"
 msgstr "Top nav achtergrondkleur"
 
-#: ../options.php:254
+#: ../options.php:252
 msgid "Default used if no color is selected."
 msgstr "Standaard indien geen kleur is geselecteerd."
 
-#: ../options.php:259
+#: ../options.php:257
 msgid "Top nav item color"
 msgstr "Top nav item kleur"
 
-#: ../options.php:260
+#: ../options.php:258
 msgid "Link color"
 msgstr "Link kleur"
 
-#: ../options.php:265
+#: ../options.php:263
 msgid "Top nav dropdown background color"
 msgstr "Top nav dropdown achtergrondkleur"
 
-#: ../options.php:266
+#: ../options.php:264
 msgid "Background of dropdown item hover color"
 msgstr "Dropdown item hover Achtergrondkleur"
 
-#: ../options.php:271
+#: ../options.php:269
 msgid "Top nav dropdown item color"
 msgstr "Top nav dropdown item kleur"
 
-#: ../options.php:272
+#: ../options.php:270
 msgid "Dropdown item color"
 msgstr "Dropdown item kleur"
 
-#: ../options.php:277
+#: ../options.php:275
 msgid "Footer"
 msgstr "Footer"
 
-#: ../options.php:280
+#: ../options.php:278
 msgid "Footer Widget Area Background Color"
 msgstr "Footer Widget-ruimte Achtergrondkleur"
 
-#: ../options.php:285
+#: ../options.php:283
 msgid "Footer Background Color"
 msgstr "Footer Achtergrondkleur"
 
-#: ../options.php:290
+#: ../options.php:288
 msgid "Footer Text Color"
 msgstr "Footer Tekst Color"
 
-#: ../options.php:295
+#: ../options.php:293
 msgid "Footer Link Color"
 msgstr "Footer Link Kleur"
 
-#: ../options.php:300
+#: ../options.php:298
 msgid "Footer information"
 msgstr "Footer informatie"
 
-#: ../options.php:301
+#: ../options.php:299
 msgid "Copyright text in footer"
 msgstr "Copyright tekst in footer"
 
-#: ../options.php:303
+#: ../options.php:301
 msgid "All rights reserved."
 msgstr "Alle rechten voorbehouden"
 
-#: ../options.php:306
+#: ../options.php:304
 msgid "Social"
 msgstr "Social"
 
-#: ../options.php:309
+#: ../options.php:307
 msgid "Social Icon Color"
 msgstr "Social Icoon Kleur"
 
-#: ../options.php:315
+#: ../options.php:313
 msgid "Social Icon:hover Color"
 msgstr "Social Icoon:hover Kleur"
 
-#: ../options.php:321
+#: ../options.php:319
 msgid "Add full URL for your social network profiles"
 msgstr "Voeg de volledige URLs van je sociale media profielen toe"
 
-#: ../options.php:322
+#: ../options.php:320
 msgid "Facebook"
 msgstr "Facebook"
 
-#: ../options.php:329
+#: ../options.php:327
 msgid "Twitter"
 msgstr "Twitter"
 
-#: ../options.php:335
+#: ../options.php:333
 msgid "Google+"
 msgstr "Google+"
 
-#: ../options.php:341
+#: ../options.php:339
 msgid "Youtube"
 msgstr "Youtube"
 
-#: ../options.php:347
+#: ../options.php:345
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: ../options.php:353
+#: ../options.php:351
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: ../options.php:359
+#: ../options.php:357
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
-#: ../options.php:365
+#: ../options.php:363
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: ../options.php:371
+#: ../options.php:369
 msgid "Flickr"
 msgstr "Flickr"
 
-#: ../options.php:377
+#: ../options.php:375
 msgid "Instagram"
 msgstr "Instagram"
 
-#: ../options.php:383
+#: ../options.php:381
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: ../options.php:389
+#: ../options.php:387
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:395
+#: ../options.php:393
 msgid "Github"
 msgstr "Github"
 
-#: ../options.php:401
+#: ../options.php:399
 msgid "Slideshare"
 msgstr ""
 
-#: ../options.php:407
+#: ../options.php:405
 msgid "VK.com"
 msgstr ""
 
-#: ../options.php:412
+#: ../options.php:410
 msgid "Other"
 msgstr "Andere"
 
-#: ../options.php:415
+#: ../options.php:413
 msgid "Custom CSS"
 msgstr "Aangepaste CSS"
 
-#: ../options.php:416
+#: ../options.php:414
 msgid "Additional CSS"
 msgstr "Aanvullende CSS"
 
