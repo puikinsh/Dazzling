@@ -836,7 +836,7 @@ p.logged-in-as {
 }
 .footer-nav.nav > li {
   position: relative;
-  display: inline-block;
+  display: inline-table;
 }
 .footer-nav.nav {
   float: left;
