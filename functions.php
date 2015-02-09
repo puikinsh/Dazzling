@@ -194,6 +194,24 @@ function dazzling_scripts() {
 add_action( 'wp_enqueue_scripts', 'dazzling_scripts' );
 
 /**
+ * Add favicon function
+ */
+function dazzling_add_favicon() {
+
+  if ( of_get_option( 'custom_favicon' ) ) {
+    echo '<link rel="icon" href="' . of_get_option( 'custom_favicon' ) . '" />'. "\n";
+  }
+  
+  echo '<!--[if IE]>';
+  if ( of_get_option( 'custom_favicon' ) ) {
+    echo '<link rel="icon" href="' . of_get_option( 'custom_favicon' ) . '" />';
+  }
+  echo '<![endif]-->'. "\n";
+}
+add_action( 'wp_head', 'dazzling_add_favicon', 0 );
+add_action( 'admin_head', 'dazzling_add_favicon', 0 );
+
+/**
  * Add HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries
  */
 function dazzling_ie_support_header() {
