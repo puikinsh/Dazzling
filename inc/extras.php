@@ -442,6 +442,18 @@ function dazzling_options_display_sidebar() { ?>
 <?php }
 
 
+/**
+ * Add custom favicon displayed in WordPress dashboard and frontend
+ */
+function dazzling_add_favicon() {
+  if ( of_get_option( 'custom_favicon' ) ) {
+    echo '<link rel="shortcut icon" type="image/x-icon" href="' . of_get_option( 'custom_favicon' ) . '" />'. "\n";
+  }
+}
+add_action( 'wp_head', 'dazzling_add_favicon', 0 );
+add_action( 'admin_head', 'dazzling_add_favicon', 0 );
+
+
 /*
  * This one shows/hides the an option when a checkbox is clicked.
  */
