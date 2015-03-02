@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 1.4.2
+Version: 1.4.4
 Tested up to: WP 4.1
 
 Author: Aigars Silkalns
@@ -10,9 +10,9 @@ Author URI: http://colorlib.com/wp/
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl.html
 -------------------------------------------------------
-Dazzling theme, Copyright 2014 colorlib.com
+Dazzling theme, Copyright 2014-2015 colorlib.com
 Dazzling WordPress theme is distributed under the terms of the GNU GPL
-Dazzling is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 -------------------------------------------------------
 
 /*========= Credits =========*/
@@ -27,7 +27,7 @@ Dazzling theme uses:
 
 /*========= Description =========*/
 
-Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins.  Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian and Polish. It is probably the best free WordPress theme built for eStores and business websites.
+Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins.  Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian and Polish. It is probably the best free WordPress theme built for eStores and business websites.
 
 
 For questions, comments or bug reports, visit Colorlib support forum (http://colorlib.com/wp/forums).
