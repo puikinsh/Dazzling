@@ -58,6 +58,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.4.5 - 20.03.2015####
+
+* Updated Bootstrap framework to 3.3.4
+
 ####1.4.4 - 02.03.2015####
 
 * Added Persian translation thanks to Sajad Dehshiri
