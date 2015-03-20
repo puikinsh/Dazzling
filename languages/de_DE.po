@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DazzlingG\n"
-"POT-Creation-Date: 2015-02-03 15:15+0100\n"
-"PO-Revision-Date: 2015-02-03 15:15+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2015-03-20 16:24+0200\n"
+"PO-Revision-Date: 2015-03-20 16:24+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -56,9 +56,10 @@ msgid "Month: %s"
 msgstr "Monat: %s"
 
 #: archive.php:33
+#, fuzzy
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: archive.php:36
 #, php-format
@@ -66,9 +67,10 @@ msgid "Year: %s"
 msgstr "Jahr: %s"
 
 #: archive.php:36
+#, fuzzy
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive.php:39
 msgid "Asides"
@@ -402,9 +404,9 @@ msgid "Follow us on "
 msgstr "Folgen Sie uns auf "
 
 #: inc/extras.php:318
-#, php-format
+#, fuzzy, php-format
 msgid "Theme by %1$s Powered by %2$s"
-msgstr ""
+msgstr "Theme von %1$s Powered by %2$s"
 
 #: inc/extras.php:425
 msgid "Support and Documentation"
@@ -486,18 +488,21 @@ msgid "Post navigation"
 msgstr "Beitragsnavigation"
 
 #: inc/template-tags.php:59
+#, fuzzy
 msgctxt "Previous post link"
 msgid "<i class=\"fa fa-chevron-left\"></i> %title"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-left\"></i> %title [Voriger Beitrag]"
 
 #: inc/template-tags.php:60
+#, fuzzy
 msgctxt "Next post link"
 msgid "%title <i class=\"fa fa-chevron-right\"></i>"
-msgstr ""
+msgstr "%title <i class=\"fa fa-chevron-right\"></i> [Nächster Beitrag]"
 
 #: inc/template-tags.php:81
+#, fuzzy
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 #: inc/template-tags.php:91
 #, php-format
@@ -645,44 +650,54 @@ msgid "Action Button"
 msgstr "Schaltflächen"
 
 #: options.php:172
+#, fuzzy
 msgid "Call For Action Text"
-msgstr ""
+msgstr "Aktionsbutton Text"
 
 #: options.php:173
+#, fuzzy
 msgid "Enter the text for call for action section"
-msgstr ""
+msgstr "Gib den Text für den Aktionsbutton-Abschnitt ein"
 
 #: options.php:178
+#, fuzzy
 msgid "Call For Action Button Title"
-msgstr ""
+msgstr "Aktionsbutton Titel"
 
 #: options.php:179
+#, fuzzy
 msgid "Enter the title for Call For Action button"
-msgstr ""
+msgstr "Gib den Titel für den Aktionsbutton ein"
 
 #: options.php:184
+#, fuzzy
 msgid "CFA button link"
-msgstr ""
+msgstr "Aktionsbutton Link"
 
 #: options.php:185
+#, fuzzy
 msgid "Enter the link for Call For Action button"
-msgstr ""
+msgstr "Gib den Link für den Aktionsbutton ein"
 
 #: options.php:190
+#, fuzzy
 msgid "Call For Action Text Color"
-msgstr ""
+msgstr "Aktionsbutton Textfarbe"
 
 #: options.php:196
+#, fuzzy
 msgid "Call For Action Background Color"
-msgstr ""
+msgstr "Aktionsbutton Hintergrundfarbe"
 
 #: options.php:202
+#, fuzzy
 msgid "Call For Action Button Border Color"
-msgstr ""
+msgstr "Aktionsbutton Rahmenfarbe"
 
 #: options.php:208
+#, fuzzy
 msgid "Call For Action Button Text Color"
-msgstr ""
+msgstr "Aktionsbutton Text Farbe"
 
 #: options.php:214
 msgid "Typography"
@@ -721,36 +736,42 @@ msgid "Header"
 msgstr "Kopfbereich"
 
 #: options.php:251
+#, fuzzy
 msgid "Top nav background color"
-msgstr ""
+msgstr "Top nav Hintergrund Farbe"
 
 #: options.php:252
 msgid "Default used if no color is selected."
 msgstr "Standard wird verwendet, wenn keine Farbe gewählt wird."
 
 #: options.php:257
+#, fuzzy
 msgid "Top nav item color"
-msgstr ""
+msgstr "Top nav Element Farbe"
 
 #: options.php:258
 msgid "Link color"
 msgstr "Link Farbe"
 
 #: options.php:263
+#, fuzzy
 msgid "Top nav dropdown background color"
-msgstr ""
+msgstr "Top nav Dropdown Hintergrund Farbe"
 
 #: options.php:264
+#, fuzzy
 msgid "Background of dropdown item hover color"
-msgstr ""
+msgstr "Hintergrund Dropdown Element hover Farbe"
 
 #: options.php:269
+#, fuzzy
 msgid "Top nav dropdown item color"
-msgstr ""
+msgstr "Top nav Dropdown Element Farbe"
 
 #: options.php:270
+#, fuzzy
 msgid "Dropdown item color"
-msgstr ""
+msgstr "Dropdown Element Farbe"
 
 #: options.php:275
 msgid "Footer"
@@ -789,64 +810,78 @@ msgid "Social"
 msgstr "Soziale Netzwerke"
 
 #: options.php:307
+#, fuzzy
 msgid "Social Icon Color"
-msgstr ""
+msgstr "Sozialiconfarbe"
 
 #: options.php:313
+#, fuzzy
 msgid "Social Icon:hover Color"
-msgstr ""
+msgstr "Sozialicon: Maus-over-Farbe"
 
 #: options.php:319
 msgid "Add full URL for your social network profiles"
 msgstr "Füge die vollständige URL für die sozialen Netzwerk-Profile hinzu"
 
 #: options.php:320
+#, fuzzy
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: options.php:327
+#, fuzzy
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: options.php:333
+#, fuzzy
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: options.php:339
+#, fuzzy
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 #: options.php:345
+#, fuzzy
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: options.php:351
+#, fuzzy
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: options.php:357
+#, fuzzy
 msgid "RSS Feed"
-msgstr ""
+msgstr "RSS Feed"
 
 #: options.php:363
+#, fuzzy
 msgid "Tumblr"
-msgstr ""
+msgstr "Tumblr"
 
 #: options.php:369
+#, fuzzy
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: options.php:375
+#, fuzzy
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: options.php:381
+#, fuzzy
 msgid "Dribbble"
-msgstr ""
+msgstr "Dribbble"
 
 #: options.php:387
+#, fuzzy
 msgid "Skype"
-msgstr ""
+msgstr "Skype"
 
 #: options.php:393
 msgid "Github"
