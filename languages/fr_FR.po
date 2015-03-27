@@ -1,0 +1,856 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dazzling Theme\n"
+"POT-Creation-Date: 2015-01-26 14:05+0200\n"
+"PO-Revision-Date: 2015-03-26 15:23+0100\n"
+"Last-Translator: Guillaume LATORRE <g.latorre@everlats.com>\n"
+"Language-Team: Wolforg <contact@wolforg.eu>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups, la page ne peut être trouvée"
+
+#: ../404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Il semble que rien n'ait été trouvé à cet emplacement. Vous pouvez peut-être "
+"essayer un des liens ci-dessous ou une recherche."
+
+#: ../404.php:27
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#: ../404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez de regarder dans les archives mensuelles. %1$s"
+
+#: ../archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: ../archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: ../archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: ../archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr "Année : %s"
+
+#: ../archive.php:39
+msgid "Asides"
+msgstr "Annonces"
+
+#: ../archive.php:42
+msgid "Galleries"
+msgstr "Galeries"
+
+#: ../archive.php:45
+msgid "Images"
+msgstr "Images"
+
+#: ../archive.php:48
+msgid "Videos"
+msgstr "Vidéos"
+
+#: ../archive.php:51
+msgid "Quotes"
+msgstr "Citations"
+
+#: ../archive.php:54
+msgid "Links"
+msgstr "Liens"
+
+#: ../archive.php:57
+msgid "Statuses"
+msgstr "Statuts"
+
+#: ../archive.php:60
+msgid "Audios"
+msgstr "Audios"
+
+#: ../archive.php:63
+msgid "Chats"
+msgstr "Tchats"
+
+#: ../archive.php:66 ../sidebar.php:17
+msgid "Archives"
+msgstr "Archives"
+
+#: ../comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une reflexion sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reflexions sur &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:37 ../comments.php:61
+msgid "Comment navigation"
+msgstr "Navigation Commentaires"
+
+#: ../comments.php:38 ../comments.php:62
+msgid "&larr; Older Comments"
+msgstr "Commentaires plus Anciens"
+
+#: ../comments.php:39 ../comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus Récents"
+
+#: ../comments.php:73
+msgid "Comments are closed."
+msgstr "Commentaires clos."
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr "Rien de trouvé"
+
+#: ../content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre 1er article? <a href=\"%1$s\">Commencez ici</a>."
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Désolé, mais rien ne correspond à votre recherche."
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Nous ne trouvons pas ce que vous recherchez. Essayez une nouvelle recherche"
+
+#: ../content-page.php:18 ../content-single.php:23 ../content.php:61
+#: ../front-page.php:23 ../image.php:82
+msgid "Pages:"
+msgstr "Pages :"
+
+#: ../content-page.php:23 ../content-single.php:67 ../content.php:30
+#: ../front-page.php:28 ../inc/template-tags.php:81
+#: ../inc/template-tags.php:100
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../content-single.php:36 ../content-single.php:39 ../content.php:21
+msgid ", "
+msgstr ", "
+
+#: ../content.php:15
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: ../content.php:15
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: ../content.php:15
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: ../content.php:25
+#, php-format
+msgid " %1$s"
+msgstr "%1$s"
+
+#: ../content.php:39 ../content.php:54
+msgid "Continue reading"
+msgstr "Lire la suite"
+
+#: ../functions.php:59
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: ../functions.php:60 ../inc/extras.php:205
+msgid "Footer Links"
+msgstr "Liens de pied de page"
+
+#: ../functions.php:88
+msgid "Sidebar"
+msgstr "Barre"
+
+#: ../functions.php:97
+msgid "Homepage Widget 1"
+msgstr "Widget Accueil 1"
+
+#: ../functions.php:98 ../functions.php:108 ../functions.php:118
+msgid "Displays on the Home Page"
+msgstr "Affiché sur l'accueil"
+
+#: ../functions.php:107
+msgid "Homepage Widget 2"
+msgstr "Widget Accueil 2"
+
+#: ../functions.php:117
+msgid "Homepage Widget 3"
+msgstr "Widget Accueil 3"
+
+#: ../functions.php:127
+msgid "Footer Widget 1"
+msgstr "Widgets du Pied de page 1"
+
+#: ../functions.php:128 ../functions.php:138 ../functions.php:148
+msgid "Used for footer widget area"
+msgstr "Utilisé pour la zone de widget du pied de page"
+
+#: ../functions.php:137
+msgid "Footer Widget 2"
+msgstr "Widgets du Pied de page 2"
+
+#: ../functions.php:147
+msgid "Footer Widget 3"
+msgstr "Widgets du Pied de page 3"
+
+#: ../image.php:25
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr "<i class=\"fa fa-chevron-left\"></i> Précédent"
+
+#: ../image.php:26
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr "Suivant <i class=\"fa fa-chevron-right\"></i>"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:90
+#: ../inc/admin/includes/class-options-framework-admin.php:91
+msgid "Theme Options"
+msgstr "Options du Thème"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:185
+msgid "Save Options"
+msgstr "Sauvegarder les options"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:186
+msgid "Restore Defaults"
+msgstr "Restaurer par défaut"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:186
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Clquez OK pour réinitilaiser. Les options seront perdues !"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:217
+msgid "Default options restored."
+msgstr "Options par défaut restaurées"
+
+#: ../inc/admin/includes/class-options-framework-admin.php:271
+msgid "Options saved."
+msgstr "Options enregistrées"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "Aucun fichier choisi"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:66
+#: ../inc/admin/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Envoyer"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:68
+#: ../inc/admin/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Enlever"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Mettez à jour WordPress pour un support complet des médias"
+
+#: ../inc/admin/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Voir le fichier"
+
+#: ../inc/admin/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr "Pas de répétition"
+
+#: ../inc/admin/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr "Répétition Horizontalle"
+
+#: ../inc/admin/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr "Répétition Verticalle"
+
+#: ../inc/admin/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr "Tout répéter"
+
+#: ../inc/admin/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr "Haut Gauche"
+
+#: ../inc/admin/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr "Haut Centre"
+
+#: ../inc/admin/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr "Haut Droite"
+
+#: ../inc/admin/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr "Milieu Gauche"
+
+#: ../inc/admin/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr "Milieu Centre"
+
+#: ../inc/admin/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr "Milieu Droite"
+
+#: ../inc/admin/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr "Bas Gauche"
+
+#: ../inc/admin/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr "Bas Centre"
+
+#: ../inc/admin/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr "Bas Droite"
+
+#: ../inc/admin/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr "Défiler Normallement"
+
+#: ../inc/admin/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr "Emplacement Fixe"
+
+#: ../inc/admin/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Normal"
+
+#: ../inc/admin/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr "Italique"
+
+#: ../inc/admin/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr "Gras"
+
+#: ../inc/admin/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr "Gras Italique"
+
+#: ../inc/extras.php:62
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../inc/extras.php:135
+msgid ""
+"<p>This post is password protected. To view it please enter your password "
+"below:</p>"
+msgstr ""
+"<p>Cet article est protégé par un mot de passe.  Entrez ce mot de passe ci-"
+"dessous :</p>"
+
+#: ../inc/extras.php:136
+msgid "Password:"
+msgstr "Mot de Passe :"
+
+#: ../inc/extras.php:139
+msgid "Submit"
+msgstr "Envoyer"
+
+#: ../inc/extras.php:170
+msgid "Follow us on "
+msgstr "Suivez nous sur "
+
+#: ../inc/extras.php:318
+#, php-format
+msgid "Theme by %1$s Powered by %2$s"
+msgstr "Thème par %1$s, propulsé par %2$s."
+
+#: ../inc/extras.php:425
+msgid "Support and Documentation"
+msgstr "Support & Documentation"
+
+#: ../inc/extras.php:431
+msgid "Dazzling Documentation"
+msgstr "Documentation"
+
+#: ../inc/extras.php:432
+msgid ""
+"The best way to contact us with support questions and bug reports is via"
+msgstr ""
+"La meilleure façon de nous contacter pour des questions techniques ou des "
+"bugs est via"
+
+#: ../inc/extras.php:432
+msgid "Colorlib support forum"
+msgstr "Forum de support"
+
+#: ../inc/extras.php:433
+msgid "If you like this theme, I'd appreciate any of the following:"
+msgstr "Si vous aimez ce thème, j'apprécierais l'un des choix suivant :"
+
+#: ../inc/extras.php:435
+msgid "Rate this Theme"
+msgstr "Notez ce thème"
+
+#: ../inc/extras.php:436
+msgid "Like on Facebook"
+msgstr "Liker sur Facebook"
+
+#: ../inc/extras.php:437
+msgid "Follow on Twitter"
+msgstr "Suivre sur Twitter"
+
+#: ../inc/popular-posts-widget.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+"Affiche des onglets avec les articles populaires, récents et commentaires"
+
+#: ../inc/popular-posts-widget.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr "Widget des articles populaires"
+
+#: ../inc/popular-posts-widget.php:36
+msgid "Popular"
+msgstr "Les + vus"
+
+#: ../inc/popular-posts-widget.php:37
+msgid "Recent"
+msgstr "Les + récents"
+
+#: ../inc/popular-posts-widget.php:104
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: ../inc/popular-posts-widget.php:104
+msgid "on"
+msgstr "le"
+
+#: ../inc/popular-posts-widget.php:145
+msgid "Number of posts to show"
+msgstr "Nombre d'articles à afficher"
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigation Articles"
+
+#: ../inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr "<i class=\"fa fa-chevron-left\"></i> Anciens Articles"
+
+#: ../inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr "Articles récents <i class=\"fa fa-chevron-right\"></i>"
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigation Article"
+
+#: ../inc/template-tags.php:81
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: ../inc/template-tags.php:91
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">a dit :</span>"
+
+#: ../inc/template-tags.php:104
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: ../inc/woo-setup.php:97
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+#: ../inc/woo-setup.php:98
+msgid "Start shopping"
+msgstr "Démarrer vos achats"
+
+#: ../inc/woo-setup.php:102
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d objet"
+msgstr[1] "%d objets"
+
+#: ../options.php:28
+msgid "Right Sidebar"
+msgstr "Barre Droite"
+
+#: ../options.php:28
+msgid "Left Sidebar"
+msgstr "Barre Gauche"
+
+#: ../options.php:32
+msgid "One"
+msgstr "Un"
+
+#: ../options.php:33
+msgid "Two"
+msgstr "Deux"
+
+#: ../options.php:34
+msgid "Three"
+msgstr "Trois"
+
+#: ../options.php:35
+msgid "Four"
+msgstr "Quatre"
+
+#: ../options.php:36
+msgid "Five"
+msgstr "Cinq"
+
+#: ../options.php:41
+msgid "French Toast"
+msgstr "French Toast"
+
+#: ../options.php:42
+msgid "Pancake"
+msgstr "Pancake"
+
+#: ../options.php:43
+msgid "Omelette"
+msgstr "Omelette"
+
+#: ../options.php:44
+msgid "Crepe"
+msgstr "Crepe"
+
+#: ../options.php:45
+msgid "Waffle"
+msgstr "Waffie"
+
+#: ../options.php:120
+msgid "Main"
+msgstr "Principal"
+
+#: ../options.php:123
+msgid "Do You want to display image slider on the Home Page?"
+msgstr "Voulez vous afficher un diaporama sur la page d'accueil ?"
+
+#: ../options.php:124
+msgid "Check if you want to enable slider"
+msgstr "Cochez pour activer le diaporama"
+
+#: ../options.php:129
+msgid "Slider Category"
+msgstr "Catégorie Diaporama"
+
+#: ../options.php:130
+msgid "Select a category for the featured post slider"
+msgstr "Choisissez une catégorie pour le diaporama"
+
+#: ../options.php:136
+msgid "Number of slide items"
+msgstr "Nombre de panneaux"
+
+#: ../options.php:137
+msgid "Enter the number of slide items"
+msgstr "Entrez le nombre de panneaux"
+
+#: ../options.php:143
+msgid "Website Layout Options"
+msgstr "Options de style "
+
+#: ../options.php:144
+msgid "Choose between Left and Right sidebar options to be used as default"
+msgstr "Choix entre l'utilisation d'une barre à droite ou à gauche par défaut"
+
+#: ../options.php:151
+msgid "Element color"
+msgstr "Couleur de l'élément"
+
+#: ../options.php:152 ../options.php:158 ../options.php:191 ../options.php:197
+#: ../options.php:203 ../options.php:209 ../options.php:231 ../options.php:237
+#: ../options.php:243 ../options.php:308 ../options.php:314
+msgid "Default used if no color is selected"
+msgstr "Utilisé par défaut si pas de couleur choisie"
+
+#: ../options.php:157
+msgid "Element color on hover"
+msgstr "Couleur de l'élément au survol"
+
+#: ../options.php:163
+msgid "Custom Favicon"
+msgstr "Favicon Perso"
+
+#: ../options.php:164
+msgid ""
+"Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
+msgstr "Envoyer un Png/Gif de 32x32 pixels qui représente votre favicon"
+
+#: ../options.php:169
+msgid "Action Button"
+msgstr "Bouton d'Action"
+
+#: ../options.php:172
+msgid "Call For Action Text"
+msgstr "Texte d'Action"
+
+#: ../options.php:173
+msgid "Enter the text for call for action section"
+msgstr "Entrez le texte pour la section d'appel à action"
+
+#: ../options.php:178
+msgid "Call For Action Button Title"
+msgstr "Titre du bouton d'appel à action"
+
+#: ../options.php:179
+msgid "Enter the title for Call For Action button"
+msgstr "Entrez le titre pour le bouton d'action"
+
+#: ../options.php:184
+msgid "CFA button link"
+msgstr "Lien Bouton Action"
+
+#: ../options.php:185
+msgid "Enter the link for Call For Action button"
+msgstr "Entrez le lien pour le bouton d'action"
+
+#: ../options.php:190
+msgid "Call For Action Text Color"
+msgstr "Couleur Texte Action"
+
+#: ../options.php:196
+msgid "Call For Action Background Color"
+msgstr "Couleur Fond Action"
+
+#: ../options.php:202
+msgid "Call For Action Button Border Color"
+msgstr "Couleur Bordure Bouton Action"
+
+#: ../options.php:208
+msgid "Call For Action Button Text Color"
+msgstr "Couleur Texte Bouton Action"
+
+#: ../options.php:214
+msgid "Typography"
+msgstr "Typographie"
+
+#: ../options.php:217
+msgid "Main Body Text"
+msgstr "Texte Body Principal"
+
+#: ../options.php:218
+msgid "Used in P tags"
+msgstr "Utilisé dans la balise P"
+
+#: ../options.php:224
+msgid "Heading Color"
+msgstr "Couleur En-tête"
+
+#: ../options.php:225
+msgid "Color for all headings (h1-h6)"
+msgstr "Couleur d'En-têtes (h1-h6)"
+
+#: ../options.php:230
+msgid "Link Color"
+msgstr "Couleur Lien"
+
+#: ../options.php:236
+msgid "Link:hover Color"
+msgstr "Couleur Survol Liens"
+
+#: ../options.php:242
+msgid "Link:active Color"
+msgstr "Couleur Lien Actif"
+
+#: ../options.php:248
+msgid "Header"
+msgstr "En-tête"
+
+#: ../options.php:251
+msgid "Top nav background color"
+msgstr "Couleur Fond Navigation Haut"
+
+#: ../options.php:252
+msgid "Default used if no color is selected."
+msgstr "Utilisé si pas de couleur choisie"
+
+#: ../options.php:257
+msgid "Top nav item color"
+msgstr "Couleur Elément Navigation Haut"
+
+#: ../options.php:258
+msgid "Link color"
+msgstr "Couleur lien"
+
+#: ../options.php:263
+msgid "Top nav dropdown background color"
+msgstr "Couleur Fond Menu Déroulant Haut"
+
+#: ../options.php:264
+msgid "Background of dropdown item hover color"
+msgstr "Couleur Survol Fond Menu Déroulant Haut"
+
+#: ../options.php:269
+msgid "Top nav dropdown item color"
+msgstr "Couleur élément déroulant haut"
+
+#: ../options.php:270
+msgid "Dropdown item color"
+msgstr "Couleur Elément Menu Déroulant"
+
+#: ../options.php:275
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../options.php:278
+msgid "Footer Widget Area Background Color"
+msgstr "Couleur Fond Widgets du Pied de page"
+
+#: ../options.php:283
+msgid "Footer Background Color"
+msgstr "Couleur de fond du pied de page"
+
+#: ../options.php:288
+msgid "Footer Text Color"
+msgstr "Couleur du texte de pied de page"
+
+#: ../options.php:293
+msgid "Footer Link Color"
+msgstr "Couleur des Liens du pied de page"
+
+#: ../options.php:298
+msgid "Footer information"
+msgstr "Information du pied de page"
+
+#: ../options.php:299
+msgid "Copyright text in footer"
+msgstr "Texte de copyright du pied de page"
+
+#: ../options.php:301
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
+
+#: ../options.php:304
+msgid "Social"
+msgstr "Social"
+
+#: ../options.php:307
+msgid "Social Icon Color"
+msgstr "Couleur Icône Sociale"
+
+#: ../options.php:313
+msgid "Social Icon:hover Color"
+msgstr "Couleur Survol Icône Sociale"
+
+#: ../options.php:319
+msgid "Add full URL for your social network profiles"
+msgstr "Ajout d'URL pour les profils sociaux"
+
+#: ../options.php:320
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../options.php:327
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../options.php:333
+msgid "Google+"
+msgstr "Google+"
+
+#: ../options.php:339
+msgid "Youtube"
+msgstr "YouTube"
+
+#: ../options.php:345
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../options.php:351
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../options.php:357
+msgid "RSS Feed"
+msgstr "Fil RSS"
+
+#: ../options.php:363
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../options.php:369
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../options.php:375
+msgid "Instagram"
+msgstr "instagram"
+
+#: ../options.php:381
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: ../options.php:387
+msgid "Skype"
+msgstr "Skype"
+
+#: ../options.php:393
+msgid "Github"
+msgstr "Github"
+
+#: ../options.php:399
+msgid "Slideshare"
+msgstr "Slideshare"
+
+#: ../options.php:405
+msgid "VK.com"
+msgstr "VK.com"
+
+#: ../options.php:410
+msgid "Other"
+msgstr "Autres"
+
+#: ../options.php:413
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../options.php:414
+msgid "Additional CSS"
+msgstr "CSS Additionnel"
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de Recherche pour : %s"
+
+#: ../searchform.php:12
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: ../sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#~ msgid "dazzling Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid ""
+#~ "The best way to contact us with <b>support questions</b> and <b>bug "
+#~ "reports</b> is via"
+#~ msgstr ""
+#~ "Le mieux pour nous contacter pour le <b>support</b> et <b>rapports de "
+#~ "bug</b> est via"
