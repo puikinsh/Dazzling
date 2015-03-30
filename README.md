@@ -62,6 +62,7 @@ Dazzling theme uses:
 
 * Updated Bootstrap framework to 3.3.4
 * Fixed problem with invisible label for color variations in WooCommerce
+* Simplified slider function
 
 ####1.4.4 - 02.03.2015####
 

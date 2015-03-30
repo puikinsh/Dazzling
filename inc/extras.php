@@ -283,19 +283,19 @@ function dazzling_featured_slider() {
               while ($query->have_posts()) : $query->the_post();
 
               echo '<li>';
-                if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) :
-                  echo get_the_post_thumbnail();
-                endif;
+                if ( has_post_thumbnail() ) { // Check if the post has a featured image assigned to it.
+                  the_post_thumbnail();
+                }
 
-                  echo '<div class="flex-caption">';
-                    echo '<a href="'. get_permalink() .'">';
-                      if ( get_the_title() != '' ) echo '<h2 class="entry-title">'. get_the_title().'</h2>';
-                      if ( get_the_excerpt() != '' ) echo '<div class="excerpt">' . get_the_excerpt() .'</div>';
-                    echo '</a>';
-                  echo '</div>';
+                echo '<div class="flex-caption">';
+                  echo '<a href="'. get_permalink() .'">';
+                    if ( get_the_title() != '' ) echo '<h2 class="entry-title">'. get_the_title().'</h2>';
+                    if ( get_the_excerpt() != '' ) echo '<div class="excerpt">' . get_the_excerpt() .'</div>';
+                  echo '</a>';
+                echo '</div>';
 
-                  endwhile;
-                endif;
+                endwhile;
+              endif;
 
             } else {
                 echo "Slider is not properly configured";
