@@ -1,66 +1,62 @@
-// first set the body to hide and show everything when fully loaded
-jQuery(document).ready(function(){
+jQuery(document).ready(function($) {
+		// Apply Bootstrap classes for some WordPress components
+    $('#submit, .wpcf7-submit, .comment-reply-link, input[type="submit"]').addClass('btn btn-default');
+    $('.wp-caption').addClass('thumbnail');
+    $('.widget_rss ul').addClass('media-list');
+    $('table#wp-calendar').addClass('table table-striped');
 
-	// here for the submit button of the comment reply form
-	jQuery( '#submit, .wpcf7-submit, .comment-reply-link, input[type="submit"]' ).addClass( 'btn btn-default' );
-
-	// Add thumbnail styling
-	jQuery( '.wp-caption' ).addClass( 'thumbnail' );
-
-	// Now we'll add some classes for the WordPress default widgets - let's go
-	jQuery( '.widget_rss ul' ).addClass( 'media-list' );
-
-	// Add styling for WordPress calendar
-	jQuery( 'table#wp-calendar' ).addClass( 'table table-striped');
-
-});
-
-// jQuery powered scroll to top
-
-jQuery(document).ready(function(){
-
-	//Check to see if the window is top if not then display button
-	jQuery(window).scroll(function(){
-		if (jQuery(this).scrollTop() > 100) {
-			jQuery('.scroll-to-top').fadeIn();
-		} else {
-			jQuery('.scroll-to-top').fadeOut();
-		}
-	});
-
-	//Click event to scroll to top
-	jQuery('.scroll-to-top').click(function(){
-		jQuery('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-
-});
-
-// Load flexslider in front page
-jQuery(document).ready(function ($) {
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-      animation: "fade"
+		// Scroll to top
+		// Makes scroll to top appear only when user starts to scroll down
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-to-top').fadeIn();
+        } else {
+            $('.scroll-to-top').fadeOut();
+        }
     });
-  });
+    // Animation for scroll to top
+    $('.scroll-to-top').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+
+    // Load Flexslider
+    $(".flexslider").flexslider({
+        animation: "slide",
+        controlNav: false,
+        prevText: "",
+        nextText: "",
+        smoothHeight: true
+    });
+
+    // Skip link focus
+    ( function() {
+        var is_webkit = navigator.userAgent.toLowerCase().indexOf( 'webkit' ) > -1,
+            is_opera  = navigator.userAgent.toLowerCase().indexOf( 'opera' )  > -1,
+            is_ie     = navigator.userAgent.toLowerCase().indexOf( 'msie' )   > -1;
+
+        if ( ( is_webkit || is_opera || is_ie ) && document.getElementById && window.addEventListener ) {
+            window.addEventListener( 'hashchange', function() {
+                var id = location.hash.substring( 1 ),
+                    element;
+
+                if ( ! ( /^[A-z0-9_-]+$/.test( id ) ) ) {
+                    return;
+                }
+
+                element = document.getElementById( id );
+
+                if ( element ) {
+                    if ( ! ( /^(?:a|select|input|button|textarea)$/i.test( element.tagName ) ) ) {
+                        element.tabIndex = -1;
+                    }
+
+                    element.focus();
+                }
+            }, false );
+        }
+    })();
+
 });
-
-//skip link focus fix
-( function() {
-	var is_webkit = navigator.userAgent.toLowerCase().indexOf( 'webkit' ) > -1,
-	    is_opera  = navigator.userAgent.toLowerCase().indexOf( 'opera' )  > -1,
-	    is_ie     = navigator.userAgent.toLowerCase().indexOf( 'msie' )   > -1;
-
-	if ( ( is_webkit || is_opera || is_ie ) && document.getElementById && window.addEventListener ) {
-		window.addEventListener( 'hashchange', function() {
-			var element = document.getElementById( location.hash.substring( 1 ) );
-
-			if ( element ) {
-				if ( ! /^(?:a|select|input|button|textarea)$/i.test( element.tagName ) )
-					element.tabIndex = -1;
-
-				element.focus();
-			}
-		}, false );
-	}
-})();

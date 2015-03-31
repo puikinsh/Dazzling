@@ -58,6 +58,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.4.6 - 31.03.2015####
+
+* Fixed JavaScript warning that appeared on Google Chrome Dev Tools
+* Improved slider related JavaScript with smooth height adjusting when different size images are used for slider. 
+
 ####1.4.5 - 20.03.2015####
 
 * Updated Bootstrap framework to 3.3.4
