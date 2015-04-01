@@ -24,8 +24,8 @@ jQuery(document).ready(function($) {
 
     // Load Flexslider
     $(".flexslider").flexslider({
-        animation: "slide",
-        controlNav: false,
+        animation: "fade",
+        controlNav: true,
         prevText: "",
         nextText: "",
         smoothHeight: true

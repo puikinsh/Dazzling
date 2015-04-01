@@ -973,6 +973,7 @@ p.logged-in-as {
   padding: 30px 0px;
   background: #1FA67A;
   text-align: center;
+  overflow: hidden;
 }
 .cfa-text{
   font-size: 22px;
