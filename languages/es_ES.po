@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2015-03-20 16:24+0200\n"
-"PO-Revision-Date: 2015-03-20 16:24+0200\n"
+"POT-Creation-Date: 2015-04-04 13:26+0200\n"
+"PO-Revision-Date: 2015-04-04 13:26+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
@@ -238,52 +238,52 @@ msgstr "<i class=\"fa fa-chevron-left\"></i> Anterior"
 msgid "Next <i class=\"fa fa-chevron-right\"></i>"
 msgstr "Siguiente <i class=\"fa fa-chevron-right\"></i>"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:90
 #: ../inc/admin/includes/class-options-framework-admin.php:91
+#: ../inc/admin/includes/class-options-framework-admin.php:92
 msgid "Theme Options"
 msgstr "Opciones del Tema"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:185
+#: ../inc/admin/includes/class-options-framework-admin.php:203
 #, fuzzy
 msgid "Save Options"
 msgstr "Salvar todos los cambios"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Restore Defaults"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
 "Clic en Aceptar para restaurar. ¡Cualquier configuración del tema se perderá!"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:217
+#: ../inc/admin/includes/class-options-framework-admin.php:235
 msgid "Default options restored."
 msgstr "Opciones por defecto restauradas."
 
-#: ../inc/admin/includes/class-options-framework-admin.php:271
+#: ../inc/admin/includes/class-options-framework-admin.php:289
 msgid "Options saved."
 msgstr "Opciones guardadas."
 
-#: ../inc/admin/includes/class-options-media-uploader.php:63
+#: ../inc/admin/includes/class-options-media-uploader.php:62
 msgid "No file chosen"
 msgstr "Ningún archivo seleccionado"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:66
-#: ../inc/admin/includes/class-options-media-uploader.php:119
+#: ../inc/admin/includes/class-options-media-uploader.php:65
+#: ../inc/admin/includes/class-options-media-uploader.php:118
 msgid "Upload"
 msgstr "Cargar archivo"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:68
-#: ../inc/admin/includes/class-options-media-uploader.php:120
+#: ../inc/admin/includes/class-options-media-uploader.php:67
+#: ../inc/admin/includes/class-options-media-uploader.php:119
 msgid "Remove"
 msgstr "Eliminar"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:71
+#: ../inc/admin/includes/class-options-media-uploader.php:70
 msgid "Upgrade your version of WordPress for full media support."
 msgstr "Actualiza tu versión de WordPress para soporte completo de medios."
 
-#: ../inc/admin/includes/class-options-media-uploader.php:95
+#: ../inc/admin/includes/class-options-media-uploader.php:94
 msgid "View File"
 msgstr "Ver Archivo"
 
@@ -510,347 +510,347 @@ msgid_plural "%d items"
 msgstr[0] "Color del elemento de menu de navegación superior"
 msgstr[1] "Color del elemento de menu de navegación superior"
 
-#: ../options.php:28
+#: ../options.php:22
 msgid "Right Sidebar"
 msgstr "Sidebar a la dercha"
 
-#: ../options.php:28
+#: ../options.php:22
 msgid "Left Sidebar"
 msgstr "Sidebar a la izquierda"
 
-#: ../options.php:32
+#: ../options.php:26
 msgid "One"
 msgstr "Uno"
 
-#: ../options.php:33
+#: ../options.php:27
 msgid "Two"
 msgstr "Dos"
 
-#: ../options.php:34
+#: ../options.php:28
 msgid "Three"
 msgstr "Tres"
 
-#: ../options.php:35
+#: ../options.php:29
 msgid "Four"
 msgstr "Cuatro"
 
-#: ../options.php:36
+#: ../options.php:30
 msgid "Five"
 msgstr "Cinco"
 
-#: ../options.php:41
+#: ../options.php:35
 msgid "French Toast"
 msgstr "Tostado francés"
 
-#: ../options.php:42
+#: ../options.php:36
 msgid "Pancake"
 msgstr "Panqué"
 
-#: ../options.php:43
+#: ../options.php:37
 msgid "Omelette"
 msgstr "Omelette"
 
-#: ../options.php:44
+#: ../options.php:38
 msgid "Crepe"
 msgstr "Crepa"
 
-#: ../options.php:45
+#: ../options.php:39
 msgid "Waffle"
 msgstr "Waffle"
 
-#: ../options.php:120
+#: ../options.php:116
 msgid "Main"
 msgstr "Principal"
 
-#: ../options.php:123
+#: ../options.php:120
 msgid "Do You want to display image slider on the Home Page?"
 msgstr "¿Quieres mostrar un slider de imágenes en la Página principal?"
 
-#: ../options.php:124
+#: ../options.php:121
 msgid "Check if you want to enable slider"
 msgstr "Selecciona si deseas habilitar el slider"
 
-#: ../options.php:129
+#: ../options.php:128
 msgid "Slider Category"
 msgstr "Categoría del Slider"
 
-#: ../options.php:130
+#: ../options.php:129
 msgid "Select a category for the featured post slider"
 msgstr "Selecciona una categoría para la publicación destacada del slider "
 
-#: ../options.php:136
+#: ../options.php:137
 msgid "Number of slide items"
 msgstr "Número del elemento del slider "
 
-#: ../options.php:137
+#: ../options.php:138
 msgid "Enter the number of slide items"
 msgstr "Ingresa el número de elmentos del slider"
 
-#: ../options.php:143
+#: ../options.php:146
 msgid "Website Layout Options"
 msgstr "Opciones de diseño del website"
 
-#: ../options.php:144
+#: ../options.php:147
 msgid "Choose between Left and Right sidebar options to be used as default"
 msgstr ""
 "Elije entre las opciones del sidebar izquierda y derecha para usar por "
 "defecto"
 
-#: ../options.php:151
+#: ../options.php:156
 msgid "Element color"
 msgstr "Color del elemento"
 
-#: ../options.php:152 ../options.php:158 ../options.php:191 ../options.php:197
-#: ../options.php:203 ../options.php:209 ../options.php:231 ../options.php:237
-#: ../options.php:243 ../options.php:308 ../options.php:314
+#: ../options.php:157 ../options.php:165 ../options.php:210 ../options.php:218
+#: ../options.php:226 ../options.php:234 ../options.php:264 ../options.php:272
+#: ../options.php:280 ../options.php:371 ../options.php:379
 msgid "Default used if no color is selected"
 msgstr "Usado por defecto si no hay color seleccionado"
 
-#: ../options.php:157
+#: ../options.php:164
 msgid "Element color on hover"
 msgstr "Color del elemento con el cursor encima"
 
-#: ../options.php:163
+#: ../options.php:172
 msgid "Custom Favicon"
 msgstr "Personalizar Favicon"
 
-#: ../options.php:164
+#: ../options.php:173
 msgid ""
 "Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
 msgstr ""
 "Carga la imágen de 32px X 32px PNG/GIF que va a representar el Favicon del "
 "sitio web"
 
-#: ../options.php:169
+#: ../options.php:180
 msgid "Action Button"
 msgstr "Botón de Acción"
 
-#: ../options.php:172
+#: ../options.php:185
 msgid "Call For Action Text"
 msgstr "Texto para llamar la Acción"
 
-#: ../options.php:173
+#: ../options.php:186
 msgid "Enter the text for call for action section"
 msgstr "Ingresa el texto para llamar la sección de acción"
 
-#: ../options.php:178
+#: ../options.php:193
 msgid "Call For Action Button Title"
 msgstr "Título para llamar el Botón de Acción"
 
-#: ../options.php:179
+#: ../options.php:194
 msgid "Enter the title for Call For Action button"
 msgstr "Ingresa el título para llamar el Botón de Acción"
 
-#: ../options.php:184
+#: ../options.php:201
 msgid "CFA button link"
 msgstr "Link del botón "
 
-#: ../options.php:185
+#: ../options.php:202
 msgid "Enter the link for Call For Action button"
 msgstr "Ingresa el link para llamar el botón de acción"
 
-#: ../options.php:190
+#: ../options.php:209
 msgid "Call For Action Text Color"
 msgstr "Color del texto para llamar la acción"
 
-#: ../options.php:196
+#: ../options.php:217
 msgid "Call For Action Background Color"
 msgstr "Color de fondo para llamar la acción"
 
-#: ../options.php:202
+#: ../options.php:225
 msgid "Call For Action Button Border Color"
 msgstr "Color de borde del botón para llamar la acción"
 
-#: ../options.php:208
+#: ../options.php:233
 msgid "Call For Action Button Text Color"
 msgstr "Color del texto del botón para llamar la acción"
 
-#: ../options.php:214
+#: ../options.php:241
 msgid "Typography"
 msgstr "Tipo de letra"
 
-#: ../options.php:217
+#: ../options.php:246
 msgid "Main Body Text"
 msgstr "Texto del cuerpo principal"
 
-#: ../options.php:218
+#: ../options.php:247
 msgid "Used in P tags"
 msgstr "Usado en etiquetas P"
 
-#: ../options.php:224
+#: ../options.php:255
 msgid "Heading Color"
 msgstr "Color de encabezados"
 
-#: ../options.php:225
+#: ../options.php:256
 msgid "Color for all headings (h1-h6)"
 msgstr "Color para todos loa títulos (h1-h6)"
 
-#: ../options.php:230
+#: ../options.php:263
 msgid "Link Color"
 msgstr "Color de link"
 
-#: ../options.php:236
+#: ../options.php:271
 msgid "Link:hover Color"
 msgstr "Color del Link:hover"
 
-#: ../options.php:242
+#: ../options.php:279
 msgid "Link:active Color"
 msgstr "Color del Link:active"
 
-#: ../options.php:248
+#: ../options.php:287
 msgid "Header"
 msgstr "Cabecera"
 
-#: ../options.php:251
+#: ../options.php:292
 msgid "Top nav background color"
 msgstr "Color de fondo de menu de navegación superior"
 
-#: ../options.php:252
+#: ../options.php:293
 msgid "Default used if no color is selected."
 msgstr "Usado por defecto si el color no es seleccionado."
 
-#: ../options.php:257
+#: ../options.php:300
 msgid "Top nav item color"
 msgstr "Color del elemento de menu de navegación superior"
 
-#: ../options.php:258
+#: ../options.php:301
 msgid "Link color"
 msgstr "Color del Link"
 
-#: ../options.php:263
+#: ../options.php:308
 msgid "Top nav dropdown background color"
 msgstr "Color de fondo de desplegable de menu de navegación superior"
 
-#: ../options.php:264
+#: ../options.php:309
 msgid "Background of dropdown item hover color"
 msgstr "Color de fondo de elementos desplegables con el puntero encima"
 
-#: ../options.php:269
+#: ../options.php:316
 msgid "Top nav dropdown item color"
 msgstr "Color de elementos desplegables del menu de navegación superior"
 
-#: ../options.php:270
+#: ../options.php:317
 msgid "Dropdown item color"
 msgstr "Color de elemento desplegable"
 
-#: ../options.php:275
+#: ../options.php:324
 msgid "Footer"
 msgstr "Pie de página"
 
-#: ../options.php:278
+#: ../options.php:329
 msgid "Footer Widget Area Background Color"
 msgstr "Color de fondo del área de Widget del pie de página"
 
-#: ../options.php:283
+#: ../options.php:336
 msgid "Footer Background Color"
 msgstr "Color de fondo del pie de página"
 
-#: ../options.php:288
+#: ../options.php:343
 msgid "Footer Text Color"
 msgstr "Color de texto del pie de página"
 
-#: ../options.php:293
+#: ../options.php:350
 msgid "Footer Link Color"
 msgstr "Color de link del pie de página"
 
-#: ../options.php:298
+#: ../options.php:357
 msgid "Footer information"
 msgstr "Información del pie de página"
 
-#: ../options.php:299
+#: ../options.php:358
 msgid "Copyright text in footer"
 msgstr "Texto de Copyright en el pie de página"
 
-#: ../options.php:301
+#: ../options.php:360
 #, fuzzy
 msgid "All rights reserved."
 msgstr "Color para todos loa títulos (h1-h6)"
 
-#: ../options.php:304
+#: ../options.php:365
 msgid "Social"
 msgstr "Red Social"
 
-#: ../options.php:307
+#: ../options.php:370
 msgid "Social Icon Color"
 msgstr "Color del icono Social"
 
-#: ../options.php:313
+#: ../options.php:378
 msgid "Social Icon:hover Color"
 msgstr "Color del icono Social con puntero encima"
 
-#: ../options.php:319
+#: ../options.php:386
 msgid "Add full URL for your social network profiles"
 msgstr "Agregar URL completa de tu perfil de red social"
 
-#: ../options.php:320
+#: ../options.php:387
 msgid "Facebook"
 msgstr "Facebook"
 
-#: ../options.php:327
+#: ../options.php:396
 msgid "Twitter"
 msgstr "Twitter"
 
-#: ../options.php:333
+#: ../options.php:404
 msgid "Google+"
 msgstr "Google+"
 
-#: ../options.php:339
+#: ../options.php:412
 msgid "Youtube"
 msgstr "Youtube"
 
-#: ../options.php:345
+#: ../options.php:420
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: ../options.php:351
+#: ../options.php:428
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: ../options.php:357
+#: ../options.php:436
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
-#: ../options.php:363
+#: ../options.php:444
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: ../options.php:369
+#: ../options.php:452
 msgid "Flickr"
 msgstr "Flickr"
 
-#: ../options.php:375
+#: ../options.php:460
 msgid "Instagram"
 msgstr "Instagram"
 
-#: ../options.php:381
+#: ../options.php:468
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: ../options.php:387
+#: ../options.php:476
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:393
+#: ../options.php:484
 msgid "Github"
 msgstr ""
 
-#: ../options.php:399
+#: ../options.php:492
 msgid "Slideshare"
 msgstr ""
 
-#: ../options.php:405
+#: ../options.php:500
 msgid "VK.com"
 msgstr ""
 
-#: ../options.php:410
+#: ../options.php:507
 msgid "Other"
 msgstr "Otro"
 
-#: ../options.php:413
+#: ../options.php:512
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: ../options.php:414
+#: ../options.php:513
 msgid "Additional CSS"
 msgstr "CSS Adicional"
 

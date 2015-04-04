@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-20 16:25+0200\n"
-"PO-Revision-Date: 2015-03-20 16:25+0200\n"
+"POT-Creation-Date: 2015-04-04 13:29+0200\n"
+"PO-Revision-Date: 2015-04-04 13:29+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pl_PL\n"
@@ -304,61 +304,61 @@ msgid "Next <i class=\"fa fa-chevron-right\"></i>"
 msgstr "Następny <i class=\"fa fa-chevron-right\"></i>"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:90
 #: ../inc/admin/includes/class-options-framework-admin.php:91
+#: ../inc/admin/includes/class-options-framework-admin.php:92
 msgid "Theme Options"
 msgstr "Opcje Motywu"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:185
+#: ../inc/admin/includes/class-options-framework-admin.php:203
 msgid "Save Options"
 msgstr "Zapisz ustawienia"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Restore Defaults"
 msgstr "Przywróć domyślne"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
 "Wybierz OK, aby zresetować. Wszystkie ustawienia motywu zostaną utracone!"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:217
+#: ../inc/admin/includes/class-options-framework-admin.php:235
 msgid "Default options restored."
 msgstr "Przywrócono ustawienia domyślne."
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-framework-admin.php:271
+#: ../inc/admin/includes/class-options-framework-admin.php:289
 msgid "Options saved."
 msgstr "Zapisano ustawienia."
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-media-uploader.php:63
+#: ../inc/admin/includes/class-options-media-uploader.php:62
 msgid "No file chosen"
 msgstr "Nie wybrano plików"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-media-uploader.php:66
-#: ../inc/admin/includes/class-options-media-uploader.php:119
+#: ../inc/admin/includes/class-options-media-uploader.php:65
+#: ../inc/admin/includes/class-options-media-uploader.php:118
 msgid "Upload"
 msgstr "Wyślij"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-media-uploader.php:68
-#: ../inc/admin/includes/class-options-media-uploader.php:120
+#: ../inc/admin/includes/class-options-media-uploader.php:67
+#: ../inc/admin/includes/class-options-media-uploader.php:119
 msgid "Remove"
 msgstr "Usuń"
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-media-uploader.php:71
+#: ../inc/admin/includes/class-options-media-uploader.php:70
 msgid "Upgrade your version of WordPress for full media support."
 msgstr "Zaktualizuj swoją wersję WordPress na w pełni obsługującą multimedia."
 
 # @ textdomain
-#: ../inc/admin/includes/class-options-media-uploader.php:95
+#: ../inc/admin/includes/class-options-media-uploader.php:94
 msgid "View File"
 msgstr "Zobacz plik"
 
@@ -646,423 +646,423 @@ msgstr[1] "%d elementy"
 msgstr[2] "%d elementów"
 
 # @ dazzling
-#: ../options.php:28
+#: ../options.php:22
 msgid "Right Sidebar"
 msgstr "Prawy Pasek Boczny"
 
 # @ dazzling
-#: ../options.php:28
+#: ../options.php:22
 msgid "Left Sidebar"
 msgstr "Lewy Pasek Boczny"
 
 # @ options_framework_theme
-#: ../options.php:32
+#: ../options.php:26
 msgid "One"
 msgstr "Jeden"
 
 # @ options_framework_theme
-#: ../options.php:33
+#: ../options.php:27
 msgid "Two"
 msgstr "Dwa"
 
 # @ options_framework_theme
-#: ../options.php:34
+#: ../options.php:28
 msgid "Three"
 msgstr "Trzy"
 
 # @ options_framework_theme
-#: ../options.php:35
+#: ../options.php:29
 msgid "Four"
 msgstr "Cztery"
 
 # @ options_framework_theme
-#: ../options.php:36
+#: ../options.php:30
 msgid "Five"
 msgstr "Pięć"
 
 # @ options_framework_theme
-#: ../options.php:41
+#: ../options.php:35
 msgid "French Toast"
 msgstr "Francuski Tost"
 
 # @ options_framework_theme
-#: ../options.php:42
+#: ../options.php:36
 msgid "Pancake"
 msgstr "Naleśnik"
 
 # @ options_framework_theme
-#: ../options.php:43
+#: ../options.php:37
 msgid "Omelette"
 msgstr "Omlet"
 
 # @ options_framework_theme
-#: ../options.php:44
+#: ../options.php:38
 msgid "Crepe"
 msgstr "Krepa"
 
 # @ options_framework_theme
-#: ../options.php:45
+#: ../options.php:39
 msgid "Waffle"
 msgstr "Wafel"
 
 # @ dazzling
-#: ../options.php:120
+#: ../options.php:116
 msgid "Main"
 msgstr "Podstawowe"
 
 # @ dazzling
-#: ../options.php:123
+#: ../options.php:120
 msgid "Do You want to display image slider on the Home Page?"
 msgstr "Chcesz wyświetlać Suwak Obrazków na stronie głównej?"
 
 # @ dazzling
-#: ../options.php:124
+#: ../options.php:121
 msgid "Check if you want to enable slider"
 msgstr "Wybierz, jeśli chcesz uruchomić Slider"
 
 # @ dazzling
-#: ../options.php:129
+#: ../options.php:128
 msgid "Slider Category"
 msgstr "Kategoria Suwaka"
 
 # @ dazzling
-#: ../options.php:130
+#: ../options.php:129
 msgid "Select a category for the featured post slider"
 msgstr "Wybierz kategorię dla Suwaka"
 
 # @ dazzling
-#: ../options.php:136
+#: ../options.php:137
 msgid "Number of slide items"
 msgstr "Ilość elementów Suwaka"
 
 # @ dazzling
-#: ../options.php:137
+#: ../options.php:138
 msgid "Enter the number of slide items"
 msgstr "Wprowadź ilość elementów Suwaka"
 
 # @ dazzling
-#: ../options.php:143
+#: ../options.php:146
 msgid "Website Layout Options"
 msgstr "Opcje układu strony"
 
 # @ dazzling
-#: ../options.php:144
+#: ../options.php:147
 msgid "Choose between Left and Right sidebar options to be used as default"
 msgstr "Wybierz pomiędzy lewym a prawym układem paska bocznego"
 
 # @ dazzling
-#: ../options.php:151
+#: ../options.php:156
 msgid "Element color"
 msgstr "Kolor elementu"
 
 # @ dazzling
-#: ../options.php:152 ../options.php:158 ../options.php:191 ../options.php:197
-#: ../options.php:203 ../options.php:209 ../options.php:231 ../options.php:237
-#: ../options.php:243 ../options.php:308 ../options.php:314
+#: ../options.php:157 ../options.php:165 ../options.php:210 ../options.php:218
+#: ../options.php:226 ../options.php:234 ../options.php:264 ../options.php:272
+#: ../options.php:280 ../options.php:371 ../options.php:379
 msgid "Default used if no color is selected"
 msgstr "Użyję domyślnych ustawień, jeżeli nie wybrano koloru"
 
 # @ dazzling
-#: ../options.php:157
+#: ../options.php:164
 msgid "Element color on hover"
 msgstr "Kolor elementu podświetlonego"
 
 # @ dazzling
-#: ../options.php:163
+#: ../options.php:172
 msgid "Custom Favicon"
 msgstr "Niestandardowy Favicon"
 
 # @ dazzling
-#: ../options.php:164
+#: ../options.php:173
 msgid ""
 "Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
 msgstr ""
 "Wyślij obraz w formacie 32px x 32px PNG/GIF, który reprezentuje Twój Favicon"
 
 # @ dazzling
-#: ../options.php:169
+#: ../options.php:180
 msgid "Action Button"
 msgstr "Przycisk Akcji"
 
 # @ dazzling
-#: ../options.php:172
+#: ../options.php:185
 msgid "Call For Action Text"
 msgstr "Tekst Wezwania Do Działania"
 
 # @ dazzling
-#: ../options.php:173
+#: ../options.php:186
 msgid "Enter the text for call for action section"
 msgstr "Wpisz Tekst Wezwania Do Działania"
 
 # @ dazzling
-#: ../options.php:178
+#: ../options.php:193
 msgid "Call For Action Button Title"
 msgstr "Tytuł Wezwania Do Działania"
 
 # @ dazzling
-#: ../options.php:179
+#: ../options.php:194
 msgid "Enter the title for Call For Action button"
 msgstr "Wpisz tytuł przycisku Wezwania Do Działania"
 
 # @ dazzling
-#: ../options.php:184
+#: ../options.php:201
 msgid "CFA button link"
 msgstr "Link przycisku Wezwania Do Działania"
 
 # @ dazzling
-#: ../options.php:185
+#: ../options.php:202
 msgid "Enter the link for Call For Action button"
 msgstr "Wprowadź link Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: ../options.php:190
+#: ../options.php:209
 msgid "Call For Action Text Color"
 msgstr "Kolor tekstu Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: ../options.php:196
+#: ../options.php:217
 msgid "Call For Action Background Color"
 msgstr "Kolor tła Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: ../options.php:202
+#: ../options.php:225
 msgid "Call For Action Button Border Color"
 msgstr "Kolor obramowania Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: ../options.php:208
+#: ../options.php:233
 msgid "Call For Action Button Text Color"
 msgstr "Kolor tekstu Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: ../options.php:214
+#: ../options.php:241
 msgid "Typography"
 msgstr "Typografia"
 
 # @ dazzling
-#: ../options.php:217
+#: ../options.php:246
 msgid "Main Body Text"
 msgstr "Podstawowy tekst"
 
 # @ dazzling
-#: ../options.php:218
+#: ../options.php:247
 msgid "Used in P tags"
 msgstr "Używane w tagach paragrafu"
 
 # @ dazzling
-#: ../options.php:224
+#: ../options.php:255
 msgid "Heading Color"
 msgstr "Kolor Nagłówka"
 
 # @ dazzling
-#: ../options.php:225
+#: ../options.php:256
 msgid "Color for all headings (h1-h6)"
 msgstr "Kolor wszystkich nagłówków (h1-h6)"
 
 # @ dazzling
-#: ../options.php:230
+#: ../options.php:263
 msgid "Link Color"
 msgstr "Kolor linku"
 
 # @ dazzling
-#: ../options.php:236
+#: ../options.php:271
 msgid "Link:hover Color"
 msgstr "Link:kolor podświetlenia"
 
 # @ dazzling
-#: ../options.php:242
+#: ../options.php:279
 msgid "Link:active Color"
 msgstr "Link:kolor aktywnego elementu"
 
 # @ dazzling
-#: ../options.php:248
+#: ../options.php:287
 msgid "Header"
 msgstr "Nagłówek"
 
 # @ dazzling
-#: ../options.php:251
+#: ../options.php:292
 msgid "Top nav background color"
 msgstr "Kolor tła menu głównego"
 
 # @ dazzling
-#: ../options.php:252
+#: ../options.php:293
 msgid "Default used if no color is selected."
 msgstr "Używa domyślnych ustawień, jeżeli nie wybrano koloru."
 
 # @ dazzling
-#: ../options.php:257
+#: ../options.php:300
 msgid "Top nav item color"
 msgstr "Kolor elementu nawigacji"
 
 # @ dazzling
-#: ../options.php:258
+#: ../options.php:301
 msgid "Link color"
 msgstr "kolor linku"
 
 # @ dazzling
-#: ../options.php:263
+#: ../options.php:308
 msgid "Top nav dropdown background color"
 msgstr "Kolor tła elementu rozwijanego menu"
 
 # @ dazzling
-#: ../options.php:264
+#: ../options.php:309
 msgid "Background of dropdown item hover color"
 msgstr "Kolor tła podświetlonego elementu rozwijanego menu"
 
 # @ dazzling
-#: ../options.php:269
+#: ../options.php:316
 msgid "Top nav dropdown item color"
 msgstr "Kolor elementu rozwijanego menu"
 
 # @ dazzling
-#: ../options.php:270
+#: ../options.php:317
 msgid "Dropdown item color"
 msgstr "Kolor elementu listy rozwijanej"
 
 # @ dazzling
-#: ../options.php:275
+#: ../options.php:324
 msgid "Footer"
 msgstr "Stopka"
 
 # @ dazzling
-#: ../options.php:278
+#: ../options.php:329
 msgid "Footer Widget Area Background Color"
 msgstr "Kolor tła strefy widgetów stopki"
 
 # @ dazzling
-#: ../options.php:283
+#: ../options.php:336
 msgid "Footer Background Color"
 msgstr "Kolor tła stopki"
 
 # @ dazzling
-#: ../options.php:288
+#: ../options.php:343
 msgid "Footer Text Color"
 msgstr "Kolor tekstu stopki"
 
 # @ dazzling
-#: ../options.php:293
+#: ../options.php:350
 msgid "Footer Link Color"
 msgstr "Kolor linku w stopce"
 
 # @ dazzling
-#: ../options.php:298
+#: ../options.php:357
 msgid "Footer information"
 msgstr "Informacja w stopce"
 
 # @ dazzling
-#: ../options.php:299
+#: ../options.php:358
 msgid "Copyright text in footer"
 msgstr "Tekst dot. praw autorskich w stopce"
 
-#: ../options.php:301
+#: ../options.php:360
 #, fuzzy
 msgid "All rights reserved."
 msgstr "Kolor dla wszystkich nagłówków (h1-h6)"
 
 # @ dazzling
-#: ../options.php:304
+#: ../options.php:365
 msgid "Social"
 msgstr "Społeczność"
 
 # @ dazzling
-#: ../options.php:307
+#: ../options.php:370
 msgid "Social Icon Color"
 msgstr "Kolor ikon mediów społecznościowych"
 
 # @ dazzling
-#: ../options.php:313
+#: ../options.php:378
 msgid "Social Icon:hover Color"
 msgstr "Ikony mediów społecznościowych:kolor podświetlenia"
 
 # @ dazzling
-#: ../options.php:319
+#: ../options.php:386
 msgid "Add full URL for your social network profiles"
 msgstr "Dodaj pełne adresy URL do Twoich profili w mediach społecznościowych"
 
 # @ dazzling
-#: ../options.php:320
+#: ../options.php:387
 msgid "Facebook"
 msgstr "Facebook"
 
 # @ dazzling
-#: ../options.php:327
+#: ../options.php:396
 msgid "Twitter"
 msgstr "Twitter"
 
 # @ dazzling
-#: ../options.php:333
+#: ../options.php:404
 msgid "Google+"
 msgstr "Google+"
 
 # @ dazzling
-#: ../options.php:339
+#: ../options.php:412
 msgid "Youtube"
 msgstr "Youtube"
 
 # @ dazzling
-#: ../options.php:345
+#: ../options.php:420
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 # @ dazzling
-#: ../options.php:351
+#: ../options.php:428
 msgid "Pinterest"
 msgstr "Pinterest"
 
 # @ dazzling
-#: ../options.php:357
+#: ../options.php:436
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
 # @ dazzling
-#: ../options.php:363
+#: ../options.php:444
 msgid "Tumblr"
 msgstr "Tumblr"
 
 # @ dazzling
-#: ../options.php:369
+#: ../options.php:452
 msgid "Flickr"
 msgstr "Flickr"
 
 # @ dazzling
-#: ../options.php:375
+#: ../options.php:460
 msgid "Instagram"
 msgstr "Instagram"
 
 # @ dazzling
-#: ../options.php:381
+#: ../options.php:468
 msgid "Dribbble"
 msgstr "Dribbble"
 
 # @ dazzling
-#: ../options.php:387
+#: ../options.php:476
 msgid "Skype"
 msgstr "Skype"
 
-#: ../options.php:393
+#: ../options.php:484
 msgid "Github"
 msgstr ""
 
-#: ../options.php:399
+#: ../options.php:492
 msgid "Slideshare"
 msgstr ""
 
-#: ../options.php:405
+#: ../options.php:500
 msgid "VK.com"
 msgstr ""
 
 # @ dazzling
-#: ../options.php:410
+#: ../options.php:507
 msgid "Other"
 msgstr "Other"
 
 # @ dazzling
-#: ../options.php:413
+#: ../options.php:512
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
 # @ dazzling
-#: ../options.php:414
+#: ../options.php:513
 msgid "Additional CSS"
 msgstr "Additional CSS"
 
