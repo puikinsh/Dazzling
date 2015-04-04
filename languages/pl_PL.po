@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.4.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-20 16:25+0200\n"
-"PO-Revision-Date: 2015-04-04 23:29+0200\n"
+"POT-Creation-Date: 2015-04-04 23:36+0200\n"
+"PO-Revision-Date: 2015-04-04 23:36+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,17 +19,16 @@ msgstr ""
 "esc_attr_e;_n;_n:1,2;__;esc_attr__;esc_attr_x\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
-"Language: pl_PL\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
 # @ dazzling
-#: 404.php:15
+#: ../404.php:15
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Nie znaleziono strony."
 
 # @ dazzling
-#: 404.php:19
+#: ../404.php:19
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -37,105 +37,104 @@ msgstr ""
 "jednego z poniższych linków albo wyszukiwania."
 
 # @ dazzling
-#: 404.php:27
+#: ../404.php:27
 msgid "Most Used Categories"
 msgstr "Najczęściej używane kategorie"
 
 # @ dazzling
-#. translators: %1$s: smiley
-#: 404.php:44
+#: ../404.php:44
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Spróbuj przeszukać miesięczne archiwa. %1$s"
 
 # @ dazzling
-#: archive.php:27
+#: ../archive.php:27
 #, php-format
 msgid "Author: %s"
 msgstr "Autor: %s"
 
 # @ dazzling
-#: archive.php:30
+#: ../archive.php:30
 #, php-format
 msgid "Day: %s"
 msgstr "Dzień: %s"
 
 # @ dazzling
-#: archive.php:33
+#: ../archive.php:33
 #, php-format
 msgid "Month: %s"
 msgstr "Miesiąc: %s"
 
 # @ dazzling
-#: archive.php:33
+#: ../archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
 # @ dazzling
-#: archive.php:36
+#: ../archive.php:36
 #, php-format
 msgid "Year: %s"
 msgstr "Rok: %s"
 
 # @ dazzling
-#: archive.php:36
+#: ../archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
 # @ dazzling
-#: archive.php:39
+#: ../archive.php:39
 msgid "Asides"
 msgstr "Poboczne"
 
 # @ dazzling
-#: archive.php:42
+#: ../archive.php:42
 msgid "Galleries"
 msgstr "Galeria"
 
 # @ dazzling
-#: archive.php:45
+#: ../archive.php:45
 msgid "Images"
 msgstr "Obrazki"
 
 # @ dazzling
-#: archive.php:48
+#: ../archive.php:48
 msgid "Videos"
 msgstr "Pliki video"
 
 # @ dazzling
-#: archive.php:51
+#: ../archive.php:51
 msgid "Quotes"
 msgstr "Cytaty"
 
 # @ dazzling
-#: archive.php:54
+#: ../archive.php:54
 msgid "Links"
 msgstr "Linki"
 
 # @ dazzling
-#: archive.php:57
+#: ../archive.php:57
 msgid "Statuses"
 msgstr "Statusy"
 
 # @ dazzling
-#: archive.php:60
+#: ../archive.php:60
 msgid "Audios"
 msgstr "Pliki audio"
 
 # @ dazzling
-#: archive.php:63
+#: ../archive.php:63
 msgid "Chats"
 msgstr "Wykresy"
 
 # @ dazzling
-#: archive.php:66 sidebar.php:17
+#: ../archive.php:66 ../sidebar.php:17
 msgid "Archives"
 msgstr "Archiwa"
 
 # @ dazzling
-#: comments.php:30
+#: ../comments.php:30
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -145,32 +144,32 @@ msgstr[1] "%1$s komentarze do &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s komentarzy do &ldquo;%2$s&rdquo;"
 
 # @ dazzling
-#: comments.php:37 comments.php:61
+#: ../comments.php:37 ../comments.php:61
 msgid "Comment navigation"
 msgstr "Nawigacja po komentarzach"
 
 # @ dazzling
-#: comments.php:38 comments.php:62
+#: ../comments.php:38 ../comments.php:62
 msgid "&larr; Older Comments"
 msgstr "&larr; Starsze komentarze"
 
 # @ dazzling
-#: comments.php:39 comments.php:63
+#: ../comments.php:39 ../comments.php:63
 msgid "Newer Comments &rarr;"
 msgstr "Nowe komentarze &rarr;"
 
 # @ dazzling
-#: comments.php:73
+#: ../comments.php:73
 msgid "Comments are closed."
 msgstr "Komentowanie zostało wyłączone."
 
 # @ dazzling
-#: content-none.php:13
+#: ../content-none.php:13
 msgid "Nothing Found"
 msgstr "Nic nie znaleziono"
 
 # @ dazzling
-#: content-none.php:19
+#: ../content-none.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
@@ -178,7 +177,7 @@ msgstr ""
 "Gotowy, aby zamieścić swój pierwszy post? <a href=\"%1$s\">Zacznij tutaj</a>."
 
 # @ dazzling
-#: content-none.php:23
+#: ../content-none.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -187,7 +186,7 @@ msgstr ""
 "kluczowych."
 
 # @ dazzling
-#: content-none.php:28
+#: ../content-none.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -196,314 +195,314 @@ msgstr ""
 "pomoże."
 
 # @ dazzling
-#: content-page.php:18 content-single.php:23 content.php:61 front-page.php:23
-#: image.php:82
+#: ../content-page.php:18 ../content-single.php:23 ../content.php:61
+#: ../front-page.php:23 ../image.php:82
 msgid "Pages:"
 msgstr "Strony:"
 
 # @ dazzling
-#: content-page.php:23 content-single.php:67 content.php:30 front-page.php:28
-#: inc/template-tags.php:81 inc/template-tags.php:100
+#: ../content-page.php:23 ../content-single.php:67 ../content.php:30
+#: ../front-page.php:28 ../inc/template-tags.php:81
+#: ../inc/template-tags.php:100
 msgid "Edit"
 msgstr "Edytuj"
 
 # @ dazzling
-#. translators: used between list items, there is a space after the comma
-#: content-single.php:36 content-single.php:39 content.php:21
+#: ../content-single.php:36 ../content-single.php:39 ../content.php:21
 msgid ", "
 msgstr ", "
 
 # @ dazzling
-#: content.php:15
+#: ../content.php:15
 msgid "Leave a comment"
 msgstr "Skomentuj"
 
 # @ dazzling
-#: content.php:15
+#: ../content.php:15
 msgid "1 Comment"
 msgstr "1 komentarz"
 
 # @ dazzling
-#: content.php:15
+#: ../content.php:15
 msgid "% Comments"
 msgstr "Ilość komentarzy (%)"
 
 # @ dazzling
-#: content.php:25
+#: ../content.php:25
 #, php-format
 msgid " %1$s"
 msgstr " %1$s"
 
 # @ dazzling
-#: content.php:39 content.php:54
+#: ../content.php:39 ../content.php:54
 msgid "Continue reading"
 msgstr "Czytaj dalej"
 
 # @ dazzling
-#: functions.php:59
+#: ../functions.php:59
 msgid "Primary Menu"
 msgstr "Menu główne"
 
 # @ dazzling
-#: functions.php:60 inc/extras.php:205
+#: ../functions.php:60 ../inc/extras.php:205
 msgid "Footer Links"
 msgstr "Linki w stopce"
 
 # @ dazzling
-#: functions.php:88
+#: ../functions.php:88
 msgid "Sidebar"
 msgstr "Pasek boczny"
 
 # @ dazzling
-#: functions.php:97
+#: ../functions.php:97
 msgid "Homepage Widget 1"
 msgstr "1 widget Strony Głównej"
 
 # @ dazzling
-#: functions.php:98 functions.php:108 functions.php:118
+#: ../functions.php:98 ../functions.php:108 ../functions.php:118
 msgid "Displays on the Home Page"
 msgstr "Pojawia się na stronie głównej"
 
 # @ dazzling
-#: functions.php:107
+#: ../functions.php:107
 msgid "Homepage Widget 2"
 msgstr "2 widget Strony Głównej"
 
 # @ dazzling
-#: functions.php:117
+#: ../functions.php:117
 msgid "Homepage Widget 3"
 msgstr "3 widget Strony Głównej"
 
 # @ dazzling
-#: functions.php:127
+#: ../functions.php:127
 msgid "Footer Widget 1"
 msgstr "1 widget Stopki"
 
 # @ dazzling
-#: functions.php:128 functions.php:138 functions.php:148
+#: ../functions.php:128 ../functions.php:138 ../functions.php:148
 msgid "Used for footer widget area"
 msgstr "Używany dla strefy widgetów stopki"
 
 # @ dazzling
-#: functions.php:137
+#: ../functions.php:137
 msgid "Footer Widget 2"
 msgstr "2 widget Stopki"
 
 # @ dazzling
-#: functions.php:147
+#: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "3 widget Stopki"
 
 # @ dazzling
-#: image.php:25
+#: ../image.php:25
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
 msgstr "<i class=\"fa fa-chevron-left\"></i> Poprzedni"
 
 # @ dazzling
-#: image.php:26
+#: ../image.php:26
 msgid "Next <i class=\"fa fa-chevron-right\"></i>"
 msgstr "Następny <i class=\"fa fa-chevron-right\"></i>"
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:90
-#: inc/admin/includes/class-options-framework-admin.php:91
+#: ../inc/admin/includes/class-options-framework-admin.php:91
+#: ../inc/admin/includes/class-options-framework-admin.php:92
 msgid "Theme Options"
 msgstr "Opcje Motywu"
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:185
+#: ../inc/admin/includes/class-options-framework-admin.php:203
 msgid "Save Options"
 msgstr "Zapisz ustawienia"
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Restore Defaults"
 msgstr "Przywróć domyślne"
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:186
+#: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Click OK to reset. Any theme settings will be lost!"
 msgstr ""
 "Wybierz OK, aby zresetować. Wszystkie ustawienia motywu zostaną utracone!"
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:217
+#: ../inc/admin/includes/class-options-framework-admin.php:235
 msgid "Default options restored."
 msgstr "Przywrócono ustawienia domyślne."
 
 # @ dazzling
-#: inc/admin/includes/class-options-framework-admin.php:271
+#: ../inc/admin/includes/class-options-framework-admin.php:289
 msgid "Options saved."
 msgstr "Zapisano ustawienia."
 
 # @ textdomain
-#: inc/admin/includes/class-options-media-uploader.php:63
+#: ../inc/admin/includes/class-options-media-uploader.php:62
 msgid "No file chosen"
 msgstr "Nie wybrano plików"
 
 # @ textdomain
-#: inc/admin/includes/class-options-media-uploader.php:66
-#: inc/admin/includes/class-options-media-uploader.php:119
+#: ../inc/admin/includes/class-options-media-uploader.php:65
+#: ../inc/admin/includes/class-options-media-uploader.php:118
 msgid "Upload"
 msgstr "Wyślij"
 
 # @ textdomain
-#: inc/admin/includes/class-options-media-uploader.php:68
-#: inc/admin/includes/class-options-media-uploader.php:120
+#: ../inc/admin/includes/class-options-media-uploader.php:67
+#: ../inc/admin/includes/class-options-media-uploader.php:119
 msgid "Remove"
 msgstr "Usuń"
 
 # @ textdomain
-#: inc/admin/includes/class-options-media-uploader.php:71
+#: ../inc/admin/includes/class-options-media-uploader.php:70
 msgid "Upgrade your version of WordPress for full media support."
 msgstr "Zaktualizuj swoją wersję WordPress na w pełni obsługującą multimedia."
 
 # @ textdomain
-#: inc/admin/includes/class-options-media-uploader.php:95
+#: ../inc/admin/includes/class-options-media-uploader.php:94
 msgid "View File"
 msgstr "Zobacz plik"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:316
+#: ../inc/admin/includes/class-options-sanitization.php:316
 msgid "No Repeat"
 msgstr "Brak komentarzy"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:317
+#: ../inc/admin/includes/class-options-sanitization.php:317
 msgid "Repeat Horizontally"
 msgstr "Powtórz Poziomo"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:318
+#: ../inc/admin/includes/class-options-sanitization.php:318
 msgid "Repeat Vertically"
 msgstr "Powtórz Pionowo"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:319
+#: ../inc/admin/includes/class-options-sanitization.php:319
 msgid "Repeat All"
 msgstr "Powtórz wszystkie"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:331
+#: ../inc/admin/includes/class-options-sanitization.php:331
 msgid "Top Left"
 msgstr "Lewy górny róg"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:332
+#: ../inc/admin/includes/class-options-sanitization.php:332
 msgid "Top Center"
 msgstr "Górny środek"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:333
+#: ../inc/admin/includes/class-options-sanitization.php:333
 msgid "Top Right"
 msgstr "Prawy górny róg"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:334
+#: ../inc/admin/includes/class-options-sanitization.php:334
 msgid "Middle Left"
 msgstr "Lewy środek"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:335
+#: ../inc/admin/includes/class-options-sanitization.php:335
 msgid "Middle Center"
 msgstr "Centrum"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:336
+#: ../inc/admin/includes/class-options-sanitization.php:336
 msgid "Middle Right"
 msgstr "Prawy Środek"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:337
+#: ../inc/admin/includes/class-options-sanitization.php:337
 msgid "Bottom Left"
 msgstr "Lewy dolny róg"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:338
+#: ../inc/admin/includes/class-options-sanitization.php:338
 msgid "Bottom Center"
 msgstr "Dolny środek"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:339
+#: ../inc/admin/includes/class-options-sanitization.php:339
 msgid "Bottom Right"
 msgstr "Prawy dolny róg"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:351
+#: ../inc/admin/includes/class-options-sanitization.php:351
 msgid "Scroll Normally"
 msgstr "Przewijaj normalnie"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:352
+#: ../inc/admin/includes/class-options-sanitization.php:352
 msgid "Fixed in Place"
 msgstr "Zakotwiczone w miejscu"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:424
+#: ../inc/admin/includes/class-options-sanitization.php:424
 msgid "Normal"
 msgstr "Normalna"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:425
+#: ../inc/admin/includes/class-options-sanitization.php:425
 msgid "Italic"
 msgstr "Pochylona"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:426
+#: ../inc/admin/includes/class-options-sanitization.php:426
 msgid "Bold"
 msgstr "Pogrubiona"
 
 # @ options-framework
-#: inc/admin/includes/class-options-sanitization.php:427
+#: ../inc/admin/includes/class-options-sanitization.php:427
 msgid "Bold Italic"
 msgstr "Pochylona i pogrubiona"
 
 # @ dazzling
-#: inc/extras.php:62
+#: ../inc/extras.php:62
 #, php-format
 msgid "Page %s"
 msgstr "Strona %s"
 
 # @ dazzling
-#: inc/extras.php:135
+#: ../inc/extras.php:135
 msgid ""
 "<p>This post is password protected. To view it please enter your password "
 "below:</p>"
 msgstr "<p>Ten wpis jest chroniony hasłem. Aby go zobaczyć wpisz hasło:</p>"
 
 # @ dazzling
-#: inc/extras.php:136
+#: ../inc/extras.php:136
 msgid "Password:"
 msgstr "Hasło:"
 
 # @ dazzling
-#: inc/extras.php:139
+#: ../inc/extras.php:139
 msgid "Submit"
 msgstr "Zgłoś"
 
 # @ dazzling
-#: inc/extras.php:170
+#: ../inc/extras.php:170
 msgid "Follow us on "
 msgstr "Śledź mnie na "
 
 # @ dazzling
-#: inc/extras.php:318
+#: ../inc/extras.php:318
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Motyw %1$s Działa na %2$s"
 
 # @ dazzling
-#: inc/extras.php:425
+#: ../inc/extras.php:425
 msgid "Support and Documentation"
 msgstr "Wsparcie i dokumentacja"
 
 # @ dazzling
-#: inc/extras.php:431
+#: ../inc/extras.php:431
 msgid "Dazzling Documentation"
 msgstr "Dokumentacja motywu Dazzling"
 
 # @ dazzling
-#: inc/extras.php:432
+#: ../inc/extras.php:432
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
@@ -511,135 +510,133 @@ msgstr ""
 "błędów jest poprzez"
 
 # @ dazzling
-#: inc/extras.php:432
+#: ../inc/extras.php:432
 msgid "Colorlib support forum"
 msgstr "Forum wsparcia Colorlib"
 
 # @ dazzling
-#: inc/extras.php:433
+#: ../inc/extras.php:433
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Jeżeli podoba Ci się ten motyw, wykonaj jedną z poniższych czynności:"
 
 # @ dazzling
-#: inc/extras.php:435
+#: ../inc/extras.php:435
 msgid "Rate this Theme"
 msgstr "Oceń ten motyw"
 
 # @ dazzling
-#: inc/extras.php:436
+#: ../inc/extras.php:436
 msgid "Like on Facebook"
 msgstr "Polub na Facebook"
 
 # @ dazzling
-#: inc/extras.php:437
+#: ../inc/extras.php:437
 msgid "Follow on Twitter"
 msgstr "Śledź na Twitterze"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:13
+#: ../inc/popular-posts-widget.php:13
 msgid "Displays tabbed list of popular posts, recent posts & comments"
 msgstr ""
 "Wyświetla listę popularnych i ostatnich wpisów oraz komentarzy w zakładkach"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:19
+#: ../inc/popular-posts-widget.php:19
 msgid "Dazzling Popular Posts Widget"
 msgstr "Widget popularnych postów motywu Dazzling"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:36
+#: ../inc/popular-posts-widget.php:36
 msgid "Popular"
 msgstr "Popularne"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:37
+#: ../inc/popular-posts-widget.php:37
 msgid "Recent"
 msgstr "Ostatnie"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:104
+#: ../inc/popular-posts-widget.php:104
 msgid "Anonymous"
 msgstr "Anonimowy"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:104
+#: ../inc/popular-posts-widget.php:104
 msgid "on"
 msgstr "o"
 
 # @ dazzling
-#: inc/popular-posts-widget.php:145
+#: ../inc/popular-posts-widget.php:145
 msgid "Number of posts to show"
 msgstr "Ilość postów do pokazania"
 
 # @ dazzling
-#: inc/template-tags.php:23
+#: ../inc/template-tags.php:23
 msgid "Posts navigation"
 msgstr "Nawigacja po wpisach"
 
 # @ dazzling
-#: inc/template-tags.php:27
+#: ../inc/template-tags.php:27
 msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
 msgstr "<i class=\"fa fa-chevron-left\"></i> Starsze wpisy"
 
 # @ dazzling
-#: inc/template-tags.php:31
+#: ../inc/template-tags.php:31
 msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
 msgstr "Nowsze wpisy <i class=\"fa fa-chevron-right\"></i>"
 
 # @ dazzling
-#: inc/template-tags.php:56
+#: ../inc/template-tags.php:56
 msgid "Post navigation"
 msgstr "Nawigacja po wpisie"
 
 # @ dazzling
-#: inc/template-tags.php:59
-#, php-format
+#: ../inc/template-tags.php:59
 msgctxt "Previous post link"
 msgid "<i class=\"fa fa-chevron-left\"></i> %title"
 msgstr "<i class=\"fa fa-chevron-left\"></i> %title"
 
 # @ dazzling
-#: inc/template-tags.php:60
-#, php-format
+#: ../inc/template-tags.php:60
 msgctxt "Next post link"
 msgid "%title <i class=\"fa fa-chevron-right\"></i>"
 msgstr "%title <i class=\"fa fa-chevron-right\"></i>"
 
 # @ dazzling
-#: inc/template-tags.php:81
+#: ../inc/template-tags.php:81
 msgid "Pingback:"
 msgstr "Pingback:"
 
 # @ dazzling
-#: inc/template-tags.php:91
+#: ../inc/template-tags.php:91
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"mówi\">mówi:</span>"
 
 # @ dazzling
-#: inc/template-tags.php:97
+#: ../inc/template-tags.php:97
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s o %2$s"
 
 # @ dazzling
-#: inc/template-tags.php:104
+#: ../inc/template-tags.php:104
 msgid "Your comment is awaiting moderation."
 msgstr "Twój komentarz czeka na zatwierdzenie."
 
 # @ dazzling
-#: inc/woo-setup.php:97
+#: ../inc/woo-setup.php:97
 msgid "View your shopping cart"
 msgstr "Zobacz swój koszyk"
 
 # @ dazzling
-#: inc/woo-setup.php:98
+#: ../inc/woo-setup.php:98
 msgid "Start shopping"
 msgstr "Rozpocznij zakupy"
 
 # @ dazzling
-#: inc/woo-setup.php:102
+#: ../inc/woo-setup.php:102
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
@@ -648,447 +645,447 @@ msgstr[1] "%d elementy"
 msgstr[2] "%d elementów"
 
 # @ dazzling
-#: options.php:28
+#: ../options.php:22
 msgid "Right Sidebar"
 msgstr "Prawy Pasek Boczny"
 
 # @ dazzling
-#: options.php:28
+#: ../options.php:22
 msgid "Left Sidebar"
 msgstr "Lewy Pasek Boczny"
 
 # @ options_framework_theme
-#: options.php:32
+#: ../options.php:26
 msgid "One"
 msgstr "Jeden"
 
 # @ options_framework_theme
-#: options.php:33
+#: ../options.php:27
 msgid "Two"
 msgstr "Dwa"
 
 # @ options_framework_theme
-#: options.php:34
+#: ../options.php:28
 msgid "Three"
 msgstr "Trzy"
 
 # @ options_framework_theme
-#: options.php:35
+#: ../options.php:29
 msgid "Four"
 msgstr "Cztery"
 
 # @ options_framework_theme
-#: options.php:36
+#: ../options.php:30
 msgid "Five"
 msgstr "Pięć"
 
 # @ options_framework_theme
-#: options.php:41
+#: ../options.php:35
 msgid "French Toast"
 msgstr "Francuski Tost"
 
 # @ options_framework_theme
-#: options.php:42
+#: ../options.php:36
 msgid "Pancake"
 msgstr "Naleśnik"
 
 # @ options_framework_theme
-#: options.php:43
+#: ../options.php:37
 msgid "Omelette"
 msgstr "Omlet"
 
 # @ options_framework_theme
-#: options.php:44
+#: ../options.php:38
 msgid "Crepe"
 msgstr "Krepa"
 
 # @ options_framework_theme
-#: options.php:45
+#: ../options.php:39
 msgid "Waffle"
 msgstr "Wafel"
 
 # @ dazzling
-#: options.php:120
+#: ../options.php:116
 msgid "Main"
 msgstr "Podstawowe"
 
 # @ dazzling
-#: options.php:123
+#: ../options.php:120
 msgid "Do You want to display image slider on the Home Page?"
 msgstr "Chcesz wyświetlać Suwak Obrazków na stronie głównej?"
 
 # @ dazzling
-#: options.php:124
+#: ../options.php:121
 msgid "Check if you want to enable slider"
 msgstr "Wybierz, jeśli chcesz uruchomić Slider"
 
 # @ dazzling
-#: options.php:129
+#: ../options.php:128
 msgid "Slider Category"
 msgstr "Kategoria Suwaka"
 
 # @ dazzling
-#: options.php:130
+#: ../options.php:129
 msgid "Select a category for the featured post slider"
 msgstr "Wybierz kategorię dla Suwaka"
 
 # @ dazzling
-#: options.php:136
+#: ../options.php:137
 msgid "Number of slide items"
 msgstr "Ilość elementów Suwaka"
 
 # @ dazzling
-#: options.php:137
+#: ../options.php:138
 msgid "Enter the number of slide items"
 msgstr "Wprowadź ilość elementów Suwaka"
 
 # @ dazzling
-#: options.php:143
+#: ../options.php:146
 msgid "Website Layout Options"
 msgstr "Opcje układu strony"
 
 # @ dazzling
-#: options.php:144
+#: ../options.php:147
 msgid "Choose between Left and Right sidebar options to be used as default"
 msgstr "Wybierz pomiędzy lewym a prawym układem paska bocznego"
 
 # @ dazzling
-#: options.php:151
+#: ../options.php:156
 msgid "Element color"
 msgstr "Kolor elementu"
 
 # @ dazzling
-#: options.php:152 options.php:158 options.php:191 options.php:197
-#: options.php:203 options.php:209 options.php:231 options.php:237
-#: options.php:243 options.php:308 options.php:314
+#: ../options.php:157 ../options.php:165 ../options.php:210 ../options.php:218
+#: ../options.php:226 ../options.php:234 ../options.php:264 ../options.php:272
+#: ../options.php:280 ../options.php:371 ../options.php:379
 msgid "Default used if no color is selected"
 msgstr "Użyję domyślnych ustawień, jeżeli nie wybrano koloru"
 
 # @ dazzling
-#: options.php:157
+#: ../options.php:164
 msgid "Element color on hover"
 msgstr "Kolor elementu podświetlonego"
 
 # @ dazzling
-#: options.php:163
+#: ../options.php:172
 msgid "Custom Favicon"
 msgstr "Niestandardowy Favicon"
 
 # @ dazzling
-#: options.php:164
+#: ../options.php:173
 msgid ""
 "Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
 msgstr ""
 "Wyślij obraz w formacie 32px x 32px PNG/GIF, który reprezentuje Twój Favicon"
 
 # @ dazzling
-#: options.php:169
+#: ../options.php:180
 msgid "Action Button"
 msgstr "Przycisk Akcji"
 
 # @ dazzling
-#: options.php:172
+#: ../options.php:185
 msgid "Call For Action Text"
 msgstr "Tekst Wezwania Do Działania"
 
 # @ dazzling
-#: options.php:173
+#: ../options.php:186
 msgid "Enter the text for call for action section"
 msgstr "Wpisz Tekst Wezwania Do Działania"
 
 # @ dazzling
-#: options.php:178
+#: ../options.php:193
 msgid "Call For Action Button Title"
 msgstr "Tytuł Wezwania Do Działania"
 
 # @ dazzling
-#: options.php:179
+#: ../options.php:194
 msgid "Enter the title for Call For Action button"
 msgstr "Wpisz tytuł przycisku Wezwania Do Działania"
 
 # @ dazzling
-#: options.php:184
+#: ../options.php:201
 msgid "CFA button link"
 msgstr "Link przycisku Wezwania Do Działania"
 
 # @ dazzling
-#: options.php:185
+#: ../options.php:202
 msgid "Enter the link for Call For Action button"
 msgstr "Wprowadź link Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: options.php:190
+#: ../options.php:209
 msgid "Call For Action Text Color"
 msgstr "Kolor tekstu Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: options.php:196
+#: ../options.php:217
 msgid "Call For Action Background Color"
 msgstr "Kolor tła Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: options.php:202
+#: ../options.php:225
 msgid "Call For Action Button Border Color"
 msgstr "Kolor obramowania Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: options.php:208
+#: ../options.php:233
 msgid "Call For Action Button Text Color"
 msgstr "Kolor tekstu Przycisku Wezwania do Działania"
 
 # @ dazzling
-#: options.php:214
+#: ../options.php:241
 msgid "Typography"
 msgstr "Typografia"
 
 # @ dazzling
-#: options.php:217
+#: ../options.php:246
 msgid "Main Body Text"
 msgstr "Podstawowy tekst"
 
 # @ dazzling
-#: options.php:218
+#: ../options.php:247
 msgid "Used in P tags"
 msgstr "Używane w tagach paragrafu"
 
 # @ dazzling
-#: options.php:224
+#: ../options.php:255
 msgid "Heading Color"
 msgstr "Kolor Nagłówka"
 
 # @ dazzling
-#: options.php:225
+#: ../options.php:256
 msgid "Color for all headings (h1-h6)"
 msgstr "Kolor wszystkich nagłówków (h1-h6)"
 
 # @ dazzling
-#: options.php:230
+#: ../options.php:263
 msgid "Link Color"
 msgstr "Kolor linku"
 
 # @ dazzling
-#: options.php:236
+#: ../options.php:271
 msgid "Link:hover Color"
 msgstr "Link:kolor podświetlenia"
 
 # @ dazzling
-#: options.php:242
+#: ../options.php:279
 msgid "Link:active Color"
 msgstr "Link:kolor aktywnego elementu"
 
 # @ dazzling
-#: options.php:248
+#: ../options.php:287
 msgid "Header"
 msgstr "Nagłówek"
 
 # @ dazzling
-#: options.php:251
+#: ../options.php:292
 msgid "Top nav background color"
 msgstr "Kolor tła menu głównego"
 
 # @ dazzling
-#: options.php:252
+#: ../options.php:293
 msgid "Default used if no color is selected."
 msgstr "Używa domyślnych ustawień, jeżeli nie wybrano koloru."
 
 # @ dazzling
-#: options.php:257
+#: ../options.php:300
 msgid "Top nav item color"
 msgstr "Kolor elementu nawigacji"
 
 # @ dazzling
-#: options.php:258
+#: ../options.php:301
 msgid "Link color"
 msgstr "kolor linku"
 
 # @ dazzling
-#: options.php:263
+#: ../options.php:308
 msgid "Top nav dropdown background color"
 msgstr "Kolor tła elementu rozwijanego menu"
 
 # @ dazzling
-#: options.php:264
+#: ../options.php:309
 msgid "Background of dropdown item hover color"
 msgstr "Kolor tła podświetlonego elementu rozwijanego menu"
 
 # @ dazzling
-#: options.php:269
+#: ../options.php:316
 msgid "Top nav dropdown item color"
 msgstr "Kolor elementu rozwijanego menu"
 
 # @ dazzling
-#: options.php:270
+#: ../options.php:317
 msgid "Dropdown item color"
 msgstr "Kolor elementu listy rozwijanej"
 
 # @ dazzling
-#: options.php:275
+#: ../options.php:324
 msgid "Footer"
 msgstr "Stopka"
 
 # @ dazzling
-#: options.php:278
+#: ../options.php:329
 msgid "Footer Widget Area Background Color"
 msgstr "Kolor tła strefy widgetów stopki"
 
 # @ dazzling
-#: options.php:283
+#: ../options.php:336
 msgid "Footer Background Color"
 msgstr "Kolor tła stopki"
 
 # @ dazzling
-#: options.php:288
+#: ../options.php:343
 msgid "Footer Text Color"
 msgstr "Kolor tekstu stopki"
 
 # @ dazzling
-#: options.php:293
+#: ../options.php:350
 msgid "Footer Link Color"
 msgstr "Kolor linku w stopce"
 
 # @ dazzling
-#: options.php:298
+#: ../options.php:357
 msgid "Footer information"
 msgstr "Informacja w stopce"
 
 # @ dazzling
-#: options.php:299
+#: ../options.php:358
 msgid "Copyright text in footer"
 msgstr "Tekst dot. praw autorskich w stopce"
 
 # @ dazzling
-#: options.php:301
+#: ../options.php:360
 msgid "All rights reserved."
 msgstr "Wszelkie prawa zastrzeżone."
 
 # @ dazzling
-#: options.php:304
+#: ../options.php:365
 msgid "Social"
 msgstr "Społeczność"
 
 # @ dazzling
-#: options.php:307
+#: ../options.php:370
 msgid "Social Icon Color"
 msgstr "Kolor ikon mediów społecznościowych"
 
 # @ dazzling
-#: options.php:313
+#: ../options.php:378
 msgid "Social Icon:hover Color"
 msgstr "Ikony mediów społecznościowych:kolor podświetlenia"
 
 # @ dazzling
-#: options.php:319
+#: ../options.php:386
 msgid "Add full URL for your social network profiles"
 msgstr "Dodaj pełne adresy URL do Twoich profili w mediach społecznościowych"
 
 # @ dazzling
-#: options.php:320
+#: ../options.php:387
 msgid "Facebook"
 msgstr "Facebook"
 
 # @ dazzling
-#: options.php:327
+#: ../options.php:396
 msgid "Twitter"
 msgstr "Twitter"
 
 # @ dazzling
-#: options.php:333
+#: ../options.php:404
 msgid "Google+"
 msgstr "Google+"
 
 # @ dazzling
-#: options.php:339
+#: ../options.php:412
 msgid "Youtube"
 msgstr "Youtube"
 
 # @ dazzling
-#: options.php:345
+#: ../options.php:420
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 # @ dazzling
-#: options.php:351
+#: ../options.php:428
 msgid "Pinterest"
 msgstr "Pinterest"
 
 # @ dazzling
-#: options.php:357
+#: ../options.php:436
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
 # @ dazzling
-#: options.php:363
+#: ../options.php:444
 msgid "Tumblr"
 msgstr "Tumblr"
 
 # @ dazzling
-#: options.php:369
+#: ../options.php:452
 msgid "Flickr"
 msgstr "Flickr"
 
 # @ dazzling
-#: options.php:375
+#: ../options.php:460
 msgid "Instagram"
 msgstr "Instagram"
 
 # @ dazzling
-#: options.php:381
+#: ../options.php:468
 msgid "Dribbble"
 msgstr "Dribbble"
 
 # @ dazzling
-#: options.php:387
+#: ../options.php:476
 msgid "Skype"
 msgstr "Skype"
 
 # @ dazzling
-#: options.php:393
+#: ../options.php:484
 msgid "Github"
 msgstr "Github"
 
 # @ dazzling
-#: options.php:399
+#: ../options.php:492
 msgid "Slideshare"
 msgstr "Slideshare"
 
 # @ dazzling
-#: options.php:405
+#: ../options.php:500
 msgid "VK.com"
 msgstr "VK.com"
 
 # @ dazzling
-#: options.php:410
+#: ../options.php:507
 msgid "Other"
 msgstr "Other"
 
 # @ dazzling
-#: options.php:413
+#: ../options.php:512
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
 # @ dazzling
-#: options.php:414
+#: ../options.php:513
 msgid "Additional CSS"
 msgstr "Additional CSS"
 
 # @ dazzling
-#: search.php:16
+#: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Wyniki wyszukiwania dla: %s"
 
 # @ dazzling
-#: searchform.php:11
+#: ../searchform.php:11
 msgctxt "label"
 msgid "Search for:"
 msgstr "Szukaj:"
 
 # @ dazzling
-#: searchform.php:12
+#: ../searchform.php:12
 msgid "Search..."
 msgstr "Szukaj..."
 
 # @ dazzling
-#: sidebar.php:24
+#: ../sidebar.php:24
 msgid "Meta"
 msgstr "Meta"
