@@ -210,10 +210,11 @@ add_action( 'wp_head', 'dazzling_ie_support_header', 11 );
  * If you're loading from a child theme use stylesheet_directory
  * instead of template_directory
  */
-
-define('OPTIONS_FRAMEWORK_URL', get_template_directory() . '/inc/admin/');
-define('OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/admin/');
-require_once (OPTIONS_FRAMEWORK_URL . 'options-framework.php');
+define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/admin/' );
+require_once dirname( __FILE__ ) . '/inc/admin/options-framework.php';
+// Loads options.php from child or parent theme
+$optionsfile = locate_template( 'options.php' );
+load_template( $optionsfile );
 
 /**
  * Implement the Custom Header feature.

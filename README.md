@@ -58,9 +58,12 @@ Dazzling theme uses:
 
 #Changelog#
 
-####1.4.7 - 3.04.2015####
+####1.5.0 - 04.04.2015####
 
 * Added support for WPML multilingual plugin. 
+* Updated Options Framework 
+* Improved Theme Options translation for Child Theme
+* Other small code cleanups
 
 ####1.4.6 - 1.04.2015####
 
