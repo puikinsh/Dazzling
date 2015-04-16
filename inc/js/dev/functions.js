@@ -1,12 +1,12 @@
 jQuery(document).ready(function($) {
-		// Apply Bootstrap classes for some WordPress components
+        // Apply Bootstrap classes for some WordPress components
     $('#submit, .wpcf7-submit, .comment-reply-link, input[type="submit"]').addClass('btn btn-default');
     $('.wp-caption').addClass('thumbnail');
     $('.widget_rss ul').addClass('media-list');
     $('table#wp-calendar').addClass('table table-striped');
 
-		// Scroll to top
-		// Makes scroll to top appear only when user starts to scroll down
+        // Scroll to top
+        // Makes scroll to top appear only when user starts to scroll down
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('.scroll-to-top').fadeIn();
@@ -22,16 +22,17 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    // Load Flexslider
-    $(".flexslider").flexslider({
-        animation: "fade",
-        controlNav: true,
-        prevText: "",
-        nextText: "",
-        smoothHeight: true
-    });
-
-    // Skip link focus
+    // Load Flexslider and add some options
+        if ( $('.flexslider').length) {
+        $('.flexslider').flexslider({
+            animation: "fade",
+            controlNav: true,
+            prevText: "",
+            nextText: "",
+            smoothHeight: true
+        });
+      }
+        // Skip link focus
     ( function() {
         var is_webkit = navigator.userAgent.toLowerCase().indexOf( 'webkit' ) > -1,
             is_opera  = navigator.userAgent.toLowerCase().indexOf( 'opera' )  > -1,
