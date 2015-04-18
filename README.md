@@ -52,25 +52,29 @@ Dazzling theme uses:
 
 * [FontAwesome](http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
 * [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license 
-* [Options Framework](https://github.com/devinsays/options-framework-theme) by WP Theming licensed under the GPLv2 license 
-* [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license 
+* [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
+* [Options Framework](https://github.com/devinsays/options-framework-theme) by WP Theming licensed under the GPLv2 license
+* [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
 
 #Changelog#
 
+####1.5.1 - 18.04.2015####
+
+* Fixed JavaScript error for FlexSlider
+
 ####1.5.0 - 04.04.2015####
 
-* Added support for WPML multilingual plugin. 
-* Updated Options Framework 
+* Added support for WPML multilingual plugin.
+* Updated Options Framework
 * Improved Theme Options translation for Child Theme
 * Other small code cleanups
-* Added Lithuanian translation 
+* Added Lithuanian translation
 
 ####1.4.6 - 1.04.2015####
 
 * Fixed JavaScript warning that appeared on Google Chrome Dev Tools
-* Improved slider related JavaScript with smooth height adjusting when different size images are used for slider. 
-* Updated flexslider to 2.4.0 
+* Improved slider related JavaScript with smooth height adjusting when different size images are used for slider.
+* Updated flexslider to 2.4.0
 
 ####1.4.5 - 20.03.2015####
 
