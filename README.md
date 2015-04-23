@@ -58,6 +58,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.5.2 - 23.04.2015####
+
+* Improved WordPress Customizer Support. Now alloes to change site title and its color on the fly.
+
 ####1.5.1 - 18.04.2015####
 
 * Fixed JavaScript error for FlexSlider
