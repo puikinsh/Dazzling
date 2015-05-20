@@ -58,6 +58,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.5.3 - 20.04.2015####
+
+* Fixed layout bug with WooCommerce Cart inside Primary Menu.
+* Added missing string for translation
+
 ####1.5.2 - 27.04.2015####
 
 * Improved WordPress Customizer Support. Now allows to change site title and its color on the fly.
