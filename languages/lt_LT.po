@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-04 20:16+0200\n"
-"PO-Revision-Date: 2015-06-04 20:16+0200\n"
+"PO-Revision-Date: 2015-06-04 21:29+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: lt\n"
@@ -116,12 +116,12 @@ msgid "Archives"
 msgstr "Archyvai"
 
 #: ../comments.php:28
-#, fuzzy, php-format
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s komentaras<!--%2$s-->"
-msgstr[1] "%1$s komentarai<!--%2$s-->"
+msgstr[0] "%1$s komentaras &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarai &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s komentarų<!--%2$s-->"
 
 #: ../comments.php:35 ../comments.php:59
