@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-04 13:50+0200\n"
-"PO-Revision-Date: 2015-04-04 14:21+0200\n"
+"POT-Creation-Date: 2015-06-04 20:16+0200\n"
+"PO-Revision-Date: 2015-06-04 20:16+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: lt\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 &&(n"
 "%100<10||n%100 >= 20)? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
 "__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
@@ -115,7 +115,7 @@ msgstr "Pokalbiai"
 msgid "Archives"
 msgstr "Archyvai"
 
-#: ../comments.php:30
+#: ../comments.php:28
 #, fuzzy, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -124,19 +124,19 @@ msgstr[0] "%1$s komentaras<!--%2$s-->"
 msgstr[1] "%1$s komentarai<!--%2$s-->"
 msgstr[2] "%1$s komentarų<!--%2$s-->"
 
-#: ../comments.php:37 ../comments.php:61
+#: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
 msgstr "Komentarų navigacija"
 
-#: ../comments.php:38 ../comments.php:62
+#: ../comments.php:36 ../comments.php:60
 msgid "&larr; Older Comments"
 msgstr "&larr; Senesni komentarai"
 
-#: ../comments.php:39 ../comments.php:63
+#: ../comments.php:37 ../comments.php:61
 msgid "Newer Comments &rarr;"
 msgstr "Naujesni komentarai &rarr;"
 
-#: ../comments.php:73
+#: ../comments.php:71
 msgid "Comments are closed."
 msgstr "Komentavimo galimybė išjungta."
 
@@ -181,6 +181,11 @@ msgstr "Redaguoti"
 #: ../content-single.php:36 ../content-single.php:39 ../content.php:21
 msgid ", "
 msgstr ","
+
+#: ../content-single.php:44 ../content-single.php:46 ../content-single.php:52
+#: ../content-single.php:54
+msgid "permalink"
+msgstr ""
 
 #: ../content.php:15
 msgid "Leave a comment"
@@ -246,6 +251,11 @@ msgstr "Poraštės valdiklis 2"
 #: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "Poraštės valdiklis 3"
+
+#: ../header.php:29
+#, fuzzy
+msgid "Toggle navigation"
+msgstr "Įrašo navigacija"
 
 #: ../image.php:25
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"

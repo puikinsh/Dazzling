@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.4.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-04 23:36+0200\n"
-"PO-Revision-Date: 2015-04-04 23:36+0200\n"
+"POT-Creation-Date: 2015-06-04 20:16+0200\n"
+"PO-Revision-Date: 2015-06-04 20:16+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pl_PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
@@ -134,7 +134,7 @@ msgid "Archives"
 msgstr "Archiwa"
 
 # @ dazzling
-#: ../comments.php:30
+#: ../comments.php:28
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -144,22 +144,22 @@ msgstr[1] "%1$s komentarze do &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s komentarzy do &ldquo;%2$s&rdquo;"
 
 # @ dazzling
-#: ../comments.php:37 ../comments.php:61
+#: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
 msgstr "Nawigacja po komentarzach"
 
 # @ dazzling
-#: ../comments.php:38 ../comments.php:62
+#: ../comments.php:36 ../comments.php:60
 msgid "&larr; Older Comments"
 msgstr "&larr; Starsze komentarze"
 
 # @ dazzling
-#: ../comments.php:39 ../comments.php:63
+#: ../comments.php:37 ../comments.php:61
 msgid "Newer Comments &rarr;"
 msgstr "Nowe komentarze &rarr;"
 
 # @ dazzling
-#: ../comments.php:73
+#: ../comments.php:71
 msgid "Comments are closed."
 msgstr "Komentowanie zostało wyłączone."
 
@@ -211,6 +211,11 @@ msgstr "Edytuj"
 #: ../content-single.php:36 ../content-single.php:39 ../content.php:21
 msgid ", "
 msgstr ", "
+
+#: ../content-single.php:44 ../content-single.php:46 ../content-single.php:52
+#: ../content-single.php:54
+msgid "permalink"
+msgstr ""
 
 # @ dazzling
 #: ../content.php:15
@@ -292,6 +297,12 @@ msgstr "2 widget Stopki"
 #: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "3 widget Stopki"
+
+# @ dazzling
+#: ../header.php:29
+#, fuzzy
+msgid "Toggle navigation"
+msgstr "Nawigacja po wpisie"
 
 # @ dazzling
 #: ../image.php:25

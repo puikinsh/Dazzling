@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DazzlingG\n"
-"POT-Creation-Date: 2015-04-04 13:26+0200\n"
-"PO-Revision-Date: 2015-04-04 13:26+0200\n"
+"POT-Creation-Date: 2015-06-04 20:15+0200\n"
+"PO-Revision-Date: 2015-06-04 20:15+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -112,7 +112,7 @@ msgstr "Chats"
 msgid "Archives"
 msgstr "Archive"
 
-#: comments.php:30
+#: comments.php:28
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -120,19 +120,19 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "1 Kommentar zu &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s Kommentare zu &ldquo;%2$s&rdquo;"
 
-#: comments.php:37 comments.php:61
+#: comments.php:35 comments.php:59
 msgid "Comment navigation"
 msgstr "Kommentar Navigation"
 
-#: comments.php:38 comments.php:62
+#: comments.php:36 comments.php:60
 msgid "&larr; Older Comments"
 msgstr "&larr; &Auml;ltere Kommentare"
 
-#: comments.php:39 comments.php:63
+#: comments.php:37 comments.php:61
 msgid "Newer Comments &rarr;"
 msgstr "Neuere Kommentare &rarr;"
 
-#: comments.php:73
+#: comments.php:71
 msgid "Comments are closed."
 msgstr "Kommentare sind deaktiviert."
 
@@ -177,6 +177,11 @@ msgstr "Bearbeiten"
 #: content-single.php:36 content-single.php:39 content.php:21
 msgid ", "
 msgstr ", "
+
+#: content-single.php:44 content-single.php:46 content-single.php:52
+#: content-single.php:54
+msgid "permalink"
+msgstr ""
 
 #: content.php:15
 msgid "Leave a comment"
@@ -242,6 +247,11 @@ msgstr "Fußbereich Widget 2"
 #: functions.php:147
 msgid "Footer Widget 3"
 msgstr "Fußbereich Widget 3"
+
+#: header.php:29
+#, fuzzy
+msgid "Toggle navigation"
+msgstr "Beitragsnavigation"
 
 #: image.php:25
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
@@ -738,7 +748,7 @@ msgstr "Kopfbereich"
 #: options.php:292
 #, fuzzy
 msgid "Top nav background color"
-msgstr "Hauptmen&uuml;hintergrundfarbe"
+msgstr "Top nav Hintergrund Farbe"
 
 #: options.php:293
 msgid "Default used if no color is selected."
@@ -747,7 +757,7 @@ msgstr "Standard wird verwendet, wenn keine Farbe gewählt wird."
 #: options.php:300
 #, fuzzy
 msgid "Top nav item color"
-msgstr "Hauptmen&uuml;-Elementfarbe"
+msgstr "Top nav Element Farbe"
 
 #: options.php:301
 msgid "Link color"
@@ -756,22 +766,22 @@ msgstr "Link Farbe"
 #: options.php:308
 #, fuzzy
 msgid "Top nav dropdown background color"
-msgstr "Hauptmen&uuml;-Dropdownhintergrundfarbe"
+msgstr "Top nav Dropdown Hintergrund Farbe"
 
 #: options.php:309
 #, fuzzy
 msgid "Background of dropdown item hover color"
-msgstr "Hintergrund des Dropdownelements bei Maus-Over"
+msgstr "Hintergrund Dropdown Element hover Farbe"
 
 #: options.php:316
 #, fuzzy
 msgid "Top nav dropdown item color"
-msgstr "Hauptmen&uuml;-Dropdownelemtfarbe"
+msgstr "Top nav Dropdown Element Farbe"
 
 #: options.php:317
 #, fuzzy
 msgid "Dropdown item color"
-msgstr "Dropdownelemtfarbe"
+msgstr "Dropdown Element Farbe"
 
 #: options.php:324
 msgid "Footer"
@@ -841,7 +851,7 @@ msgstr "Google+"
 #: options.php:412
 #, fuzzy
 msgid "Youtube"
-msgstr "YouTube"
+msgstr "Youtube"
 
 #: options.php:420
 #, fuzzy

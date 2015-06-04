@@ -58,6 +58,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.5.4 - 04.06.2015####
+
+* Added missing string for translation
+* Updated translation files
+
 ####1.5.3 - 20.04.2015####
 
 * Fixed layout bug with WooCommerce Cart inside Primary Menu.

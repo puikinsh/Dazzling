@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-04-04 13:29+0200\n"
-"PO-Revision-Date: 2015-04-04 13:29+0200\n"
+"POT-Creation-Date: 2015-06-04 20:16+0200\n"
+"PO-Revision-Date: 2015-06-04 20:16+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
@@ -98,7 +98,7 @@ msgstr "Chats"
 msgid "Archives"
 msgstr "Archívum"
 
-#: ../comments.php:30
+#: ../comments.php:28
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -106,19 +106,19 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Az alábbi hozzászólás érkezett: &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s hozzászólás érkezett az alábbi témában: &ldquo;%2$s&rdquo;"
 
-#: ../comments.php:37 ../comments.php:61
+#: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
 msgstr "Hozzászólások"
 
-#: ../comments.php:38 ../comments.php:62
+#: ../comments.php:36 ../comments.php:60
 msgid "&larr; Older Comments"
 msgstr "&larr; Régebbi hozzászólások"
 
-#: ../comments.php:39 ../comments.php:63
+#: ../comments.php:37 ../comments.php:61
 msgid "Newer Comments &rarr;"
 msgstr "&larr; Újabb hozzászólások"
 
-#: ../comments.php:73
+#: ../comments.php:71
 msgid "Comments are closed."
 msgstr "Nem kommentelhető."
 
@@ -162,6 +162,11 @@ msgstr "Szerkesztés"
 #: ../content-single.php:36 ../content-single.php:39 ../content.php:21
 msgid ", "
 msgstr ", "
+
+#: ../content-single.php:44 ../content-single.php:46 ../content-single.php:52
+#: ../content-single.php:54
+msgid "permalink"
+msgstr ""
 
 #: ../content.php:15
 msgid "Leave a comment"
@@ -227,6 +232,11 @@ msgstr "Footer Widget 2"
 #: ../functions.php:147
 msgid "Footer Widget 3"
 msgstr "Footer Widget 3"
+
+#: ../header.php:29
+#, fuzzy
+msgid "Toggle navigation"
+msgstr "Bejegyzés navigáció"
 
 #: ../image.php:25
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
