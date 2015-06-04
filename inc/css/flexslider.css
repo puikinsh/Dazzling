@@ -127,7 +127,9 @@ html[xmlns] .slides {display: block;}
     display: none;
   }
 }
-
+.flex-control-nav {
+  z-index: 100;
+}
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
