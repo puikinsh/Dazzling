@@ -504,6 +504,14 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
+		'id' 		=> 'social_soundcloud',
+		'desc'  => __('Soundcloud', 'dazzling'),
+		'std'   => '',
+		'class' => 'mini',
+		'type'  => 'text'
+	);
+
+	$options[] = array(
 		'name' => __('Other', 'dazzling'),
 		'type' => 'heading'
 	);
