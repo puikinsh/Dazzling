@@ -160,7 +160,7 @@ if ( ! function_exists( 'dazzling_social' ) ) :
  * Display social links
  */
 function dazzling_social(){
-    $services = array ('facebook','twitter','googleplus','youtube','linkedin','pinterest','rss','tumblr','flickr','instagram','dribbble','skype','github','slideshare','vk');
+    $services = array ('facebook','twitter','googleplus','youtube','linkedin','pinterest','rss','tumblr','flickr','instagram','dribbble','skype','github','slideshare','vk','soundcloud');
 
     echo '<div id="social" class="social"><ul>';
 
