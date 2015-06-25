@@ -22,17 +22,15 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    // Load Flexslider and add some options
-        if ( $('.flexslider').length) {
+    if ( $('.flexslider').length) {
         $('.flexslider').flexslider({
             animation: "fade",
             controlNav: true,
             prevText: "",
-            nextText: "",
-            smoothHeight: true
-        });
-      }
-        // Skip link focus
+            nextText: ""
+        })
+    };
+    // Skip link focus
     ( function() {
         var is_webkit = navigator.userAgent.toLowerCase().indexOf( 'webkit' ) > -1,
             is_opera  = navigator.userAgent.toLowerCase().indexOf( 'opera' )  > -1,
