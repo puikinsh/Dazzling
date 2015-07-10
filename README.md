@@ -58,6 +58,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####1.5.5 - 10.07.2015####
+
+* Improved Custom CSS forum output
+
 ####1.5.4 - 04.06.2015####
 
 * Added missing string for translation
