@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "POT-Creation-Date: 2015-06-04 20:15+0200\n"
-"PO-Revision-Date: 2015-06-04 20:15+0200\n"
+"PO-Revision-Date: 2015-08-02 09:08+0000\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Wolforg <contact@wolforg.eu>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr__;_n;_n:1,2;esc_attr_e;_nx:4c,1,2;"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups, la page ne peut être trouvée"
+msgstr "Oups, cette page n'a pas été trouvée."
 
 #: ../404.php:19
 msgid ""
@@ -28,7 +28,7 @@ msgid ""
 "below or a search?"
 msgstr ""
 "Il semble que rien n'ait été trouvé à cet emplacement. Vous pouvez peut-être "
-"essayer un des liens ci-dessous ou une recherche."
+"essayer un des liens ci-dessous ou faire une recherche ?"
 
 #: ../404.php:27
 msgid "Most Used Categories"
@@ -104,8 +104,8 @@ msgstr "Archives"
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Une reflexion sur &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s reflexions sur &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réflexion sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réflexions sur &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
@@ -113,11 +113,11 @@ msgstr "Navigation Commentaires"
 
 #: ../comments.php:36 ../comments.php:60
 msgid "&larr; Older Comments"
-msgstr "Commentaires plus Anciens"
+msgstr "Commentaires plus anciens"
 
 #: ../comments.php:37 ../comments.php:61
 msgid "Newer Comments &rarr;"
-msgstr "Commentaires plus Récents"
+msgstr "Commentaires plus récents"
 
 #: ../comments.php:71
 msgid "Comments are closed."
@@ -137,14 +137,16 @@ msgstr "Prêt à publier votre 1er article? <a href=\"%1$s\">Commencez ici</a>."
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr "Désolé, mais rien ne correspond à votre recherche."
+msgstr ""
+"Désolé, mais rien ne correspond à votre recherche. Merci d'essayer en "
+"changeant les termes."
 
 #: ../content-none.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Nous ne trouvons pas ce que vous recherchez. Essayez une nouvelle recherche"
+"Nous ne trouvons pas ce que vous recherchez. Essayez une nouvelle recherche."
 
 #: ../content-page.php:18 ../content-single.php:23 ../content.php:61
 #: ../front-page.php:23 ../image.php:82
@@ -164,7 +166,7 @@ msgstr ", "
 #: ../content-single.php:44 ../content-single.php:46 ../content-single.php:52
 #: ../content-single.php:54
 msgid "permalink"
-msgstr ""
+msgstr "permalien"
 
 #: ../content.php:15
 msgid "Leave a comment"
@@ -255,19 +257,19 @@ msgstr "Sauvegarder les options"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Restore Defaults"
-msgstr "Restaurer par défaut"
+msgstr "Restaurer les paramètres par défaut"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Click OK to reset. Any theme settings will be lost!"
-msgstr "Clquez OK pour réinitilaiser. Les options seront perdues !"
+msgstr "Cliquez OK pour réinitialiser. Les options de thème seront perdues !"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:235
 msgid "Default options restored."
-msgstr "Options par défaut restaurées"
+msgstr "Options par défaut restaurées."
 
 #: ../inc/admin/includes/class-options-framework-admin.php:289
 msgid "Options saved."
-msgstr "Options enregistrées"
+msgstr "Options enregistrées."
 
 #: ../inc/admin/includes/class-options-media-uploader.php:62
 msgid "No file chosen"
@@ -285,7 +287,7 @@ msgstr "Enlever"
 
 #: ../inc/admin/includes/class-options-media-uploader.php:70
 msgid "Upgrade your version of WordPress for full media support."
-msgstr "Mettez à jour WordPress pour un support complet des médias"
+msgstr "Mettez à jour WordPress pour un support complet des médias."
 
 #: ../inc/admin/includes/class-options-media-uploader.php:94
 msgid "View File"
@@ -842,7 +844,7 @@ msgstr "CSS personnalisé"
 
 #: ../options.php:513
 msgid "Additional CSS"
-msgstr "CSS Additionnel"
+msgstr "CSS additionnel"
 
 #: ../search.php:16
 #, php-format
