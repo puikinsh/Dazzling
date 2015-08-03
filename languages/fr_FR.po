@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-06-04 20:15+0200\n"
-"PO-Revision-Date: 2015-08-02 09:08+0000\n"
+"POT-Creation-Date: 2015-08-03 17:48+0000\n"
+"PO-Revision-Date: 2015-08-03 17:52+0000\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Wolforg <contact@wolforg.eu>\n"
 "Language: en_US\n"
@@ -234,9 +234,8 @@ msgid "Footer Widget 3"
 msgstr "Widgets du Pied de page 3"
 
 #: ../header.php:29
-#, fuzzy
 msgid "Toggle navigation"
-msgstr "Navigation Article"
+msgstr ""
 
 #: ../image.php:25
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
@@ -376,11 +375,10 @@ msgstr "Page %s"
 
 #: ../inc/extras.php:135
 msgid ""
-"<p>This post is password protected. To view it please enter your password "
-"below:</p>"
+"This post is password protected. To view it please enter your password below:"
 msgstr ""
-"<p>Cet article est protégé par un mot de passe.  Entrez ce mot de passe ci-"
-"dessous :</p>"
+"Cet article est protégé par un mot de passe.  Pour le lire, veuillez entrer "
+"votre mot de passe ci-dessous :"
 
 #: ../inc/extras.php:136
 msgid "Password:"
@@ -834,15 +832,19 @@ msgstr "Slideshare"
 msgid "VK.com"
 msgstr "VK.com"
 
-#: ../options.php:507
+#: ../options.php:508
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: ../options.php:515
 msgid "Other"
 msgstr "Autres"
 
-#: ../options.php:512
+#: ../options.php:520
 msgid "Custom CSS"
 msgstr "CSS personnalisé"
 
-#: ../options.php:513
+#: ../options.php:521
 msgid "Additional CSS"
 msgstr "CSS additionnel"
 
@@ -858,6 +860,13 @@ msgstr "Rechercher..."
 #: ../sidebar.php:24
 msgid "Meta"
 msgstr "Meta"
+
+#~ msgid ""
+#~ "<p>This post is password protected. To view it please enter your password "
+#~ "below:</p>"
+#~ msgstr ""
+#~ "<p>Cet article est protégé par un mot de passe.  Entrez ce mot de passe "
+#~ "ci-dessous :</p>"
 
 #~ msgid "dazzling Documentation"
 #~ msgstr "Documentation"
