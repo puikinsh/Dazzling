@@ -10,13 +10,13 @@ class dazzling_popular_posts_widget extends WP_Widget {
 	 */
 	function dazzling_popular_posts_widget() {
 		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'dazzling_tabbed_widget', 'description' => __('Displays tabbed list of popular posts, recent posts & comments', 'dazzling') );
+		$widget_ops = array( 'classname' => 'dazzling_tabbed_widget', 'description' => __( 'Displays tabbed list of popular posts, recent posts & comments', 'dazzling' ) );
 
 		/* Widget control settings. */
 		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => 'dazzling_tabbed_widget' );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'dazzling_tabbed_widget', __('Dazzling Popular Posts Widget', 'dazzling'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'dazzling_tabbed_widget', __( 'Dazzling Popular Posts Widget', 'dazzling' ), $widget_ops, $control_ops );
 	}
 
 	/**
@@ -42,7 +42,14 @@ class dazzling_popular_posts_widget extends WP_Widget {
                 <ul id="popular-posts" class="tab-pane active">
 
                     <?php
-                        $recent_posts = new WP_Query(array('showposts' => $number, 'ignore_sticky_posts' => 1, 'post_status' => 'publish', 'order'=> 'DESC', 'showposts' => $number, 'meta_key' => 'post_views_count', 'orderby' => 'meta_value'));
+                        $recent_posts = new WP_Query( array(
+                            'showposts'           => $number,
+                            'ignore_sticky_posts' => 1,
+                            'post_status'         => 'publish',
+                            'order'               => 'DESC',
+                            'meta_key'            => 'post_views_count',
+                            'orderby'             => 'meta_value'
+                        ) );
                     ?>
 
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
@@ -67,20 +74,24 @@ class dazzling_popular_posts_widget extends WP_Widget {
                 <ul id="recent" class="tab-pane">
 
                     <?php
-                    $recent_posts = new WP_Query(array('showposts' => $number,'post_status' => 'publish', 'ignore_sticky_posts' => 1 ));
+                        $recent_posts = new WP_Query( array(
+                            'showposts'           => $number,
+                            'post_status'         => 'publish',
+                            'ignore_sticky_posts' => 1
+                        )) ;
                     ?>
 
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
                         <li>
                             <?php if ( has_post_thumbnail() ) : ?>
-                            <a href="<?php echo get_permalink() ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title(); ?>">
-                                <?php the_post_thumbnail('tab-small'); ?>
+                            <a href="<?php echo get_permalink(); ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title(); ?>">
+                                <?php the_post_thumbnail( 'tab-small' ); ?>
                             </a>
                             <?php endif; ?>
                             <div class="content">
                                 <a class="tab-entry" href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
                                 <i>
-                                    <?php the_time('M j, Y') ?>
+                                    <?php the_time( 'M j, Y' ) ?>
                                 </i>
                             </div>
                         </li>
@@ -91,11 +102,10 @@ class dazzling_popular_posts_widget extends WP_Widget {
                 <ul id="messages" class="tab-pane">
 
                 <?php
-                $recent_comments = get_comments( array(
-                    'number'    => $number,
-                    'status'    => 'approve'
-                ) );
-                //var_dump($recent_comments);
+                    $recent_comments = get_comments( array(
+                        'number'    => $number,
+                        'status'    => 'approve'
+                    ) );
                 ?>
                 <?php foreach($recent_comments as $comment) : ?>
 
@@ -106,8 +116,8 @@ class dazzling_popular_posts_widget extends WP_Widget {
                                 <?php echo get_the_title($comment->comment_post_ID); ?>
                             </a>
                             <p>
-                            <?php echo substr( $comment->comment_content, 0, strrpos( substr( $comment->comment_content, 0, 60), ' ' ) );?>
-                            <?php if (strlen($comment->comment_content) > 60 ) {echo '(...)'; } ?>
+                            <?php echo substr( $comment->comment_content, 0, strrpos( substr( $comment->comment_content, 0, 60 ), ' ' ) ); ?>
+                            <?php if ( strlen( $comment->comment_content ) > 60 ) { echo '(...)'; } ?>
                             </p>
                         </div>
                     </li>
