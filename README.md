@@ -58,9 +58,10 @@ Dazzling theme uses:
 
 #Changelog#
 
-####1.5.6 - 26.07.2015####
+####1.5.6 - 14.08.2015####
 
 * Added Italian translation thanks to Giulia Costa
+* Fixed JavaScript that made Flexlisder height to 0 in some cases.
 
 ####1.5.5 - 10.07.2015####
 
