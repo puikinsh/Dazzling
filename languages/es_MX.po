@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
-"POT-Creation-Date: 2015-06-04 20:15+0200\n"
-"PO-Revision-Date: 2015-06-04 20:15+0200\n"
+"POT-Creation-Date: 2015-08-14 15:12+0300\n"
+"PO-Revision-Date: 2015-08-14 15:12+0300\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr__;_n;_n:1,2;esc_attr_e;_nx:4c,1,2;"
@@ -60,7 +60,7 @@ msgstr "Año: %s"
 
 #: ../archive.php:39
 msgid "Asides"
-msgstr ""
+msgstr "Apartes"
 
 #: ../archive.php:42
 msgid "Galleries"
@@ -103,8 +103,8 @@ msgstr "Archivos"
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Un comentario sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios  sobre &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
@@ -254,13 +254,12 @@ msgid "Theme Options"
 msgstr "Opciones del Tema"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:203
-#, fuzzy
 msgid "Save Options"
 msgstr "Salvar todos los cambios"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Restore Defaults"
-msgstr ""
+msgstr "Restaurar para valores predeterminados"
 
 #: ../inc/admin/includes/class-options-framework-admin.php:204
 msgid "Click OK to reset. Any theme settings will be lost!"
@@ -408,12 +407,10 @@ msgid "Support and Documentation"
 msgstr "Soporte y Documentación"
 
 #: ../inc/extras.php:431
-#, fuzzy
 msgid "Dazzling Documentation"
-msgstr "dazzling Documentación"
+msgstr "Documentación de Dazzling"
 
 #: ../inc/extras.php:432
-#, fuzzy
 msgid ""
 "The best way to contact us with support questions and bug reports is via"
 msgstr ""
@@ -451,18 +448,12 @@ msgid "Dazzling Popular Posts Widget"
 msgstr "Dazzling Entradas Populares Widget"
 
 #: ../inc/popular-posts-widget.php:36
-#, fuzzy
 msgid "Popular"
-msgstr ""
-"Mostrar pestañas con lista de entradas populares, entradas recientes y "
-"comentarios"
+msgstr "Popular"
 
 #: ../inc/popular-posts-widget.php:37
-#, fuzzy
 msgid "Recent"
-msgstr ""
-"Mostrar pestañas con lista de entradas populares, entradas recientes y "
-"comentarios"
+msgstr "Reciente"
 
 #: ../inc/popular-posts-widget.php:104
 msgid "Anonymous"
@@ -507,18 +498,18 @@ msgstr "Tu comentario esta esperando su revisión."
 
 #: ../inc/woo-setup.php:97
 msgid "View your shopping cart"
-msgstr ""
+msgstr "Ver su carrito de compras"
 
 #: ../inc/woo-setup.php:98
 msgid "Start shopping"
-msgstr ""
+msgstr "Iniciar compras"
 
 #: ../inc/woo-setup.php:102
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d artículo"
+msgstr[1] "%d artículos"
 
 #: ../options.php:22
 msgid "Right Sidebar"
@@ -772,9 +763,8 @@ msgid "Copyright text in footer"
 msgstr "Texto de Copyright en el pie de página"
 
 #: ../options.php:360
-#, fuzzy
 msgid "All rights reserved."
-msgstr "Color para todos loa títulos (h1-h6)"
+msgstr "Reservados todos los derechos."
 
 #: ../options.php:365
 msgid "Social"
@@ -842,25 +832,29 @@ msgstr "Skype"
 
 #: ../options.php:484
 msgid "Github"
-msgstr ""
+msgstr "Github"
 
 #: ../options.php:492
 msgid "Slideshare"
-msgstr ""
+msgstr "Slideshare"
 
 #: ../options.php:500
 msgid "VK.com"
+msgstr "VK.com"
+
+#: ../options.php:508
+msgid "Soundcloud"
 msgstr ""
 
-#: ../options.php:507
+#: ../options.php:515
 msgid "Other"
 msgstr "Otro"
 
-#: ../options.php:512
+#: ../options.php:520
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: ../options.php:513
+#: ../options.php:521
 msgid "Additional CSS"
 msgstr "CSS Adicional"
 
@@ -870,9 +864,8 @@ msgid "Search Results for: %s"
 msgstr "Resultados de búsqueda para: %s"
 
 #: ../searchform.php:12
-#, fuzzy
 msgid "Search..."
-msgstr "Busca"
+msgstr "Busca..."
 
 #: ../sidebar.php:24
 msgid "Meta"
