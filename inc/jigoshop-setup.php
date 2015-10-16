@@ -4,7 +4,7 @@
  */
 
 function dazzling_open_jigoshop_content_wrappers() {
-	echo '<div id="content" class="site-content container"><div id="primary" class="content-area col-sm-12 col-md-8"><main id="main" class="site-main" role="main">';
+	echo '<div id="primary" class="content-area col-sm-12 col-md-8"><main id="main" class="site-main" role="main">';
 }
 
 function dazzling_close_jigoshop_content_wrappers() {

@@ -1,4 +1,4 @@
-<?php
+<?php error_reporting(-1);
 /**
  * Dazzling functions and definitions
  *
@@ -153,11 +153,13 @@ function dazzling_widgets_init() {
   ));
 
 
+  register_widget( 'dazzling_social_widget' );
   register_widget( 'dazzling_popular_posts_widget' );
 }
 add_action( 'widgets_init', 'dazzling_widgets_init' );
 
-include(get_template_directory() . "/inc/popular-posts-widget.php");
+include(get_template_directory() . "/inc/widgets/widget-popular-posts.php");
+include(get_template_directory() . "/inc/widgets/widget-social.php");
 
 
 /**
@@ -210,11 +212,11 @@ add_action( 'wp_head', 'dazzling_ie_support_header', 11 );
  * If you're loading from a child theme use stylesheet_directory
  * instead of template_directory
  */
-define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/admin/' );
+/*define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/admin/' );
 require_once dirname( __FILE__ ) . '/inc/admin/options-framework.php';
 // Loads options.php from child or parent theme
 $optionsfile = locate_template( 'options.php' );
-load_template( $optionsfile );
+load_template( $optionsfile );*/
 
 /**
  * Implement the Custom Header feature.
@@ -259,3 +261,71 @@ if ( class_exists( 'jigoshop' ) ) {
  */
 require get_template_directory() . '/inc/jigoshop-setup.php';
 }
+
+/**
+ * Metabox file load
+ */
+require get_template_directory() . '/inc/metaboxes.php';
+
+/**
+ * Register Social Icon menu
+ */
+add_action( 'init', 'register_social_menu' );
+
+function register_social_menu() {
+	register_nav_menu( 'social-menu', _x( 'Social Menu', 'nav menu location', 'dazzling' ) );
+}
+
+/* Globals variables */
+global $options_categories;
+$options_categories = array();
+$options_categories_obj = get_categories();
+foreach ($options_categories_obj as $category) {
+        $options_categories[$category->cat_ID] = $category->cat_name;
+}
+
+global $site_layout;
+$site_layout = array('side-pull-left' => esc_html__('Right Sidebar', 'dazzling'),'side-pull-right' => esc_html__('Left Sidebar', 'dazzling'),'no-sidebar' => esc_html__('No Sidebar', 'dazzling'),'full-width' => esc_html__('Full Width', 'dazzling'));
+
+// Typography Options
+global $typography_options;
+$typography_options = array(
+        'sizes' => array( '6px' => '6px','10px' => '10px','12px' => '12px','14px' => '14px','15px' => '15px','16px' => '16px','18'=> '18px','20px' => '20px','24px' => '24px','28px' => '28px','32px' => '32px','36px' => '36px','42px' => '42px','48px' => '48px' ),
+        'faces' => array(
+                'arial'          => 'Arial',
+                'verdana'        => 'Verdana, Geneva',
+                'trebuchet'      => 'Trebuchet',
+                'georgia'        => 'Georgia',
+                'times'          => 'Times New Roman',
+                'tahoma'         => 'Tahoma, Geneva',
+                'Open Sans'      => 'Open Sans',
+                'palatino'       => 'Palatino',
+                'helvetica'      => 'Helvetica',
+                'helvetica-neue' => 'Helvetica Neue,Helvetica,Arial,sans-serif'
+        ),
+        'styles' => array( 'normal' => 'Normal','bold' => 'Bold' ),
+        'color'  => true
+);
+
+/**
+ * Helper function to return the theme option value.
+ * If no value has been saved, it returns $default.
+ * Needed because options are saved as serialized strings.
+ *
+ * Not in a class to support backwards compatibility in themes.
+ */
+if ( ! function_exists( 'of_get_option' ) ) :
+function of_get_option( $name, $default = false ) {
+
+	$option_name = '';
+	// Get option settings from database
+	$options = get_option( 'dazzling' );
+
+	// Return specific option
+	if ( isset( $options[$name] ) ) {
+		return $options[$name];
+	}
+
+	return $default;
+}
+endif;

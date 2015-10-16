@@ -52,3 +52,25 @@ Toggle navigation
 				<?php dazzling_header_menu(); ?>
 		</div>
 	</nav><!-- .site-navigation -->
+        
+        <div class="top-section">
+		<?php dazzling_featured_slider(); ?>
+		<?php dazzling_call_for_action(); ?>
+        </div>
+        <div id="content" class="site-content container">
+            
+            <div class="container main-content-area"><?php
+            
+                global $post;
+                if( get_post_meta($post->ID, 'site_layout', true) ){
+                        $layout_class = get_post_meta($post->ID, 'site_layout', true);
+                }
+                else{
+                        $layout_class = of_get_option( 'site_layout' );
+                }
+                if( is_home() && is_sticky( $post->ID ) ){
+                        $layout_class = of_get_option( 'site_layout' );
+                }
+                ?>
+                <div class="row <?php echo $layout_class; ?>">
+                    
