@@ -48,7 +48,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
                             'post_status'         => 'publish',
                             'order'               => 'DESC',
                             'meta_key'            => 'post_views_count',
-                            'orderby'             => 'meta_value'
+                            'orderby'             => 'meta_value_num'
                         ) );
                     ?>
 
