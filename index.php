@@ -11,43 +11,36 @@
  * @package dazzling
  */
 
-get_header(); ?>
-	<div class="top-section">
+get_header(); ?>	
 
-		<?php dazzling_featured_slider(); ?>
+        <div id="primary" class="content-area col-sm-12 col-md-8">
+                <main id="main" class="site-main" role="main">
 
-		<?php dazzling_call_for_action(); ?>
-	</div>
+                <?php if ( have_posts() ) : ?>
 
-	<div id="content" class="site-content container">
-		<div id="primary" class="content-area col-sm-12 col-md-8 <?php echo of_get_option( 'site_layout', 'no entry' ); ?>">
-			<main id="main" class="site-main" role="main">
+                        <?php /* Start the Loop */ ?>
+                        <?php while ( have_posts() ) : the_post(); ?>
 
-			<?php if ( have_posts() ) : ?>
+                                <?php
+                                        /* Include the Post-Format-specific template for the content.
+                                         * If you want to override this in a child theme, then include a file
+                                         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                                         */
+                                        get_template_part( 'content', get_post_format() );
+                                ?>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+                        <?php endwhile; ?>
 
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
+                        <?php dazzling_paging_nav(); ?>
 
-				<?php endwhile; ?>
+                <?php else : ?>
 
-				<?php dazzling_paging_nav(); ?>
+                        <?php get_template_part( 'content', 'none' ); ?>
 
-			<?php else : ?>
+                <?php endif; ?>
 
-				<?php get_template_part( 'content', 'none' ); ?>
-
-			<?php endif; ?>
-
-			</main><!-- #main -->
-		</div><!-- #primary -->
+                </main><!-- #main -->
+        </div><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

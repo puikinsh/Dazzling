@@ -7,7 +7,9 @@
  * @package dazzling
  */
 ?>
-	</div><!-- #content -->
+                </div><!-- close .row -->
+            </div><!-- close .container -->
+        </div><!-- close .site-content -->
 
 	<div id="footer-area">
 		<div class="container footer-inner">
@@ -16,7 +18,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="site-info container">
-				<?php dazzling_social(); ?>
+				<?php if( of_get_option('footer_social') ) dazzling_social_icons(); ?>
 				<nav role="navigation" class="col-md-6">
 					<?php dazzling_footer_links(); ?>
 				</nav>

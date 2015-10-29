@@ -932,7 +932,7 @@ p.logged-in-as {
 .top-bar {
     border-bottom-color: #E8E8E8;
 }
-.social-icon {
+#social a {
     font-size: 32px;
     margin: 6px;
     color: #E8E8E8;
@@ -951,6 +951,9 @@ p.logged-in-as {
   margin-bottom: 0;
   padding: 0;
 }
+#social li a span {
+  display: none;
+}
 .fa-googleplus:before {
   content: "\f0d5";
 }
@@ -962,6 +965,9 @@ p.logged-in-as {
     top: 0;
     float: none;
     text-align: center;
+  }
+  .side-pull-left .main-content-inner, .side-pull-right .main-content-inner{
+    float: none;
   }
 }
 
@@ -996,4 +1002,21 @@ p.logged-in-as {
 }
 .cfa-button:hover a {
     color: #1FA67A;
+}
+/* Layout */
+.side-pull-left #primary{
+    float: left;
+}
+.side-pull-right #primary{
+    float: right;
+}
+.no-sidebar #secondary, .full-width #secondary{
+    display: none;
+}
+.no-sidebar #primary{
+    float: none;
+    margin: 0 auto;
+}
+.full-width #primary{
+    width: 100%;
 }

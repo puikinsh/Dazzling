@@ -154,27 +154,31 @@ function dazzling_add_custom_table_class( $content ) {
     return str_replace( '<table>', '<table class="table table-hover">', $content );
 }
 
-
-if ( ! function_exists( 'dazzling_social' ) ) :
+if ( ! function_exists( 'sparkling_social_icons' ) ) :
 /**
- * Display social links
+ * Display social links in footer and widgets
+ *
+ * @package sparkling
  */
-function dazzling_social(){
-    $services = array ('facebook','twitter','googleplus','youtube','linkedin','pinterest','rss','tumblr','flickr','instagram','dribbble','skype','github','slideshare','vk','soundcloud');
-
-    echo '<div id="social" class="social"><ul>';
-
-    foreach ( $services as $service ) :
-
-        $active[$service] = of_get_option ('social_'.$service);
-        if ($active[$service]) { echo '<li><a href="'.$active[$service].'" class="social-icon '. $service .'" title="'. __('Follow us on ','dazzling').$service.'" target="_blank"><i class="social_icon fa fa-'.$service.'"></i></a></li>';}
-
-    endforeach;
-    echo '</ul></div>';
-
+function dazzling_social_icons(){
+  if ( has_nav_menu( 'social-menu' ) ) {
+  	wp_nav_menu(
+  		array(
+  			'theme_location'  => 'social-menu',
+  			'container'       => 'nav',
+  			'container_id'    => 'social',
+  			'container_class' => 'social-icon',
+  			'menu_id'         => 'menu-social-items',
+  			'menu_class'      => 'social-menu',
+  			'depth'           => 1,
+  			'fallback_cb'     => '',
+                        'link_before'     => '<i class="social_icon fa"><span>',
+                        'link_after'      => '</span></i>'
+  		)
+	  );
+  }
 }
 endif;
-
 
 /**
  * header menu (should you choose to use one)
@@ -382,14 +386,15 @@ if (!function_exists('get_dazzling_theme_options'))  {
       echo '.site-info a, #footer-area a {color: '.of_get_option('footer_link_color', '#000').';}';
     }
     if ( of_get_option('social_color')) {
-      echo '.social-icon {color: '.of_get_option('social_color', '#000').' !important ;}';
+      echo '#social a {color: '.of_get_option('social_color', '#000').' !important ;}';
     }
     if ( of_get_option('social_hover_color')) {
-      echo '.social-icon:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
+      echo '#social a:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
     }
+    global $typography_options;
     $typography = of_get_option('main_body_typography');
     if ( $typography ) {
-      echo '.entry-content {font-family: ' . $typography['face'] . '; font-size:' . $typography['size'] . '; font-weight: ' . $typography['style'] . '; color:'.$typography['color'] . ';}';
+      echo '.entry-content {font-family: ' . $typography_options['faces'][$typography['face']] . '; font-size:' . $typography['size'] . '; font-weight: ' . $typography['style'] . '; color:'.$typography['color'] . ';}';
     }
     if ( of_get_option('custom_css')) {
       echo html_entity_decode( of_get_option( 'custom_css', 'no entry' ) );
