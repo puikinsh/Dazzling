@@ -96,7 +96,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_setting('dazzling[site_layout]', array(
                  'default' => 'side-pull-left',
                  'type' => 'option',
-                 //'sanitize_callback' => 'dazzling_sanitize_layout'
+                 'sanitize_callback' => 'dazzling_sanitize_layout'
             ));
             $wp_customize->add_control('dazzling[site_layout]', array(
                  'label' => __('Website Layout Options', 'dazzling'),
