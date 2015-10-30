@@ -39,9 +39,7 @@ function dazzling_customizer( $wp_customize ) {
         'description' => __('Panel to update dazzling theme options', 'dazzling'), // Include html tags such as <p>.
         'priority' => 10 // Mixed with top-level-section hierarchy.
     ));
-    
-        //$options = get_option('dazzling');echo '<pre>';print_r($options);
-            
+
         /* Dazzling Main Options */
         $wp_customize->add_section('dazzling_slider_options', array(
             'title' => __('Slider options', 'dazzling'),
@@ -59,7 +57,7 @@ function dazzling_customizer( $wp_customize ) {
                     'priority'	=> 5,
                     'type'      => 'checkbox',
             ) );
-            
+
             // Pull all the categories into an array
             global $options_categories;
             $wp_customize->add_setting('dazzling[dazzling_slide_categories]', array(
@@ -117,9 +115,9 @@ function dazzling_customizer( $wp_customize ) {
                 'label' => __('Element Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
                 'section' => 'dazzling_layout_options',
-                'settings' => 'dazzling[element_color]',                
+                'settings' => 'dazzling[element_color]',
             )));
-            
+
             $wp_customize->add_setting('dazzling[element_color_hover]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -129,9 +127,9 @@ function dazzling_customizer( $wp_customize ) {
                 'label' => __('Element color on hover', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
                 'section' => 'dazzling_layout_options',
-                'settings' => 'dazzling[element_color_hover]',                
+                'settings' => 'dazzling[element_color_hover]',
             )));
-            
+
          /* Dazzling Action Options */
         $wp_customize->add_section('dazzling_action_options', array(
             'title' => __('Action Button', 'dazzling'),
@@ -140,7 +138,7 @@ function dazzling_customizer( $wp_customize ) {
         ));
             $wp_customize->add_setting('dazzling[w2f_cfa_text]', array(
                 'default' => '',
-                'type' => 'option',                
+                'type' => 'option',
                 'sanitize_callback' => 'dazzling_sanitize_strip_slashes'
             ));
             $wp_customize->add_control('dazzling[w2f_cfa_text]', array(
@@ -149,7 +147,7 @@ function dazzling_customizer( $wp_customize ) {
                 'section' => 'dazzling_action_options',
                 'type' => 'textarea'
             ));
-            
+
             $wp_customize->add_setting('dazzling[w2f_cfa_button]', array(
                 'default' => '',
                 'type' => 'option',
@@ -161,7 +159,7 @@ function dazzling_customizer( $wp_customize ) {
                 'description' => __('Enter the title for Call For Action button', 'dazzling'),
                 'type' => 'text'
             ));
-            
+
             $wp_customize->add_setting('dazzling[w2f_cfa_link]', array(
                 'default' => '',
                 'type' => 'option',
@@ -173,7 +171,7 @@ function dazzling_customizer( $wp_customize ) {
                 'description' => __('Enter the link for Call For Action button', 'dazzling'),
                 'type' => 'text'
             ));
-            
+
             $wp_customize->add_setting('dazzling[cfa_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -182,7 +180,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[cfa_color]', array(
                 'label' => __('Call For Action Text Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_action_options',              
+                'section' => 'dazzling_action_options',
             )));
             $wp_customize->add_setting('dazzling[cfa_bg_color]', array(
                 'default' => '',
@@ -192,7 +190,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[cfa_bg_color]', array(
                 'label' => __('Call For Action Background Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_action_options',              
+                'section' => 'dazzling_action_options',
             )));
             $wp_customize->add_setting('dazzling[cfa_btn_color]', array(
                 'default' => '',
@@ -202,8 +200,8 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[cfa_btn_color]', array(
                 'label' => __('Call For Action Button Border Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_action_options',             
-            )));            
+                'section' => 'dazzling_action_options',
+            )));
             $wp_customize->add_setting('dazzling[cfa_btn_txt_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -212,9 +210,9 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[cfa_btn_txt_color]', array(
                 'label' => __('Call For Action Button Text Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_action_options',             
+                'section' => 'dazzling_action_options',
             )));
-            
+
         /* Dazzling Typography Options */
         $wp_customize->add_section('dazzling_typography_options', array(
             'title' => __('Typography', 'dazzling'),
