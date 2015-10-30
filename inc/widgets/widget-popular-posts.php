@@ -17,10 +17,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
 
 		/* Create the widget. */
 		parent::__construct( 'dazzling_tabbed_widget', __( 'Dazzling Popular Posts Widget', 'dazzling' ), $widget_ops, $control_ops );
-<<<<<<< HEAD:inc/widgets/widget-popular-posts.php
 
-=======
->>>>>>> pr/31:inc/widgets/widget-popular-posts.php
 	}
 
 	/**
