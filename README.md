@@ -53,10 +53,19 @@ Dazzling theme uses:
 * [FontAwesome](http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
 * [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
-* [Options Framework](https://github.com/devinsays/options-framework-theme) by WP Theming licensed under the GPLv2 license
 * [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
 
 #Changelog#
+
+####2.0 - 30.10.2015####
+
+* Removed theme options in favor to WordPress Theme Customizer
+* Added layout manager
+* Improved social icons
+* Code cleanups
+* Updated FlexSlider
+* Updated Bootstrap to 3.3.5
+* Updated Font Awesome library
 
 ####1.5.6 - 14.08.2015####
 
