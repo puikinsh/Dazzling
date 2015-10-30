@@ -9,7 +9,7 @@
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 730; /* pixels */
+  $content_width = 730; /* pixels */
 }
 
 /**
@@ -65,8 +65,8 @@ function dazzling_setup() {
 
   // Setup the WordPress core custom background feature.
   add_theme_support( 'custom-background', apply_filters( 'dazzling_custom_background_args', array(
-  	'default-color' => 'ffffff',
-  	'default-image' => '',
+    'default-color' => 'ffffff',
+    'default-image' => '',
   ) ) );
 
   /*
@@ -172,7 +172,7 @@ function dazzling_scripts() {
   wp_enqueue_style( 'dazzling-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
 
   if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
-  	wp_enqueue_style( 'flexslider-css', get_template_directory_uri().'/inc/css/flexslider.css' );
+    wp_enqueue_style( 'flexslider-css', get_template_directory_uri().'/inc/css/flexslider.css' );
   }
 
   if ( class_exists( 'jigoshop' ) ) { // Jigoshop specific styles loaded only when plugin is installed
@@ -184,13 +184,13 @@ function dazzling_scripts() {
   wp_enqueue_script('dazzling-bootstrapjs', get_template_directory_uri().'/inc/js/bootstrap.min.js', array('jquery') );
 
   if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
-  	wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '2.5.0', true );
+    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '2.5.0', true );
   }
 
   wp_enqueue_script( 'dazzling-main', get_template_directory_uri() . '/inc/js/main.js', array('jquery'), '1.5.4', true );
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-  	wp_enqueue_script( 'comment-reply' );
+    wp_enqueue_script( 'comment-reply' );
   }
 }
 add_action( 'wp_enqueue_scripts', 'dazzling_scripts' );
@@ -261,7 +261,7 @@ require get_template_directory() . '/inc/metaboxes.php';
 add_action( 'init', 'register_social_menu' );
 
 function register_social_menu() {
-	register_nav_menu( 'social-menu', _x( 'Social Menu', 'nav menu location', 'dazzling' ) );
+  register_nav_menu( 'social-menu', _x( 'Social Menu', 'nav menu location', 'dazzling' ) );
 }
 
 /* Globals variables */
@@ -305,15 +305,15 @@ $typography_options = array(
 if ( ! function_exists( 'of_get_option' ) ) :
 function of_get_option( $name, $default = false ) {
 
-	$option_name = '';
-	// Get option settings from database
-	$options = get_option( 'dazzling' );
+  $option_name = '';
+  // Get option settings from database
+  $options = get_option( 'dazzling' );
 
-	// Return specific option
-	if ( isset( $options[$name] ) ) {
-		return $options[$name];
-	}
+  // Return specific option
+  if ( isset( $options[$name] ) ) {
+    return $options[$name];
+  }
 
-	return $default;
+  return $default;
 }
 endif;

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-06-04 20:15+0200\n"
-"PO-Revision-Date: 2015-06-04 20:15+0200\n"
+"POT-Creation-Date: 2015-10-30 11:03+0200\n"
+"PO-Revision-Date: 2015-10-30 11:03+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr__;_n;_n:1,2;esc_attr_e;_nx:4c,1,2;"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../404.php:15
+#: ../404.php:14
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Hups! Sivua ei löydy."
 
-#: ../404.php:19
+#: ../404.php:18
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -29,72 +29,72 @@ msgstr ""
 "Näyttää siltä, että mitään ei löytynyt. Kokeile alla olevia linkkejä tai "
 "hakukonetta."
 
-#: ../404.php:27
+#: ../404.php:26
 msgid "Most Used Categories"
 msgstr "Käytetyimmät kategoriat"
 
-#: ../404.php:44
+#: ../404.php:43
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Koeta etsiä kuukausiarkistoista. %1$s"
 
-#: ../archive.php:27
+#: ../archive.php:26
 #, php-format
 msgid "Author: %s"
 msgstr "Kirjoittaja: %s"
 
-#: ../archive.php:30
+#: ../archive.php:29
 #, php-format
 msgid "Day: %s"
 msgstr "Päivä: %s"
 
-#: ../archive.php:33
+#: ../archive.php:32
 #, php-format
 msgid "Month: %s"
 msgstr "Kuukausi: %s"
 
-#: ../archive.php:36
+#: ../archive.php:35
 #, php-format
 msgid "Year: %s"
 msgstr "Vuosi: %s"
 
-#: ../archive.php:39
+#: ../archive.php:38
 msgid "Asides"
 msgstr "Huomautukset"
 
-#: ../archive.php:42
+#: ../archive.php:41
 msgid "Galleries"
 msgstr "Galleriat"
 
-#: ../archive.php:45
+#: ../archive.php:44
 msgid "Images"
 msgstr "Kuvat"
 
-#: ../archive.php:48
+#: ../archive.php:47
 msgid "Videos"
 msgstr "Videot"
 
-#: ../archive.php:51
+#: ../archive.php:50
 msgid "Quotes"
 msgstr "Lainaukset"
 
-#: ../archive.php:54
+#: ../archive.php:53
 msgid "Links"
 msgstr "Linkit"
 
-#: ../archive.php:57
+#: ../archive.php:56
 msgid "Statuses"
 msgstr "Tilat"
 
-#: ../archive.php:60
+#: ../archive.php:59
 msgid "Audios"
 msgstr "Äänitiedostot"
 
-#: ../archive.php:63
+#: ../archive.php:62
 msgid "Chats"
 msgstr "Keskustelut"
 
-#: ../archive.php:66 ../sidebar.php:17
+#: ../archive.php:65 ../sidebar.php:17
 msgid "Archives"
 msgstr "Arkistot"
 
@@ -147,13 +147,12 @@ msgid ""
 msgstr "Näyttää siltä, että etsimääsi ei löytynyt. Kokeile hakua."
 
 #: ../content-page.php:18 ../content-single.php:23 ../content.php:61
-#: ../front-page.php:23 ../image.php:82
+#: ../image.php:81
 msgid "Pages:"
 msgstr "Sivuja:"
 
-#: ../content-page.php:23 ../content-single.php:67 ../content.php:30
-#: ../front-page.php:28 ../inc/template-tags.php:81
-#: ../inc/template-tags.php:100
+#: ../content-page.php:29 ../content-single.php:67 ../content.php:30
+#: ../inc/template-tags.php:81 ../inc/template-tags.php:100
 msgid "Edit"
 msgstr "Muokkaa"
 
@@ -181,7 +180,7 @@ msgstr "% kommenttia"
 #: ../content.php:25
 #, fuzzy, php-format
 msgid " %1$s"
-msgstr "Koeta etsiä kuukausiarkistoista. %1$s"
+msgstr "%1$s ajatuksia &ldquo;%2$s&rdquo;:sta"
 
 #: ../content.php:39 ../content.php:54
 msgid "Continue reading"
@@ -191,7 +190,7 @@ msgstr "Jatka lukemista"
 msgid "Primary Menu"
 msgstr "Päävalikko"
 
-#: ../functions.php:60 ../inc/extras.php:205
+#: ../functions.php:60 ../inc/extras.php:167
 msgid "Footer Links"
 msgstr "Alatunnisteen linkit"
 
@@ -236,227 +235,293 @@ msgstr "Alatunnisteen vimpain 3"
 msgid "Toggle navigation"
 msgstr "Julkaisunavigaatio"
 
-#: ../image.php:25
+#: ../image.php:24
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
 msgstr "<i class=\"fa fa-chevron-left\"></i> Edellinen"
 
-#: ../image.php:26
+#: ../image.php:25
 msgid "Next <i class=\"fa fa-chevron-right\"></i>"
 msgstr "Seuraava <i class=\"fa fa-chevron-right\"></i>"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:91
-#: ../inc/admin/includes/class-options-framework-admin.php:92
-msgid "Theme Options"
-msgstr "Teeman valinnat"
+#: ../inc/customizer.php:38
+#, fuzzy
+msgid "Dazzling Options"
+msgstr "Dazzlingin dokumentit"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:203
-msgid "Save Options"
-msgstr "Tallenna valinnat"
+#: ../inc/customizer.php:39
+msgid "Panel to update dazzling theme options"
+msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:204
-msgid "Restore Defaults"
-msgstr "Palauta oletukset"
+#: ../inc/customizer.php:45
+#, fuzzy
+msgid "Slider options"
+msgstr "Vieritysvalinnat"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:204
-msgid "Click OK to reset. Any theme settings will be lost!"
-msgstr "Palauta painamalla OK. Kaikki teeman asetukset menetetään!"
+#: ../inc/customizer.php:70
+msgid "Slider Category"
+msgstr "Vierittimen kategoria"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:235
-msgid "Default options restored."
-msgstr "Oletus valinnat palautettu."
+#: ../inc/customizer.php:73
+msgid "Select a category for the featured post slider"
+msgstr "Valitse kategoria esittelyvierittimelle"
 
-#: ../inc/admin/includes/class-options-framework-admin.php:289
-msgid "Options saved."
-msgstr "Valinnat tallennettu"
+#: ../inc/customizer.php:83
+msgid "Number of slide items"
+msgstr "Diojen määrä"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:62
-msgid "No file chosen"
-msgstr "Tiedostoa ei valittu"
+#: ../inc/customizer.php:85
+msgid "Enter the number of slide items"
+msgstr "Anna diojen määrä"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:65
-#: ../inc/admin/includes/class-options-media-uploader.php:118
-msgid "Upload"
-msgstr "Lähetä"
+#: ../inc/customizer.php:90
+#, fuzzy
+msgid "Layout options"
+msgstr "Asetteluvalinnat"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:67
-#: ../inc/admin/includes/class-options-media-uploader.php:119
-msgid "Remove"
-msgstr "Poista"
+#: ../inc/customizer.php:102
+msgid "Website Layout Options"
+msgstr "Sivuston ulkoasuvalinnat"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:70
-msgid "Upgrade your version of WordPress for full media support."
-msgstr "Täysi mediatuki vaatii WordPressin päivittämistä"
+#: ../inc/customizer.php:105
+#, fuzzy
+msgid "Choose between different layout options to be used as default"
+msgstr ""
+"Valitse käytetäänkö vasemman ja oikean sivupalkkin valintoja oletuksena"
 
-#: ../inc/admin/includes/class-options-media-uploader.php:94
-msgid "View File"
-msgstr "Katso tiedostoa"
+#: ../inc/customizer.php:115
+#, fuzzy
+msgid "Element Color"
+msgstr "Elementin väri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:316
-msgid "No Repeat"
-msgstr "Ei toistoa"
+#: ../inc/customizer.php:116 ../inc/customizer.php:128
+#: ../inc/customizer.php:182 ../inc/customizer.php:192
+#: ../inc/customizer.php:202 ../inc/customizer.php:212
+#: ../inc/customizer.php:289 ../inc/customizer.php:299
+#: ../inc/customizer.php:316 ../inc/customizer.php:423
+#: ../inc/customizer.php:434
+msgid "Default used if no color is selected"
+msgstr "Oletusväriä käytetään jos väriä ei ole valittu"
 
-#: ../inc/admin/includes/class-options-sanitization.php:317
-msgid "Repeat Horizontally"
-msgstr "Toista vaakasuuntaan"
+#: ../inc/customizer.php:127
+msgid "Element color on hover"
+msgstr "Elementin leijutusväri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:318
-msgid "Repeat Vertically"
-msgstr "Toista pystysuuntaan"
+#: ../inc/customizer.php:135
+msgid "Action Button"
+msgstr "Avunpyyntönappi"
 
-#: ../inc/admin/includes/class-options-sanitization.php:319
-msgid "Repeat All"
-msgstr "Toista molempiin suuntiin"
+#: ../inc/customizer.php:145
+msgid "Call For Action Text"
+msgstr "Teksti avunpyynnölle"
 
-#: ../inc/admin/includes/class-options-sanitization.php:331
-msgid "Top Left"
-msgstr "Ylävasen"
+#: ../inc/customizer.php:146
+msgid "Enter the text for call for action section"
+msgstr "Syötä sisältö avunpyynnölle"
 
-#: ../inc/admin/includes/class-options-sanitization.php:332
-msgid "Top Center"
-msgstr "Yläkeski"
+#: ../inc/customizer.php:157
+msgid "Call For Action Button Title"
+msgstr "Avunpyyntönapin teksti"
 
-#: ../inc/admin/includes/class-options-sanitization.php:333
-msgid "Top Right"
-msgstr "Yläoikea"
+#: ../inc/customizer.php:159
+msgid "Enter the title for Call For Action button"
+msgstr "Syötä avunpyyntönapin teksti"
 
-#: ../inc/admin/includes/class-options-sanitization.php:334
-msgid "Middle Left"
-msgstr "Keskivasen"
+#: ../inc/customizer.php:169
+msgid "CFA button link"
+msgstr "Avunpyyntönapin linkki"
 
-#: ../inc/admin/includes/class-options-sanitization.php:335
-msgid "Middle Center"
-msgstr "Keski-keski"
+#: ../inc/customizer.php:171
+msgid "Enter the link for Call For Action button"
+msgstr "Syötä osoite johon avunpyyntönappi johtaa"
 
-#: ../inc/admin/includes/class-options-sanitization.php:336
-msgid "Middle Right"
-msgstr "Keskioikea"
+#: ../inc/customizer.php:181
+msgid "Call For Action Text Color"
+msgstr "Avunpyyntöpalkin tekstin väri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:337
-msgid "Bottom Left"
-msgstr "Alavasen"
+#: ../inc/customizer.php:191
+msgid "Call For Action Background Color"
+msgstr "Avunpyyntöpalkin taustaväri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:338
-msgid "Bottom Center"
-msgstr "Alakeski"
+#: ../inc/customizer.php:201
+msgid "Call For Action Button Border Color"
+msgstr "Avunpyyntönapin reunaväri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:339
-msgid "Bottom Right"
-msgstr "Alaoikea"
+#: ../inc/customizer.php:211
+msgid "Call For Action Button Text Color"
+msgstr "Avunpyyntönapin tekstin väri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:351
-msgid "Scroll Normally"
-msgstr "Vieritä normaalisti"
+#: ../inc/customizer.php:218
+msgid "Typography"
+msgstr "Typografia"
 
-#: ../inc/admin/includes/class-options-sanitization.php:352
-msgid "Fixed in Place"
-msgstr "Kiinteä paikka"
+#: ../inc/customizer.php:237
+msgid "Main Body Text"
+msgstr "Sisältöteksti"
 
-#: ../inc/admin/includes/class-options-sanitization.php:424
-msgid "Normal"
-msgstr "Normaali"
+#: ../inc/customizer.php:238
+#, fuzzy
+msgid "Used in p tags"
+msgstr "Käytetään kappaleiden muotoilussa"
 
-#: ../inc/admin/includes/class-options-sanitization.php:425
-msgid "Italic"
-msgstr "Kursiivi"
+#: ../inc/customizer.php:278
+msgid "Heading Color"
+msgstr "Otsikon väri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:426
-msgid "Bold"
-msgstr "Lihavoitu"
+#: ../inc/customizer.php:279
+msgid "Color for all headings (h1-h6)"
+msgstr "Kaikkien otsikoiden (h1-h6) väri"
 
-#: ../inc/admin/includes/class-options-sanitization.php:427
-msgid "Bold Italic"
-msgstr "Lihavoitu kursiivi"
+#: ../inc/customizer.php:288
+msgid "Link Color"
+msgstr "Linkin väri"
 
-#: ../inc/extras.php:62
-#, php-format
-msgid "Page %s"
-msgstr "Sivu %s"
+#: ../inc/customizer.php:298
+msgid "Link:hover Color"
+msgstr "Link:hover väri"
 
-#: ../inc/extras.php:135
+#: ../inc/customizer.php:305
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: ../inc/customizer.php:315
+msgid "Top nav background color"
+msgstr "Ylänavigoinnin taustaväri"
+
+#: ../inc/customizer.php:325
+msgid "Top nav item color"
+msgstr "Ylänavigoinnin osien väri"
+
+#: ../inc/customizer.php:326
+msgid "Link color"
+msgstr "Linkin väri"
+
+#: ../inc/customizer.php:336
+msgid "Top nav dropdown background color"
+msgstr "Ylänavigoinnin alasvetolistan väri"
+
+#: ../inc/customizer.php:337
+msgid "Background of dropdown item hover color"
+msgstr "Alasvetolistan leijutusväri"
+
+#: ../inc/customizer.php:347
+msgid "Top nav dropdown item color"
+msgstr "Ylänavigoinnin alasvetolistan osien väri"
+
+#: ../inc/customizer.php:348
+msgid "Dropdown item color"
+msgstr "Alasvetolistan osien väri"
+
+#: ../inc/customizer.php:354
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: ../inc/customizer.php:364
+#, fuzzy
+msgid "Footer widget area background color"
+msgstr "Alatunnisteen vimpainalueen taustaväri"
+
+#: ../inc/customizer.php:374
+#, fuzzy
+msgid "Footer background color"
+msgstr "Alatunnisteen taustaväri"
+
+#: ../inc/customizer.php:384
+#, fuzzy
+msgid "Footer text color"
+msgstr "Alatunnisteen tekstin väri"
+
+#: ../inc/customizer.php:394
+#, fuzzy
+msgid "Footer link color"
+msgstr "Alatunnisteen linkkien väri"
+
+#: ../inc/customizer.php:404
+msgid "Footer information"
+msgstr "Alatunnisteen tiedot"
+
+#: ../inc/customizer.php:405
+msgid "Copyright text in footer"
+msgstr "Copyright-teksti alatunnisteessa"
+
+#: ../inc/customizer.php:412
+msgid "Social"
+msgstr "Sosiaalinen"
+
+#: ../inc/customizer.php:422
+#, fuzzy
+msgid "Social icon color"
+msgstr "Sosiaalisen ikonin väri"
+
+#: ../inc/customizer.php:433
+msgid "Social Icon:hover Color"
+msgstr "Sosiaalisen ikonin leijutusväri"
+
+#: ../inc/customizer.php:444
+#, fuzzy
+msgid "Footer Social Icons"
+msgstr "Alatunnisteen linkit"
+
+#: ../inc/customizer.php:445
+msgid "Check to show social icons in footer"
+msgstr ""
+
+#: ../inc/customizer.php:452
+msgid "Other"
+msgstr "Muut"
+
+#: ../inc/customizer.php:462
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+#: ../inc/customizer.php:463
+msgid "Additional CSS"
+msgstr "Muu CSS"
+
+#: ../inc/customizer.php:470
+msgid "Support and Documentation"
+msgstr "Tuki ja dokumentit"
+
+#: ../inc/customizer.php:639
+#, fuzzy
 msgid ""
-"<p>This post is password protected. To view it please enter your password "
-"below:</p>"
+"The best way to contact us with <b>support questions</b> and <b>bug reports</"
+"b> is via"
+msgstr "Tukipyynnöt ja vikaraportit tätä kautta"
+
+#: ../inc/customizer.php:642
+msgid "Rate this Theme"
+msgstr "Arvioi tämä teema"
+
+#: ../inc/extras.php:93
+#, fuzzy
+msgid ""
+"This post is password protected. To view it please enter your password below:"
 msgstr "<p>Tämä julkaisu on salasanasuojattu. Anna salasanasi:</p>"
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:94
 msgid "Password:"
 msgstr "Salasana:"
 
-#: ../inc/extras.php:139
+#: ../inc/extras.php:97
 msgid "Submit"
 msgstr "Lähetä"
 
-#: ../inc/extras.php:170
-msgid "Follow us on "
-msgstr "Seuraa meitä"
-
-#: ../inc/extras.php:318
+#: ../inc/extras.php:280
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Teema %1$s moottorina %2$s"
 
-#: ../inc/extras.php:425
-msgid "Support and Documentation"
-msgstr "Tuki ja dokumentit"
-
-#: ../inc/extras.php:431
-msgid "Dazzling Documentation"
-msgstr "Dazzlingin dokumentit"
-
-#: ../inc/extras.php:432
+#: ../inc/metaboxes.php:16
+#, fuzzy
 msgid ""
-"The best way to contact us with support questions and bug reports is via"
-msgstr "Tukipyynnöt ja vikaraportit tätä kautta"
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr "Valitse tämän sivun asettelu"
 
-#: ../inc/extras.php:432
-msgid "Colorlib support forum"
-msgstr "Colorlib tukifoorumi"
-
-#: ../inc/extras.php:433
-msgid "If you like this theme, I'd appreciate any of the following:"
-msgstr "Jos pidät tästä teemasta tee seuraavasti:"
-
-#: ../inc/extras.php:435
-msgid "Rate this Theme"
-msgstr "Arvioi tämä teema"
-
-#: ../inc/extras.php:436
-msgid "Like on Facebook"
-msgstr "Tykkää Facebookissa"
-
-#: ../inc/extras.php:437
-msgid "Follow on Twitter"
-msgstr "Seuraa Twitterissä"
-
-#: ../inc/popular-posts-widget.php:13
-msgid "Displays tabbed list of popular posts, recent posts & comments"
-msgstr ""
-"Näyttää välilehdillä listan suosituista artikkeleista, tuoreimmista "
-"artikkeleista ja kommenteista"
-
-#: ../inc/popular-posts-widget.php:19
-msgid "Dazzling Popular Posts Widget"
-msgstr "Dazzling suositut julkaisut -vimpain"
-
-#: ../inc/popular-posts-widget.php:36
-msgid "Popular"
-msgstr "Suosittu"
-
-#: ../inc/popular-posts-widget.php:37
-msgid "Recent"
-msgstr "Tuore"
-
-#: ../inc/popular-posts-widget.php:104
-msgid "Anonymous"
-msgstr "Tuntematon"
-
-#: ../inc/popular-posts-widget.php:104
-msgid "on"
-msgstr "kommentoi julkaisua"
-
-#: ../inc/popular-posts-widget.php:145
-msgid "Number of posts to show"
-msgstr "Montako julkaisua näytetään"
+#: ../inc/metaboxes.php:21
+#, fuzzy
+msgid "Select layout for this specific Post only"
+msgstr "Valitse asettely tälle viestille"
 
 #: ../inc/template-tags.php:23
 msgid "Posts navigation"
@@ -488,365 +553,52 @@ msgstr "%s <span class=\"says\">sanoo:</span>"
 msgid "Your comment is awaiting moderation."
 msgstr "Kommentisi odottaa tarkistusta"
 
-#: ../inc/woo-setup.php:97
+#: ../inc/widgets/widget-popular-posts.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+"Näyttää välilehdillä listan suosituista artikkeleista, tuoreimmista "
+"artikkeleista ja kommenteista"
+
+#: ../inc/widgets/widget-popular-posts.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr "Dazzling suositut julkaisut -vimpain"
+
+#: ../inc/widgets/widget-popular-posts.php:37
+msgid "Popular"
+msgstr "Suosittu"
+
+#: ../inc/widgets/widget-popular-posts.php:38
+msgid "Recent"
+msgstr "Tuore"
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "Anonymous"
+msgstr "Tuntematon"
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "on"
+msgstr "kommentoi julkaisua"
+
+#: ../inc/widgets/widget-popular-posts.php:156
+msgid "Number of posts to show"
+msgstr "Montako julkaisua näytetään"
+
+#: ../inc/woo-setup.php:96
 msgid "View your shopping cart"
 msgstr "Tarkastele ostoskoriasi"
 
-#: ../inc/woo-setup.php:98
+#: ../inc/woo-setup.php:97
 msgid "Start shopping"
 msgstr "Aloita ostoksien teko"
 
-#: ../inc/woo-setup.php:102
+#: ../inc/woo-setup.php:101
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../options.php:22
-msgid "Right Sidebar"
-msgstr "Oikea sivupalkki"
-
-#: ../options.php:22
-msgid "Left Sidebar"
-msgstr "Vasen sivupalkki"
-
-#: ../options.php:26
-msgid "One"
-msgstr "Yksi"
-
-#: ../options.php:27
-msgid "Two"
-msgstr "Kaksi"
-
-#: ../options.php:28
-msgid "Three"
-msgstr "Kolme"
-
-#: ../options.php:29
-msgid "Four"
-msgstr "Neljä"
-
-#: ../options.php:30
-msgid "Five"
-msgstr "Viisi"
-
-#: ../options.php:35
-msgid "French Toast"
-msgstr "Paahtoleipä"
-
-#: ../options.php:36
-msgid "Pancake"
-msgstr "Lettu"
-
-#: ../options.php:37
-msgid "Omelette"
-msgstr "Munakas"
-
-#: ../options.php:38
-msgid "Crepe"
-msgstr "Lettu (Crepe)"
-
-#: ../options.php:39
-msgid "Waffle"
-msgstr "Vohveli"
-
-#: ../options.php:116
-msgid "Main"
-msgstr "Yleiset valinnat"
-
-#: ../options.php:120
-msgid "Do You want to display image slider on the Home Page?"
-msgstr "Haluatko, että kuvavieritin näkyy etusivulla?"
-
-#: ../options.php:121
-msgid "Check if you want to enable slider"
-msgstr "Valitse jos vieritin näytetään"
-
-#: ../options.php:128
-msgid "Slider Category"
-msgstr "Vierittimen kategoria"
-
-#: ../options.php:129
-msgid "Select a category for the featured post slider"
-msgstr "Valitse kategoria esittelyvierittimelle"
-
-#: ../options.php:137
-msgid "Number of slide items"
-msgstr "Diojen määrä"
-
-#: ../options.php:138
-msgid "Enter the number of slide items"
-msgstr "Anna diojen määrä"
-
-#: ../options.php:146
-msgid "Website Layout Options"
-msgstr "Sivuston ulkoasuvalinnat"
-
-#: ../options.php:147
-msgid "Choose between Left and Right sidebar options to be used as default"
-msgstr ""
-"Valitse käytetäänkö vasemman ja oikean sivupalkkin valintoja oletuksena"
-
-#: ../options.php:156
-msgid "Element color"
-msgstr "Elementin väri"
-
-#: ../options.php:157 ../options.php:165 ../options.php:210 ../options.php:218
-#: ../options.php:226 ../options.php:234 ../options.php:264 ../options.php:272
-#: ../options.php:280 ../options.php:371 ../options.php:379
-msgid "Default used if no color is selected"
-msgstr "Oletusväriä käytetään jos väriä ei ole valittu"
-
-#: ../options.php:164
-msgid "Element color on hover"
-msgstr "Elementin leijutusväri"
-
-#: ../options.php:172
-msgid "Custom Favicon"
-msgstr "Mukautettu favicon"
-
-#: ../options.php:173
-msgid ""
-"Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
-msgstr "Lähetä faviconina käytettävä 32x32px PNG/JPG kuva"
-
-#: ../options.php:180
-msgid "Action Button"
-msgstr "Avunpyyntönappi"
-
-#: ../options.php:185
-msgid "Call For Action Text"
-msgstr "Teksti avunpyynnölle"
-
-#: ../options.php:186
-msgid "Enter the text for call for action section"
-msgstr "Syötä sisältö avunpyynnölle"
-
-#: ../options.php:193
-msgid "Call For Action Button Title"
-msgstr "Avunpyyntönapin teksti"
-
-#: ../options.php:194
-msgid "Enter the title for Call For Action button"
-msgstr "Syötä avunpyyntönapin teksti"
-
-#: ../options.php:201
-msgid "CFA button link"
-msgstr "Avunpyyntönapin linkki"
-
-#: ../options.php:202
-msgid "Enter the link for Call For Action button"
-msgstr "Syötä osoite johon avunpyyntönappi johtaa"
-
-#: ../options.php:209
-msgid "Call For Action Text Color"
-msgstr "Avunpyyntöpalkin tekstin väri"
-
-#: ../options.php:217
-msgid "Call For Action Background Color"
-msgstr "Avunpyyntöpalkin taustaväri"
-
-#: ../options.php:225
-msgid "Call For Action Button Border Color"
-msgstr "Avunpyyntönapin reunaväri"
-
-#: ../options.php:233
-msgid "Call For Action Button Text Color"
-msgstr "Avunpyyntönapin tekstin väri"
-
-#: ../options.php:241
-msgid "Typography"
-msgstr "Typografia"
-
-#: ../options.php:246
-msgid "Main Body Text"
-msgstr "Sisältöteksti"
-
-#: ../options.php:247
-msgid "Used in P tags"
-msgstr "Käytetään kappaleiden muotoilussa"
-
-#: ../options.php:255
-msgid "Heading Color"
-msgstr "Otsikon väri"
-
-#: ../options.php:256
-msgid "Color for all headings (h1-h6)"
-msgstr "Kaikkien otsikoiden (h1-h6) väri"
-
-#: ../options.php:263
-msgid "Link Color"
-msgstr "Linkin väri"
-
-#: ../options.php:271
-msgid "Link:hover Color"
-msgstr "Link:hover väri"
-
-#: ../options.php:279
-msgid "Link:active Color"
-msgstr "Link:active väri"
-
-#: ../options.php:287
-msgid "Header"
-msgstr "Ylätunniste"
-
-#: ../options.php:292
-msgid "Top nav background color"
-msgstr "Ylänavigoinnin taustaväri"
-
-#: ../options.php:293
-msgid "Default used if no color is selected."
-msgstr "Oletusväriä käytetään jos väriä ei ole valittu"
-
-#: ../options.php:300
-msgid "Top nav item color"
-msgstr "Ylänavigoinnin osien väri"
-
-#: ../options.php:301
-msgid "Link color"
-msgstr "Linkin väri"
-
-#: ../options.php:308
-msgid "Top nav dropdown background color"
-msgstr "Ylänavigoinnin alasvetolistan väri"
-
-#: ../options.php:309
-msgid "Background of dropdown item hover color"
-msgstr "Alasvetolistan leijutusväri"
-
-#: ../options.php:316
-msgid "Top nav dropdown item color"
-msgstr "Ylänavigoinnin alasvetolistan osien väri"
-
-#: ../options.php:317
-msgid "Dropdown item color"
-msgstr "Alasvetolistan osien väri"
-
-#: ../options.php:324
-msgid "Footer"
-msgstr "Alatunniste"
-
-#: ../options.php:329
-msgid "Footer Widget Area Background Color"
-msgstr "Alatunnisteen vimpainalueen taustaväri"
-
-#: ../options.php:336
-msgid "Footer Background Color"
-msgstr "Alatunnisteen taustaväri"
-
-#: ../options.php:343
-msgid "Footer Text Color"
-msgstr "Alatunnisteen tekstin väri"
-
-#: ../options.php:350
-msgid "Footer Link Color"
-msgstr "Alatunnisteen linkkien väri"
-
-#: ../options.php:357
-msgid "Footer information"
-msgstr "Alatunnisteen tiedot"
-
-#: ../options.php:358
-msgid "Copyright text in footer"
-msgstr "Copyright-teksti alatunnisteessa"
-
-#: ../options.php:360
-#, fuzzy
-msgid "All rights reserved."
-msgstr "Talleta kaikki muutokset"
-
-#: ../options.php:365
-msgid "Social"
-msgstr "Sosiaalinen"
-
-#: ../options.php:370
-msgid "Social Icon Color"
-msgstr "Sosiaalisen ikonin väri"
-
-#: ../options.php:378
-msgid "Social Icon:hover Color"
-msgstr "Sosiaalisen ikonin leijutusväri"
-
-#: ../options.php:386
-msgid "Add full URL for your social network profiles"
-msgstr "Lisää sosiaalisten profiiliesi täydet osoitteet"
-
-#: ../options.php:387
-#, fuzzy
-msgid "Facebook"
-msgstr "Facebook"
-
-#: ../options.php:396
-#, fuzzy
-msgid "Twitter"
-msgstr "Twitter"
-
-#: ../options.php:404
-msgid "Google+"
-msgstr ""
-
-#: ../options.php:412
-msgid "Youtube"
-msgstr ""
-
-#: ../options.php:420
-msgid "LinkedIn"
-msgstr ""
-
-#: ../options.php:428
-msgid "Pinterest"
-msgstr ""
-
-#: ../options.php:436
-msgid "RSS Feed"
-msgstr "RSS-syöte"
-
-#: ../options.php:444
-msgid "Tumblr"
-msgstr ""
-
-#: ../options.php:452
-msgid "Flickr"
-msgstr ""
-
-#: ../options.php:460
-msgid "Instagram"
-msgstr ""
-
-#: ../options.php:468
-msgid "Dribbble"
-msgstr ""
-
-#: ../options.php:476
-msgid "Skype"
-msgstr ""
-
-#: ../options.php:484
-msgid "Github"
-msgstr ""
-
-#: ../options.php:492
-msgid "Slideshare"
-msgstr ""
-
-#: ../options.php:500
-msgid "VK.com"
-msgstr ""
-
-#: ../options.php:507
-msgid "Other"
-msgstr "Muut"
-
-#: ../options.php:512
-msgid "Custom CSS"
-msgstr "Mukautettu CSS"
-
-#: ../options.php:513
-msgid "Additional CSS"
-msgstr "Muu CSS"
-
-#: ../search.php:16
+#: ../search.php:15
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Tulokset haulle: %s"
@@ -859,6 +611,188 @@ msgstr "Hae"
 #: ../sidebar.php:24
 msgid "Meta"
 msgstr ""
+
+#~ msgid "Theme Options"
+#~ msgstr "Teeman valinnat"
+
+#~ msgid "Restore Defaults"
+#~ msgstr "Palauta oletukset"
+
+#~ msgid "Click OK to reset. Any theme settings will be lost!"
+#~ msgstr "Palauta painamalla OK. Kaikki teeman asetukset menetetään!"
+
+#~ msgid "Default options restored."
+#~ msgstr "Oletus valinnat palautettu."
+
+#~ msgid "Options saved."
+#~ msgstr "Valinnat tallennettu"
+
+#~ msgid "No file chosen"
+#~ msgstr "Tiedostoa ei valittu"
+
+#~ msgid "Upload"
+#~ msgstr "Lähetä"
+
+#~ msgid "Remove"
+#~ msgstr "Poista"
+
+#~ msgid "Upgrade your version of WordPress for full media support."
+#~ msgstr "Täysi mediatuki vaatii WordPressin päivittämistä"
+
+#~ msgid "View File"
+#~ msgstr "Katso tiedostoa"
+
+#~ msgid "No Repeat"
+#~ msgstr "Ei toistoa"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Toista vaakasuuntaan"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Toista pystysuuntaan"
+
+#~ msgid "Repeat All"
+#~ msgstr "Toista molempiin suuntiin"
+
+#~ msgid "Top Left"
+#~ msgstr "Ylävasen"
+
+#~ msgid "Top Center"
+#~ msgstr "Yläkeski"
+
+#~ msgid "Top Right"
+#~ msgstr "Yläoikea"
+
+#~ msgid "Middle Left"
+#~ msgstr "Keskivasen"
+
+#~ msgid "Middle Center"
+#~ msgstr "Keski-keski"
+
+#~ msgid "Middle Right"
+#~ msgstr "Keskioikea"
+
+#~ msgid "Bottom Left"
+#~ msgstr "Alavasen"
+
+#~ msgid "Bottom Center"
+#~ msgstr "Alakeski"
+
+#~ msgid "Bottom Right"
+#~ msgstr "Alaoikea"
+
+#~ msgid "Scroll Normally"
+#~ msgstr "Vieritä normaalisti"
+
+#~ msgid "Fixed in Place"
+#~ msgstr "Kiinteä paikka"
+
+#~ msgid "Normal"
+#~ msgstr "Normaali"
+
+#~ msgid "Italic"
+#~ msgstr "Kursiivi"
+
+#~ msgid "Bold"
+#~ msgstr "Lihavoitu"
+
+#~ msgid "Bold Italic"
+#~ msgstr "Lihavoitu kursiivi"
+
+#~ msgid "Page %s"
+#~ msgstr "Sivu %s"
+
+#~ msgid "Follow us on "
+#~ msgstr "Seuraa meitä"
+
+#~ msgid "Colorlib support forum"
+#~ msgstr "Colorlib tukifoorumi"
+
+#~ msgid "If you like this theme, I'd appreciate any of the following:"
+#~ msgstr "Jos pidät tästä teemasta tee seuraavasti:"
+
+#~ msgid "Like on Facebook"
+#~ msgstr "Tykkää Facebookissa"
+
+#~ msgid "Follow on Twitter"
+#~ msgstr "Seuraa Twitterissä"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "Oikea sivupalkki"
+
+#~ msgid "Left Sidebar"
+#~ msgstr "Vasen sivupalkki"
+
+#~ msgid "One"
+#~ msgstr "Yksi"
+
+#~ msgid "Two"
+#~ msgstr "Kaksi"
+
+#~ msgid "Three"
+#~ msgstr "Kolme"
+
+#~ msgid "Four"
+#~ msgstr "Neljä"
+
+#~ msgid "Five"
+#~ msgstr "Viisi"
+
+#~ msgid "French Toast"
+#~ msgstr "Paahtoleipä"
+
+#~ msgid "Pancake"
+#~ msgstr "Lettu"
+
+#~ msgid "Omelette"
+#~ msgstr "Munakas"
+
+#~ msgid "Crepe"
+#~ msgstr "Lettu (Crepe)"
+
+#~ msgid "Waffle"
+#~ msgstr "Vohveli"
+
+#~ msgid "Main"
+#~ msgstr "Yleiset valinnat"
+
+#~ msgid "Do You want to display image slider on the Home Page?"
+#~ msgstr "Haluatko, että kuvavieritin näkyy etusivulla?"
+
+#~ msgid "Check if you want to enable slider"
+#~ msgstr "Valitse jos vieritin näytetään"
+
+#~ msgid "Custom Favicon"
+#~ msgstr "Mukautettu favicon"
+
+#~ msgid ""
+#~ "Upload a 32px x 32px PNG/GIF image that will represent your websites "
+#~ "favicon"
+#~ msgstr "Lähetä faviconina käytettävä 32x32px PNG/JPG kuva"
+
+#~ msgid "Link:active Color"
+#~ msgstr "Link:active väri"
+
+#~ msgid "Default used if no color is selected."
+#~ msgstr "Oletusväriä käytetään jos väriä ei ole valittu"
+
+#, fuzzy
+#~ msgid "All rights reserved."
+#~ msgstr "Talleta kaikki muutokset"
+
+#~ msgid "Add full URL for your social network profiles"
+#~ msgstr "Lisää sosiaalisten profiiliesi täydet osoitteet"
+
+#, fuzzy
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#, fuzzy
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "RSS Feed"
+#~ msgstr "RSS-syöte"
 
 #~ msgid "Search&hellip;"
 #~ msgstr "Hae"

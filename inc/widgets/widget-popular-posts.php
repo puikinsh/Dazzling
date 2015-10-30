@@ -17,6 +17,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
 
 		/* Create the widget. */
 		parent::__construct( 'dazzling_tabbed_widget', __( 'Dazzling Popular Posts Widget', 'dazzling' ), $widget_ops, $control_ops );
+
 	}
 
 	/**
@@ -26,8 +27,8 @@ class dazzling_popular_posts_widget extends WP_Widget {
 		extract( $args );
 
 		/* Our variables from the widget settings. */
-		$number = $instance['number'];
-
+        if ( isset( $instance[ 'number' ] ) )
+            $number = $instance[ 'number' ];
 		?>
 
         <div class="widget tabbed">
@@ -48,7 +49,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
                             'post_status'         => 'publish',
                             'order'               => 'DESC',
                             'meta_key'            => 'post_views_count',
-                            'orderby'             => 'meta_value'
+                            'orderby'             => 'meta_value_num'
                         ) );
                     ?>
 
