@@ -45,7 +45,6 @@ function dazzling_customizer( $wp_customize ) {
         /* Dazzling Main Options */
         $wp_customize->add_section('dazzling_slider_options', array(
             'title' => __('Slider options', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -76,7 +75,7 @@ function dazzling_customizer( $wp_customize ) {
                 'description' => __('Select a category for the featured post slider', 'dazzling'),
                 'choices'    => $options_categories
             ));
-            
+
             $wp_customize->add_setting('dazzling[dazzling_slide_number]', array(
                 'default' => 3,
                 'type' => 'option',
@@ -88,10 +87,9 @@ function dazzling_customizer( $wp_customize ) {
                 'description' => __('Enter the number of slide items', 'dazzling'),
                 'type' => 'text'
             ));
-                        
+
         $wp_customize->add_section('dazzling_layout_options', array(
             'title' => __('Layout options', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -108,8 +106,8 @@ function dazzling_customizer( $wp_customize ) {
                  'type'    => 'select',
                  'description' => __('Choose between different layout options to be used as default', 'dazzling'),
                  'choices'    => $site_layout
-            )); 
-             
+            ));
+
             $wp_customize->add_setting('dazzling[element_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -137,7 +135,6 @@ function dazzling_customizer( $wp_customize ) {
          /* Dazzling Action Options */
         $wp_customize->add_section('dazzling_action_options', array(
             'title' => __('Action Button', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -221,7 +218,6 @@ function dazzling_customizer( $wp_customize ) {
         /* Dazzling Typography Options */
         $wp_customize->add_section('dazzling_typography_options', array(
             'title' => __('Typography', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -272,9 +268,9 @@ function dazzling_customizer( $wp_customize ) {
                 'sanitize_callback' => 'dazzling_sanitize_hexcolor'
             ));
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[main_body_typography][color]', array(
-                'section' => 'dazzling_typography_options',              
+                'section' => 'dazzling_typography_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[heading_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -283,7 +279,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[heading_color]', array(
                 'label' => __('Heading Color', 'dazzling'),
                 'description'   => __('Color for all headings (h1-h6)','dazzling'),
-                'section' => 'dazzling_typography_options',              
+                'section' => 'dazzling_typography_options',
             )));
             $wp_customize->add_setting('dazzling[link_color]', array(
                 'default' => '',
@@ -293,7 +289,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[link_color]', array(
                 'label' => __('Link Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_typography_options',              
+                'section' => 'dazzling_typography_options',
             )));
             $wp_customize->add_setting('dazzling[link_hover_color]', array(
                 'default' => '',
@@ -303,13 +299,12 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[link_hover_color]', array(
                 'label' => __('Link:hover Color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_typography_options',              
+                'section' => 'dazzling_typography_options',
             )));
-            
+
         /* Dazzling Header Options */
         $wp_customize->add_section('dazzling_header_options', array(
             'title' => __('Header', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -321,7 +316,7 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[top_nav_bg_color]', array(
                 'label' => __('Top nav background color', 'dazzling'),
                 'description'   => __('Default used if no color is selected','dazzling'),
-                'section' => 'dazzling_header_options',              
+                'section' => 'dazzling_header_options',
             )));
             $wp_customize->add_setting('dazzling[top_nav_link_color]', array(
                 'default' => '',
@@ -331,9 +326,9 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[top_nav_link_color]', array(
                 'label' => __('Top nav item color', 'dazzling'),
                 'description'   => __('Link color','dazzling'),
-                'section' => 'dazzling_header_options',              
+                'section' => 'dazzling_header_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[top_nav_dropdown_bg]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -342,9 +337,9 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[top_nav_dropdown_bg]', array(
                 'label' => __('Top nav dropdown background color', 'dazzling'),
                 'description'   => __('Background of dropdown item hover color','dazzling'),
-                'section' => 'dazzling_header_options',              
+                'section' => 'dazzling_header_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[top_nav_dropdown_item]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -353,13 +348,12 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[top_nav_dropdown_item]', array(
                 'label' => __('Top nav dropdown item color', 'dazzling'),
                 'description'   => __('Dropdown item color','dazzling'),
-                'section' => 'dazzling_header_options',              
+                'section' => 'dazzling_header_options',
             )));
-            
+
         /* Dazzling Footer Options */
         $wp_customize->add_section('dazzling_footer_options', array(
             'title' => __('Footer', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -370,9 +364,9 @@ function dazzling_customizer( $wp_customize ) {
             ));
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[footer_widget_bg_color]', array(
                 'label' => __('Footer widget area background color', 'dazzling'),
-                'section' => 'dazzling_footer_options',              
+                'section' => 'dazzling_footer_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[footer_bg_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -380,9 +374,9 @@ function dazzling_customizer( $wp_customize ) {
             ));
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[footer_bg_color]', array(
                 'label' => __('Footer background color', 'dazzling'),
-                'section' => 'dazzling_footer_options',              
+                'section' => 'dazzling_footer_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[footer_text_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -390,9 +384,9 @@ function dazzling_customizer( $wp_customize ) {
             ));
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[footer_text_color]', array(
                 'label' => __('Footer text color', 'dazzling'),
-                'section' => 'dazzling_footer_options',              
+                'section' => 'dazzling_footer_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[footer_link_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -400,12 +394,12 @@ function dazzling_customizer( $wp_customize ) {
             ));
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[footer_link_color]', array(
                 'label' => __('Footer link color', 'dazzling'),
-                'section' => 'dazzling_footer_options',              
+                'section' => 'dazzling_footer_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[custom_footer_text]', array(
                 'default' => '',
-                'type' => 'option',                
+                'type' => 'option',
                 'sanitize_callback' => 'dazzling_sanitize_strip_slashes'
             ));
             $wp_customize->add_control('dazzling[custom_footer_text]', array(
@@ -414,11 +408,10 @@ function dazzling_customizer( $wp_customize ) {
                 'section' => 'dazzling_footer_options',
                 'type' => 'textarea'
             ));
-            
+
         /* Dazzling Social Options */
         $wp_customize->add_section('dazzling_social_options', array(
             'title' => __('Social', 'dazzling'),
-            'description' => sprintf(__('', 'dazzling')),
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
@@ -430,9 +423,9 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[social_color]', array(
                 'label' => __('Social icon color', 'dazzling'),
                 'description' => sprintf(__('Default used if no color is selected', 'dazzling')),
-                'section' => 'dazzling_social_options',              
+                'section' => 'dazzling_social_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[social_hover_color]', array(
                 'default' => '',
                 'type'  => 'option',
@@ -441,9 +434,9 @@ function dazzling_customizer( $wp_customize ) {
             $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'dazzling[social_hover_color]', array(
                 'label' => __('Social Icon:hover Color', 'dazzling'),
                 'description' => sprintf(__('Default used if no color is selected', 'dazzling')),
-                'section' => 'dazzling_social_options',              
+                'section' => 'dazzling_social_options',
             )));
-            
+
             $wp_customize->add_setting('dazzling[footer_social]', array(
                 'default' => 0,
                 'type' => 'option',
@@ -455,24 +448,7 @@ function dazzling_customizer( $wp_customize ) {
                 'section' => 'dazzling_social_options',
                 'type' => 'checkbox',
             ));
-            
-            /* Delete this */
-            /*$social_links = array( 'Facebook' => 'social_facebook', 'Twitter' => 'social_twitter', 'Google-Plus' => 'social_googleplus', 'Pinterest' => 'social_pinterest', 'YouTube' => 'social_youtube', 'Vimeo' => 'social_vimeo', 'LinkedIn' => 'social_linkedin', 'Flickr' => 'social_flickr', 'Tumblr' => 'social_tumblr', 'Instagram' => 'social_instagram', 'RSS Feed' => 'social_rss', 'GitHub' => 'social_github', 'Dribbble' => 'social_dribbble', 'Skype' => 'social_skype', 'Foursquare' => 'social_foursquare', 'SoundCloud' => 'social_soundcloud', 'Spotify' => 'social_spotify' );
-            
-            foreach ($social_links as $key => $val) {
 
-                $wp_customize->add_setting('dazzling[' . $val . ']', array(
-                    'default' => '',
-                    'type' => 'option',  
-                    'sanitize_callback' => 'esc_url_raw'
-                ));
-                $wp_customize->add_control('dazzling[' . $val . ']', array(
-                    'label' => sprintf(__('%s', 'dazzling'), $key),
-                    'section' => 'dazzling_social_options',
-                    'type' => 'text'
-                ));
-            } */
-            
         /* Dazzling Other Options */
         $wp_customize->add_section('dazzling_other_options', array(
             'title' => __('Other', 'dazzling'),
@@ -490,7 +466,7 @@ function dazzling_customizer( $wp_customize ) {
                 'section' => 'dazzling_other_options',
                 'type' => 'textarea'
             ));
-            
+
         $wp_customize->add_section('dazzling_important_links', array(
             'priority' => 5,
             'title' => __('Support and Documentation', 'dazzling')
@@ -505,7 +481,7 @@ function dazzling_customizer( $wp_customize ) {
                 'section' => 'dazzling_important_links',
                 'type' => 'dazzling-important-links'
             )));
-       
+
 }
 add_action( 'customize_register', 'dazzling_customizer' );
 
@@ -621,9 +597,9 @@ function dazzling_sanitize_typo_style( $input ) {
 }
 
 /**
- * Add CSS for custom controls 
+ * Add CSS for custom controls
  */
-function dazzling_customizer_custom_control_css() { 
+function dazzling_customizer_custom_control_css() {
 	?>
     <style>
         #customize-control-dazzling-main_body_typography-size select, #customize-control-dazzling-main_body_typography-face select,#customize-control-dazzling-main_body_typography-style select { width: 60%; }
@@ -669,7 +645,7 @@ class Dazzling_Important_Links extends WP_Customize_Control {
               <li><a class="button" href="<?php echo esc_url( 'http://www.facebook.com/colorlib' ); ?>" title="Like Colorlib on Facebook" target="_blank"><?php printf(esc_html__('Like on Facebook','dazzling')); ?></a></li>
               <li><a class="button" href="<?php echo esc_url( 'http://twitter.com/colorlib/' ); ?>" title="Follow Colrolib on Twitter" target="_blank"><?php printf(esc_html__('Follow on Twitter','dazzling')); ?></a></li>
             </ul>
-        </div><?php      
+        </div><?php
    }
 
 }
@@ -680,7 +656,7 @@ class Dazzling_Important_Links extends WP_Customize_Control {
 add_action( 'customize_controls_print_footer_scripts', 'customizer_custom_scripts' );
 
 function customizer_custom_scripts() { ?>
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     jQuery(document).ready(function() {
         /* This one shows/hides the an option when a checkbox is clicked. */
         jQuery('#customize-control-dazzling-dazzling_slide_categories, #customize-control-dazzling-dazzling_slide_number').hide();
@@ -692,7 +668,7 @@ function customizer_custom_scripts() { ?>
             jQuery('#customize-control-dazzling-dazzling_slide_categories, #customize-control-dazzling-dazzling_slide_number').show();
         }
     });
-</script>-->
+</script>
 <style>
     li#accordion-section-dazzling_important_links h3.accordion-section-title, li#accordion-section-dazzling_important_links h3.accordion-section-title:focus { background-color: #00cc00 !important; color: #fff !important; }
     li#accordion-section-dazzling_important_links h3.accordion-section-title:hover { background-color: #00b200 !important; color: #fff !important; }

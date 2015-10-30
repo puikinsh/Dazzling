@@ -2,14 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-08-03 17:47+0000\n"
+"POT-Creation-Date: 2015-10-30 10:55+0200\n"
 "PO-Revision-Date: 2015-04-04 13:24+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
@@ -17,82 +17,82 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../404.php:15
+#: ../404.php:14
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: ../404.php:19
+#: ../404.php:18
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
 
-#: ../404.php:27
+#: ../404.php:26
 msgid "Most Used Categories"
 msgstr ""
 
-#: ../404.php:44
+#: ../404.php:43
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: ../archive.php:27
+#: ../archive.php:26
 #, php-format
 msgid "Author: %s"
 msgstr ""
 
-#: ../archive.php:30
+#: ../archive.php:29
 #, php-format
 msgid "Day: %s"
 msgstr ""
 
-#: ../archive.php:33
+#: ../archive.php:32
 #, php-format
 msgid "Month: %s"
 msgstr ""
 
-#: ../archive.php:36
+#: ../archive.php:35
 #, php-format
 msgid "Year: %s"
 msgstr ""
 
-#: ../archive.php:39
+#: ../archive.php:38
 msgid "Asides"
 msgstr ""
 
-#: ../archive.php:42
+#: ../archive.php:41
 msgid "Galleries"
 msgstr ""
 
-#: ../archive.php:45
+#: ../archive.php:44
 msgid "Images"
 msgstr ""
 
-#: ../archive.php:48
+#: ../archive.php:47
 msgid "Videos"
 msgstr ""
 
-#: ../archive.php:51
+#: ../archive.php:50
 msgid "Quotes"
 msgstr ""
 
-#: ../archive.php:54
+#: ../archive.php:53
 msgid "Links"
 msgstr ""
 
-#: ../archive.php:57
+#: ../archive.php:56
 msgid "Statuses"
 msgstr ""
 
-#: ../archive.php:60
+#: ../archive.php:59
 msgid "Audios"
 msgstr ""
 
-#: ../archive.php:63
+#: ../archive.php:62
 msgid "Chats"
 msgstr ""
 
-#: ../archive.php:66 ../sidebar.php:17
+#: ../archive.php:65 ../sidebar.php:17
 msgid "Archives"
 msgstr ""
 
@@ -143,13 +143,12 @@ msgid ""
 msgstr ""
 
 #: ../content-page.php:18 ../content-single.php:23 ../content.php:61
-#: ../front-page.php:23 ../image.php:82
+#: ../image.php:81
 msgid "Pages:"
 msgstr ""
 
-#: ../content-page.php:23 ../content-single.php:67 ../content.php:30
-#: ../front-page.php:28 ../inc/template-tags.php:81
-#: ../inc/template-tags.php:100
+#: ../content-page.php:29 ../content-single.php:67 ../content.php:30
+#: ../inc/template-tags.php:81 ../inc/template-tags.php:100
 msgid "Edit"
 msgstr ""
 
@@ -187,7 +186,7 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:60 ../inc/extras.php:205
+#: ../functions.php:60 ../inc/extras.php:167
 msgid "Footer Links"
 msgstr ""
 
@@ -231,223 +230,275 @@ msgstr ""
 msgid "Toggle navigation"
 msgstr ""
 
-#: ../image.php:25
+#: ../image.php:24
 msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
 msgstr ""
 
-#: ../image.php:26
+#: ../image.php:25
 msgid "Next <i class=\"fa fa-chevron-right\"></i>"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:91
-#: ../inc/admin/includes/class-options-framework-admin.php:92
-msgid "Theme Options"
+#: ../inc/customizer.php:38
+msgid "Dazzling Options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:203
-msgid "Save Options"
+#: ../inc/customizer.php:39
+msgid "Panel to update dazzling theme options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:204
-msgid "Restore Defaults"
+#: ../inc/customizer.php:47
+msgid "Slider options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:204
-msgid "Click OK to reset. Any theme settings will be lost!"
+#: ../inc/customizer.php:73
+msgid "Slider Category"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:235
-msgid "Default options restored."
+#: ../inc/customizer.php:76
+msgid "Select a category for the featured post slider"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-framework-admin.php:289
-msgid "Options saved."
+#: ../inc/customizer.php:86
+msgid "Number of slide items"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-media-uploader.php:62
-msgid "No file chosen"
+#: ../inc/customizer.php:88
+msgid "Enter the number of slide items"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-media-uploader.php:65
-#: ../inc/admin/includes/class-options-media-uploader.php:118
-msgid "Upload"
+#: ../inc/customizer.php:93
+msgid "Layout options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-media-uploader.php:67
-#: ../inc/admin/includes/class-options-media-uploader.php:119
-msgid "Remove"
+#: ../inc/customizer.php:106
+msgid "Website Layout Options"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-media-uploader.php:70
-msgid "Upgrade your version of WordPress for full media support."
+#: ../inc/customizer.php:109
+msgid "Choose between different layout options to be used as default"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-media-uploader.php:94
-msgid "View File"
+#: ../inc/customizer.php:119
+msgid "Element Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:316
-msgid "No Repeat"
+#: ../inc/customizer.php:120 ../inc/customizer.php:132
+#: ../inc/customizer.php:187 ../inc/customizer.php:197
+#: ../inc/customizer.php:207 ../inc/customizer.php:217
+#: ../inc/customizer.php:295 ../inc/customizer.php:305
+#: ../inc/customizer.php:323 ../inc/customizer.php:432
+#: ../inc/customizer.php:443
+msgid "Default used if no color is selected"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:317
-msgid "Repeat Horizontally"
+#: ../inc/customizer.php:131
+msgid "Element color on hover"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:318
-msgid "Repeat Vertically"
+#: ../inc/customizer.php:139
+msgid "Action Button"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:319
-msgid "Repeat All"
+#: ../inc/customizer.php:150
+msgid "Call For Action Text"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:331
-msgid "Top Left"
+#: ../inc/customizer.php:151
+msgid "Enter the text for call for action section"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:332
-msgid "Top Center"
+#: ../inc/customizer.php:162
+msgid "Call For Action Button Title"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:333
-msgid "Top Right"
+#: ../inc/customizer.php:164
+msgid "Enter the title for Call For Action button"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:334
-msgid "Middle Left"
+#: ../inc/customizer.php:174
+msgid "CFA button link"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:335
-msgid "Middle Center"
+#: ../inc/customizer.php:176
+msgid "Enter the link for Call For Action button"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:336
-msgid "Middle Right"
+#: ../inc/customizer.php:186
+msgid "Call For Action Text Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:337
-msgid "Bottom Left"
+#: ../inc/customizer.php:196
+msgid "Call For Action Background Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:338
-msgid "Bottom Center"
+#: ../inc/customizer.php:206
+msgid "Call For Action Button Border Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:339
-msgid "Bottom Right"
+#: ../inc/customizer.php:216
+msgid "Call For Action Button Text Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:351
-msgid "Scroll Normally"
+#: ../inc/customizer.php:223
+msgid "Typography"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:352
-msgid "Fixed in Place"
+#: ../inc/customizer.php:243
+msgid "Main Body Text"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:424
-msgid "Normal"
+#: ../inc/customizer.php:244
+msgid "Used in p tags"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:425
-msgid "Italic"
+#: ../inc/customizer.php:284
+msgid "Heading Color"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:426
-msgid "Bold"
+#: ../inc/customizer.php:285
+msgid "Color for all headings (h1-h6)"
 msgstr ""
 
-#: ../inc/admin/includes/class-options-sanitization.php:427
-msgid "Bold Italic"
+#: ../inc/customizer.php:294
+msgid "Link Color"
 msgstr ""
 
-#: ../inc/extras.php:62
-#, php-format
-msgid "Page %s"
+#: ../inc/customizer.php:304
+msgid "Link:hover Color"
 msgstr ""
 
-#: ../inc/extras.php:135
+#: ../inc/customizer.php:311
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:322
+msgid "Top nav background color"
+msgstr ""
+
+#: ../inc/customizer.php:332
+msgid "Top nav item color"
+msgstr ""
+
+#: ../inc/customizer.php:333
+msgid "Link color"
+msgstr ""
+
+#: ../inc/customizer.php:343
+msgid "Top nav dropdown background color"
+msgstr ""
+
+#: ../inc/customizer.php:344
+msgid "Background of dropdown item hover color"
+msgstr ""
+
+#: ../inc/customizer.php:354
+msgid "Top nav dropdown item color"
+msgstr ""
+
+#: ../inc/customizer.php:355
+msgid "Dropdown item color"
+msgstr ""
+
+#: ../inc/customizer.php:361
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer.php:372
+msgid "Footer widget area background color"
+msgstr ""
+
+#: ../inc/customizer.php:382
+msgid "Footer background color"
+msgstr ""
+
+#: ../inc/customizer.php:392
+msgid "Footer text color"
+msgstr ""
+
+#: ../inc/customizer.php:402
+msgid "Footer link color"
+msgstr ""
+
+#: ../inc/customizer.php:412
+msgid "Footer information"
+msgstr ""
+
+#: ../inc/customizer.php:413
+msgid "Copyright text in footer"
+msgstr ""
+
+#: ../inc/customizer.php:420
+msgid "Social"
+msgstr ""
+
+#: ../inc/customizer.php:431
+msgid "Social icon color"
+msgstr ""
+
+#: ../inc/customizer.php:442
+msgid "Social Icon:hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:453
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../inc/customizer.php:454
+msgid "Check to show social icons in footer"
+msgstr ""
+
+#: ../inc/customizer.php:478
+msgid "Other"
+msgstr ""
+
+#: ../inc/customizer.php:488
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer.php:489
+msgid "Additional CSS"
+msgstr ""
+
+#: ../inc/customizer.php:496
+msgid "Support and Documentation"
+msgstr ""
+
+#: ../inc/customizer.php:665
+msgid ""
+"The best way to contact us with <b>support questions</b> and <b>bug reports</"
+"b> is via"
+msgstr ""
+
+#: ../inc/customizer.php:668
+msgid "Rate this Theme"
+msgstr ""
+
+#: ../inc/extras.php:93
 msgid ""
 "This post is password protected. To view it please enter your password below:"
 msgstr ""
 
-#: ../inc/extras.php:136
+#: ../inc/extras.php:94
 msgid "Password:"
 msgstr ""
 
-#: ../inc/extras.php:139
+#: ../inc/extras.php:97
 msgid "Submit"
 msgstr ""
 
-#: ../inc/extras.php:170
-msgid "Follow us on "
-msgstr ""
-
-#: ../inc/extras.php:318
+#: ../inc/extras.php:280
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr ""
 
-#: ../inc/extras.php:425
-msgid "Support and Documentation"
-msgstr ""
-
-#: ../inc/extras.php:431
-msgid "Dazzling Documentation"
-msgstr ""
-
-#: ../inc/extras.php:432
+#: ../inc/metaboxes.php:16
 msgid ""
-"The best way to contact us with support questions and bug reports is via"
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
 msgstr ""
 
-#: ../inc/extras.php:432
-msgid "Colorlib support forum"
-msgstr ""
-
-#: ../inc/extras.php:433
-msgid "If you like this theme, I'd appreciate any of the following:"
-msgstr ""
-
-#: ../inc/extras.php:435
-msgid "Rate this Theme"
-msgstr ""
-
-#: ../inc/extras.php:436
-msgid "Like on Facebook"
-msgstr ""
-
-#: ../inc/extras.php:437
-msgid "Follow on Twitter"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:13
-msgid "Displays tabbed list of popular posts, recent posts & comments"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:19
-msgid "Dazzling Popular Posts Widget"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:36
-msgid "Popular"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:37
-msgid "Recent"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:104
-msgid "Anonymous"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:104
-msgid "on"
-msgstr ""
-
-#: ../inc/popular-posts-widget.php:145
-msgid "Number of posts to show"
+#: ../inc/metaboxes.php:21
+msgid "Select layout for this specific Post only"
 msgstr ""
 
 #: ../inc/template-tags.php:23
@@ -479,365 +530,50 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../inc/woo-setup.php:97
+#: ../inc/widgets/widget-popular-posts.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:37
+msgid "Popular"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:38
+msgid "Recent"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "Anonymous"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "on"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:156
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../inc/woo-setup.php:96
 msgid "View your shopping cart"
 msgstr ""
 
-#: ../inc/woo-setup.php:98
+#: ../inc/woo-setup.php:97
 msgid "Start shopping"
 msgstr ""
 
-#: ../inc/woo-setup.php:102
+#: ../inc/woo-setup.php:101
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../options.php:22
-msgid "Right Sidebar"
-msgstr ""
-
-#: ../options.php:22
-msgid "Left Sidebar"
-msgstr ""
-
-#: ../options.php:26
-msgid "One"
-msgstr ""
-
-#: ../options.php:27
-msgid "Two"
-msgstr ""
-
-#: ../options.php:28
-msgid "Three"
-msgstr ""
-
-#: ../options.php:29
-msgid "Four"
-msgstr ""
-
-#: ../options.php:30
-msgid "Five"
-msgstr ""
-
-#: ../options.php:35
-msgid "French Toast"
-msgstr ""
-
-#: ../options.php:36
-msgid "Pancake"
-msgstr ""
-
-#: ../options.php:37
-msgid "Omelette"
-msgstr ""
-
-#: ../options.php:38
-msgid "Crepe"
-msgstr ""
-
-#: ../options.php:39
-msgid "Waffle"
-msgstr ""
-
-#: ../options.php:116
-msgid "Main"
-msgstr ""
-
-#: ../options.php:120
-msgid "Do You want to display image slider on the Home Page?"
-msgstr ""
-
-#: ../options.php:121
-msgid "Check if you want to enable slider"
-msgstr ""
-
-#: ../options.php:128
-msgid "Slider Category"
-msgstr ""
-
-#: ../options.php:129
-msgid "Select a category for the featured post slider"
-msgstr ""
-
-#: ../options.php:137
-msgid "Number of slide items"
-msgstr ""
-
-#: ../options.php:138
-msgid "Enter the number of slide items"
-msgstr ""
-
-#: ../options.php:146
-msgid "Website Layout Options"
-msgstr ""
-
-#: ../options.php:147
-msgid "Choose between Left and Right sidebar options to be used as default"
-msgstr ""
-
-#: ../options.php:156
-msgid "Element color"
-msgstr ""
-
-#: ../options.php:157 ../options.php:165 ../options.php:210 ../options.php:218
-#: ../options.php:226 ../options.php:234 ../options.php:264 ../options.php:272
-#: ../options.php:280 ../options.php:371 ../options.php:379
-msgid "Default used if no color is selected"
-msgstr ""
-
-#: ../options.php:164
-msgid "Element color on hover"
-msgstr ""
-
-#: ../options.php:172
-msgid "Custom Favicon"
-msgstr ""
-
-#: ../options.php:173
-msgid ""
-"Upload a 32px x 32px PNG/GIF image that will represent your websites favicon"
-msgstr ""
-
-#: ../options.php:180
-msgid "Action Button"
-msgstr ""
-
-#: ../options.php:185
-msgid "Call For Action Text"
-msgstr ""
-
-#: ../options.php:186
-msgid "Enter the text for call for action section"
-msgstr ""
-
-#: ../options.php:193
-msgid "Call For Action Button Title"
-msgstr ""
-
-#: ../options.php:194
-msgid "Enter the title for Call For Action button"
-msgstr ""
-
-#: ../options.php:201
-msgid "CFA button link"
-msgstr ""
-
-#: ../options.php:202
-msgid "Enter the link for Call For Action button"
-msgstr ""
-
-#: ../options.php:209
-msgid "Call For Action Text Color"
-msgstr ""
-
-#: ../options.php:217
-msgid "Call For Action Background Color"
-msgstr ""
-
-#: ../options.php:225
-msgid "Call For Action Button Border Color"
-msgstr ""
-
-#: ../options.php:233
-msgid "Call For Action Button Text Color"
-msgstr ""
-
-#: ../options.php:241
-msgid "Typography"
-msgstr ""
-
-#: ../options.php:246
-msgid "Main Body Text"
-msgstr ""
-
-#: ../options.php:247
-msgid "Used in P tags"
-msgstr ""
-
-#: ../options.php:255
-msgid "Heading Color"
-msgstr ""
-
-#: ../options.php:256
-msgid "Color for all headings (h1-h6)"
-msgstr ""
-
-#: ../options.php:263
-msgid "Link Color"
-msgstr ""
-
-#: ../options.php:271
-msgid "Link:hover Color"
-msgstr ""
-
-#: ../options.php:279
-msgid "Link:active Color"
-msgstr ""
-
-#: ../options.php:287
-msgid "Header"
-msgstr ""
-
-#: ../options.php:292
-msgid "Top nav background color"
-msgstr ""
-
-#: ../options.php:293
-msgid "Default used if no color is selected."
-msgstr ""
-
-#: ../options.php:300
-msgid "Top nav item color"
-msgstr ""
-
-#: ../options.php:301
-msgid "Link color"
-msgstr ""
-
-#: ../options.php:308
-msgid "Top nav dropdown background color"
-msgstr ""
-
-#: ../options.php:309
-msgid "Background of dropdown item hover color"
-msgstr ""
-
-#: ../options.php:316
-msgid "Top nav dropdown item color"
-msgstr ""
-
-#: ../options.php:317
-msgid "Dropdown item color"
-msgstr ""
-
-#: ../options.php:324
-msgid "Footer"
-msgstr ""
-
-#: ../options.php:329
-msgid "Footer Widget Area Background Color"
-msgstr ""
-
-#: ../options.php:336
-msgid "Footer Background Color"
-msgstr ""
-
-#: ../options.php:343
-msgid "Footer Text Color"
-msgstr ""
-
-#: ../options.php:350
-msgid "Footer Link Color"
-msgstr ""
-
-#: ../options.php:357
-msgid "Footer information"
-msgstr ""
-
-#: ../options.php:358
-msgid "Copyright text in footer"
-msgstr ""
-
-#: ../options.php:360
-msgid "All rights reserved."
-msgstr ""
-
-#: ../options.php:365
-msgid "Social"
-msgstr ""
-
-#: ../options.php:370
-msgid "Social Icon Color"
-msgstr ""
-
-#: ../options.php:378
-msgid "Social Icon:hover Color"
-msgstr ""
-
-#: ../options.php:386
-msgid "Add full URL for your social network profiles"
-msgstr ""
-
-#: ../options.php:387
-msgid "Facebook"
-msgstr ""
-
-#: ../options.php:396
-msgid "Twitter"
-msgstr ""
-
-#: ../options.php:404
-msgid "Google+"
-msgstr ""
-
-#: ../options.php:412
-msgid "Youtube"
-msgstr ""
-
-#: ../options.php:420
-msgid "LinkedIn"
-msgstr ""
-
-#: ../options.php:428
-msgid "Pinterest"
-msgstr ""
-
-#: ../options.php:436
-msgid "RSS Feed"
-msgstr ""
-
-#: ../options.php:444
-msgid "Tumblr"
-msgstr ""
-
-#: ../options.php:452
-msgid "Flickr"
-msgstr ""
-
-#: ../options.php:460
-msgid "Instagram"
-msgstr ""
-
-#: ../options.php:468
-msgid "Dribbble"
-msgstr ""
-
-#: ../options.php:476
-msgid "Skype"
-msgstr ""
-
-#: ../options.php:484
-msgid "Github"
-msgstr ""
-
-#: ../options.php:492
-msgid "Slideshare"
-msgstr ""
-
-#: ../options.php:500
-msgid "VK.com"
-msgstr ""
-
-#: ../options.php:508
-msgid "Soundcloud"
-msgstr ""
-
-#: ../options.php:515
-msgid "Other"
-msgstr ""
-
-#: ../options.php:520
-msgid "Custom CSS"
-msgstr ""
-
-#: ../options.php:521
-msgid "Additional CSS"
-msgstr ""
-
-#: ../search.php:16
+#: ../search.php:15
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
