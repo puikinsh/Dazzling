@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-10-30 10:55+0200\n"
+"POT-Creation-Date: 2015-10-30 11:02+0200\n"
 "PO-Revision-Date: 2015-04-04 13:24+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
@@ -246,230 +246,230 @@ msgstr ""
 msgid "Panel to update dazzling theme options"
 msgstr ""
 
-#: ../inc/customizer.php:47
+#: ../inc/customizer.php:45
 msgid "Slider options"
 msgstr ""
 
-#: ../inc/customizer.php:73
+#: ../inc/customizer.php:70
 msgid "Slider Category"
 msgstr ""
 
-#: ../inc/customizer.php:76
+#: ../inc/customizer.php:73
 msgid "Select a category for the featured post slider"
 msgstr ""
 
-#: ../inc/customizer.php:86
+#: ../inc/customizer.php:83
 msgid "Number of slide items"
 msgstr ""
 
-#: ../inc/customizer.php:88
+#: ../inc/customizer.php:85
 msgid "Enter the number of slide items"
 msgstr ""
 
-#: ../inc/customizer.php:93
+#: ../inc/customizer.php:90
 msgid "Layout options"
 msgstr ""
 
-#: ../inc/customizer.php:106
+#: ../inc/customizer.php:102
 msgid "Website Layout Options"
 msgstr ""
 
-#: ../inc/customizer.php:109
+#: ../inc/customizer.php:105
 msgid "Choose between different layout options to be used as default"
 msgstr ""
 
-#: ../inc/customizer.php:119
+#: ../inc/customizer.php:115
 msgid "Element Color"
 msgstr ""
 
-#: ../inc/customizer.php:120 ../inc/customizer.php:132
-#: ../inc/customizer.php:187 ../inc/customizer.php:197
-#: ../inc/customizer.php:207 ../inc/customizer.php:217
-#: ../inc/customizer.php:295 ../inc/customizer.php:305
-#: ../inc/customizer.php:323 ../inc/customizer.php:432
-#: ../inc/customizer.php:443
+#: ../inc/customizer.php:116 ../inc/customizer.php:128
+#: ../inc/customizer.php:182 ../inc/customizer.php:192
+#: ../inc/customizer.php:202 ../inc/customizer.php:212
+#: ../inc/customizer.php:289 ../inc/customizer.php:299
+#: ../inc/customizer.php:316 ../inc/customizer.php:423
+#: ../inc/customizer.php:434
 msgid "Default used if no color is selected"
 msgstr ""
 
-#: ../inc/customizer.php:131
+#: ../inc/customizer.php:127
 msgid "Element color on hover"
 msgstr ""
 
-#: ../inc/customizer.php:139
+#: ../inc/customizer.php:135
 msgid "Action Button"
 msgstr ""
 
-#: ../inc/customizer.php:150
+#: ../inc/customizer.php:145
 msgid "Call For Action Text"
 msgstr ""
 
-#: ../inc/customizer.php:151
+#: ../inc/customizer.php:146
 msgid "Enter the text for call for action section"
 msgstr ""
 
-#: ../inc/customizer.php:162
+#: ../inc/customizer.php:157
 msgid "Call For Action Button Title"
 msgstr ""
 
-#: ../inc/customizer.php:164
+#: ../inc/customizer.php:159
 msgid "Enter the title for Call For Action button"
 msgstr ""
 
-#: ../inc/customizer.php:174
+#: ../inc/customizer.php:169
 msgid "CFA button link"
 msgstr ""
 
-#: ../inc/customizer.php:176
+#: ../inc/customizer.php:171
 msgid "Enter the link for Call For Action button"
 msgstr ""
 
-#: ../inc/customizer.php:186
+#: ../inc/customizer.php:181
 msgid "Call For Action Text Color"
 msgstr ""
 
-#: ../inc/customizer.php:196
+#: ../inc/customizer.php:191
 msgid "Call For Action Background Color"
 msgstr ""
 
-#: ../inc/customizer.php:206
+#: ../inc/customizer.php:201
 msgid "Call For Action Button Border Color"
 msgstr ""
 
-#: ../inc/customizer.php:216
+#: ../inc/customizer.php:211
 msgid "Call For Action Button Text Color"
 msgstr ""
 
-#: ../inc/customizer.php:223
+#: ../inc/customizer.php:218
 msgid "Typography"
 msgstr ""
 
-#: ../inc/customizer.php:243
+#: ../inc/customizer.php:237
 msgid "Main Body Text"
 msgstr ""
 
-#: ../inc/customizer.php:244
+#: ../inc/customizer.php:238
 msgid "Used in p tags"
 msgstr ""
 
-#: ../inc/customizer.php:284
+#: ../inc/customizer.php:278
 msgid "Heading Color"
 msgstr ""
 
-#: ../inc/customizer.php:285
+#: ../inc/customizer.php:279
 msgid "Color for all headings (h1-h6)"
 msgstr ""
 
-#: ../inc/customizer.php:294
+#: ../inc/customizer.php:288
 msgid "Link Color"
 msgstr ""
 
-#: ../inc/customizer.php:304
+#: ../inc/customizer.php:298
 msgid "Link:hover Color"
 msgstr ""
 
-#: ../inc/customizer.php:311
+#: ../inc/customizer.php:305
 msgid "Header"
 msgstr ""
 
-#: ../inc/customizer.php:322
+#: ../inc/customizer.php:315
 msgid "Top nav background color"
 msgstr ""
 
-#: ../inc/customizer.php:332
+#: ../inc/customizer.php:325
 msgid "Top nav item color"
 msgstr ""
 
-#: ../inc/customizer.php:333
+#: ../inc/customizer.php:326
 msgid "Link color"
 msgstr ""
 
-#: ../inc/customizer.php:343
+#: ../inc/customizer.php:336
 msgid "Top nav dropdown background color"
 msgstr ""
 
-#: ../inc/customizer.php:344
+#: ../inc/customizer.php:337
 msgid "Background of dropdown item hover color"
 msgstr ""
 
-#: ../inc/customizer.php:354
+#: ../inc/customizer.php:347
 msgid "Top nav dropdown item color"
 msgstr ""
 
-#: ../inc/customizer.php:355
+#: ../inc/customizer.php:348
 msgid "Dropdown item color"
 msgstr ""
 
-#: ../inc/customizer.php:361
+#: ../inc/customizer.php:354
 msgid "Footer"
 msgstr ""
 
-#: ../inc/customizer.php:372
+#: ../inc/customizer.php:364
 msgid "Footer widget area background color"
 msgstr ""
 
-#: ../inc/customizer.php:382
+#: ../inc/customizer.php:374
 msgid "Footer background color"
 msgstr ""
 
-#: ../inc/customizer.php:392
+#: ../inc/customizer.php:384
 msgid "Footer text color"
 msgstr ""
 
-#: ../inc/customizer.php:402
+#: ../inc/customizer.php:394
 msgid "Footer link color"
 msgstr ""
 
-#: ../inc/customizer.php:412
+#: ../inc/customizer.php:404
 msgid "Footer information"
 msgstr ""
 
-#: ../inc/customizer.php:413
+#: ../inc/customizer.php:405
 msgid "Copyright text in footer"
 msgstr ""
 
-#: ../inc/customizer.php:420
+#: ../inc/customizer.php:412
 msgid "Social"
 msgstr ""
 
-#: ../inc/customizer.php:431
+#: ../inc/customizer.php:422
 msgid "Social icon color"
 msgstr ""
 
-#: ../inc/customizer.php:442
+#: ../inc/customizer.php:433
 msgid "Social Icon:hover Color"
 msgstr ""
 
-#: ../inc/customizer.php:453
+#: ../inc/customizer.php:444
 msgid "Footer Social Icons"
 msgstr ""
 
-#: ../inc/customizer.php:454
+#: ../inc/customizer.php:445
 msgid "Check to show social icons in footer"
 msgstr ""
 
-#: ../inc/customizer.php:478
+#: ../inc/customizer.php:452
 msgid "Other"
 msgstr ""
 
-#: ../inc/customizer.php:488
+#: ../inc/customizer.php:462
 msgid "Custom CSS"
 msgstr ""
 
-#: ../inc/customizer.php:489
+#: ../inc/customizer.php:463
 msgid "Additional CSS"
 msgstr ""
 
-#: ../inc/customizer.php:496
+#: ../inc/customizer.php:470
 msgid "Support and Documentation"
 msgstr ""
 
-#: ../inc/customizer.php:665
+#: ../inc/customizer.php:639
 msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
 "b> is via"
 msgstr ""
 
-#: ../inc/customizer.php:668
+#: ../inc/customizer.php:642
 msgid "Rate this Theme"
 msgstr ""
 
