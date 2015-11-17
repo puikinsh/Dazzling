@@ -20,7 +20,7 @@ Afterwards you can continue theme setup and customization via WordPress Dashboar
 * Responsive design
 * Unlimited color variations
 * SEO friendly
-* Theme Options
+* WordPress Theme Customizer integration
 * Image centric approach
 * Internationalized & localization
 * Drop-down Menu
@@ -56,6 +56,10 @@ Dazzling theme uses:
 * [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
 
 #Changelog#
+
+####2.0.1 - 17.11.2015####
+
+* Removed redundand function
 
 ####2.0 - 30.10.2015####
 
