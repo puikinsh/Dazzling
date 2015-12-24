@@ -327,10 +327,16 @@ if (!function_exists('get_dazzling_theme_options'))  {
     if ( of_get_option('social_hover_color')) {
       echo '#social a:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
     }
-    global $typography_options;
-    $typography = of_get_option('main_body_typography');
+    global $typography_options, $typography_defaults;
+
+    $typography = of_get_option('main_body_typography', $typography_defaults);
+
     if ( $typography ) {
-      echo '.entry-content {font-family: ' . $typography_options['faces'][$typography['face']] . '; font-size:' . $typography['size'] . '; font-weight: ' . $typography['style'] . '; color:'.$typography['color'] . ';}';
+      $font_family = isset( $typography_options['faces'][$typography['face']] ) ? $typography_options['faces'][$typography['face']] : $typography_options['faces'][$typography_defaults['face']];
+      $font_size = isset( $typography['size'] ) ? $typography['size'] : $typography_defaults['size'];
+      $font_style = isset( $typography['style'] ) ? $typography['style'] : $typography_defaults['style'];
+      $font_color = isset( $typography['color'] ) ? $typography['color'] : $typography_defaults['color'];
+      echo '.entry-content {font-family: ' . $font_family . '; font-size:' . $font_size . '; font-weight: ' . $font_style . '; color:'.$font_color . ';}';
     }
     if ( of_get_option('custom_css')) {
       echo html_entity_decode( of_get_option( 'custom_css', 'no entry' ) );

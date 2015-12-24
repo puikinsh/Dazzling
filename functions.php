@@ -280,19 +280,28 @@ global $typography_options;
 $typography_options = array(
         'sizes' => array( '6px' => '6px','10px' => '10px','12px' => '12px','14px' => '14px','15px' => '15px','16px' => '16px','18px'=> '18px','20px' => '20px','24px' => '24px','28px' => '28px','32px' => '32px','36px' => '36px','42px' => '42px','48px' => '48px' ),
         'faces' => array(
-                'arial'          => 'Arial',
-                'verdana'        => 'Verdana, Geneva',
-                'trebuchet'      => 'Trebuchet',
-                'georgia'        => 'Georgia',
-                'times'          => 'Times New Roman',
-                'tahoma'         => 'Tahoma, Geneva',
-                'Open Sans'      => 'Open Sans',
-                'palatino'       => 'Palatino',
-                'helvetica'      => 'Helvetica',
+                'arial'          => 'Arial,Helvetica,sans-serif',
+                'verdana'        => 'Verdana,Geneva,sans-serif',
+                'trebuchet'      => 'Trebuchet,Helvetica,sans-serif',
+                'georgia'        => 'Georgia,serif',
+                'times'          => 'Times New Roman,Times, serif',
+                'tahoma'         => 'Tahoma,Geneva,sans-serif',
+                'Open Sans'      => 'Open Sans,sans-serif',
+                'palatino'       => 'Palatino,serif',
+                'helvetica'      => 'Helvetica,Arial,sans-serif',
                 'helvetica-neue' => 'Helvetica Neue,Helvetica,Arial,sans-serif'
         ),
         'styles' => array( 'normal' => 'Normal','bold' => 'Bold' ),
         'color'  => true
+);
+
+// Typography Defaults
+global $typography_defaults;
+$typography_defaults = array(
+        'size'  => '14px',
+        'face'  => 'helvetica-neue',
+        'style' => 'normal',
+        'color' => '#6B6B6B'
 );
 
 /**
