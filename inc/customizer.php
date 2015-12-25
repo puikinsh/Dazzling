@@ -219,13 +219,8 @@ function dazzling_customizer( $wp_customize ) {
             'priority' => 31,
             'panel' => 'dazzling_main_options'
         ));
-            // Typography Defaults
-            $typography_defaults = array(
-                    'size'  => '14px',
-                    'face'  => 'helvetica-neue',
-                    'style' => 'normal',
-                    'color' => '#6B6B6B'
-            );
+            global $typography_defaults;
+
             // Typography Options
             global $typography_options;
             $wp_customize->add_setting('dazzling[main_body_typography][size]', array(
