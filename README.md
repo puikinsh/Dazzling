@@ -2,7 +2,7 @@
 
 #About Dazzling WordPress Theme#
 
-Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Lithuanian, Portuguese and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
+Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Lithuanian, Portuguese, Danish, Turkish and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
 
 For questions, comments or bug reports, visit [Colorlib support forum](http://colorlib.com/wp/forums).
 
@@ -61,6 +61,7 @@ Dazzling theme uses:
 
 * Added Danish translation thanks to Asser Munch
 * Improved Italian translation
+* Added Turkish translation thanks to Aziz KABA
 
 ####2.0.1 - 17.11.2015####
 
@@ -79,7 +80,7 @@ Dazzling theme uses:
 ####1.5.6 - 14.08.2015####
 
 * Added Italian translation thanks to Giulia Costa
-* Fixed JavaScript that made Flexlisder height to 0 in some cases.
+* Fixed JavaScript that made FlexSlider height to 0 in some cases.
 
 ####1.5.5 - 10.07.2015####
 
@@ -161,7 +162,7 @@ Dazzling theme uses:
 
 ####1.3.5 - 15.10.2014####
 
-* Improved Flexslider to make it compatible with other Flexslider powered plugins such as Visual Composer.
+* Improved Flexslider to make it compatible with other FlexSlider powered plugins such as Visual Composer.
 * Simplified search form to make it friendlier to use outside widget area by using get_search_form
 
 ####1.3.2 - 11.09.2014####

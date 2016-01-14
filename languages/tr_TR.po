@@ -1,0 +1,587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dazzling Theme\n"
+"POT-Creation-Date: 2016-01-14 20:54+0200\n"
+"PO-Revision-Date: 2016-01-14 20:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: colorlib <info@colorlib.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
+"_nx:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Üzgünüm, aradığınız sayfa bulunamadı."
+
+#: ../404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Bu konumda hiçbir şey bulunamamış gibi görünüyor. Aşağıdaki linklerden "
+"birini dene ya da arama kutusunu kullan?"
+
+#: ../404.php:26
+msgid "Most Used Categories"
+msgstr "En Çok Kullanılan Kategoriler"
+
+#: ../404.php:43
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylık arşivlere bakmayı deneyin. %1s"
+
+#: ../archive.php:26
+#, php-format
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: ../archive.php:29
+#, php-format
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: ../archive.php:32
+#, php-format
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr "Yıl: %s"
+
+#: ../archive.php:38
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:41
+msgid "Galleries"
+msgstr "Galeri"
+
+#: ../archive.php:44
+msgid "Images"
+msgstr "Görseller"
+
+#: ../archive.php:47
+msgid "Videos"
+msgstr "Vidyolar"
+
+#: ../archive.php:50
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:53
+msgid "Links"
+msgstr "Linkler"
+
+#: ../archive.php:56
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:59
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:62
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:65 ../sidebar.php:17
+msgid "Archives"
+msgstr "Arşivler"
+
+#: ../comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../comments.php:35 ../comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr "Bulunamadı"
+
+#: ../content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Aradığınız "
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:18 ../content-single.php:23 ../content.php:61
+#: ../image.php:81
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: ../content-page.php:29 ../content-single.php:67 ../content.php:30
+#: ../inc/template-tags.php:81 ../inc/template-tags.php:100
+msgid "Edit"
+msgstr "Değiştir"
+
+#: ../content-single.php:36 ../content-single.php:39 ../content.php:21
+msgid ", "
+msgstr ""
+
+#: ../content-single.php:44 ../content-single.php:46 ../content-single.php:52
+#: ../content-single.php:54
+msgid "permalink"
+msgstr "Kalıcı Link"
+
+#: ../content.php:15
+msgid "Leave a comment"
+msgstr "Bir yorum yaz"
+
+#: ../content.php:15
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#: ../content.php:15
+msgid "% Comments"
+msgstr "Yorumlar"
+
+#: ../content.php:25
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: ../content.php:39 ../content.php:54
+msgid "Continue reading"
+msgstr "Devamı"
+
+#: ../functions.php:59
+msgid "Primary Menu"
+msgstr "Ana Menü"
+
+#: ../functions.php:60 ../inc/extras.php:145
+msgid "Footer Links"
+msgstr "Altbilgi Linkleri"
+
+#: ../functions.php:88
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:97
+msgid "Homepage Widget 1"
+msgstr "Anasayfa Uygulaması 1"
+
+#: ../functions.php:98 ../functions.php:108 ../functions.php:118
+msgid "Displays on the Home Page"
+msgstr "Anasayfada Gösterilenler"
+
+#: ../functions.php:107
+msgid "Homepage Widget 2"
+msgstr "Anasayfa Uygulaması 2"
+
+#: ../functions.php:117
+msgid "Homepage Widget 3"
+msgstr "Anasayfa Uygulaması 3"
+
+#: ../functions.php:127
+msgid "Footer Widget 1"
+msgstr "Altbilgi Uygulaması 1"
+
+#: ../functions.php:128 ../functions.php:138 ../functions.php:148
+msgid "Used for footer widget area"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Footer Widget 2"
+msgstr "Altbilgi Uygulaması 2"
+
+#: ../functions.php:147
+msgid "Footer Widget 3"
+msgstr "Altbilgi Uygulaması 3"
+
+#: ../header.php:29
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../image.php:24
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: ../image.php:25
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../inc/customizer.php:38
+msgid "Dazzling Options"
+msgstr "Tema Ayarları"
+
+#: ../inc/customizer.php:39
+msgid "Panel to update dazzling theme options"
+msgstr ""
+
+#: ../inc/customizer.php:45
+msgid "Slider options"
+msgstr "Yansı Ayarları"
+
+#: ../inc/customizer.php:70
+msgid "Slider Category"
+msgstr "Yansı Kategorisi"
+
+#: ../inc/customizer.php:73
+msgid "Select a category for the featured post slider"
+msgstr ""
+
+#: ../inc/customizer.php:83
+msgid "Number of slide items"
+msgstr ""
+
+#: ../inc/customizer.php:85
+msgid "Enter the number of slide items"
+msgstr ""
+
+#: ../inc/customizer.php:90
+msgid "Layout options"
+msgstr "Görünüm Ayarları"
+
+#: ../inc/customizer.php:102
+msgid "Website Layout Options"
+msgstr ""
+
+#: ../inc/customizer.php:105
+msgid "Choose between different layout options to be used as default"
+msgstr ""
+
+#: ../inc/customizer.php:115
+msgid "Element Color"
+msgstr ""
+
+#: ../inc/customizer.php:116 ../inc/customizer.php:128
+#: ../inc/customizer.php:182 ../inc/customizer.php:192
+#: ../inc/customizer.php:202 ../inc/customizer.php:212
+#: ../inc/customizer.php:284 ../inc/customizer.php:294
+#: ../inc/customizer.php:311 ../inc/customizer.php:418
+#: ../inc/customizer.php:429
+msgid "Default used if no color is selected"
+msgstr ""
+
+#: ../inc/customizer.php:127
+msgid "Element color on hover"
+msgstr ""
+
+#: ../inc/customizer.php:135
+msgid "Action Button"
+msgstr ""
+
+#: ../inc/customizer.php:145
+msgid "Call For Action Text"
+msgstr ""
+
+#: ../inc/customizer.php:146
+msgid "Enter the text for call for action section"
+msgstr ""
+
+#: ../inc/customizer.php:157
+msgid "Call For Action Button Title"
+msgstr ""
+
+#: ../inc/customizer.php:159
+msgid "Enter the title for Call For Action button"
+msgstr ""
+
+#: ../inc/customizer.php:169
+msgid "CFA button link"
+msgstr ""
+
+#: ../inc/customizer.php:171
+msgid "Enter the link for Call For Action button"
+msgstr ""
+
+#: ../inc/customizer.php:181
+msgid "Call For Action Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:191
+msgid "Call For Action Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:201
+msgid "Call For Action Button Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:211
+msgid "Call For Action Button Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:218
+msgid "Typography"
+msgstr ""
+
+#: ../inc/customizer.php:232
+msgid "Main Body Text"
+msgstr ""
+
+#: ../inc/customizer.php:233
+msgid "Used in p tags"
+msgstr ""
+
+#: ../inc/customizer.php:273
+msgid "Heading Color"
+msgstr ""
+
+#: ../inc/customizer.php:274
+msgid "Color for all headings (h1-h6)"
+msgstr ""
+
+#: ../inc/customizer.php:283
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/customizer.php:293
+msgid "Link:hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:300
+msgid "Header"
+msgstr "Başlık"
+
+#: ../inc/customizer.php:310
+msgid "Top nav background color"
+msgstr ""
+
+#: ../inc/customizer.php:320
+msgid "Top nav item color"
+msgstr ""
+
+#: ../inc/customizer.php:321
+msgid "Link color"
+msgstr ""
+
+#: ../inc/customizer.php:331
+msgid "Top nav dropdown background color"
+msgstr ""
+
+#: ../inc/customizer.php:332
+msgid "Background of dropdown item hover color"
+msgstr ""
+
+#: ../inc/customizer.php:342
+msgid "Top nav dropdown item color"
+msgstr ""
+
+#: ../inc/customizer.php:343
+msgid "Dropdown item color"
+msgstr ""
+
+#: ../inc/customizer.php:349
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: ../inc/customizer.php:359
+msgid "Footer widget area background color"
+msgstr ""
+
+#: ../inc/customizer.php:369
+msgid "Footer background color"
+msgstr ""
+
+#: ../inc/customizer.php:379
+msgid "Footer text color"
+msgstr ""
+
+#: ../inc/customizer.php:389
+msgid "Footer link color"
+msgstr ""
+
+#: ../inc/customizer.php:399
+msgid "Footer information"
+msgstr ""
+
+#: ../inc/customizer.php:400
+msgid "Copyright text in footer"
+msgstr ""
+
+#: ../inc/customizer.php:407
+msgid "Social"
+msgstr "Sosyal Medya"
+
+#: ../inc/customizer.php:417
+msgid "Social icon color"
+msgstr ""
+
+#: ../inc/customizer.php:428
+msgid "Social Icon:hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:439
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../inc/customizer.php:440
+msgid "Check to show social icons in footer"
+msgstr ""
+
+#: ../inc/customizer.php:447
+msgid "Other"
+msgstr "Diğerleri"
+
+#: ../inc/customizer.php:457
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer.php:458
+msgid "Additional CSS"
+msgstr ""
+
+#: ../inc/customizer.php:465
+msgid "Support and Documentation"
+msgstr ""
+
+#: ../inc/customizer.php:634
+msgid ""
+"The best way to contact us with <b>support questions</b> and <b>bug reports</"
+"b> is via"
+msgstr ""
+
+#: ../inc/customizer.php:637
+msgid "Rate this Theme"
+msgstr ""
+
+#: ../inc/extras.php:71
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../inc/extras.php:72
+msgid "Password:"
+msgstr "Şifre:"
+
+#: ../inc/extras.php:75
+msgid "Submit"
+msgstr "Onayla"
+
+#: ../inc/extras.php:258
+#, php-format
+msgid "Theme by %1$s Powered by %2$s"
+msgstr ""
+
+#: ../inc/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+
+#: ../inc/metaboxes.php:21
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: ../inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:81
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:91
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:104
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay beklemektedir"
+
+#: ../inc/widgets/widget-popular-posts.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:37
+msgid "Popular"
+msgstr "Popüler"
+
+#: ../inc/widgets/widget-popular-posts.php:38
+msgid "Recent"
+msgstr "Son"
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "Anonymous"
+msgstr "Ortak"
+
+#: ../inc/widgets/widget-popular-posts.php:115
+msgid "on"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:156
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../inc/woo-setup.php:96
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/woo-setup.php:97
+msgid "Start shopping"
+msgstr ""
+
+#: ../inc/woo-setup.php:101
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Şunları ara: %s"
+
+#: ../searchform.php:12
+msgid "Search..."
+msgstr "Ara..."
+
+#: ../sidebar.php:24
+msgid "Meta"
+msgstr ""
