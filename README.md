@@ -57,6 +57,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.0.2 - 14.01.2016####
+
+* Added Danish translation thanks to Asser Munch
+* Improved Italian translation
+
 ####2.0.1 - 17.11.2015####
 
 * Removed redundand function
@@ -148,7 +153,7 @@ Dazzling theme uses:
 
 ####1.3.7 - 09.11.2014####
 
-* Added different content width for Full-width template for plugins that depends on it to work properly. 
+* Added different content width for Full-width template for plugins that depends on it to work properly.
 
 ####1.3.6 - 15.10.2014####
 

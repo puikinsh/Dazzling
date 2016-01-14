@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/dazzling/
-Version: 2.0.1
+Version: 2.0.2
 Tested up to: WP 4.4
 
 Author: Aigars Silkalns
