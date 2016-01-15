@@ -114,6 +114,15 @@ function dazzling_social_icons(){
 }
 endif;
 
+if( ! function_exists( 'dazzling_social' ) ) :
+  /**
+   * Fallback function for the deprecated function dazzling_social removed by https://github.com/shahpranaf/Dazzling/commit/009848b318be17d8f4d7a8763c59777922904fad
+   */
+  if( of_get_option('footer_social') ) {
+    dazzling_social_icons();
+  }
+endif;
+
 /**
  * header menu (should you choose to use one)
  */
