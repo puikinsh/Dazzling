@@ -87,33 +87,40 @@ function custom_password_form() {
  */
 add_filter( 'the_content', 'dazzling_add_custom_table_class' );
 function dazzling_add_custom_table_class( $content ) {
-    return str_replace( '<table>', '<table class="table table-hover">', $content );
+  return str_replace( '<table>', '<table class="table table-hover">', $content );
 }
 
-if ( ! function_exists( 'sparkling_social_icons' ) ) :
+if ( ! function_exists( 'dazzling_social_icons' ) ) :
 /**
  * Display social links in footer and widgets
- *
- * @package sparkling
  */
 function dazzling_social_icons(){
   if ( has_nav_menu( 'social-menu' ) ) {
   	wp_nav_menu(
-  		array(
-  			'theme_location'  => 'social-menu',
-  			'container'       => 'nav',
-  			'container_id'    => 'social',
-  			'container_class' => 'social-icon',
-  			'menu_id'         => 'menu-social-items',
-  			'menu_class'      => 'social-menu',
-  			'depth'           => 1,
-  			'fallback_cb'     => '',
-                        'link_before'     => '<i class="social_icon fa"><span>',
-                        'link_after'      => '</span></i>'
-  		)
-	  );
+      array(
+        'theme_location'  => 'social-menu',
+        'container'       => 'nav',
+        'container_id'    => 'social',
+        'container_class' => 'social-icon',
+        'menu_id'         => 'menu-social-items',
+        'menu_class'      => 'social-menu',
+        'depth'           => 1,
+        'fallback_cb'     => '',
+        'link_before'     => '<i class="social_icon fa"><span>',
+        'link_after'      => '</span></i>'
+      )
+    );
   }
 }
+endif;
+
+if( ! function_exists( 'dazzling_social' ) ) :
+  /**
+   * Fallback function for the deprecated function dazzling_social removed by https://github.com/shahpranaf/Dazzling/commit/009848b318be17d8f4d7a8763c59777922904fad
+   */
+  if( of_get_option('footer_social') ) {
+    dazzling_social_icons();
+  }
 endif;
 
 /**
