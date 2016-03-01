@@ -216,9 +216,8 @@ function dazzling_featured_slider() {
 
           $count = of_get_option('dazzling_slide_number');
           $slidecat = of_get_option('dazzling_slide_categories');
-          echo 'here '.$count;
-          echo 'here '.$slidecat;
-            if ( $count && $slidecat ) { echo 'here2';
+
+            if ( $count && $slidecat ) {
             $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
 //            print_r($query);
             if ($query->have_posts()) :
