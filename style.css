@@ -574,9 +574,10 @@ li.recentcomments {
   margin-bottom: 20px;
 }
 .site-description {
+  clear: both;
   color: #777;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 14px;
 }
 .page-template-page-homepage-php .carousel {
   margin-top: -20px;
