@@ -171,10 +171,10 @@ function dazzling_getPostViews($postID){
 function dazzling_setPostViews($postID) {
     $count_key = 'post_views_count';
     $count = (int)get_post_meta($postID, $count_key, true);
-    if($count==''){
-        $count = 0;
+    if($count == 0){
+        $count = 1;
         delete_post_meta($postID, $count_key);
-        add_post_meta($postID, $count_key, 0);
+        add_post_meta($postID, $count_key, $count);
     }else{
         $count++;
         update_post_meta($postID, $count_key, $count);
@@ -216,9 +216,11 @@ function dazzling_featured_slider() {
 
           $count = of_get_option('dazzling_slide_number');
           $slidecat = of_get_option('dazzling_slide_categories');
-
-            if ( $count && $slidecat ) {
+          echo 'here '.$count;
+          echo 'here '.$slidecat;
+            if ( $count && $slidecat ) { echo 'here2';
             $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
+//            print_r($query);
             if ($query->have_posts()) :
               while ($query->have_posts()) : $query->the_post();
 
