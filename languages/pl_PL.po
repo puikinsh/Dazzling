@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling v1.4.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-30 11:03+0200\n"
-"PO-Revision-Date: 2015-10-30 11:03+0200\n"
+"POT-Creation-Date: 2016-03-18 11:18+0200\n"
+"PO-Revision-Date: 2016-03-18 11:18+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: pl_PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
@@ -248,7 +248,7 @@ msgid "Primary Menu"
 msgstr "Menu główne"
 
 # @ dazzling
-#: ../functions.php:60 ../inc/extras.php:167
+#: ../functions.php:60 ../inc/extras.php:152
 msgid "Footer Links"
 msgstr "Linki w stopce"
 
@@ -383,9 +383,9 @@ msgstr "Kolor przycisków"
 #: ../inc/customizer.php:116 ../inc/customizer.php:128
 #: ../inc/customizer.php:182 ../inc/customizer.php:192
 #: ../inc/customizer.php:202 ../inc/customizer.php:212
-#: ../inc/customizer.php:289 ../inc/customizer.php:299
-#: ../inc/customizer.php:316 ../inc/customizer.php:423
-#: ../inc/customizer.php:434
+#: ../inc/customizer.php:284 ../inc/customizer.php:294
+#: ../inc/customizer.php:311 ../inc/customizer.php:418
+#: ../inc/customizer.php:429
 msgid "Default used if no color is selected"
 msgstr "Użyję domyślnych ustawień, jeżeli nie wybrano koloru"
 
@@ -455,163 +455,163 @@ msgid "Typography"
 msgstr "Typografia"
 
 # @ dazzling
-#: ../inc/customizer.php:237
+#: ../inc/customizer.php:232
 msgid "Main Body Text"
 msgstr "Podstawowy tekst"
 
 # @ dazzling
-#: ../inc/customizer.php:238
+#: ../inc/customizer.php:233
 #, fuzzy
 msgid "Used in p tags"
 msgstr "Używany w tagach P"
 
 # @ dazzling
-#: ../inc/customizer.php:278
+#: ../inc/customizer.php:273
 msgid "Heading Color"
 msgstr "Kolor Nagłówka"
 
 # @ dazzling
-#: ../inc/customizer.php:279
+#: ../inc/customizer.php:274
 msgid "Color for all headings (h1-h6)"
 msgstr "Kolor wszystkich nagłówków (h1-h6)"
 
 # @ dazzling
-#: ../inc/customizer.php:288
+#: ../inc/customizer.php:283
 msgid "Link Color"
 msgstr "Kolor linku"
 
 # @ dazzling
-#: ../inc/customizer.php:298
+#: ../inc/customizer.php:293
 msgid "Link:hover Color"
 msgstr "Link:kolor podświetlenia"
 
 # @ dazzling
-#: ../inc/customizer.php:305
+#: ../inc/customizer.php:300
 msgid "Header"
 msgstr "Nagłówek"
 
 # @ dazzling
-#: ../inc/customizer.php:315
+#: ../inc/customizer.php:310
 msgid "Top nav background color"
 msgstr "Kolor tła menu głównego"
 
 # @ dazzling
-#: ../inc/customizer.php:325
+#: ../inc/customizer.php:320
 msgid "Top nav item color"
 msgstr "Kolor elementu nawigacji"
 
 # @ dazzling
-#: ../inc/customizer.php:326
+#: ../inc/customizer.php:321
 msgid "Link color"
 msgstr "kolor linku"
 
 # @ dazzling
-#: ../inc/customizer.php:336
+#: ../inc/customizer.php:331
 msgid "Top nav dropdown background color"
 msgstr "Kolor tła elementu rozwijanego menu"
 
 # @ dazzling
-#: ../inc/customizer.php:337
+#: ../inc/customizer.php:332
 msgid "Background of dropdown item hover color"
 msgstr "Kolor tła podświetlonego elementu rozwijanego menu"
 
 # @ dazzling
-#: ../inc/customizer.php:347
+#: ../inc/customizer.php:342
 msgid "Top nav dropdown item color"
 msgstr "Kolor elementu rozwijanego menu"
 
 # @ dazzling
-#: ../inc/customizer.php:348
+#: ../inc/customizer.php:343
 msgid "Dropdown item color"
 msgstr "Kolor elementu listy rozwijanej"
 
 # @ dazzling
-#: ../inc/customizer.php:354
+#: ../inc/customizer.php:349
 msgid "Footer"
 msgstr "Stopka"
 
 # @ dazzling
-#: ../inc/customizer.php:364
+#: ../inc/customizer.php:359
 #, fuzzy
 msgid "Footer widget area background color"
 msgstr "Kolor tła widgetów stopki"
 
 # @ dazzling
-#: ../inc/customizer.php:374
+#: ../inc/customizer.php:369
 #, fuzzy
 msgid "Footer background color"
 msgstr "Kolor tła stopki"
 
 # @ dazzling
-#: ../inc/customizer.php:384
+#: ../inc/customizer.php:379
 #, fuzzy
 msgid "Footer text color"
 msgstr "Kolor tekstu stopki"
 
 # @ dazzling
-#: ../inc/customizer.php:394
+#: ../inc/customizer.php:389
 #, fuzzy
 msgid "Footer link color"
 msgstr "Kolor odnośnika stopki"
 
 # @ dazzling
-#: ../inc/customizer.php:404
+#: ../inc/customizer.php:399
 msgid "Footer information"
 msgstr "Informacja w stopce"
 
 # @ dazzling
-#: ../inc/customizer.php:405
+#: ../inc/customizer.php:400
 msgid "Copyright text in footer"
 msgstr "Tekst dot. praw autorskich w stopce"
 
 # @ dazzling
-#: ../inc/customizer.php:412
+#: ../inc/customizer.php:407
 msgid "Social"
 msgstr "Społeczność"
 
 # @ dazzling
-#: ../inc/customizer.php:422
+#: ../inc/customizer.php:417
 #, fuzzy
 msgid "Social icon color"
 msgstr "Kolor ikon społecznościowych"
 
 # @ dazzling
-#: ../inc/customizer.php:433
+#: ../inc/customizer.php:428
 msgid "Social Icon:hover Color"
 msgstr "Ikony mediów społecznościowych:kolor podświetlenia"
 
 # @ dazzling
-#: ../inc/customizer.php:444
+#: ../inc/customizer.php:439
 #, fuzzy
 msgid "Footer Social Icons"
 msgstr "Linki w stopce"
 
-#: ../inc/customizer.php:445
+#: ../inc/customizer.php:440
 msgid "Check to show social icons in footer"
 msgstr ""
 
 # @ dazzling
-#: ../inc/customizer.php:452
+#: ../inc/customizer.php:447
 msgid "Other"
 msgstr "Other"
 
 # @ dazzling
-#: ../inc/customizer.php:462
+#: ../inc/customizer.php:457
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
 # @ dazzling
-#: ../inc/customizer.php:463
+#: ../inc/customizer.php:458
 msgid "Additional CSS"
 msgstr "Additional CSS"
 
 # @ dazzling
-#: ../inc/customizer.php:470
+#: ../inc/customizer.php:465
 msgid "Support and Documentation"
 msgstr "Wsparcie i dokumentacja"
 
 # @ dazzling
-#: ../inc/customizer.php:639
+#: ../inc/customizer.php:634
 #, fuzzy
 msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
@@ -619,29 +619,29 @@ msgid ""
 msgstr "Najlepsza metoda aby się z nami skontaktować jest przez"
 
 # @ dazzling
-#: ../inc/customizer.php:642
+#: ../inc/customizer.php:637
 msgid "Rate this Theme"
 msgstr "Oceń ten motyw"
 
 # @ dazzling
-#: ../inc/extras.php:93
+#: ../inc/extras.php:71
 #, fuzzy
 msgid ""
 "This post is password protected. To view it please enter your password below:"
 msgstr "<p>Ten wpis jest chroniony hasłem. Aby go zobaczyć wpisz hasło:</p>"
 
 # @ dazzling
-#: ../inc/extras.php:94
+#: ../inc/extras.php:72
 msgid "Password:"
 msgstr "Hasło:"
 
 # @ dazzling
-#: ../inc/extras.php:97
+#: ../inc/extras.php:75
 msgid "Submit"
 msgstr "Zgłoś"
 
 # @ dazzling
-#: ../inc/extras.php:280
+#: ../inc/extras.php:266
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Motyw %1$s Działa na %2$s"

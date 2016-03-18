@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DazzlingG\n"
-"POT-Creation-Date: 2015-10-30 11:02+0200\n"
-"PO-Revision-Date: 2015-10-30 11:02+0200\n"
+"POT-Creation-Date: 2016-03-18 11:17+0200\n"
+"PO-Revision-Date: 2016-03-18 11:17+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -207,7 +207,7 @@ msgstr "Weiterlesen..."
 msgid "Primary Menu"
 msgstr "Menü erster Ordnung"
 
-#: functions.php:60 inc/extras.php:167
+#: functions.php:60 inc/extras.php:152
 msgid "Footer Links"
 msgstr "Links für den Fußbereich"
 
@@ -340,8 +340,8 @@ msgstr "Element Farbe"
 
 #: inc/customizer.php:116 inc/customizer.php:128 inc/customizer.php:182
 #: inc/customizer.php:192 inc/customizer.php:202 inc/customizer.php:212
-#: inc/customizer.php:289 inc/customizer.php:299 inc/customizer.php:316
-#: inc/customizer.php:423 inc/customizer.php:434
+#: inc/customizer.php:284 inc/customizer.php:294 inc/customizer.php:311
+#: inc/customizer.php:418 inc/customizer.php:429
 msgid "Default used if no color is selected"
 msgstr "Standard wird verwendet, wenn keine Farbe gewählt"
 
@@ -407,145 +407,145 @@ msgstr "Aktionsbutton Text Farbe"
 msgid "Typography"
 msgstr "Typografie"
 
-#: inc/customizer.php:237
+#: inc/customizer.php:232
 msgid "Main Body Text"
 msgstr "Haupttextkörper"
 
-#: inc/customizer.php:238
+#: inc/customizer.php:233
 #, fuzzy
 msgid "Used in p tags"
 msgstr "Benutzt in P tags"
 
-#: inc/customizer.php:278
+#: inc/customizer.php:273
 msgid "Heading Color"
 msgstr "Farbe der Überschriften"
 
-#: inc/customizer.php:279
+#: inc/customizer.php:274
 msgid "Color for all headings (h1-h6)"
 msgstr "Farbe für alle Überschriften (h1-h6)"
 
-#: inc/customizer.php:288
+#: inc/customizer.php:283
 msgid "Link Color"
 msgstr "Link Farbe"
 
-#: inc/customizer.php:298
+#: inc/customizer.php:293
 msgid "Link:hover Color"
 msgstr "Link:hover Farbe"
 
-#: inc/customizer.php:305
+#: inc/customizer.php:300
 msgid "Header"
 msgstr "Kopfbereich"
 
-#: inc/customizer.php:315
+#: inc/customizer.php:310
 #, fuzzy
 msgid "Top nav background color"
 msgstr "Top nav Hintergrund Farbe"
 
-#: inc/customizer.php:325
+#: inc/customizer.php:320
 #, fuzzy
 msgid "Top nav item color"
 msgstr "Top nav Element Farbe"
 
-#: inc/customizer.php:326
+#: inc/customizer.php:321
 msgid "Link color"
 msgstr "Link Farbe"
 
-#: inc/customizer.php:336
+#: inc/customizer.php:331
 #, fuzzy
 msgid "Top nav dropdown background color"
 msgstr "Top nav Dropdown Hintergrund Farbe"
 
-#: inc/customizer.php:337
+#: inc/customizer.php:332
 #, fuzzy
 msgid "Background of dropdown item hover color"
 msgstr "Hintergrund Dropdown Element hover Farbe"
 
-#: inc/customizer.php:347
+#: inc/customizer.php:342
 #, fuzzy
 msgid "Top nav dropdown item color"
 msgstr "Top nav Dropdown Element Farbe"
 
-#: inc/customizer.php:348
+#: inc/customizer.php:343
 #, fuzzy
 msgid "Dropdown item color"
 msgstr "Dropdown Element Farbe"
 
-#: inc/customizer.php:354
+#: inc/customizer.php:349
 msgid "Footer"
 msgstr "Fußbereich"
 
-#: inc/customizer.php:364
+#: inc/customizer.php:359
 #, fuzzy
 msgid "Footer widget area background color"
 msgstr "Footer Widget Bereich Hintergrund Farbe"
 
-#: inc/customizer.php:374
+#: inc/customizer.php:369
 #, fuzzy
 msgid "Footer background color"
 msgstr "Footer Hintergrund Farbe"
 
-#: inc/customizer.php:384
+#: inc/customizer.php:379
 #, fuzzy
 msgid "Footer text color"
 msgstr "Footer Text Farbe"
 
-#: inc/customizer.php:394
+#: inc/customizer.php:389
 #, fuzzy
 msgid "Footer link color"
 msgstr "Footer Link Farbe"
 
-#: inc/customizer.php:404
+#: inc/customizer.php:399
 msgid "Footer information"
 msgstr "Fußbereich Informationen"
 
-#: inc/customizer.php:405
+#: inc/customizer.php:400
 msgid "Copyright text in footer"
 msgstr "Copyright-Text im Fußbereich"
 
-#: inc/customizer.php:412
+#: inc/customizer.php:407
 msgid "Social"
 msgstr "Soziale Netzwerke"
 
-#: inc/customizer.php:422
+#: inc/customizer.php:417
 #, fuzzy
 msgid "Social icon color"
 msgstr "Social Icon Farbe"
 
-#: inc/customizer.php:433
+#: inc/customizer.php:428
 #, fuzzy
 msgid "Social Icon:hover Color"
 msgstr "Sozialicon: Maus-over-Farbe"
 
-#: inc/customizer.php:444
+#: inc/customizer.php:439
 #, fuzzy
 msgid "Footer Social Icons"
 msgstr "Links für den Fußbereich"
 
-#: inc/customizer.php:445
+#: inc/customizer.php:440
 msgid "Check to show social icons in footer"
 msgstr ""
 
-#: inc/customizer.php:452
+#: inc/customizer.php:447
 msgid "Other"
 msgstr "Weitere"
 
-#: inc/customizer.php:462
+#: inc/customizer.php:457
 msgid "Custom CSS"
 msgstr "Benutzerdefiniertes CSS"
 
-#: inc/customizer.php:463
+#: inc/customizer.php:458
 msgid "Additional CSS"
 msgstr "Zusätzliches CSS"
 
-#: inc/customizer.php:470
+#: inc/customizer.php:465
 msgid "Support and Documentation"
 msgstr "Unterstützung und Dokumentation"
 
-#: inc/customizer.php:638
+#: inc/customizer.php:633
 msgid "Dazzling Documentation"
 msgstr ""
 
-#: inc/customizer.php:639
+#: inc/customizer.php:634
 #, fuzzy
 msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
@@ -554,27 +554,27 @@ msgstr ""
 "Der beste Weg uns zu <b>Support Anfragen</b> und <b>Fehler Reports</b> zu "
 "kontaktieren ist via"
 
-#: inc/customizer.php:639
+#: inc/customizer.php:634
 msgid "Colorlib support forum"
 msgstr "Colorlib Support-Forum"
 
-#: inc/customizer.php:640
+#: inc/customizer.php:635
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Wenn dir diese Theme gefällt, würde ich mich über folgendes freuen:"
 
-#: inc/customizer.php:642
+#: inc/customizer.php:637
 msgid "Rate this Theme"
 msgstr "Bewerte diese Theme"
 
-#: inc/customizer.php:643
+#: inc/customizer.php:638
 msgid "Like on Facebook"
 msgstr "Like uns auf Facebook"
 
-#: inc/customizer.php:644
+#: inc/customizer.php:639
 msgid "Follow on Twitter"
 msgstr "Folge uns auf Twitter"
 
-#: inc/extras.php:93
+#: inc/extras.php:71
 #, fuzzy
 msgid ""
 "This post is password protected. To view it please enter your password below:"
@@ -582,15 +582,15 @@ msgstr ""
 "<p>Dieser Artikel ist durch ein Passwort geschützt. Bitte geben Sie hier das "
 "Passwort ein, um den Artikel anzuzeigen:</p>"
 
-#: inc/extras.php:94
+#: inc/extras.php:72
 msgid "Password:"
 msgstr "Passwort:"
 
-#: inc/extras.php:97
+#: inc/extras.php:75
 msgid "Submit"
 msgstr "Absenden"
 
-#: inc/extras.php:280
+#: inc/extras.php:266
 #, fuzzy, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme von %1$s Powered by %2$s"

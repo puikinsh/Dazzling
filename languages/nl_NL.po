@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
-"POT-Creation-Date: 2015-10-30 11:03+0200\n"
-"PO-Revision-Date: 2015-10-30 11:03+0200\n"
+"POT-Creation-Date: 2016-03-18 11:18+0200\n"
+"PO-Revision-Date: 2016-03-18 11:18+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;_nx:4c,1,2;"
@@ -194,7 +194,7 @@ msgstr "Verder lezen"
 msgid "Primary Menu"
 msgstr "Hoofdmenu"
 
-#: ../functions.php:60 ../inc/extras.php:167
+#: ../functions.php:60 ../inc/extras.php:152
 msgid "Footer Links"
 msgstr "Footer Links"
 
@@ -299,9 +299,9 @@ msgstr "Elementkleur"
 #: ../inc/customizer.php:116 ../inc/customizer.php:128
 #: ../inc/customizer.php:182 ../inc/customizer.php:192
 #: ../inc/customizer.php:202 ../inc/customizer.php:212
-#: ../inc/customizer.php:289 ../inc/customizer.php:299
-#: ../inc/customizer.php:316 ../inc/customizer.php:423
-#: ../inc/customizer.php:434
+#: ../inc/customizer.php:284 ../inc/customizer.php:294
+#: ../inc/customizer.php:311 ../inc/customizer.php:418
+#: ../inc/customizer.php:429
 msgid "Default used if no color is selected"
 msgstr "Standaard indien geen kleur is geselecteerd"
 
@@ -357,134 +357,134 @@ msgstr "Call For Action Knop Tekstkleur"
 msgid "Typography"
 msgstr "Typografie"
 
-#: ../inc/customizer.php:237
+#: ../inc/customizer.php:232
 msgid "Main Body Text"
 msgstr "Hoofd Body Tekst"
 
-#: ../inc/customizer.php:238
+#: ../inc/customizer.php:233
 #, fuzzy
 msgid "Used in p tags"
 msgstr "Gebruikt in P tags"
 
-#: ../inc/customizer.php:278
+#: ../inc/customizer.php:273
 msgid "Heading Color"
 msgstr "Kopkleur"
 
-#: ../inc/customizer.php:279
+#: ../inc/customizer.php:274
 msgid "Color for all headings (h1-h6)"
 msgstr "Kleuren voor alle koppen (h1-h6)"
 
-#: ../inc/customizer.php:288
+#: ../inc/customizer.php:283
 msgid "Link Color"
 msgstr "Link Kleur"
 
-#: ../inc/customizer.php:298
+#: ../inc/customizer.php:293
 msgid "Link:hover Color"
 msgstr "Link:hover Kleur"
 
-#: ../inc/customizer.php:305
+#: ../inc/customizer.php:300
 msgid "Header"
 msgstr "Header"
 
-#: ../inc/customizer.php:315
+#: ../inc/customizer.php:310
 msgid "Top nav background color"
 msgstr "Top nav achtergrondkleur"
 
-#: ../inc/customizer.php:325
+#: ../inc/customizer.php:320
 msgid "Top nav item color"
 msgstr "Top nav item kleur"
 
-#: ../inc/customizer.php:326
+#: ../inc/customizer.php:321
 msgid "Link color"
 msgstr "Link kleur"
 
-#: ../inc/customizer.php:336
+#: ../inc/customizer.php:331
 msgid "Top nav dropdown background color"
 msgstr "Top nav dropdown achtergrondkleur"
 
-#: ../inc/customizer.php:337
+#: ../inc/customizer.php:332
 msgid "Background of dropdown item hover color"
 msgstr "Dropdown item hover Achtergrondkleur"
 
-#: ../inc/customizer.php:347
+#: ../inc/customizer.php:342
 msgid "Top nav dropdown item color"
 msgstr "Top nav dropdown item kleur"
 
-#: ../inc/customizer.php:348
+#: ../inc/customizer.php:343
 msgid "Dropdown item color"
 msgstr "Dropdown item kleur"
 
-#: ../inc/customizer.php:354
+#: ../inc/customizer.php:349
 msgid "Footer"
 msgstr "Footer"
 
-#: ../inc/customizer.php:364
+#: ../inc/customizer.php:359
 #, fuzzy
 msgid "Footer widget area background color"
 msgstr "Footer Widget-ruimte Achtergrondkleur"
 
-#: ../inc/customizer.php:374
+#: ../inc/customizer.php:369
 #, fuzzy
 msgid "Footer background color"
 msgstr "Footer Achtergrondkleur"
 
-#: ../inc/customizer.php:384
+#: ../inc/customizer.php:379
 #, fuzzy
 msgid "Footer text color"
 msgstr "Footer Tekst Color"
 
-#: ../inc/customizer.php:394
+#: ../inc/customizer.php:389
 #, fuzzy
 msgid "Footer link color"
 msgstr "Footer Link Kleur"
 
-#: ../inc/customizer.php:404
+#: ../inc/customizer.php:399
 msgid "Footer information"
 msgstr "Footer informatie"
 
-#: ../inc/customizer.php:405
+#: ../inc/customizer.php:400
 msgid "Copyright text in footer"
 msgstr "Copyright tekst in footer"
 
-#: ../inc/customizer.php:412
+#: ../inc/customizer.php:407
 msgid "Social"
 msgstr "Social"
 
-#: ../inc/customizer.php:422
+#: ../inc/customizer.php:417
 #, fuzzy
 msgid "Social icon color"
 msgstr "Social Icoon Kleur"
 
-#: ../inc/customizer.php:433
+#: ../inc/customizer.php:428
 msgid "Social Icon:hover Color"
 msgstr "Social Icoon:hover Kleur"
 
-#: ../inc/customizer.php:444
+#: ../inc/customizer.php:439
 #, fuzzy
 msgid "Footer Social Icons"
 msgstr "Footer Links"
 
-#: ../inc/customizer.php:445
+#: ../inc/customizer.php:440
 msgid "Check to show social icons in footer"
 msgstr ""
 
-#: ../inc/customizer.php:452
+#: ../inc/customizer.php:447
 msgid "Other"
 msgstr "Andere"
 
-#: ../inc/customizer.php:462
+#: ../inc/customizer.php:457
 msgid "Custom CSS"
 msgstr "Aangepaste CSS"
 
-#: ../inc/customizer.php:463
+#: ../inc/customizer.php:458
 msgid "Additional CSS"
 msgstr "Aanvullende CSS"
 
-#: ../inc/customizer.php:470
+#: ../inc/customizer.php:465
 msgid "Support and Documentation"
 msgstr "Support en Documentatie"
 
-#: ../inc/customizer.php:639
+#: ../inc/customizer.php:634
 #, fuzzy
 msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
@@ -492,11 +492,11 @@ msgid ""
 msgstr ""
 "Als je vragen hebt of een bug wil melden kan je ons het best benaderen via"
 
-#: ../inc/customizer.php:642
+#: ../inc/customizer.php:637
 msgid "Rate this Theme"
 msgstr "Beoordeel dit Theme"
 
-#: ../inc/extras.php:93
+#: ../inc/extras.php:71
 #, fuzzy
 msgid ""
 "This post is password protected. To view it please enter your password below:"
@@ -504,15 +504,15 @@ msgstr ""
 "<p>Dit bericht is beschermd met een wachtwoord. Voer svp hieronder het "
 "wachtwoord in:</p>"
 
-#: ../inc/extras.php:94
+#: ../inc/extras.php:72
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: ../inc/extras.php:97
+#: ../inc/extras.php:75
 msgid "Submit"
 msgstr "Verzenden"
 
-#: ../inc/extras.php:280
+#: ../inc/extras.php:266
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "Theme door %1$s Powered by %2$s"

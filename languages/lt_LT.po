@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-30 11:03+0200\n"
-"PO-Revision-Date: 2015-10-30 11:03+0200\n"
+"POT-Creation-Date: 2016-03-18 11:18+0200\n"
+"PO-Revision-Date: 2016-03-18 11:18+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: lt\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 &&(n"
 "%100<10||n%100 >= 20)? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
 "__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
@@ -211,7 +211,7 @@ msgstr "Skaitykite toliau"
 msgid "Primary Menu"
 msgstr "Pagrindinis meniu"
 
-#: ../functions.php:60 ../inc/extras.php:167
+#: ../functions.php:60 ../inc/extras.php:152
 msgid "Footer Links"
 msgstr "Poraštės nuorodos"
 
@@ -344,9 +344,9 @@ msgstr "Elemento spalva"
 #: ../inc/customizer.php:116 ../inc/customizer.php:128
 #: ../inc/customizer.php:182 ../inc/customizer.php:192
 #: ../inc/customizer.php:202 ../inc/customizer.php:212
-#: ../inc/customizer.php:289 ../inc/customizer.php:299
-#: ../inc/customizer.php:316 ../inc/customizer.php:423
-#: ../inc/customizer.php:434
+#: ../inc/customizer.php:284 ../inc/customizer.php:294
+#: ../inc/customizer.php:311 ../inc/customizer.php:418
+#: ../inc/customizer.php:429
 msgid "Default used if no color is selected"
 msgstr "Numatytasis nustatymas jei nėra pasirinkta spalva"
 
@@ -402,138 +402,138 @@ msgstr "Veiksmo iškvietimo mygtuko teksto spalva"
 msgid "Typography"
 msgstr "Tipografija "
 
-#: ../inc/customizer.php:237
+#: ../inc/customizer.php:232
 msgid "Main Body Text"
 msgstr "Pagrindo (angl. body) tekstas"
 
-#: ../inc/customizer.php:238
+#: ../inc/customizer.php:233
 #, fuzzy
 msgid "Used in p tags"
 msgstr "Naudojama P žymoms"
 
-#: ../inc/customizer.php:278
+#: ../inc/customizer.php:273
 msgid "Heading Color"
 msgstr "Antraštės spalva"
 
-#: ../inc/customizer.php:279
+#: ../inc/customizer.php:274
 msgid "Color for all headings (h1-h6)"
 msgstr "Spalva visoms antraštėms (h1-h6)"
 
-#: ../inc/customizer.php:288
+#: ../inc/customizer.php:283
 msgid "Link Color"
 msgstr "Nuorodų spalva"
 
-#: ../inc/customizer.php:298
+#: ../inc/customizer.php:293
 msgid "Link:hover Color"
 msgstr "Nuorodų spalva užvedus pelę"
 
-#: ../inc/customizer.php:305
+#: ../inc/customizer.php:300
 msgid "Header"
 msgstr "Antraštė"
 
-#: ../inc/customizer.php:315
+#: ../inc/customizer.php:310
 msgid "Top nav background color"
 msgstr "Viršutinio menių fono spalva"
 
-#: ../inc/customizer.php:325
+#: ../inc/customizer.php:320
 msgid "Top nav item color"
 msgstr "Viršutinio menių punkto spalva"
 
-#: ../inc/customizer.php:326
+#: ../inc/customizer.php:321
 msgid "Link color"
 msgstr "Nuorodų spalva"
 
-#: ../inc/customizer.php:336
+#: ../inc/customizer.php:331
 msgid "Top nav dropdown background color"
 msgstr "Viršutinio išskleidžiamo menių fono spalva"
 
-#: ../inc/customizer.php:337
+#: ../inc/customizer.php:332
 msgid "Background of dropdown item hover color"
 msgstr "Išskleidžiamo menių punkto spalva užvedus pelę"
 
-#: ../inc/customizer.php:347
+#: ../inc/customizer.php:342
 msgid "Top nav dropdown item color"
 msgstr "Viršutinio išskleidžiamo menių punkto spalva"
 
-#: ../inc/customizer.php:348
+#: ../inc/customizer.php:343
 msgid "Dropdown item color"
 msgstr "Išskleidžiamo menių spalva"
 
-#: ../inc/customizer.php:354
+#: ../inc/customizer.php:349
 msgid "Footer"
 msgstr "Poraštė"
 
-#: ../inc/customizer.php:364
+#: ../inc/customizer.php:359
 #, fuzzy
 msgid "Footer widget area background color"
 msgstr "Poraštės valdiklių srities fono spalva"
 
-#: ../inc/customizer.php:374
+#: ../inc/customizer.php:369
 #, fuzzy
 msgid "Footer background color"
 msgstr "Poraštės fono spalva"
 
-#: ../inc/customizer.php:384
+#: ../inc/customizer.php:379
 #, fuzzy
 msgid "Footer text color"
 msgstr "Poraštės teksto spalva"
 
-#: ../inc/customizer.php:394
+#: ../inc/customizer.php:389
 #, fuzzy
 msgid "Footer link color"
 msgstr "Poraštės nuorodų spalva"
 
-#: ../inc/customizer.php:404
+#: ../inc/customizer.php:399
 msgid "Footer information"
 msgstr "Poraštės informacija"
 
-#: ../inc/customizer.php:405
+#: ../inc/customizer.php:400
 msgid "Copyright text in footer"
 msgstr "Autorinių teisių tekstas poraštėje"
 
-#: ../inc/customizer.php:412
+#: ../inc/customizer.php:407
 msgid "Social"
 msgstr "Socialiniai"
 
-#: ../inc/customizer.php:422
+#: ../inc/customizer.php:417
 #, fuzzy
 msgid "Social icon color"
 msgstr "Socialinių ikonų spalva"
 
-#: ../inc/customizer.php:433
+#: ../inc/customizer.php:428
 msgid "Social Icon:hover Color"
 msgstr "Socialinių ikonų spalva užvedus pelę"
 
-#: ../inc/customizer.php:444
+#: ../inc/customizer.php:439
 #, fuzzy
 msgid "Footer Social Icons"
 msgstr "Poraštės nuorodos"
 
-#: ../inc/customizer.php:445
+#: ../inc/customizer.php:440
 msgid "Check to show social icons in footer"
 msgstr ""
 
-#: ../inc/customizer.php:452
+#: ../inc/customizer.php:447
 msgid "Other"
 msgstr "Kita"
 
-#: ../inc/customizer.php:462
+#: ../inc/customizer.php:457
 msgid "Custom CSS"
 msgstr "Pasirinktinis CSS"
 
-#: ../inc/customizer.php:463
+#: ../inc/customizer.php:458
 msgid "Additional CSS"
 msgstr "Papildomas CSS"
 
-#: ../inc/customizer.php:470
+#: ../inc/customizer.php:465
 msgid "Support and Documentation"
 msgstr "Pagalba ir dokumentacija"
 
-#: ../inc/customizer.php:638
+#: ../inc/customizer.php:633
 msgid "Dazzling Documentation"
 msgstr "Dazzling dokumentacija"
 
-#: ../inc/customizer.php:639
+#: ../inc/customizer.php:634
 #, fuzzy
 msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
@@ -542,42 +542,42 @@ msgstr ""
 "Geriausias būdas susisiekti su mumis <b>pagalbos klausimais</b> ir "
 "<b>pranešti apie klaidas</b> yra čia"
 
-#: ../inc/customizer.php:639
+#: ../inc/customizer.php:634
 msgid "Colorlib support forum"
 msgstr "Colorlib pagalbos forumai"
 
-#: ../inc/customizer.php:640
+#: ../inc/customizer.php:635
 msgid "If you like this theme, I'd appreciate any of the following:"
 msgstr "Jei jums patinka ši tema, pasirinkite vieną iš būdų ją įvertinti:"
 
-#: ../inc/customizer.php:642
+#: ../inc/customizer.php:637
 msgid "Rate this Theme"
 msgstr "Įvertinkite temą"
 
-#: ../inc/customizer.php:643
+#: ../inc/customizer.php:638
 msgid "Like on Facebook"
 msgstr "Patinka Facebook"
 
-#: ../inc/customizer.php:644
+#: ../inc/customizer.php:639
 msgid "Follow on Twitter"
 msgstr "Sekite Twitter"
 
-#: ../inc/extras.php:93
+#: ../inc/extras.php:71
 #, fuzzy
 msgid ""
 "This post is password protected. To view it please enter your password below:"
 msgstr ""
 "<p>Įrašas apsaugotas slaptažodžiu. Įveskite jį, jei norite peržiūrėti:</p>"
 
-#: ../inc/extras.php:94
+#: ../inc/extras.php:72
 msgid "Password:"
 msgstr "Slaptažodis:"
 
-#: ../inc/extras.php:97
+#: ../inc/extras.php:75
 msgid "Submit"
 msgstr "Pateikti"
 
-#: ../inc/extras.php:280
+#: ../inc/extras.php:266
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr "%1$s tema sukurta %2$s sistemai"

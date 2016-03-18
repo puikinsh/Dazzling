@@ -45,11 +45,11 @@
 					<div id="logo">
 						<span class="site-title"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 					</div><!-- end of #logo -->
-                                        <?php $description = get_bloginfo( 'description', 'display' );
-                                        if ( $description || is_customize_preview() ) : ?>
-                                                <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-                                        <?php
-                                        endif; ?>
+            <?php $description = get_bloginfo( 'description', 'display' );
+            if ( $description || is_customize_preview() ) : ?>
+                    <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+            <?php
+            endif; ?>
 
 				<?php endif; // header image was removed (again) ?>
 
@@ -57,15 +57,15 @@
 				<?php dazzling_header_menu(); ?>
 		</div>
 	</nav><!-- .site-navigation -->
-        
+
         <div class="top-section">
 		<?php dazzling_featured_slider(); ?>
 		<?php dazzling_call_for_action(); ?>
         </div>
         <div id="content" class="site-content container">
-            
+
             <div class="container main-content-area"><?php
-            
+
                 global $post;
                 if( get_post_meta($post->ID, 'site_layout', true) ){
                         $layout_class = get_post_meta($post->ID, 'site_layout', true);
@@ -78,4 +78,3 @@
                 }
                 ?>
                 <div class="row <?php echo $layout_class; ?>">
-                    
