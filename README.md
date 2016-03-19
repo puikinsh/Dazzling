@@ -57,6 +57,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.0.4 - 19.03.2016####
+
+* Fixed error in extras.php
+
 ####2.0.3 - 18.03.2016####
 
 * Added site tagline support
