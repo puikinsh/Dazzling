@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dazzling Theme Spanish\n"
 "POT-Creation-Date: 2016-03-18 11:18+0200\n"
-"PO-Revision-Date: 2016-03-18 11:18+0200\n"
+"PO-Revision-Date: 2016-04-17 20:36+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: colorlib <info@colorlib.com>\n"
 "Language: it_IT\n"
@@ -79,9 +79,8 @@ msgid "Quotes"
 msgstr ""
 
 #: ../archive.php:53
-#, fuzzy
 msgid "Links"
-msgstr "Link a reti sociali"
+msgstr "Links"
 
 #: ../archive.php:56
 msgid "Statuses"
@@ -485,6 +484,8 @@ msgid ""
 "The best way to contact us with <b>support questions</b> and <b>bug reports</"
 "b> is via"
 msgstr ""
+"Il miglior modo di contattarci con <b>domande di supporto</b> e <b>bug "
+"report</b> e con"
 
 #: ../inc/customizer.php:637
 #, fuzzy
@@ -502,7 +503,7 @@ msgstr ""
 
 #: ../inc/extras.php:75
 msgid "Submit"
-msgstr ""
+msgstr "Invia"
 
 #: ../inc/extras.php:266
 #, php-format
@@ -560,7 +561,7 @@ msgstr ""
 
 #: ../inc/widgets/widget-popular-posts.php:19
 msgid "Dazzling Popular Posts Widget"
-msgstr ""
+msgstr "Widget dei post popolari di dazzling"
 
 #: ../inc/widgets/widget-popular-posts.php:37
 msgid "Popular"
@@ -584,18 +585,18 @@ msgstr "Numero di posts da mostrare"
 
 #: ../inc/woo-setup.php:96
 msgid "View your shopping cart"
-msgstr ""
+msgstr "Vai al tuo carrello"
 
 #: ../inc/woo-setup.php:97
 msgid "Start shopping"
-msgstr ""
+msgstr "Vai allo shop"
 
 #: ../inc/woo-setup.php:101
-#, fuzzy, php-format
+#, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "Color del elemento de menu de navegación superior"
-msgstr[1] "Color del elemento de menu de navegación superior"
+msgstr[0] "%d oggetto"
+msgstr[1] "%d oggetti"
 
 #: ../search.php:15
 #, php-format
