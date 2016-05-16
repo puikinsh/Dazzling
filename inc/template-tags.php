@@ -20,7 +20,7 @@ function dazzling_paging_nav() {
 	}
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'dazzling' ); ?></h1>
+		<h2 class="screen-reader-text"><?php _e( 'Posts navigation', 'dazzling' ); ?></h2>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
@@ -53,7 +53,7 @@ function dazzling_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'dazzling' ); ?></h1>
+		<h2 class="screen-reader-text"><?php _e( 'Post navigation', 'dazzling' ); ?></h2>
 		<div class="nav-links">
 			<?php
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<i class="fa fa-chevron-left"></i> %title', 'Previous post link', 'dazzling' ) );
