@@ -615,6 +615,9 @@ li.recentcomments {
   float: right;
   text-align: right;
 }
+h1.site-title {
+  margin: 0;
+}
 .navbar.navbar-default {
   background-color: #fff;
   font-weight: 200;
