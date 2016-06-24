@@ -25,7 +25,7 @@
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
 			    <span class="sr-only"><?php _e( 'Toggle navigation', 'dazzling' ); ?></span>
 			    <span class="icon-bar"></span>
 			    <span class="icon-bar"></span>
