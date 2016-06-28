@@ -8,7 +8,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
 	/**
 	 * Widget setup.
 	 */
-	function dazzling_popular_posts_widget() {
+	function __construct() {
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => 'dazzling_tabbed_widget', 'description' => __( 'Displays tabbed list of popular posts, recent posts & comments', 'dazzling' ) );
 

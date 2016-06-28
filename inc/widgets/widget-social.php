@@ -6,7 +6,7 @@
  */
 class dazzling_social_widget extends WP_Widget
 {
-    function dazzling_social_widget(){
+    function __construct(){
 
        $widget_ops = array('classname' => 'dazzling-social','description' => esc_html__( "Dazzling Social Widget" ,'dazzling') );
        parent::__construct('dazzling-social', esc_html__('Dazzling Social Widget','dazzling'), $widget_ops);

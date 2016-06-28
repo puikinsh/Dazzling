@@ -116,9 +116,9 @@ endif;
 
 
 if( !function_exists( 'dazzling_social' ) ) :
-	/**
-	 * Fallback function for the deprecated function dazzling_social
-	*/
+/**
+ * Fallback function for the deprecated function dazzling_social
+ */
 function dazzling_social(){
   if( of_get_option('footer_social') ) {
     dazzling_social_icons();
@@ -126,6 +126,7 @@ function dazzling_social(){
 }
 endif;
 
+if( !function_exists( 'dazzling_header_menu' ) ) :
 /**
  * header menu (should you choose to use one)
  */
@@ -137,12 +138,13 @@ function dazzling_header_menu() {
     'depth'             => 2,
     'container'         => 'div',
     'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
+    'container_id'	=> 'navbar',
     'menu_class'        => 'nav navbar-nav',
     'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
     'walker'            => new wp_bootstrap_navwalker()
   ));
 } /* end header menu */
-
+endif;
 
 /**
  * footer menu (should you choose to use one)
