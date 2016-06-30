@@ -57,11 +57,12 @@ Dazzling theme uses:
 
 #Changelog#
 
-####2.0.5 - 28.06.2016####
+####2.1.0 - 30.06.2016####
 
 * Added TGMPA & made Kiwi a recommended plugin
 * Updated theme tags as per new w.org regulations
-
+* Fixed numerous errors
+* Updated translation files thanks to Vaidas Elksnys
 
 ####2.0.4 - 19.03.2016####
 
