@@ -1084,12 +1084,6 @@ p.logged-in-as {
     color: #1FA67A;
 }
 /* Layout */
-.side-pull-left #primary{
-    float: left;
-}
-.side-pull-right #primary{
-    float: right;
-}
 .no-sidebar #secondary, .full-width #secondary{
     display: none;
 }
@@ -1099,4 +1093,13 @@ p.logged-in-as {
 }
 .full-width #primary{
     width: 100%;
+}
+
+@media (min-width: 992px) {
+	.side-pull-left #primary{
+		float: left;
+	}
+	.side-pull-right #primary{
+		float: right;
+	}
 }
