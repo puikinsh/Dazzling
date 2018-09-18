@@ -44,12 +44,10 @@ class dazzling_popular_posts_widget extends WP_Widget {
 
                     <?php
                         $recent_posts = new WP_Query( array(
-                            'showposts'           => $number,
+                            'posts_per_page'      => $number,
                             'ignore_sticky_posts' => 1,
                             'post_status'         => 'publish',
-                            'order'               => 'DESC',
-                            'meta_key'            => 'post_views_count',
-                            'orderby'             => 'meta_value_num'
+                            'order'               => 'DESC'
                         ) );
                     ?>
 
@@ -76,7 +74,7 @@ class dazzling_popular_posts_widget extends WP_Widget {
 
                     <?php
                         $recent_posts = new WP_Query( array(
-                            'showposts'           => $number,
+                            'posts_per_page'      => $number,
                             'post_status'         => 'publish',
                             'ignore_sticky_posts' => 1
                         )) ;
