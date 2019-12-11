@@ -2,8 +2,8 @@
 
 Theme Name: Dazzling
 Theme URI: https://colorlib.com/wp/dazzling/
-Version: 2.1.0
-Tested up to: WP 4.6
+Version: 2.1.2
+Tested up to: WP 4.7
 
 Author: Aigars Silkalns
 Author URI: https://colorlib.com/wp/
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 -------------------------------------------------------
 Dazzling theme, Copyright 2014-2016 colorlib.com
 Dazzling WordPress theme is distributed under the terms of the GNU GPL
-Dazzling is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Dazzling is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
 -------------------------------------------------------
 
 /*========= Credits =========*/

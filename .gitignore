@@ -1,0 +1,11 @@
+node_modules/*
+.idea/*
+.jscsrc
+.jshintignore
+.jshintrc
+.travis.yml
+Gruntfile.js
+phpcs.ruleset.xml
+.standard.json
+dazzling.zip
+package-lock.json

@@ -27,7 +27,7 @@
 					<?php dazzling_footer_info(); ?>
 				</div>
 			</div><!-- .site-info -->
-			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+			<button class="scroll-to-top"><i class="fa fa-angle-up"></i></button><!-- .scroll-to-top -->
 		</footer><!-- #colophon -->
 	</div>
 </div><!-- #page -->

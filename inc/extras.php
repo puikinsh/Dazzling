@@ -284,7 +284,7 @@ if (!function_exists('get_dazzling_theme_options'))  {
       echo 'a, #infinite-handle span {color:' . of_get_option('link_color') . '}';
     }
     if ( of_get_option('link_hover_color')) {
-      echo 'a:hover {color: '.of_get_option('link_hover_color', '#000').';}';
+      echo 'a:hover, a:focus {color: '.of_get_option('link_hover_color', '#000').';}';
     }
     if ( of_get_option('link_active_color')) {
       echo 'a:active {color: '.of_get_option('link_active_color', '#000').';}';
@@ -293,7 +293,7 @@ if (!function_exists('get_dazzling_theme_options'))  {
       echo '.btn-default, .label-default, .flex-caption h2, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a {background-color: '.of_get_option('element_color', '#000').'; border-color: '.of_get_option('element_color', '#000').';} .btn.btn-default.read-more, .entry-meta .fa, .site-main [class*="navigation"] a, .more-link { color: '.of_get_option('element_color', '#000').'}';
     }
     if ( of_get_option('element_color_hover')) {
-      echo '.btn-default:hover, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, .btn.btn-default.read-more:hover, .btn-default:hover, .scroll-to-top:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .more-link:hover, #image-navigation .nav-previous a:hover, #image-navigation .nav-next a:hover  { background-color: '.of_get_option('element_color_hover', '#000').'; border-color: '.of_get_option('element_color_hover', '#000').'; }';
+	  echo '.btn-default:hover, .btn-default:focus, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, #infinite-handle span:focus-within, .btn.btn-default.read-more:hover, .btn.btn-default.read-more:focus, .btn-default:hover, .btn-default:focus, .scroll-to-top:hover, .scroll-to-top:focus, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .site-main [class*="navigation"] a:focus, .more-link:hover, .more-link:focus, #image-navigation .nav-previous a:hover, #image-navigation .nav-previous a:focus, #image-navigation .nav-next a:hover, #image-navigation .nav-next a:focus { background-color: '.of_get_option('element_color_hover', '#000').'; border-color: '.of_get_option('element_color_hover', '#000').'; }';
     }
     if ( of_get_option('cfa_bg_color')) {
       echo '.cfa { background-color: '.of_get_option('cfa_bg_color', '#000').'; } .cfa-button:hover {color: '.of_get_option('cfa_bg_color', '#000').';}';
@@ -338,7 +338,7 @@ if (!function_exists('get_dazzling_theme_options'))  {
       echo '#social a {color: '.of_get_option('social_color', '#000').' !important ;}';
     }
     if ( of_get_option('social_hover_color')) {
-      echo '#social a:hover {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
+      echo '#social a:hover, #social a:focus {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
     }
     global $typography_options, $typography_defaults;
 

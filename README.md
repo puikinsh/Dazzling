@@ -54,8 +54,16 @@ Dazzling theme uses:
 * [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
 * [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
+* [respond.js](https://github.com/scottjehl/Respond) by Scott Jehl licensed under the MIT license
+* [html5shiv.js](https://github.com/aFarkas/html5shiv) by Alexander Farkas licensed under a dual license system (MIT or GPL version 2)
 
 #Changelog#
+
+####2.1.3 - 11.12.2016####
+
+* Added wp_body_open
+* Added License & Copyright
+* Added unminified Scripts and styles
 
 ####2.1.0 - 30.06.2016####
 
