@@ -84,14 +84,18 @@ if ( function_exists( 'wp_body_open' ) ) {
             <div class="container main-content-area"><?php
 
                 global $post;
-                if( get_post_meta($post->ID, 'site_layout', true) ){
-                        $layout_class = get_post_meta($post->ID, 'site_layout', true);
+
+                // $post is null on 404s and empty archives; PHP 8 warns on ->ID there.
+                $post_layout = isset( $post->ID ) ? get_post_meta( $post->ID, 'site_layout', true ) : '';
+
+                if ( $post_layout ) {
+                        $layout_class = $post_layout;
                 }
                 else{
                         $layout_class = of_get_option( 'site_layout' );
                 }
-                if( is_home() && is_sticky( $post->ID ) ){
+                if( isset( $post->ID ) && is_home() && is_sticky( $post->ID ) ){
                         $layout_class = of_get_option( 'site_layout' );
                 }
                 ?>
-                <div class="row <?php echo $layout_class; ?>">
+                <div class="row <?php echo esc_attr( $layout_class ); ?>">

@@ -203,10 +203,10 @@ function dazzling_call_for_action() {
     echo '<div class="cfa">';
       echo '<div class="container">';
         echo '<div class="col-md-8">';
-          echo '<span class="cfa-text">'. of_get_option('w2f_cfa_text').'</span>';
+          echo '<span class="cfa-text">'. esc_html( of_get_option('w2f_cfa_text') ).'</span>';
           echo '</div>';
           echo '<div class="col-md-4">';
-          echo '<a class="btn btn-lg cfa-button" href="'. of_get_option('w2f_cfa_link'). '">'. of_get_option('w2f_cfa_button'). '</a>';
+          echo '<a class="btn btn-lg cfa-button" href="'. esc_url( of_get_option('w2f_cfa_link') ). '">'. esc_html( of_get_option('w2f_cfa_button') ). '</a>';
           echo '</div>';
       echo '</div>';
     echo '</div>';
@@ -276,69 +276,124 @@ endif;
  * Get custom CSS from Theme Options panel and output in header
  */
 if (!function_exists('get_dazzling_theme_options'))  {
-  function get_dazzling_theme_options(){
+  
+if ( ! function_exists( 'dazzling_sanitize_css_color' ) ) {
+	/**
+	 * Return a value that is safe to print as a CSS colour, or ''.
+	 *
+	 * @param mixed $value Raw stored value.
+	 * @return string Validated colour, or '' when the value is not one.
+	 */
+	function dazzling_sanitize_css_color( $value ) {
+		if ( ! is_string( $value ) ) {
+			return '';
+		}
+
+		$value = trim( $value );
+
+		if ( '' === $value ) {
+			return '';
+		}
+
+		// #rgb / #rrggbb
+		if ( preg_match( '/^#(?:[0-9a-f]{3}|[0-9a-f]{6})$/i', $value ) ) {
+			return $value;
+		}
+
+		// rgb() / rgba()
+		if ( preg_match( '/^rgba?\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*(?:,\s*(?:0|1|0?\.\d+)\s*)?\)$/', $value ) ) {
+			return $value;
+		}
+
+		// Bare CSS colour keyword, e.g. "transparent" or "red".
+		if ( preg_match( '/^[a-z]{3,20}$/i', $value ) ) {
+			return $value;
+		}
+
+		return '';
+	}
+}
+
+if ( ! function_exists( 'dazzling_css_color' ) ) {
+	/**
+	 * Return a theme option as a CSS colour that is safe to print, or ''.
+	 *
+	 * Every colour printed into the inline <style> block goes through this. Options
+	 * saved before the Customizer sanitiser was tightened may still hold arbitrary
+	 * text, so the value is re-validated at output time rather than trusted from
+	 * storage.
+	 *
+	 * @param string $name Option name.
+	 * @return string Validated colour, or '' when the stored value is not one.
+	 */
+	function dazzling_css_color( $name ) {
+		return dazzling_sanitize_css_color( of_get_option( $name ) );
+	}
+}
+
+function get_dazzling_theme_options(){
 
     echo '<style type="text/css">';
 
-    if ( of_get_option('link_color')) {
-      echo 'a, #infinite-handle span {color:' . of_get_option('link_color') . '}';
+    if ( dazzling_css_color( 'link_color' )) {
+      echo 'a, #infinite-handle span {color:' . dazzling_css_color( 'link_color' ) . '}';
     }
-    if ( of_get_option('link_hover_color')) {
-      echo 'a:hover, a:focus {color: '.of_get_option('link_hover_color', '#000').';}';
+    if ( dazzling_css_color( 'link_hover_color' )) {
+      echo 'a:hover, a:focus {color: '.dazzling_css_color( 'link_hover_color' ).';}';
     }
-    if ( of_get_option('link_active_color')) {
-      echo 'a:active {color: '.of_get_option('link_active_color', '#000').';}';
+    if ( dazzling_css_color( 'link_active_color' )) {
+      echo 'a:active {color: '.dazzling_css_color( 'link_active_color' ).';}';
     }
-    if ( of_get_option('element_color')) {
-      echo '.btn-default, .label-default, .flex-caption h2, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a {background-color: '.of_get_option('element_color', '#000').'; border-color: '.of_get_option('element_color', '#000').';} .btn.btn-default.read-more, .entry-meta .fa, .site-main [class*="navigation"] a, .more-link { color: '.of_get_option('element_color', '#000').'}';
+    if ( dazzling_css_color( 'element_color' )) {
+      echo '.btn-default, .label-default, .flex-caption h2, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a {background-color: '.dazzling_css_color( 'element_color' ).'; border-color: '.dazzling_css_color( 'element_color' ).';} .btn.btn-default.read-more, .entry-meta .fa, .site-main [class*="navigation"] a, .more-link { color: '.dazzling_css_color( 'element_color' ).'}';
     }
-    if ( of_get_option('element_color_hover')) {
-	  echo '.btn-default:hover, .btn-default:focus, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, #infinite-handle span:focus-within, .btn.btn-default.read-more:hover, .btn.btn-default.read-more:focus, .btn-default:hover, .btn-default:focus, .scroll-to-top:hover, .scroll-to-top:focus, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .site-main [class*="navigation"] a:focus, .more-link:hover, .more-link:focus, #image-navigation .nav-previous a:hover, #image-navigation .nav-previous a:focus, #image-navigation .nav-next a:hover, #image-navigation .nav-next a:focus { background-color: '.of_get_option('element_color_hover', '#000').'; border-color: '.of_get_option('element_color_hover', '#000').'; }';
+    if ( dazzling_css_color( 'element_color_hover' )) {
+	  echo '.btn-default:hover, .btn-default:focus, .label-default[href]:hover, .label-default[href]:focus, #infinite-handle span:hover, #infinite-handle span:focus-within, .btn.btn-default.read-more:hover, .btn.btn-default.read-more:focus, .btn-default:hover, .btn-default:focus, .scroll-to-top:hover, .scroll-to-top:focus, .btn-default:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .site-main [class*="navigation"] a:focus, .more-link:hover, .more-link:focus, #image-navigation .nav-previous a:hover, #image-navigation .nav-previous a:focus, #image-navigation .nav-next a:hover, #image-navigation .nav-next a:focus { background-color: '.dazzling_css_color( 'element_color_hover' ).'; border-color: '.dazzling_css_color( 'element_color_hover' ).'; }';
     }
-    if ( of_get_option('cfa_bg_color')) {
-      echo '.cfa { background-color: '.of_get_option('cfa_bg_color', '#000').'; } .cfa-button:hover {color: '.of_get_option('cfa_bg_color', '#000').';}';
+    if ( dazzling_css_color( 'cfa_bg_color' )) {
+      echo '.cfa { background-color: '.dazzling_css_color( 'cfa_bg_color' ).'; } .cfa-button:hover {color: '.dazzling_css_color( 'cfa_bg_color' ).';}';
     }
-    if ( of_get_option('cfa_color')) {
-      echo '.cfa-text { color: '.of_get_option('cfa_color', '#000').';}';
+    if ( dazzling_css_color( 'cfa_color' )) {
+      echo '.cfa-text { color: '.dazzling_css_color( 'cfa_color' ).';}';
     }
-    if ( of_get_option('cfa_btn_color')) {
-      echo '.cfa-button {border-color: '.of_get_option('cfa_btn_color', '#000').';}';
+    if ( dazzling_css_color( 'cfa_btn_color' )) {
+      echo '.cfa-button {border-color: '.dazzling_css_color( 'cfa_btn_color' ).';}';
     }
-    if ( of_get_option('cfa_btn_txt_color')) {
-      echo '.cfa-button {color: '.of_get_option('cfa_btn_txt_color', '#000').';}';
+    if ( dazzling_css_color( 'cfa_btn_txt_color' )) {
+      echo '.cfa-button {color: '.dazzling_css_color( 'cfa_btn_txt_color' ).';}';
     }
-    if ( of_get_option('heading_color')) {
-      echo 'h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title {color: '.of_get_option('heading_color', '#000').';}';
+    if ( dazzling_css_color( 'heading_color' )) {
+      echo 'h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title {color: '.dazzling_css_color( 'heading_color' ).';}';
     }
-    if ( of_get_option('top_nav_bg_color')) {
-      echo '.navbar.navbar-default {background-color: '.of_get_option('top_nav_bg_color', '#000').';}';
+    if ( dazzling_css_color( 'top_nav_bg_color' )) {
+      echo '.navbar.navbar-default {background-color: '.dazzling_css_color( 'top_nav_bg_color' ).';}';
     }
-    if ( of_get_option('top_nav_link_color')) {
-      echo '.navbar-default .navbar-nav > li > a { color: '.of_get_option('top_nav_link_color', '#000').';}';
+    if ( dazzling_css_color( 'top_nav_link_color' )) {
+      echo '.navbar-default .navbar-nav > li > a { color: '.dazzling_css_color( 'top_nav_link_color' ).';}';
     }
-    if ( of_get_option('top_nav_dropdown_bg')) {
-      echo '.dropdown-menu, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: '.of_get_option('top_nav_dropdown_bg', '#000').';}';
+    if ( dazzling_css_color( 'top_nav_dropdown_bg' )) {
+      echo '.dropdown-menu, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: '.dazzling_css_color( 'top_nav_dropdown_bg' ).';}';
     }
-    if ( of_get_option('top_nav_dropdown_item')) {
-      echo '.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: '.of_get_option('top_nav_dropdown_item', '#000').';}';
+    if ( dazzling_css_color( 'top_nav_dropdown_item' )) {
+      echo '.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: '.dazzling_css_color( 'top_nav_dropdown_item' ).';}';
     }
-    if ( of_get_option('footer_bg_color')) {
-      echo '#colophon {background-color: '.of_get_option('footer_bg_color', '#000').';}';
+    if ( dazzling_css_color( 'footer_bg_color' )) {
+      echo '#colophon {background-color: '.dazzling_css_color( 'footer_bg_color' ).';}';
     }
-    if ( of_get_option('footer_text_color')) {
-      echo '#footer-area, .site-info {color: '.of_get_option('footer_text_color', '#000').';}';
+    if ( dazzling_css_color( 'footer_text_color' )) {
+      echo '#footer-area, .site-info {color: '.dazzling_css_color( 'footer_text_color' ).';}';
     }
-    if ( of_get_option('footer_widget_bg_color')) {
-      echo '#footer-area {background-color: '.of_get_option('footer_widget_bg_color', '#000').';}';
+    if ( dazzling_css_color( 'footer_widget_bg_color' )) {
+      echo '#footer-area {background-color: '.dazzling_css_color( 'footer_widget_bg_color' ).';}';
     }
-    if ( of_get_option('footer_link_color')) {
-      echo '.site-info a, #footer-area a {color: '.of_get_option('footer_link_color', '#000').';}';
+    if ( dazzling_css_color( 'footer_link_color' )) {
+      echo '.site-info a, #footer-area a {color: '.dazzling_css_color( 'footer_link_color' ).';}';
     }
-    if ( of_get_option('social_color')) {
-      echo '#social a {color: '.of_get_option('social_color', '#000').' !important ;}';
+    if ( dazzling_css_color( 'social_color' )) {
+      echo '#social a {color: '.dazzling_css_color( 'social_color' ).' !important ;}';
     }
-    if ( of_get_option('social_hover_color')) {
-      echo '#social a:hover, #social a:focus {color: '.of_get_option('social_hover_color', '#000').'!important ;}';
+    if ( dazzling_css_color( 'social_hover_color' )) {
+      echo '#social a:hover, #social a:focus {color: '.dazzling_css_color( 'social_hover_color' ).'!important ;}';
     }
     global $typography_options, $typography_defaults;
 
@@ -349,10 +404,15 @@ if (!function_exists('get_dazzling_theme_options'))  {
       $font_size = isset( $typography['size'] ) ? $typography['size'] : $typography_defaults['size'];
       $font_style = isset( $typography['style'] ) ? $typography['style'] : $typography_defaults['style'];
       $font_color = isset( $typography['color'] ) ? $typography['color'] : $typography_defaults['color'];
-      echo '.entry-content {font-family: ' . $font_family . '; font-size:' . $font_size . '; font-weight: ' . $font_style . '; color:'.$font_color . ';}';
+      echo '.entry-content {font-family: ' . esc_attr( $font_family ) . '; font-size:' . esc_attr( $font_size ) . '; font-weight: ' . esc_attr( $font_style ) . '; color:' . dazzling_sanitize_css_color( $font_color ) . ';}';
     }
     if ( of_get_option('custom_css')) {
-      echo html_entity_decode( of_get_option( 'custom_css', 'no entry' ) );
+      /*
+       * html_entity_decode() used to run here, which turned an escaped
+       * "</style><script>" back into live markup. Strip tags instead, so a value
+       * stored in Theme Options cannot break out of the <style> element.
+       */
+      echo wp_strip_all_tags( of_get_option( 'custom_css', '' ) );
     }
       echo '</style>';
   }

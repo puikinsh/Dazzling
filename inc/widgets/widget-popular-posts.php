@@ -56,12 +56,12 @@ class dazzling_popular_posts_widget extends WP_Widget {
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
                         <li>
                             <?php if ( has_post_thumbnail() ) : ?>
-                            <a href="<?php echo get_permalink() ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title(); ?>">
+                            <a href="<?php echo get_permalink() ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                 <?php the_post_thumbnail('tab-small'); ?>
                             </a>
                             <?php endif; ?>
                             <div class="content">
-                                <a class="tab-entry" href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                                <a class="tab-entry" href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                                 <i>
                                     <?php the_time('M j, Y') ?>
                                 </i>
@@ -85,12 +85,12 @@ class dazzling_popular_posts_widget extends WP_Widget {
                     <?php while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
                         <li>
                             <?php if ( has_post_thumbnail() ) : ?>
-                            <a href="<?php echo get_permalink(); ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title(); ?>">
+                            <a href="<?php echo get_permalink(); ?>" class="tab-thumb thumbnail" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                 <?php the_post_thumbnail( 'tab-small' ); ?>
                             </a>
                             <?php endif; ?>
                             <div class="content">
-                                <a class="tab-entry" href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                                <a class="tab-entry" href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                                 <i>
                                     <?php the_time( 'M j, Y' ) ?>
                                 </i>
@@ -139,8 +139,8 @@ class dazzling_popular_posts_widget extends WP_Widget {
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
 
-		/* Strip tags for title and name to remove HTML (important for text inputs). */
-		$instance['number'] = strip_tags( $new_instance['number'] );
+		/* The number of posts is an integer; guard the key and coerce it. */
+		$instance['number'] = isset( $new_instance['number'] ) ? absint( $new_instance['number'] ) : 3;
 
 		return $instance;
 	}
@@ -153,8 +153,8 @@ class dazzling_popular_posts_widget extends WP_Widget {
 
 		<!-- Number of posts -->
 		<p>
-			<label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e('Number of posts to show','dazzling') ?>:</label>
-			<input id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" value="<?php echo $instance['number']; ?>" size="3" />
+			<label for="<?php echo esc_attr( $this->get_field_id( 'number' ) ); ?>"><?php _e('Number of posts to show','dazzling') ?>:</label>
+			<input id="<?php echo esc_attr( $this->get_field_id( 'number' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'number' ) ); ?>" value="<?php echo esc_attr( $instance['number'] ); ?>" size="3" />
 		</p>
 
 	<?php

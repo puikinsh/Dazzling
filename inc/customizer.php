@@ -495,9 +495,18 @@ function dazzling_sanitize_checkbox( $input ) {
  * @package Dazzling
  */
 function dazzling_sanitize_hexcolor($color) {
-    if ($unhashed = sanitize_hex_color_no_hash($color))
+    $unhashed = sanitize_hex_color_no_hash( $color );
+
+    if ( $unhashed ) {
         return '#' . $unhashed;
-    return $color;
+    }
+
+    /*
+     * Previously this returned $color unchanged when validation failed, which
+     * meant arbitrary text could be stored and later echoed straight into the
+     * <style> block emitted by get_dazzling_theme_options(). Reject instead.
+     */
+    return '';
 }
 
 /**

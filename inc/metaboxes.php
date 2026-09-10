@@ -48,7 +48,7 @@ function dazzling_sidebar_layout()
                     <select name="site_layout" id="site_layout">
                         <option value="">Default</option><?php
                         foreach( $site_layout as $key=>$val ) { ?>
-                        <option value="<?php echo $key; ?>" <?php selected( $layout, $key ); ?> ><?php echo $val; ?></option><?php
+                        <option value="<?php echo esc_attr( $key ); ?>" <?php selected( $layout, $key ); ?> ><?php echo esc_html( $val ); ?></option><?php
                         }?>
                     </select>                           
                 </label>
@@ -77,16 +77,25 @@ function dazzling_save_custom_meta($post_id)
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)
         return;
     
-    if ('page' == $_POST['post_type']) {
+    $post_type = isset( $_POST['post_type'] ) ? sanitize_key( wp_unslash( $_POST['post_type'] ) ) : '';
+
+    if ( 'page' === $post_type ) {
         if (!current_user_can('edit_page', $post_id))
             return $post_id;
     } elseif (!current_user_can('edit_post', $post_id)) {
         return $post_id;
     }
 
-    if ( $_POST['site_layout'] ) {
-        update_post_meta($post_id, 'site_layout', $_POST['site_layout']);
-    } else{
-        delete_post_meta($post_id, 'site_layout');
+    /*
+     * Only the theme's own layouts may be stored. header.php prints this value
+     * into a class attribute, so anything accepted here reaches the front end;
+     * previously whatever was submitted was saved verbatim.
+     */
+    $submitted = isset( $_POST['site_layout'] ) ? sanitize_key( wp_unslash( $_POST['site_layout'] ) ) : '';
+
+    if ( $submitted && is_array( $site_layout ) && array_key_exists( $submitted, $site_layout ) ) {
+        update_post_meta( $post_id, 'site_layout', $submitted );
+    } else {
+        delete_post_meta( $post_id, 'site_layout' );
     }
 }
