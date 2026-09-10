@@ -3,18 +3,18 @@ Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/themes/dazzling
 Author: Colorlib
 Author URI: http://colorlib.com/wp/
-Description: Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Lithuanian, Portuguese, Italian, Danish, Turkish and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
-Version: 2.1.0
+Description: Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Ukrainian  Lithuanian, Portuguese, Italian, Danish, Turkish and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
+Version: 2.1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dazzling
 Domain Path: /languages/
-Tags: grid-layout, footer-widgets, blog, education, entertainment, food-and-drink, news, photography, portfolio
+Tags: grid-layout, footer-widgets, blog, news, photography
 
 
 This theme, like WordPress, is licensed under the GPL.
 
-Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Dazzling is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
 
 */
 
@@ -300,7 +300,8 @@ textarea {
 .entry-title a {
   color: #444;
 }
-.entry-title a:hover {
+.entry-title a:hover,
+.entry-title a:focus {
   color: #666;
 }
 .btn.btn-default.read-more {
@@ -310,7 +311,8 @@ textarea {
   background-color: transparent;
   margin-top: 10px;
 }
-.btn.btn-default.read-more:hover {
+.btn.btn-default.read-more:hover,
+.btn.btn-default.read-more:focus {
   color: #FFF;
   background-color: #1FA67A;
 }
@@ -342,7 +344,8 @@ hr.section-divider {
        -o-transition: all 0.2s;
           transition: all 0.2s;
 }
-.page-links a:hover span {
+.page-links a:hover span,
+.page-links a:focus span {
   background-color: #1FA67A;
   border: 1px solid #1FA67A;
   color: #fff;
@@ -518,7 +521,16 @@ li.recentcomments {
   background-color: #1FA67A;
   border-color: #1FA67A;
 }
-.btn-default:hover, .label-default[href]:hover, .label-default[href]:focus, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, #image-navigation .nav-previous a:hover, #image-navigation .nav-next a:hover {
+.btn-default:hover,
+.label-default[href]:hover,
+.label-default[href]:focus,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+#image-navigation .nav-previous a:hover,
+#image-navigation .nav-previous a:focus,
+#image-navigation .nav-next a:hover,
+#image-navigation .nav-next a:focus {
   background-color: #1b926c;
   border-color: #1b926c;
 }
@@ -553,7 +565,8 @@ li.recentcomments {
        -o-transition: all 0.2s;
           transition: all 0.2s;
 }
-#infinite-handle span:hover {
+#infinite-handle span:hover,
+#infinite-handle span:focus-within {
   background-color: #1FA67A;
   color: #fff;
 }
@@ -595,7 +608,9 @@ li.recentcomments {
   display: block;
 }
 .site-main [class*="navigation"] a:hover,
-.more-link:hover {
+.site-main [class*="navigation"] a:focus,
+.more-link:hover,
+.more-link:focus {
   color: #fff;
   background: #1FA67A;
   text-decoration: none;
@@ -686,6 +701,10 @@ h1.site-title {
 .dropdown-menu .divider {
   background-color: rgba(0, 0, 0, 0.1);
 }
+.navbar-nav li:focus-within .dropdown-menu {
+	visibility: visible;
+}
+
 .navbar-nav > li > .dropdown-menu {
   padding: 0;
 }
@@ -694,10 +713,14 @@ h1.site-title {
   padding-bottom: 18px;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
+
+.navbar-default .navbar-toggle:focus {
+	background-color: #dddddd;
+}
+
 .nav.navbar-nav {
   float: right;
 }
@@ -794,7 +817,9 @@ p.logged-in-as {
   display: block;
 }
 #image-navigation .nav-previous a:hover,
-#image-navigation .nav-next a:hover{
+#image-navigation .nav-previous a:focus,
+#image-navigation .nav-next a:hover,
+#image-navigation .nav-next a:focus {
   background-color: #1FA67A;
   color: #fff;
 }
@@ -827,7 +852,9 @@ p.logged-in-as {
 #footer-area .tab-content > .active {
   border: none;
 }
-#footer-area .nav-tabs > li.active > a, #footer-area .nav-tabs > li.active > a:hover, #footer-area .nav-tabs > li.active > a:focus {
+#footer-area .nav-tabs > li.active > a,
+#footer-area .nav-tabs > li.active > a:hover,
+#footer-area .nav-tabs > li.active > a:focus {
   background-color: transparent;
 }
 #footer-area .tab-content .tab-entry {
@@ -866,17 +893,20 @@ p.logged-in-as {
 .site-info a {
   color: #777;
 }
-.site-info a:hover {
+.site-info a:hover,
+.site-info a:focus {
   color: #999;
 }
-#footer-area a:hover {
+#footer-area a:hover,
+#footer-area a:focus {
   color: #fff;
 }
 .site-info {
   color: #999;
   font-size: 12px;
 }
-.footer-nav.nav > li > a:hover {
+.footer-nav.nav > li > a:hover,
+.footer-nav.nav > li > a:focus {
     background-color: transparent;
 }
 .scroll-to-top {
@@ -892,12 +922,14 @@ p.logged-in-as {
   font-size: 16px;
   padding: 2px 10px;
   border-radius: 4px;
+  border: transparent;
   -webkit-transition: background-color 0.1s linear;
      -moz-transition: background-color 0.1s linear;
        -o-transition: background-color 0.1s linear;
           transition: background-color 0.1s linear;
 }
-.scroll-to-top:hover {
+.scroll-to-top:hover,
+.scroll-to-top:focus {
   background: #1FA67A;
   opacity: .8;
 }
@@ -1076,11 +1108,13 @@ p.logged-in-as {
 .cfa-button a {
   color: #fff;
 }
-.cfa-button:hover {
+.cfa-button:hover,
+.cfa-button:focus {
     background-color: #fff;
     color: #1FA67A;
 }
-.cfa-button:hover a {
+.cfa-button:hover a,
+.cfa-button:focus-within a {
     color: #1FA67A;
 }
 /* Layout */
