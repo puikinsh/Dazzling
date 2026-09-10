@@ -701,7 +701,22 @@ h1.site-title {
 .dropdown-menu .divider {
   background-color: rgba(0, 0, 0, 0.1);
 }
+/*
+ * Dropdowns are hidden with visibility rather than display, so they can be
+ * revealed by :focus-within for keyboard users. Bootstrap's own rules use
+ * display:none/block, which cannot be overridden by focus alone.
+ *
+ * These two rules used to be edited directly into inc/css/bootstrap.css. Keeping
+ * them here instead means the bundled Bootstrap is stock and can be replaced
+ * wholesale on the next upgrade.
+ */
+.dropdown-menu {
+	display: block;
+	visibility: hidden;
+}
+.open > .dropdown-menu,
 .navbar-nav li:focus-within .dropdown-menu {
+	display: block;
 	visibility: visible;
 }
 
