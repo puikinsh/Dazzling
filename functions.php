@@ -177,10 +177,22 @@ function dazzling_scripts() {
    * WordPress supports.
    */
   $fa_uri = get_template_directory_uri() . '/inc/css/fontawesome/';
-  wp_enqueue_style( 'dazzling-icons', $fa_uri . 'fontawesome.min.css', array(), '7.3.1' );
-  wp_enqueue_style( 'dazzling-icons-solid', $fa_uri . 'solid.min.css', array( 'dazzling-icons' ), '7.3.1' );
-  wp_enqueue_style( 'dazzling-icons-regular', $fa_uri . 'regular.min.css', array( 'dazzling-icons' ), '7.3.1' );
-  wp_enqueue_style( 'dazzling-icons-brands', $fa_uri . 'brands.min.css', array( 'dazzling-icons' ), '7.3.1' );
+  /*
+   * The bundled Font Awesome is subsetted to the glyphs this theme renders, a few
+   * kilobytes rather than a few hundred. A site that uses Font Awesome classes in
+   * its own content -- a widget, a page builder, a child theme -- can load the
+   * complete set instead:
+   *
+   *     add_filter( 'dazzling_full_fontawesome', '__return_true' );
+   */
+  if ( apply_filters( 'dazzling_full_fontawesome', false ) ) {
+    wp_enqueue_style( 'dazzling-icons', $fa_uri . 'fontawesome.min.css', array(), '7.3.1' );
+    wp_enqueue_style( 'dazzling-icons-solid', $fa_uri . 'solid.min.css', array( 'dazzling-icons' ), '7.3.1' );
+    wp_enqueue_style( 'dazzling-icons-regular', $fa_uri . 'regular.min.css', array( 'dazzling-icons' ), '7.3.1' );
+    wp_enqueue_style( 'dazzling-icons-brands', $fa_uri . 'brands.min.css', array( 'dazzling-icons' ), '7.3.1' );
+  } else {
+    wp_enqueue_style( 'dazzling-icons', $fa_uri . 'subset/fontawesome-subset.min.css', array(), '7.3.1' );
+  }
 
   if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
     wp_enqueue_style( 'flexslider-css', get_template_directory_uri().'/inc/css/flexslider.css' );
