@@ -1,94 +1,128 @@
-![Dazzling WordPress Theme](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/screenshot.png "Dazzling Theme Screenshot")
+# Dazzling — Free WordPress WooCommerce Theme
 
-#About Dazzling WordPress Theme#
+[![Theme version](https://img.shields.io/badge/version-2.2.5-1FA67A.svg)](https://github.com/puikinsh/Dazzling/releases)
+[![WordPress.org downloads](https://img.shields.io/wordpress/theme/dt/dazzling.svg)](https://wordpress.org/themes/dazzling/)
+[![WordPress.org rating](https://img.shields.io/wordpress/theme/r/dazzling.svg)](https://wordpress.org/themes/dazzling/)
+[![Tested up to WordPress 7.1](https://img.shields.io/badge/WordPress-5.2%20–%207.1-21759B.svg)](https://wordpress.org/themes/dazzling/)
+[![Requires PHP 7.4](https://img.shields.io/badge/PHP-7.4%2B-777BB4.svg)](https://www.php.net/)
+[![License: GPL v2 or later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Lithuanian, Portuguese, Danish, Turkish and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
+![Dazzling WordPress Theme](screenshot.jpg "Dazzling Theme Screenshot")
 
-For questions, comments or bug reports, visit [Colorlib support forum](https://colorlib.com/wp/forums).
+Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme, well suited for blogs, static sites and online stores. It works for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative, minimalistic website.
 
-#Installation#
+The theme is highly customizable through the WordPress Customizer — unlimited colour options, a full-width featured slider, a call-to-action section, seven widget areas and a per-post layout manager. It is built on Bootstrap 3, supports WooCommerce and Jigoshop, and ships with 18 translations.
 
-You can install the theme through the WordPress installer under "Themes" > "Install themes" by searching for "Dazzling".
+## Demo
 
-Alternatively you can download archive file, unzip it and move the unzipped contents to the "wp-content/themes" folder of your WordPress installation. You will then be able to activate the theme.
+* **Live preview:** [wp-themes.com/dazzling](https://wp-themes.com/dazzling/)
+* **Theme page:** [colorlib.com/wp/themes/dazzling](https://colorlib.com/wp/themes/dazzling/)
 
-Afterwards you can continue theme setup and customization via WordPress Dashboard - Appearance - Theme Options. For detailed theme documentation, please [see here](https://colorlib.com/wp/support/dazzling).
+## Requirements
 
-#Theme Features#
+| | |
+|---|---|
+| WordPress | 5.2 or later (tested up to 7.1) |
+| PHP | 7.4 or later |
 
-* Bootstrap 3 integration
-* Responsive design
-* Unlimited color variations
-* SEO friendly
-* WordPress Theme Customizer integration
-* Image centric approach
-* Internationalized & localization
-* Drop-down Menu
-* Cross-browser compatibility
-* Threaded Comments
-* Gravatar ready
-* Featured slider
-* Font Awesome icons
+## Installation
+
+Install through the WordPress installer under **Appearance → Themes → Add New** by searching for "Dazzling".
+
+Alternatively, download the archive, unzip it and move the unzipped contents into the `wp-content/themes` folder of your WordPress installation, then activate the theme.
+
+Afterwards you can continue setup and customization via **Appearance → Customize**. For detailed documentation, [see here](https://colorlib.com/wp/support/dazzling/).
+
+## Features
+
+* Bootstrap 3.4.1 integration
+* Fully responsive design
+* Unlimited colour variations via the Customizer
+* Full-width featured slider (FlexSlider 2.7.2)
+* Call-to-action section
+* Per-post and per-page layout manager — right sidebar, left sidebar, no sidebar or full width
+* Seven widget areas: main sidebar, three homepage areas and three footer areas
+* Self-hosted Font Awesome 7.3.1, subsetted to the icons the theme actually renders
 * WooCommerce support
 * Jigoshop support
+* Popular Posts and Social Links widgets
+* Custom header image that doubles as the site logo, plus custom background
+* Post formats: aside, image, video, quote and link
+* SEO friendly structure
+* Threaded comments and Gravatar ready
+* Translation ready — 18 languages bundled, WPML compatible
+* Drop-down menus with keyboard navigation
+* Cross-browser compatible
 
-#Documentation#
+## What's new in 2.2.x
 
-Theme documentation [is available here](https://colorlib.com/wp/support/dazzling)
+The 2.2 series brought the theme back up to date after a long gap:
 
-#Copyright notice#
+* **Security hardening** — the Customizer colour sanitiser, the per-post layout metabox, the legacy custom CSS option and the social widget all accepted or printed unescaped input. All are fixed, and colours are re-validated on output because older saved values may still hold arbitrary text.
+* **Bootstrap 3.3.6 → 3.4.1**, which fixes CVE-2019-8331.
+* **Font Awesome 4.4.0 → 7.3.1**, self-hosted and subsetted — icon font payload dropped from 700 KB to 2 KB on a default install.
+* **Internet Explorer support dropped** — html5shiv, Respond.js and the `X-UA-Compatible` tag are gone.
+* **Featured slider fixed** — it no longer prints a configuration warning on the front page, emits balanced markup, and serves full-size images instead of stretched thumbnails.
+* **PHP 8 clean** and child-theme friendly, via `get_theme_file_path()`.
 
-* Author: Aigars Silkalns [@AigarsSilkalns](https://twitter.com/AigarsSilkalns)
+See the [full changelog](#changelog) for details.
+
+## Documentation
+
+Theme documentation [is available here](https://colorlib.com/wp/support/dazzling/).
+
+## Support
+
+For questions, comments or bug reports, visit the [Colorlib support forum](https://colorlibsupport.com/). Bugs specific to this repository can be reported via [GitHub issues](https://github.com/puikinsh/Dazzling/issues).
+
+## Copyright notice
+
+* Author: Aigars Silkalns [@AigarsSilkalns](https://x.com/AigarsSilkalns)
 * Author URI: https://colorlib.com/wp/
-* License: GNU General Public License v3.0
-* License URI: http://www.gnu.org/licenses/gpl.html
-* Dazzling theme, Copyright 2014-2016 https://colorlib.com
+* License: GNU General Public License v2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* Dazzling theme, Copyright 2014-2026 https://colorlib.com
 * Dazzling WordPress theme is distributed under the terms of the GNU GPL
-* Dazzling is based on [Underscores](http://underscores.me/), (C) 2012-2016 Automattic, Inc.
+* Dazzling is based on [Underscores](https://underscores.me/), (C) 2012-2017 Automattic, Inc.
 
-#Credits#
+## Credits
 
 Dazzling theme uses:
 
-* [FontAwesome](http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
-* [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
-* [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
+* [Font Awesome](https://fontawesome.com/) 7.3.1 — icons licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), fonts under the [SIL OFL 1.1](https://scripts.sil.org/OFL), code under the [MIT license](https://opensource.org/licenses/MIT)
+* [Bootstrap](https://getbootstrap.com/) 3.4.1 licensed under the [MIT license](https://github.com/twbs/bootstrap/blob/main/LICENSE)
+* [WP Bootstrap Navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker) licensed under the GPLv2 license
+* [FlexSlider](https://github.com/woocommerce/FlexSlider) 2.7.2 by WooThemes licensed under the GPLv2 license
+* [TGM Plugin Activation](http://tgmpluginactivation.com/) licensed under the GPLv2 license
 
-#Changelog#
+## Changelog
 
-####2.2.5 - 11.09.2026####
-
+### 2.2.5 - 11.09.2026
 * Fixed the featured slider printing "Slider is not properly configured" onto the front page. The slider required both a category and a count to be set, but the category setting defaults to empty, so enabling the slider without opening the category select put that sentence on the site. The category is optional now; with none chosen the slider shows the latest posts (#61, #71)
 * Fixed the slider's markup opening one list item per slide and closing exactly one at the end, because the closing </li> sat outside the loop. Three slides emitted three opening tags and a single closing tag, which left FlexSlider miscounting its slides (#59)
 * Fixed blurry slides. the_post_thumbnail() was called with no size, so the slider served the default thumbnail and stretched it to full width. It requests the full size now (#36)
 * Posts with no featured image no longer produce an empty slide, and the slider query resets the post data it changed
 * Theme files are included with get_theme_file_path() rather than get_template_directory(), so a child theme can override them (#63)
 
-####2.2.4 - 11.09.2026####
-
+### 2.2.4 - 11.09.2026
 * Corrected the capitalisation of "WordPress" in 3 obsolete translation strings. WordPress.org's automated theme scan reports any spelling of WordPress other than that exact form as a required fix, and it reads .po files.
 
-####2.2.3 - 11.09.2026####
-
+### 2.2.3 - 11.09.2026
 * Added the Requires at least, Tested up to and Requires PHP headers that style.css was missing; WordPress.org's Theme Check reports both of the latter as required.
 * The Popular Posts widget used esc_attr_e() for two tab labels that sit between tags rather than inside an attribute; they use esc_html_e().
 * The screenshot was 880x660 and 628 KB. It is now 1200x900, the size WordPress.org asks for, at 280 KB.
 
-####2.2.2 - 11.09.2026####
-
+### 2.2.2 - 11.09.2026
 * Fixed the Font Awesome webfonts returning 404. The stylesheets reference url(../webfonts/...), which resolves next to the stylesheet, and the fonts had been placed a directory too high -- so no icon rendered at all.
 * The bundled Font Awesome is now subsetted to the glyphs the theme renders, loaded by default, with the complete build still shipped for sites that need it: add_filter( 'dazzling_full_fontawesome', '__return_true' ). Measured on WordPress 7.1 and PHP 8.5, median of three Lighthouse runs: performance 90 to 94, First Contentful Paint 0.45s faster, font payload 83 KB to 2 KB.
 
-####2.2.1 - 11.09.2026####
-
+### 2.2.1 - 11.09.2026
 * Replaced Font Awesome 4.4.0, released in 2015, with a self-hosted Font Awesome 7.3.1. Only woff2 is shipped: the eot, svg, ttf and woff copies could never be downloaded, because a browser takes the first format it supports from the @font-face src list. Bundled icon fonts drop from 700 KB to 356 KB
 * No v4 or v5 compatibility shim is loaded. Three classes that Font Awesome 7 does not have were rewritten to native names -- fa-folder-open-o, fa-pencil-square-o and fa-comment-o become fa-regular fa-folder-open, fa-regular fa-pen-to-square and fa-regular fa-comment. All 13 icon classes the theme renders were verified against the bundled name map
 * The social icons set a codepoint on a .fa element and relied on Font Awesome 4 keeping every glyph in one family. Version 5 moved brands into a separate family, so under 7 those icons would have rendered nothing. Each rule now names its family: Font Awesome 7 Brands at weight 400 for the 17 brand glyphs, Font Awesome 7 Free at weight 900 for the feed icon, which is not a brand
 * The search button used a Bootstrap glyphicon, which pulled Bootstrap's icon font on every page carrying a search form. It uses Font Awesome, already loaded. Menu glyphicon support is untouched
 
-####2.2.0 - 11.09.2026####
-
+### 2.2.0 - 11.09.2026
 Security and maintenance release.
 
 * Security: the Customizer's colour sanitiser returned its input unchanged when validation failed, so arbitrary text could be stored through a colour setting and was then printed into the inline <style> block on every page. Invalid values are rejected, and every colour is re-validated as it is printed, because options saved before this change may still hold arbitrary text
@@ -101,42 +135,37 @@ Security and maintenance release.
 * Dropped Internet Explorer support: html5shiv, Respond.js, the "lt IE 9" conditional comment printed into every page head, and the X-UA-Compatible meta tag. Internet Explorer reached end of support in June 2022
 * The repository had been stuck at 2.1.0 since 2017 while WordPress.org shipped 2.1.1 through 2.1.3, so the two were different code. They match again
 * $_POST reads in the metabox, and $post->ID in header.php, are guarded -- both warn on PHP 8
+<details>
+<summary><strong>Earlier releases (2.1.3 and older)</strong></summary>
 
-####2.1.3 - 11.12.2016####
-
+### 2.1.3 - 11.12.2016
 * Added wp_body_open
 * Added License & Copyright
 * Added unminified Scripts and styles
 
-####2.1.0 - 30.06.2016####
-
+### 2.1.0 - 30.06.2016
 * Added TGMPA & made Kiwi a recommended plugin
 * Updated theme tags as per new w.org regulations
 * Fixed numerous errors
 * Updated translation files thanks to Vaidas Elksnys
 
-####2.0.4 - 19.03.2016####
-
+### 2.0.4 - 19.03.2016
 * Fixed error in extras.php
 
-####2.0.3 - 18.03.2016####
-
+### 2.0.3 - 18.03.2016
 * Added site tagline support
 * Fixed problems with popular posts widget
 * Other code tweaks and cleanups
 
-####2.0.2 - 14.01.2016####
-
+### 2.0.2 - 14.01.2016
 * Added Danish translation thanks to Asser Munch
 * Improved Italian translation
 * Added Turkish translation thanks to Aziz KABA
 
-####2.0.1 - 17.11.2015####
-
+### 2.0.1 - 17.11.2015
 * Removed redundand function
 
-####2.0 - 30.10.2015####
-
+### 2.0 - 30.10.2015
 * Removed theme options in favor to WordPress Theme Customizer
 * Added layout manager
 * Improved social icons
@@ -145,150 +174,124 @@ Security and maintenance release.
 * Updated Bootstrap to 3.3.5
 * Updated Font Awesome library
 
-####1.5.6 - 14.08.2015####
-
+### 1.5.6 - 14.08.2015
 * Added Italian translation thanks to Giulia Costa
 * Fixed JavaScript that made FlexSlider height to 0 in some cases.
 
-####1.5.5 - 10.07.2015####
-
+### 1.5.5 - 10.07.2015
 * Improved Custom CSS forum output
 
-####1.5.4 - 04.06.2015####
-
+### 1.5.4 - 04.06.2015
 * Added missing string for translation
 * Updated translation files
 
-####1.5.3 - 20.04.2015####
-
+### 1.5.3 - 20.04.2015
 * Fixed layout bug with WooCommerce Cart inside Primary Menu.
 * Added missing string for translation
 
-####1.5.2 - 27.04.2015####
-
+### 1.5.2 - 27.04.2015
 * Improved WordPress Customizer Support. Now allows to change site title and its color on the fly.
 * Added Portuguese translation thanks to Susana Nova
 
-####1.5.1 - 18.04.2015####
-
+### 1.5.1 - 18.04.2015
 * Fixed JavaScript error for FlexSlider
 
-####1.5.0 - 04.04.2015####
-
+### 1.5.0 - 04.04.2015
 * Added support for WPML multilingual plugin.
 * Updated Options Framework
 * Improved Theme Options translation for Child Theme
 * Other small code cleanups
 * Added Lithuanian translation
 
-####1.4.6 - 1.04.2015####
-
+### 1.4.6 - 1.04.2015
 * Fixed JavaScript warning that appeared on Google Chrome Dev Tools
 * Improved slider related JavaScript with smooth height adjusting when different size images are used for slider.
 * Updated flexslider to 2.4.0
 
-####1.4.5 - 20.03.2015####
-
+### 1.4.5 - 20.03.2015
 * Updated Bootstrap framework to 3.3.4
 * Fixed problem with invisible label for color variations in WooCommerce
 * Simplified slider function
 
-####1.4.4 - 02.03.2015####
-
+### 1.4.4 - 02.03.2015
 * Added Persian translation thanks to Sajad Dehshiri
 * Added German translation thanks to Sebastian Klatte
 
-####1.4.3 - 26.01.2015####
-
+### 1.4.3 - 26.01.2015
 * Added the-title tag support
 
-####1.4.2 - 22.01.2015####
-
+### 1.4.2 - 22.01.2015
 * Updated Bootstrap to 3.3.2
 * Social icons now opens in a new tab.
 
-####1.4.1 - 22.12.2014####
-
+### 1.4.1 - 22.12.2014
 * Added Hungarian translation
 
-####1.4.0 - 17.12.2014####
-
+### 1.4.0 - 17.12.2014
 * Jigoshop ecommerce plugin integration
 * Other minor improvements
 
-####1.3.8 - 15.11.2014####
-
+### 1.3.8 - 15.11.2014
 * Bootstrap updated to v3.3.1
 
-####1.3.7 - 09.11.2014####
-
+### 1.3.7 - 09.11.2014
 * Added different content width for Full-width template for plugins that depends on it to work properly.
 
-####1.3.6 - 15.10.2014####
-
+### 1.3.6 - 15.10.2014
 * Updated translation files to match the latest update
 
-####1.3.5 - 15.10.2014####
-
+### 1.3.5 - 15.10.2014
 * Improved Flexslider to make it compatible with other FlexSlider powered plugins such as Visual Composer.
 * Simplified search form to make it friendlier to use outside widget area by using get_search_form
 
-####1.3.2 - 11.09.2014####
-
+### 1.3.2 - 11.09.2014
 * Updated Font Awesome to 4.2
 * Added Slideshare and VK.com social icon
 * Created more consistent code on options.php for Options Framework.
 * Improved translation files.
 
-####1.3.1 - 03.08.2014####
-
+### 1.3.1 - 03.08.2014
 * Small changed to Options Framework
 * Updated theme description to mention Dutch translation
 
-####1.3.0 - 03.08.2014####
-
+### 1.3.0 - 03.08.2014
 * Added Swedish translation thanks to Tommy Larsson
 * Added Dutch translation thanks to Paul den Hertog
 * Updated Bootstrap to 3.2
 * Updated Options Framework to 1.8.2
 * Improved Child Theme Support
 
-####1.2.9 - 24.06.2014####
-
+### 1.2.9 - 24.06.2014
 * Added Finnish translation thanks to Antti Vähälummukka
 * Default footer copyright text is now translatable
 
-####1.2.8 - 19.05.2014####
-
+### 1.2.8 - 19.05.2014
 * Added Brazilian Portuguese translations thanks to Ariel de Souza (about.me/arieldesouza)
 
-####1.2.7 - 16.05.2014####
-
+### 1.2.7 - 16.05.2014
 * Added Polish translation thanks to Damian Krawczyk
 * Updated Font Awesome icons to 4.1
 
-####1.2.6 - 16.05.2014####
-
+### 1.2.6 - 16.05.2014
 * Removed unnecessary archive file.
 
-####1.2.5 - 15.05.2014####
-
+### 1.2.5 - 15.05.2014
 * Updated Options Framework to 1.8.0
 * Added Mexican Spanish Translation.
 * Updated translation
 * Improved Theme Options sidebar
 
-####1.2 - 08.05.2014####
+### 1.2 - 08.05.2014
 * WooCommerce support
 * Small JavaScript improvements
 
-####1.1.1 - 01.05.2014####
+### 1.1.1 - 01.05.2014
 * Fixed problems with horizontal scroll
 * Fixed social media button color on hover
 * Improved consistency with for CSS
 * Updated HTML5 Shiv
 
-####1.1 - 10.02.2014####
+### 1.1 - 10.02.2014
 * Made necessary changes to pass W3 validation without any errors.
 * Removed duplicate classes form social network icons
 * Updated call for action button to pass validation
@@ -296,12 +299,14 @@ Security and maintenance release.
 * Improved attachment template image.php
 * Added IE8 support by implementing html5shiv.js and respond.js
 
-####1.0.1 - 25.02.2014####
+### 1.0.1 - 25.02.2014
 * Simplified dazzling_social function
 * Updated copyright information making it translatable
 * Popular post widget now uses wp_reset_postdata(); instead of wp_reset_query();
 * Added esc_url for home_url inside header.php
 * Updated translation file
 
-####1.0 - 22.02.2014####
+### 1.0 - 22.02.2014
 Initial release
+
+</details>
