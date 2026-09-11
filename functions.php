@@ -169,7 +169,18 @@ function dazzling_scripts() {
 
   wp_enqueue_style( 'dazzling-bootstrap', get_template_directory_uri() . '/inc/css/bootstrap.min.css', array(), '3.4.1' );
 
-  wp_enqueue_style( 'dazzling-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
+  /*
+   * Font Awesome 7, self-hosted and split by style: the core file carries the
+   * icon name map, each style file adds one @font-face. No v4 or v5 shim is
+   * loaded -- the theme's own markup uses native Font Awesome 7 class names --
+   * and only woff2 is shipped, which every browser that can run a current
+   * WordPress supports.
+   */
+  $fa_uri = get_template_directory_uri() . '/inc/css/fontawesome/';
+  wp_enqueue_style( 'dazzling-icons', $fa_uri . 'fontawesome.min.css', array(), '7.3.1' );
+  wp_enqueue_style( 'dazzling-icons-solid', $fa_uri . 'solid.min.css', array( 'dazzling-icons' ), '7.3.1' );
+  wp_enqueue_style( 'dazzling-icons-regular', $fa_uri . 'regular.min.css', array( 'dazzling-icons' ), '7.3.1' );
+  wp_enqueue_style( 'dazzling-icons-brands', $fa_uri . 'brands.min.css', array( 'dazzling-icons' ), '7.3.1' );
 
   if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
     wp_enqueue_style( 'flexslider-css', get_template_directory_uri().'/inc/css/flexslider.css' );

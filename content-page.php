@@ -26,5 +26,5 @@
             endif;
           ?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', 'dazzling' ), '<footer class="entry-meta"><i class="fa fa-pencil-square-o"></i><span class="edit-link">', '</span></footer>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'dazzling' ), '<footer class="entry-meta"><i class="fa-regular fa-pen-to-square"></i><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->

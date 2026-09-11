@@ -11,7 +11,7 @@
 	  		<span class="screen-reader-text"><?php _ex( 'Search for:', 'label', 'dazzling' ); ?></span>
 	    	<input type="text" class="form-control search-query" placeholder="<?php _e( 'Search...', 'dazzling' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
 	    	<span class="input-group-btn">
-	      		<button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search"><span class="glyphicon glyphicon-search"></span></button>
+	      		<button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search"><span class="fa-solid fa-magnifying-glass"></span></button>
 	    	</span>
 	    </div>
 	</div>
