@@ -10,6 +10,10 @@
  * The demo is captured live from https://colorlibhub.com/dazzling/, so this needs a
  * network connection and reflects whatever the demo currently looks like.
  *
+ * The card names no framework version. Versions date badly and this image lives on
+ * GitHub's CDN, where nothing ever flags it as stale — see UPLOAD-GUIDE.txt alongside
+ * the other cards.
+ *
  * 1280x640 at deviceScaleFactor 1. Do NOT render at 2x: GitHub caps the upload at 1 MB
  * and the extra pixels buy nothing at the size this is ever displayed.
  *
@@ -128,7 +132,7 @@ const html = `<!doctype html><meta charset="utf-8">
   <div class="body">
     <div class="brand"><div class="mark">D</div><b>Dazzling</b></div>
     <h1>A flat design<i>WordPress theme</i></h1>
-    <p>Bootstrap 3, a full-width featured slider, four sidebar layouts and 18 translations.</p>
+    <p>A full-width featured slider, four sidebar layouts, seven widget areas and 18 translations.</p>
     <div class="chips"><span class="chip chip--on">Free &amp; GPLv2</span><span class="chip">WooCommerce ready</span><span class="chip">600k+ downloads</span></div>
   </div>
   <div class="shot"></div>
