@@ -222,42 +222,82 @@ if ( ! function_exists( 'dazzling_featured_slider' ) ) :
  * Featured image slider
  */
 function dazzling_featured_slider() {
-    if ( is_front_page() && of_get_option('dazzling_slider_checkbox') == 1 ) {
-      echo '<div class="flexslider">';
-        echo '<ul class="slides">';
-
-          $count = of_get_option('dazzling_slide_number');
-          $slidecat = of_get_option('dazzling_slide_categories');
-
-            if ( $count && $slidecat ) {
-            $query = new WP_Query( array( 'cat' => $slidecat, 'posts_per_page' => $count ) );
-//            print_r($query);
-            if ($query->have_posts()) :
-              while ($query->have_posts()) : $query->the_post();
-
-              echo '<li>';
-                if ( has_post_thumbnail() ) { // Check if the post has a featured image assigned to it.
-                  the_post_thumbnail();
-                }
-
-                echo '<div class="flex-caption">';
-                  echo '<a href="'. get_permalink() .'">';
-                    if ( get_the_title() != '' ) echo '<h2 class="entry-title">'. get_the_title().'</h2>';
-                    if ( get_the_excerpt() != '' ) echo '<div class="excerpt">' . get_the_excerpt() .'</div>';
-                  echo '</a>';
-                echo '</div>';
-
-                endwhile;
-              endif;
-
-            } else {
-                echo "Slider is not properly configured";
-            }
-
-            echo '</li>';
-        echo '</ul>';
-      echo ' </div>';
+    if ( ! is_front_page() || 1 != of_get_option( 'dazzling_slider_checkbox' ) ) {
+        return;
     }
+
+    $count = absint( of_get_option( 'dazzling_slide_number', 3 ) );
+    if ( ! $count ) {
+        $count = 3;
+    }
+
+    $args = array(
+        'posts_per_page'      => $count,
+        'ignore_sticky_posts' => true,
+        'no_found_rows'       => true,
+        /*
+         * Only posts that can actually fill a slide. Without this a post with no
+         * featured image produced a slide with no image, and the slider cycled
+         * through a blank pane.
+         */
+        'meta_query'          => array(
+            array(
+                'key'     => '_thumbnail_id',
+                'compare' => 'EXISTS',
+            ),
+        ),
+    );
+
+    /*
+     * The category is optional. It used to be required -- the slider rendered only
+     * when a category AND a count were both set -- so ticking "enable slider"
+     * without choosing one printed "Slider is not properly configured" to visitors
+     * rather than showing anything. With no category chosen, show latest posts.
+     */
+    $slidecat = of_get_option( 'dazzling_slide_categories' );
+    if ( $slidecat ) {
+        $args['cat'] = $slidecat;
+    }
+
+    $query = new WP_Query( $args );
+
+    if ( ! $query->have_posts() ) {
+        wp_reset_postdata();
+        return;
+    }
+
+    echo '<div class="flexslider">';
+    echo '<ul class="slides">';
+
+    while ( $query->have_posts() ) :
+        $query->the_post();
+
+        echo '<li>';
+        /*
+         * An explicit size. the_post_thumbnail() with no argument serves the
+         * default thumbnail, which the slider then stretched to full width --
+         * the cause of the blurry slides.
+         */
+        the_post_thumbnail( 'full' );
+
+        echo '<div class="flex-caption">';
+        echo '<a href="' . esc_url( get_permalink() ) . '">';
+        if ( '' !== get_the_title() ) {
+            echo '<h2 class="entry-title">' . esc_html( get_the_title() ) . '</h2>';
+        }
+        if ( '' !== get_the_excerpt() ) {
+            echo '<div class="excerpt">' . esc_html( get_the_excerpt() ) . '</div>';
+        }
+        echo '</a>';
+        echo '</div>';
+        echo '</li>';
+
+    endwhile;
+
+    echo '</ul>';
+    echo '</div>';
+
+    wp_reset_postdata();
 }
 endif;
 
