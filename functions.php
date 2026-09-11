@@ -184,7 +184,7 @@ function dazzling_scripts() {
   wp_enqueue_script('dazzling-bootstrapjs', get_template_directory_uri().'/inc/js/bootstrap.min.js', array('jquery'), '3.4.1', true );
 
   if( ( is_home() || is_front_page() ) && of_get_option('dazzling_slider_checkbox') == 1 ) {
-    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '2.5.0', true );
+    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/inc/js/flexslider.min.js', array('jquery'), '2.7.2', true );
   }
 
   wp_enqueue_script( 'dazzling-main', get_template_directory_uri() . '/inc/js/main.js', array('jquery'), '1.5.4', true );
@@ -194,17 +194,6 @@ function dazzling_scripts() {
   }
 }
 add_action( 'wp_enqueue_scripts', 'dazzling_scripts' );
-
-/**
- * Add HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries
- */
-function dazzling_ie_support_header() {
-  echo '<!--[if lt IE 9]>'. "\n";
-  echo '<script src="' . esc_url( get_template_directory_uri() . '/inc/js/html5shiv.min.js' ) . '"></script>'. "\n";
-  echo '<script src="' . esc_url( get_template_directory_uri() . '/inc/js/respond.min.js' ) . '"></script>'. "\n";
-  echo '<![endif]-->'. "\n";
-}
-add_action( 'wp_head', 'dazzling_ie_support_header', 11 );
 
 /**
  * Implement the Custom Header feature.
