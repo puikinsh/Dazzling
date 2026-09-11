@@ -57,6 +57,11 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.2.2 - 11.09.2026####
+
+* Fixed the Font Awesome webfonts returning 404. The stylesheets reference url(../webfonts/...), which resolves next to the stylesheet, and the fonts had been placed a directory too high -- so no icon rendered at all.
+* The bundled Font Awesome is now subsetted to the glyphs the theme renders, loaded by default, with the complete build still shipped for sites that need it: add_filter( 'dazzling_full_fontawesome', '__return_true' ). Measured on WordPress 7.1 and PHP 8.5, median of three Lighthouse runs: performance 90 to 94, First Contentful Paint 0.45s faster, font payload 83 KB to 2 KB.
+
 ####2.2.1 - 11.09.2026####
 
 * Replaced Font Awesome 4.4.0, released in 2015, with a self-hosted Font Awesome 7.3.1. Only woff2 is shipped: the eot, svg, ttf and woff copies could never be downloaded, because a browser takes the first format it supports from the @font-face src list. Bundled icon fonts drop from 700 KB to 356 KB
