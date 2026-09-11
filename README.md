@@ -57,6 +57,14 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.2.5 - 11.09.2026####
+
+* Fixed the featured slider printing "Slider is not properly configured" onto the front page. The slider required both a category and a count to be set, but the category setting defaults to empty, so enabling the slider without opening the category select put that sentence on the site. The category is optional now; with none chosen the slider shows the latest posts (#61, #71)
+* Fixed the slider's markup opening one list item per slide and closing exactly one at the end, because the closing </li> sat outside the loop. Three slides emitted three opening tags and a single closing tag, which left FlexSlider miscounting its slides (#59)
+* Fixed blurry slides. the_post_thumbnail() was called with no size, so the slider served the default thumbnail and stretched it to full width. It requests the full size now (#36)
+* Posts with no featured image no longer produce an empty slide, and the slider query resets the post data it changed
+* Theme files are included with get_theme_file_path() rather than get_template_directory(), so a child theme can override them (#63)
+
 ####2.2.4 - 11.09.2026####
 
 * Corrected the capitalisation of "WordPress" in 3 obsolete translation strings. WordPress.org's automated theme scan reports any spelling of WordPress other than that exact form as a required fix, and it reads .po files.
