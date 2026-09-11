@@ -54,10 +54,23 @@ Dazzling theme uses:
 * [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
 * [FlexSlider](https://github.com/woothemes/FlexSlider) by WooThemes licensed under the GPLv2 license
-* [respond.js](https://github.com/scottjehl/Respond) by Scott Jehl licensed under the MIT license
-* [html5shiv.js](https://github.com/aFarkas/html5shiv) by Alexander Farkas licensed under a dual license system (MIT or GPL version 2)
 
 #Changelog#
+
+####2.2.0 - 11.09.2026####
+
+Security and maintenance release.
+
+* Security: the Customizer's colour sanitiser returned its input unchanged when validation failed, so arbitrary text could be stored through a colour setting and was then printed into the inline <style> block on every page. Invalid values are rejected, and every colour is re-validated as it is printed, because options saved before this change may still hold arbitrary text
+* Security: the per-post layout metabox saved whatever was submitted, and header.php printed that value unescaped into a class attribute -- so a user who could edit a post could store markup that ran for every visitor. The submitted layout is checked against the theme's own list, and the class is escaped where it is printed
+* Security: the legacy custom CSS option was run through html_entity_decode(), which turned an escaped "</style><script>" back into live markup. It is stripped of tags instead
+* Security: the social widget never overrode update(), so its title was stored exactly as submitted and echoed unescaped. Both widgets now sanitise on save and escape on output
+* Security: four title attributes called the_title() rather than the_title_attribute(), so a quote in a post title broke out of the attribute. The call-for-action text and link, and the next-attachment URL in image.php, are escaped
+* Updated Bootstrap from 3.3.6 to 3.4.1, which fixes CVE-2019-8331 -- cross-site scripting through the data-template attribute of tooltips and popovers. The bundled copy was not stock: two dropdown rules had been edited into it, and style.css depends on them to reveal sub-menus for keyboard users. Those rules now live in style.css, so the vendored Bootstrap is stock
+* Updated FlexSlider from 2.5.0 to 2.7.2
+* Dropped Internet Explorer support: html5shiv, Respond.js, the "lt IE 9" conditional comment printed into every page head, and the X-UA-Compatible meta tag. Internet Explorer reached end of support in June 2022
+* The repository had been stuck at 2.1.0 since 2017 while WordPress.org shipped 2.1.1 through 2.1.3, so the two were different code. They match again
+* $_POST reads in the metabox, and $post->ID in header.php, are guarded -- both warn on PHP 8
 
 ####2.1.3 - 11.12.2016####
 
