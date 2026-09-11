@@ -57,6 +57,13 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.2.1 - 11.09.2026####
+
+* Replaced Font Awesome 4.4.0, released in 2015, with a self-hosted Font Awesome 7.3.1. Only woff2 is shipped: the eot, svg, ttf and woff copies could never be downloaded, because a browser takes the first format it supports from the @font-face src list. Bundled icon fonts drop from 700 KB to 356 KB
+* No v4 or v5 compatibility shim is loaded. Three classes that Font Awesome 7 does not have were rewritten to native names -- fa-folder-open-o, fa-pencil-square-o and fa-comment-o become fa-regular fa-folder-open, fa-regular fa-pen-to-square and fa-regular fa-comment. All 13 icon classes the theme renders were verified against the bundled name map
+* The social icons set a codepoint on a .fa element and relied on Font Awesome 4 keeping every glyph in one family. Version 5 moved brands into a separate family, so under 7 those icons would have rendered nothing. Each rule now names its family: Font Awesome 7 Brands at weight 400 for the 17 brand glyphs, Font Awesome 7 Free at weight 900 for the feed icon, which is not a brand
+* The search button used a Bootstrap glyphicon, which pulled Bootstrap's icon font on every page carrying a search form. It uses Font Awesome, already loaded. Menu glyphicon support is untouched
+
 ####2.2.0 - 11.09.2026####
 
 Security and maintenance release.
