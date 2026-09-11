@@ -57,6 +57,12 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.2.3 - 11.09.2026####
+
+* Added the Requires at least, Tested up to and Requires PHP headers that style.css was missing; WordPress.org's Theme Check reports both of the latter as required.
+* The Popular Posts widget used esc_attr_e() for two tab labels that sit between tags rather than inside an attribute; they use esc_html_e().
+* The screenshot was 880x660 and 628 KB. It is now 1200x900, the size WordPress.org asks for, at 280 KB.
+
 ####2.2.2 - 11.09.2026####
 
 * Fixed the Font Awesome webfonts returning 404. The stylesheets reference url(../webfonts/...), which resolves next to the stylesheet, and the fonts had been placed a directory too high -- so no icon rendered at all.
