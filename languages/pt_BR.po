@@ -653,7 +653,7 @@ msgstr "Meta"
 
 #~ msgid "Upgrade your version of WordPress for full media support."
 #~ msgstr ""
-#~ "Atualize sua versão do Wordpress para obter o suporte de mídia completo"
+#~ "Atualize sua versão do WordPress para obter o suporte de mídia completo"
 
 #~ msgid "View File"
 #~ msgstr "Ver arquivo"

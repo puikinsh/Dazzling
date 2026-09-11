@@ -57,6 +57,10 @@ Dazzling theme uses:
 
 #Changelog#
 
+####2.2.4 - 11.09.2026####
+
+* Corrected the capitalisation of "WordPress" in 3 obsolete translation strings. WordPress.org's automated theme scan reports any spelling of WordPress other than that exact form as a required fix, and it reads .po files.
+
 ####2.2.3 - 11.09.2026####
 
 * Added the Requires at least, Tested up to and Requires PHP headers that style.css was missing; WordPress.org's Theme Check reports both of the latter as required.
