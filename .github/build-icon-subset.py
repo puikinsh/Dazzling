@@ -76,22 +76,34 @@ for cps, mp in ((used_solid | used_regular, core_map), (used_brands, brand_map))
         if c in rev: defs.append(','.join(f'.fa-{n}' for n in sorted(rev[c])) + '{--fa:"\\%s"}' % c)
 FACE = ('@font-face{font-family:"%s";font-style:normal;font-weight:%s;font-display:block;'
         'src:url(%s.woff2) format("woff2")}')
-# The style selectors live in solid/regular/brands.min.css, which the subset replaces,
-# so they have to be restated here. fontawesome.min.css resolves an icon's weight as
-# var(--fa-style,900): without .fa-regular the regular icons ask for the solid face,
-# which does not contain their glyphs, and they render as nothing at all. The brands
-# family is named outright rather than through --fa-family-brands, which is likewise
-# only ever defined in the file the subset leaves out.
+
+HEADER = re.match(r'/\*!.*?\*/', (fa / 'solid.min.css').read_text(), re.S).group(0)
+
+def style_rules(sheet):
+    """Everything a style stylesheet declares except its @font-face.
+
+    These carry the :root custom properties and the .fa-solid / .fa-regular /
+    .fa-brands rules that bind a class to a family and weight. Leave them out
+    and .fa-brands falls back to the Free face, where no brand glyph exists,
+    and .fa-regular loses --fa-style:400 and quietly draws the solid variant.
+    brands.min.css also carries the full 572-name brand map, which the subset
+    emits for itself below, so that goes too.
+    """
+    css = (fa / sheet).read_text()
+    css = re.sub(r'@font-face\{[^}]*\}', '', css)
+    css = re.sub(r'((?:\.fa-[a-z0-9-]+,?)+)\{--fa:"[^"]*"\}', '', css)
+    return css.replace(HEADER, '').strip()
+
 ff = []
 if used_solid:
+    ff.append(style_rules('solid.min.css'))
     ff.append(FACE % ('Font Awesome 7 Free', '900', 'fa-solid-900'))
-    ff.append('.fa-solid,.fas{--fa-style:900}')
 if used_regular:
+    ff.append(style_rules('regular.min.css'))
     ff.append(FACE % ('Font Awesome 7 Free', '400', 'fa-regular-400'))
-    ff.append('.fa-regular,.far{--fa-style:400}')
 if used_brands:
+    ff.append(style_rules('brands.min.css'))
     ff.append(FACE % ('Font Awesome 7 Brands', '400', 'fa-brands-400'))
-    ff.append('.fa-brands,.fab{--fa-family:"Font Awesome 7 Brands";--fa-style:400}')
 banner = ("/*!\n * Font Awesome 7.3.1 subset for this theme, built by .github/build-icon-subset.py\n"
           " * Contains only the glyphs the theme renders. Load the complete Font Awesome with:\n"
           " *   add_filter( '%s_full_fontawesome', '__return_true' );\n"
