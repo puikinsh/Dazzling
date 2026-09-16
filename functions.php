@@ -158,8 +158,8 @@ function dazzling_widgets_init() {
 }
 add_action( 'widgets_init', 'dazzling_widgets_init' );
 
-include(get_theme_file_path() . "/inc/widgets/widget-popular-posts.php");
-include(get_theme_file_path() . "/inc/widgets/widget-social.php");
+include(get_parent_theme_file_path( '/inc/widgets/widget-popular-posts.php' ));
+include(get_parent_theme_file_path( '/inc/widgets/widget-social.php' ));
 
 
 /**
@@ -221,56 +221,56 @@ add_action( 'wp_enqueue_scripts', 'dazzling_scripts' );
 /**
  * Implement the Custom Header feature.
  */
-require get_theme_file_path() . '/inc/custom-header.php';
+require get_parent_theme_file_path( '/inc/custom-header.php' );
 
 /**
  * Custom template tags for this theme.
  */
-require get_theme_file_path() . '/inc/template-tags.php';
+require get_parent_theme_file_path( '/inc/template-tags.php' );
 
 /**
  * Custom functions that act independently of the theme templates.
  */
-require get_theme_file_path() . '/inc/extras.php';
+require get_parent_theme_file_path( '/inc/extras.php' );
 
 /**
  * Customizer additions.
  */
-require get_theme_file_path() . '/inc/customizer.php';
+require get_parent_theme_file_path( '/inc/customizer.php' );
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_theme_file_path() . '/inc/jetpack.php';
+require get_parent_theme_file_path( '/inc/jetpack.php' );
 
 /**
  * Load custom nav walker
  */
-require get_theme_file_path() . '/inc/navwalker.php';
+require get_parent_theme_file_path( '/inc/navwalker.php' );
 
 if ( class_exists( 'woocommerce' ) ) {
 /**
  * WooCommerce related functions
  */
-require get_theme_file_path() . '/inc/woo-setup.php';
+require get_parent_theme_file_path( '/inc/woo-setup.php' );
 }
 
 if ( class_exists( 'jigoshop' ) ) {
 /**
  * Jigoshop related functions
  */
-require get_theme_file_path() . '/inc/jigoshop-setup.php';
+require get_parent_theme_file_path( '/inc/jigoshop-setup.php' );
 }
 
 /**
  * Metabox file load
  */
-require get_theme_file_path() . '/inc/metaboxes.php';
+require get_parent_theme_file_path( '/inc/metaboxes.php' );
 
 /**
  * TGMPA
  */
-require get_theme_file_path() . '/inc/tgmpa/tgm-plugin-activation.php';
+require get_parent_theme_file_path( '/inc/tgmpa/tgm-plugin-activation.php' );
 
 /**
  * Register Social Icon menu
