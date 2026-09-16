@@ -1,6 +1,6 @@
 # Dazzling — Free WordPress WooCommerce Theme
 
-[![Theme version](https://img.shields.io/badge/version-2.2.5-1FA67A.svg)](https://github.com/puikinsh/Dazzling/releases)
+[![Theme version](https://img.shields.io/badge/version-2.2.7-1FA67A.svg)](https://github.com/puikinsh/Dazzling/releases)
 [![WordPress.org downloads](https://img.shields.io/wordpress/theme/dt/dazzling.svg)](https://wordpress.org/themes/dazzling/)
 [![WordPress.org rating](https://img.shields.io/wordpress/theme/r/dazzling.svg)](https://wordpress.org/themes/dazzling/)
 [![Tested up to WordPress 7.1](https://img.shields.io/badge/WordPress-5.2%20–%207.1-21759B.svg)](https://wordpress.org/themes/dazzling/)
@@ -96,6 +96,13 @@ Dazzling theme uses:
 * [TGM Plugin Activation](http://tgmpluginactivation.com/) licensed under the GPLv2 license
 
 ## Changelog
+
+### 2.2.7 - 14.09.2026
+* Fixed 2.2.5 breaking every child theme with a fatal error (#74). 2.2.5 loaded the theme's internal files with get_theme_file_path() called without a path, which returns the child theme's directory outright, so a child theme white-screened on the first include. They load from the parent theme again, as in 2.1.x. These are bootstrap files, not templates, so letting a child theme override them would mean silently losing every Customizer setting the parent registers
+* readme.txt said "Tested up to: WP 4.7" while style.css said 7.1; they agree now
+
+### 2.2.6 - 11.09.2026
+* Fixed icons written as fa-regular drawing the solid variant instead of the outline. The bundled Font Awesome subset was missing the :root custom properties and the .fa-solid, .fa-regular and .fa-brands rules that bind an icon class to a font face; the subset now carries Font Awesome's own rules. No font files changed
 
 ### 2.2.5 - 11.09.2026
 * Fixed the featured slider printing "Slider is not properly configured" onto the front page. The slider required both a category and a count to be set, but the category setting defaults to empty, so enabling the slider without opening the category select put that sentence on the site. The category is optional now; with none chosen the slider shows the latest posts (#61, #71)
