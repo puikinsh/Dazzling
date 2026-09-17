@@ -2,7 +2,7 @@
 
 Theme Name: Dazzling
 Theme URI: https://colorlib.com/wp/themes/dazzling/
-Version: 2.2.7
+Version: 2.2.8
 Requires at least: WP 5.2
 Tested up to: WP 7.1
 Requires PHP: 7.4
