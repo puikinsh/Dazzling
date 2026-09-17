@@ -40,7 +40,8 @@ for f in list(theme_dir.rglob('*.php')) + list(theme_dir.rglob('*.js')):
         elif slug in core_map: (used_regular if fam == 'regular' else used_solid).add(core_map[slug])
 
 # 2. raw codepoints in the theme's own stylesheets, assigned by the family the rule names
-for cssf in [theme_dir/'style.css', theme_dir/base/'css'/'custom.css', theme_dir/'rtl.css']:
+# flexslider.css draws the slider arrows from raw codepoints, so it is scanned too.
+for cssf in [theme_dir/'style.css', theme_dir/base/'css'/'custom.css', theme_dir/base/'css'/'flexslider.css', theme_dir/'rtl.css']:
     if not cssf.exists(): continue
     css = cssf.read_text(errors='ignore')
     for sels, body in re.findall(r'([^{}]+)\{([^{}]*)\}', css):

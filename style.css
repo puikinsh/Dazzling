@@ -452,17 +452,24 @@ li.recentcomments {
 #secondary .widget_archive ul li:before,
 #secondary .widget_categories ul li:before,
 #secondary .widget_recent_comments ul li:before {
-  font-family: fontawesome;
+  font-family: "Font Awesome 7 Free";
   margin-right: 10px;
 }
+/* Each rule names its own weight: solid glyphs are 900, the outline ones 400. */
 #secondary .widget_archive ul li:before {
   content: '\f073';
+  font-family: "Font Awesome 7 Free";
+  font-weight: 900;
 }
 #secondary .widget_categories ul li:before {
-  content: '\f115';
+  content: '\f07c';
+  font-family: "Font Awesome 7 Free";
+  font-weight: 400;
 }
 #secondary .widget_recent_comments ul li:before {
-  content: '\f0e5';
+  content: '\f075';
+  font-family: "Font Awesome 7 Free";
+  font-weight: 400;
 }
 .tab-content .tab-thumb {
   float: left;
@@ -510,8 +517,9 @@ li.recentcomments {
   margin-bottom: 5px;
 }
 .tab-content #messages li:before {
-  content: '\f0e5';
-  font-family: fontawesome;
+  content: '\f075';
+  font-family: "Font Awesome 7 Free";
+  font-weight: 400;
   float: left;
   padding-right: 10px;
   font-size: 20px;
